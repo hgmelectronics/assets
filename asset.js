@@ -28,7 +28,7 @@ const baseURL = 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/
 const launchFlashTemplate = "\
 	<html>\
 	<head>\
-		<meta http-equiv='refresh' content='0; url='{{url}}'>\
+		<meta http-equiv='refresh' content='0; url={{url}}'>\
 	</head>\
 	<body>\
 		<h1>\
