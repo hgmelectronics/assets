@@ -1,0 +1,7 @@
+{
+    "product": "cs3",
+    "model": "cs-sport",
+    "releaseDate": "2018-06-01T01:50:04.000Z",
+    "version": "18c81b0cf344",
+    "changelog": "Fixed problems with CAN reception<ul><li>J1939 and other networked engine variations would not function</li></ul>"
+}
