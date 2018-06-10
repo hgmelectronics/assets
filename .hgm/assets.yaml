@@ -1,10 +1,10 @@
 software:
   cs3:
-    cs-pro:
+    pro:
       18c81b0cf344:
         releaseDate: 2018-06-01
         changeLog: Stabilty improvements and bug fixes
-    cs-sport:
+    sport:
       18c81b0cf344:
         releaseDate: 2018-06-01
         changeLog: Stabilty improvements and bug fixes

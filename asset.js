@@ -88,7 +88,7 @@ function createDevices(devices) {
 }
 
 function copySoftware(product, model, version) {
-	const srcFile = model + '-' + version + '.srec';
+	const srcFile = product + '-' + model + '-' + version + '.srec';
 	const srcPath = path.join('.hgm', product, srcFile)
 	const destPath = path.join('software', product, model, version, 'binary');
 	fs.copyFileSync(srcPath, destPath);
