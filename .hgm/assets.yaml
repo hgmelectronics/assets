@@ -10,6 +10,7 @@ software:
         changeLog: Stabilty improvements and bug fixes
 
 devices:
+  CS3-00067: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00100: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00101: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00102: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
