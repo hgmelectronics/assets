@@ -96,7 +96,7 @@ function copySoftware(product, model, version) {
 
 function createSoftwareVersion(product, model, version, versionData) {
 	const releaseDate = versionData.releaseDate;
-	const changeLog = versionData.changeLog;
+	const changelog = versionData.changelog;
 	const dirPath = path.join('software', product, model, version);
 	const indexHtmlFile = path.join(dirPath, 'index.html');
 	const metadataDir = path.join(dirPath, 'metadata');
@@ -109,7 +109,7 @@ function createSoftwareVersion(product, model, version, versionData) {
 		model: model,
 		version: version,
 		releaseDate: releaseDate,
-		changeLog: changeLog
+		changelog: changelog
 	};
 
 	let versionURL = baseURL + '/' + product + '/' + model + '/' + version + '/binary';
