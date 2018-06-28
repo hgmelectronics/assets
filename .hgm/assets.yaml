@@ -8,6 +8,9 @@ software:
       18c81b0cf344:
         releaseDate: 2018-06-01
         changelog: Stabilty improvements and bug fixes
+      4b0b55556589:
+        releaseDate: 2018-06-27
+        changelog: Fix for ZF 4HP24 TCC
 
 devices:
   CS3-00067: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
@@ -132,7 +135,7 @@ devices:
   CS3-00218: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00219: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00220: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00221: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
+  CS3-00221: { product: 'cs3', model: 'sport', softwareVersion: '4b0b55556589' }
   CS3-00222: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00223: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00224: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
