@@ -57,7 +57,6 @@ devices:
   CS3-00110: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00111: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00112: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  cs3-00112: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00113: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00114: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00115: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
