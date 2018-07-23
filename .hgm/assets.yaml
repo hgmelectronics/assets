@@ -10,7 +10,7 @@ software:
       84b4e8bc9b2a:
         releaseDate: 2018-07-20
         changeLog: Initial support for per gear TCC tables
-      00bb0774c500:
+      3ed15e33cf13:
         releaseDate: 2018-07-23
         changeLog: Initial support for Holley Racepak CAN protocol
     sport:
@@ -26,7 +26,7 @@ software:
       84b4e8bc9b2a:
         releaseDate: 2018-07-20
         changeLog: Initial support for per gear TCC tables
-      00bb0774c500:
+      3ed15e33cf13:
         releaseDate: 2018-07-23
         changeLog: Initial support for Holley Racepak CAN protocol
 
@@ -230,7 +230,7 @@ devices:
   CS3-00275: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00276: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00277: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00278: { product: 'cs3', model: 'sport', softwareVersion: '00bb0774c500' }
+  CS3-00278: { product: 'cs3', model: 'sport', softwareVersion: '3ed15e33cf13' }
   CS3-00279: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00280: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00281: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
