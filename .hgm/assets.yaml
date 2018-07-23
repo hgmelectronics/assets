@@ -6,8 +6,8 @@ software:
         changelog: Stabilty improvements and bug fixes
       8437c247e68e:
         releaseDate: 2018-07-11
-        changeLog: Optional update that corrects CAN bus baud rate calculation for J1939 at 250Kb 
-      3cd2148609d3:
+        changeLog: Optional update that corrects CAN bus baud rate calculation for J1939 at 250Kb
+      84b4e8bc9b2a:
         releaseDate: 2018-07-20
         changeLog: Initial support for per gear TCC tables
     sport:
@@ -19,8 +19,8 @@ software:
         changelog: Fix for ZF 4HP24 TCC
       8437c247e68e:
         releaseDate: 2018-07-11
-        changeLog: Optional update that corrects CAN bus baud rate calculation for J1939 at 250Kb 
-      3cd2148609d3:
+        changeLog: Optional update that corrects CAN bus baud rate calculation for J1939 at 250Kb
+      84b4e8bc9b2a:
         releaseDate: 2018-07-20
         changeLog: Initial support for per gear TCC tables
 
@@ -171,7 +171,7 @@ devices:
   CS3-00218: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00219: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00220: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00221: { product: 'cs3', model: 'sport', softwareVersion: '3cd2148609d3' }
+  CS3-00221: { product: 'cs3', model: 'sport', softwareVersion: '84b4e8bc9b2a' }
   CS3-00222: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00223: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00224: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
