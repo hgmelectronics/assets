@@ -4,12 +4,9 @@ software:
       18c81b0cf344:
         releaseDate: 2018-06-01
         changelog: Stabilty improvements and bug fixes
-      8437c247e68e:
-        releaseDate: 2018-07-11
-        changeLog: Optional update that corrects CAN bus baud rate calculation for J1939 at 250Kb
-      84b4e8bc9b2a:
+      cf01a43e4103:
         releaseDate: 2018-07-20
-        changeLog: Initial support for per gear TCC tables
+        changeLog: Initial support for per gear TCC tables, updates for ZF 4HP24.
       3ed15e33cf13:
         releaseDate: 2018-07-23
         changeLog: Initial support for Holley Racepak CAN protocol
@@ -17,22 +14,16 @@ software:
       18c81b0cf344:
         releaseDate: 2018-06-01
         changelog: Stabilty improvements and bug fixes
-      4b0b55556589:
-        releaseDate: 2018-06-27
-        changelog: Fix for ZF 4HP24 TCC
-      8437c247e68e:
-        releaseDate: 2018-07-11
-        changeLog: Optional update that corrects CAN bus baud rate calculation for J1939 at 250Kb
-      84b4e8bc9b2a:
+      cf01a43e4103:
         releaseDate: 2018-07-20
-        changeLog: Initial support for per gear TCC tables
+        changeLog: Initial support for per gear TCC tables, updates for ZF 4HP24.
       3ed15e33cf13:
         releaseDate: 2018-07-23
         changeLog: Initial support for Holley Racepak CAN protocol
 
 devices:
 # pro models begin here
-  CS3-00104: { product: 'cs3', model: 'pro', softwareVersion: '8437c247e68e' }
+  CS3-00104: { product: 'cs3', model: 'pro', softwareVersion: '18c81b0cf344' }
   CS3-00253: { product: 'cs3', model: 'pro', softwareVersion: '18c81b0cf344' }
   CS3-00271: { product: 'cs3', model: 'pro', softwareVersion: '18c81b0cf344' }
   CS3-00273: { product: 'cs3', model: 'pro', softwareVersion: '18c81b0cf344' }
@@ -169,7 +160,7 @@ devices:
   CS3-00210: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00211: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00212: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00213: { product: 'cs3', model: 'sport', softwareVersion: '8437c247e68e' }
+  CS3-00213: { product: 'cs3', model: 'sport', softwareVersion: 'cf01a43e4103' }
   CS3-00214: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00215: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00216: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
@@ -177,7 +168,7 @@ devices:
   CS3-00218: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00219: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00220: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00221: { product: 'cs3', model: 'sport', softwareVersion: '4b0b55556589' }
+  CS3-00221: { product: 'cs3', model: 'sport', softwareVersion: 'cf01a43e4103' }
   CS3-00222: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00223: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00224: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
@@ -359,7 +350,7 @@ devices:
   CS3-00415: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00416: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00417: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00418: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
+  CS3-00418: { product: 'cs3', model: 'sport', softwareVersion: 'cf01a43e4103' }
   CS3-00419: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00420: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00421: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
@@ -409,7 +400,7 @@ devices:
   CS3-00465: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00466: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00467: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00468: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
+  CS3-00468: { product: 'cs3', model: 'sport', softwareVersion: 'cf01a43e4103' }
   CS3-00469: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00470: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00471: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
@@ -526,7 +517,7 @@ devices:
   CS3-00589: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00590: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00591: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
-  CS3-00592: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
+  CS3-00592: { product: 'cs3', model: 'sport', softwareVersion: 'cf01a43e4103' }
   CS3-00593: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00594: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
   CS3-00595: { product: 'cs3', model: 'sport', softwareVersion: '18c81b0cf344' }
