@@ -458,7 +458,7 @@ devices:
   CS3-00213:
     model: sport
     product: cs3
-    softwareVersion: cf01a43e4103
+    softwareVersion: 8b0af65c301f
   CS3-00214:
     model: sport
     product: cs3
@@ -490,7 +490,7 @@ devices:
   CS3-00221:
     model: sport
     product: cs3
-    softwareVersion: cf01a43e4103
+    softwareVersion: 8b0af65c301f
   CS3-00222:
     model: sport
     product: cs3
@@ -718,7 +718,7 @@ devices:
   CS3-00278:
     model: sport
     product: cs3
-    softwareVersion: 3ed15e33cf13
+    softwareVersion: 039916fde889
   CS3-00279:
     model: sport
     product: cs3
@@ -1182,7 +1182,7 @@ devices:
   CS3-00394:
     model: sport
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: 039916fde889
   CS3-00395:
     model: sport
     product: cs3
@@ -1278,7 +1278,7 @@ devices:
   CS3-00418:
     model: sport
     product: cs3
-    softwareVersion: cf01a43e4103
+    softwareVersion: 8b0af65c301f
   CS3-00419:
     model: sport
     product: cs3
@@ -1478,7 +1478,7 @@ devices:
   CS3-00468:
     model: sport
     product: cs3
-    softwareVersion: cf01a43e4103
+    softwareVersion: 8b0af65c301f
   CS3-00469:
     model: sport
     product: cs3
@@ -1974,7 +1974,7 @@ devices:
   CS3-00592:
     model: sport
     product: cs3
-    softwareVersion: cf01a43e4103
+    softwareVersion: 039916fde889
   CS3-00593:
     model: sport
     product: cs3
@@ -1998,7 +1998,7 @@ devices:
   CS3-00598:
     model: sport
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: 039916fde889
   CS3-00599:
     model: sport
     product: cs3
@@ -4010,24 +4010,28 @@ devices:
 software:
   cs3:
     pro:
+      039916fde889:
+        changelog: >-
+          Improved support for MAP sensors, added CAN support for Holley
+          Racepak, assorted small bug fixes
+        releaseDate: '2018-08-02T22:14:28.506Z'
       18c81b0cf344:
         changelog: Stability improvements and bug fixes
         releaseDate: '2018-06-01T00:00:00.000Z'
-      3ed15e33cf13:
-        changelog: Initial support for Holley Racepak CAN protocol
-        releaseDate: '2018-07-23T00:00:00.000Z'
-      cf01a43e4103:
-        changelog: 'Initial support for per gear TCC tables, updates for ZF 4HP24.'
-        releaseDate: '2018-07-20T00:00:00.000Z'
+      8b0af65c301f:
+        changelog: 'Per gear TCC tables, updates for ZF4HP24, fixes for CAN bus'
+        releaseDate: '2018-08-02T22:28:47.559Z'
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
+      039916fde889:
+        changelog: >-
+          Imporoved support for MAP sensors, added CAN support for Holley
+          Racepak, assorted small bug fixes
+        releaseDate: '2018-08-02T22:11:29.666Z'
       18c81b0cf344:
         changelog: Stability improvements and bug fixes
         releaseDate: '2018-06-01T00:00:00.000Z'
-      3ed15e33cf13:
-        changelog: Initial support for Holley Racepak CAN protocol
-        releaseDate: '2018-07-23T00:00:00.000Z'
-      cf01a43e4103:
-        changelog: 'Initial support for per gear TCC tables, updates for ZF 4HP24.'
-        releaseDate: '2018-07-20T00:00:00.000Z'
+      8b0af65c301f:
+        changelog: 'Per gear TCC tables, updates for ZF4HP24, fixes for CAN bus'
+        releaseDate: '2018-08-02T22:30:53.566Z'
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
