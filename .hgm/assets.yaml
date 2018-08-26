@@ -22,7 +22,7 @@ devices:
   CS3-00104:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00105:
     model: sport
     product: cs3
@@ -618,7 +618,7 @@ devices:
   CS3-00253:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00254:
     model: sport
     product: cs3
@@ -690,7 +690,7 @@ devices:
   CS3-00271:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00272:
     model: sport
     product: cs3
@@ -698,11 +698,11 @@ devices:
   CS3-00273:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00274:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00275:
     model: sport
     product: cs3
@@ -750,23 +750,23 @@ devices:
   CS3-00286:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00287:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00288:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00289:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00290:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00291:
     model: sport
     product: cs3
@@ -794,11 +794,11 @@ devices:
   CS3-00297:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00298:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00299:
     model: sport
     product: cs3
@@ -818,7 +818,7 @@ devices:
   CS3-00303:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00304:
     model: sport
     product: cs3
@@ -898,7 +898,7 @@ devices:
   CS3-00323:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00324:
     model: sport
     product: cs3
@@ -950,7 +950,7 @@ devices:
   CS3-00336:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00337:
     model: sport
     product: cs3
@@ -1194,7 +1194,7 @@ devices:
   CS3-00397:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00398:
     model: sport
     product: cs3
@@ -1730,7 +1730,7 @@ devices:
   CS3-00531:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00532:
     model: sport
     product: cs3
@@ -1742,7 +1742,7 @@ devices:
   CS3-00534:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00535:
     model: sport
     product: cs3
@@ -1762,7 +1762,7 @@ devices:
   CS3-00539:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00540:
     model: sport
     product: cs3
@@ -1790,7 +1790,7 @@ devices:
   CS3-00546:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00547:
     model: sport
     product: cs3
@@ -1798,11 +1798,11 @@ devices:
   CS3-00548:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00549:
     model: pro
     product: cs3
-    softwareVersion: 039916fde889
+    softwareVersion: d8a42c009c4b
   CS3-00550:
     model: sport
     product: cs3
@@ -1910,7 +1910,7 @@ devices:
   CS3-00576:
     model: pro
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: d8a42c009c4b
   CS3-00577:
     model: sport
     product: cs3
@@ -4026,6 +4026,11 @@ software:
       8b0af65c301f:
         changelog: 'Per gear TCC tables, updates for ZF4HP24, fixes for CAN bus'
         releaseDate: '2018-08-02T22:28:47.559Z'
+      d8a42c009c4b:
+        changelog: >-
+          Added full support for Toyota AB60 and initial support for handheld
+          display and dashboard
+        releaseDate: '2018-08-26T23:46:13.818Z'
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
       039916fde889:
