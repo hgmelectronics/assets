@@ -458,7 +458,7 @@ devices:
   CS3-00213:
     model: sport
     product: cs3
-    softwareVersion: bf254a5afd64
+    softwareVersion: a49d038ecc30
   CS3-00214:
     model: sport
     product: cs3
@@ -490,7 +490,7 @@ devices:
   CS3-00221:
     model: sport
     product: cs3
-    softwareVersion: bf254a5afd64
+    softwareVersion: a49d038ecc30
   CS3-00222:
     model: sport
     product: cs3
@@ -1122,7 +1122,7 @@ devices:
   CS3-00379:
     model: sport
     product: cs3
-    softwareVersion: bf254a5afd64
+    softwareVersion: a49d038ecc30
   CS3-00380:
     model: sport
     product: cs3
@@ -1278,7 +1278,7 @@ devices:
   CS3-00418:
     model: sport
     product: cs3
-    softwareVersion: bf254a5afd64
+    softwareVersion: a49d038ecc30
   CS3-00419:
     model: sport
     product: cs3
@@ -1478,7 +1478,7 @@ devices:
   CS3-00468:
     model: sport
     product: cs3
-    softwareVersion: bf254a5afd64
+    softwareVersion: a49d038ecc30
   CS3-00469:
     model: sport
     product: cs3
@@ -4010,11 +4010,11 @@ devices:
 software:
   cs3:
     pro:
-      bf254a5afd64:
+      a49d038ecc30:
         changelog: >-
           Full display support, additional engine types, assorted small bug
-          fixes.
-        releaseDate: '2018-08-28T20:12:36.226Z'
+          fixes
+        releaseDate: '2018-08-28T22:04:22.593Z'
       d8a42c009c4b:
         changelog: >-
           Added full support for Toyota AB60 and initial support for handheld
@@ -4030,17 +4030,9 @@ software:
       18c81b0cf344:
         changelog: Stability improvements and bug fixes
         releaseDate: '2018-06-01T00:00:00.000Z'
-      1bdf893c2d38:
-        changelog: >-
-          Improved support for MAP sensors, added CAN support for Holley
-          Racepak, fix for ZF4HP24 lever sensor, assorted small bug fixes
-        releaseDate: '2018-08-10T20:12:52.004Z'
-      8b0af65c301f:
-        changelog: 'Per gear TCC tables, updates for ZF4HP24, fixes for CAN bus'
-        releaseDate: '2018-08-02T22:30:53.566Z'
-      bf254a5afd64:
+      a49d038ecc30:
         changelog: >-
           Full display support, additional engine types, assorted small bug
-          fixes.
-        releaseDate: '2018-08-28T20:12:46.611Z'
+          fixes
+        releaseDate: '2018-08-28T22:04:31.272Z'
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
