@@ -2014,7 +2014,7 @@ devices:
   CS3-00602:
     model: sport
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: f680236a321b
   CS3-00603:
     model: sport
     product: cs3
@@ -4020,6 +4020,9 @@ software:
           Added full support for Toyota AB60 and initial support for handheld
           display and dashboard
         releaseDate: '2018-08-26T23:46:13.818Z'
+      f680236a321b:
+        changelog: Test version with modified solenoid control
+        releaseDate: '2018-08-30T22:03:43.288Z'
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
       039916fde889:
@@ -4035,4 +4038,7 @@ software:
           Full display support, additional engine types, assorted small bug
           fixes
         releaseDate: '2018-08-28T22:04:31.272Z'
+      f680236a321b:
+        changelog: Test version with modified solenoid control
+        releaseDate: '2018-08-30T22:03:50.992Z'
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
