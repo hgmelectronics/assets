@@ -4015,14 +4015,17 @@ software:
           Full display support, additional engine types, assorted small bug
           fixes
         releaseDate: '2018-08-31T00:21:10.837Z'
+        upgradePrompt: false
       d8a42c009c4b:
         changelog: >-
           Added full support for Toyota AB60 and initial support for handheld
           display and dashboard
         releaseDate: '2018-08-26T23:46:13.818Z'
+        upgradePrompt: false
       f680236a321b:
         changelog: Test version with modified solenoid control
         releaseDate: '2018-08-30T22:03:43.288Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
       039916fde889:
@@ -4030,15 +4033,19 @@ software:
           Imporoved support for MAP sensors, added CAN support for Holley
           Racepak, assorted small bug fixes
         releaseDate: '2018-08-02T22:11:29.666Z'
+        upgradePrompt: false
       18c81b0cf344:
         changelog: Stability improvements and bug fixes
         releaseDate: '2018-06-01T00:00:00.000Z'
+        upgradePrompt: false
       1dde21a27c0f:
         changelog: >-
           Full display support, additional engine types, assorted small bug
           fixes
         releaseDate: '2018-08-31T00:21:23.904Z'
+        upgradePrompt: false
       f680236a321b:
         changelog: Test version with modified solenoid control
         releaseDate: '2018-08-30T22:03:50.992Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
