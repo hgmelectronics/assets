@@ -1204,7 +1204,7 @@ params:
         id: "0x4813"
         acl: *aclReadOnly
         slot: text
-        length: 4
+        length: 5
     pressureAdjustA:
         id: "0x5000"
         acl: *aclCalibrate
@@ -1807,6 +1807,11 @@ params:
         id: "0x6803"
         acl: *aclDiagnostic
         slot: booleanOnOff1
+    tccText:
+        id: "0x6804"
+        acl: *aclReadOnly
+        slot: text
+        length: 5
     engineCylinders:
         id: "0x7000"
         acl: *aclSetup
@@ -2336,6 +2341,10 @@ params:
           save: true
           advice: resetAdvised
         slot: hex16bit
+    accessLevel:
+        id: "0xF082"
+        acl: *aclReadOnly
+        slot: accessLevel
     calibrationMode:
         id: "0xF800"
         acl: *aclDiagnostic
@@ -9229,11 +9238,11 @@ slots:
     pwmDriverMode:
         encoding:
             -   [ 0, Off ]
-            -   [ 1, Sinking Regulation ]
-            -   [ 2, Sourcing Regulation ]
+            -   [ 1, Regulated Sink ]
+            -   [ 2, Regulated Source ]
             -   [ 3, Duty Cycle ]
-            -   [ 4, Sinking Saturation ]
-            -   [ 5, Sourcing Saturation ]
+            -   [ 4, Saturated Sink ]
+            -   [ 5, Saturated Source ]
     ratio1: &ratio1Slot
         linear:
             raw: [ 0, 1000000 ]
@@ -9270,6 +9279,11 @@ slots:
             unit: rpm
             precision: 0
 
+    accessLevel:
+        encoding:
+            -   [ 0, "Basic" ]
+            -   [ 1, "Advanced" ]
+            -   [ 2, "Locked" ]
     slip1:
         linear:
             raw: [ -100000, 100000 ]
@@ -9537,8 +9551,7 @@ slots:
 #            -   [ 21, "Ebus YTB" ]
             -   [ 22, "Ford Coyote 2" ]
             -   [ 23, "Toyota VDJ LC 7X Series" ]
-#            -   [ 24, "Haltech Sport" ]
-            -   [ 25, "Haltech PRO" ]
+            -   [ 25, "Haltech CAN V2" ]
 #            -   [ 26, "Ebus UQM" ]
             -   [ 27, "Holley Racepak" ]
     vehicleSpeed:
@@ -9589,7 +9602,7 @@ slots:
     configGaugeSelectionEmbedded:
         encoding:
             -   [ 0, "Engine Speed" ]
-            -   [ 1, "Shift Sel Range" ]
+            -   [ 1, "Gear and Mode" ]
             -   [ 2, "Trans Oil Temp" ]
             -   [ 3, "Throttle Position" ]
             -   [ 4, "Vehicle Speed" ]
@@ -9619,34 +9632,34 @@ slots:
             -   [ 0xFFFF, "Empty" ]
     configGaugeSelectionEmbeddedShort:
         encoding:
-            -   [ 0, "Eng Speed" ]
-            -   [ 1, "Sel Range" ]
-            -   [ 2, "Oil Temp" ]
-            -   [ 3, "TPS" ]
-            -   [ 4, "Veh Speed" ]
-            -   [ 5, "TCC State" ]
-            -   [ 6, "Batt V" ]
-            -   [ 7, "Line P Cmd" ]
-            -   [ 8, "Line P Sns" ]
-            -   [ 9, "ShftLvrPos" ]
-            -   [ 10, "Oil Level" ]
-            -   [ 11, "TISS" ]
-            -   [ 12, "TOSS" ]
+            -   [  0, "Engine Speed" ]
+            -   [  1, "Gear & Mode" ]
+            -   [  2, "Trans Oil Temp" ]
+            -   [  3, "Throttle Position" ]
+            -   [  4, "Vehicle Speed" ]
+            -   [  5, "TCC State" ]
+            -   [  6, "Battery Voltage" ]
+            -   [  7, "Line Press Cmd" ]
+            -   [  8, "Line Press, Sensor" ]
+            -   [  9, "Shift Lever Posn" ]
+            -   [ 10, "Trans Oil Level" ]
+            -   [ 11, "Trans Input Speed" ]
+            -   [ 12, "Trans Output Speed" ]
             -   [ 13, "Trans Slip" ]
-            -   [ 14, "TransRatio" ]
-            -   [ 15, "MAP Pct" ]
-            -   [ 16, "Eng Trq" ]
-            -   [ 17, "Sel Rng HS" ]
-            -   [ 18, "Eng Spd FS" ]
-            -   [ 19, "OilTemp FS" ]
-            -   [ 20, "Veh Spd FS" ]
-            -   [ 21, "Shaft1 Spd" ]
-            -   [ 22, "Shaft2 Spd" ]
-            -   [ 23, "DTC Act Ct" ]
-            -   [ 24, "DTC Rec Ct" ]
-            -   [ 25, "TC Slip" ]
-            -   [ 26, "ShftRegMn" ]
-            -   [ 27, "ShftRegRMS" ]
+            -   [ 14, "Trans Ratio" ]
+            -   [ 15, "MAP Percentage" ]
+            -   [ 16, "Engine % Torque" ]
+            -   [ 17, "Shift Sel Range HS" ]
+            -   [ 18, "Engine Speed FS" ]
+            -   [ 19, "Trans Oil Temp FS" ]
+            -   [ 20, "Vehicle Speed FS" ]
+            -   [ 21, "Trans Shaft 1 Spd" ]
+            -   [ 22, "Trans Shaft 2 Spd" ]
+            -   [ 23, "DTC Active Count" ]
+            -   [ 24, "DTC Recorded Count" ]
+            -   [ 25, "Torque Conv Slip" ]
+            -   [ 26, "Shift Reg Out Mean" ]
+            -   [ 27, "Shift Reg Out RMS" ]
             -   [ 0xFFFF, "Empty" ]
     configGaugeSelectionHosted:
         encoding:
@@ -9672,7 +9685,7 @@ configurableGaugesEmbedded:
             doc: ''
     -   type: TextGauge
         args:
-            param: shiftSelectedRange
+            param: shiftGearText
             label: GEAR
             tooltip: ''
             doc: ''
@@ -9695,11 +9708,11 @@ configurableGaugesEmbedded:
             label: SPD
             tooltip: ''
             doc: ''
-    -   type: DigitalGauge # 5
+    -   type: TextGauge # 5
         args:
-            param: tccCurrentState
+            param: tccText
             label: TCC
-            slot: onOffGauge
+            slot: text
             tooltip: ''
             doc: ''
     -   type: DigitalGauge
@@ -10404,22 +10417,23 @@ menu-dash: &dash
         -   h_type: Menu
             args:
                 title: Trouble Codes
+                isMajor: true
                 tooltip: "Shows any trouble codes set on the CS3"
                 doc: ""
                 children:
-                    -   type: FaultCodeList
-                        args:
-                            label: "Trouble Codes"
-                            tooltip: ""
-                            doc: ""
-                    -   type: ParamSetter
-                        args:
-                            label: "Clear trouble codes"
-                            warning: This will clear all active and stored codes.
-                            items:
-                                - [ 1, dtcClear ]
-                            tooltip: ""
-                            doc: ""
+                -   type: FaultCodeList
+                    args:
+                        label: "Trouble Codes"
+                        tooltip: ""
+                        doc: ""
+                -   type: ParamSetter
+                    args:
+                        label: "Clear trouble codes"
+                        warning: This will clear all active and stored codes.
+                        items:
+                            - [ 1, dtcClear ]
+                        tooltip: ""
+                        doc: ""
 
 menu-controllerDiagnostics: &controllerDiagnostics
     type: Menu
@@ -10522,6 +10536,20 @@ menu-displaySetup: &displaySetup
         children:
         -   type: ScalarEdit
             args:
+                param: displayBrightness
+                slot: percentage1
+                label: "Brightness"
+                tooltip: ""
+                doc: ""
+        -   type: ScalarEdit
+            args:
+                param: displayContrast
+                slot: percentage1
+                label: "Contrast"
+                tooltip: ""
+                doc: ""
+        -   type: ScalarEdit
+            args:
                 param: displayColor[0]
                 slot: percentage1
                 label: "Red Level"
@@ -10541,27 +10569,10 @@ menu-displaySetup: &displaySetup
                 label: "Blue Level"
                 tooltip: ""
                 doc: ""
-        -   type: ScalarEdit
-            args:
-                param: displayBrightness
-                slot: percentage1
-                label: "Brightness"
-                tooltip: ""
-                doc: ""
-        -   type: ScalarEdit
-            args:
-                param: displayContrast
-                slot: percentage1
-                label: "Contrast"
-                tooltip: ""
-                doc: ""
         -   type: Menu
-            e_args:
-                title: Units
-            h_args:
-                title: Screen Units
             args:
-                tooltip: ""
+                title: "Measurement units"
+                tooltip: "Set metric or imperial units for the display"
                 doc: ""
                 children:
                     -   type: EncodingEdit
@@ -10615,14 +10626,14 @@ menu-displaySetup: &displaySetup
                             doc: ""
         -   type: TableEdit
             args:
-                xSlot: countOffsetBy1
+                label: Gauge Screens Setup
+                xSlot: oneDigitOffsetBy1
                 yParam:
                     -   displayMixedMeterConfig[0]
                     -   displayMixedMeterConfig[1]
                     -   displayMixedMeterConfig[2]
                     -   displayMixedMeterConfig[3]
-                label: Gauge Screen Selections
-                xLabel: Position
+                xLabel: "#"
                 yLabel: Gauge
                 traceLabels:
                     -   Screen 1
@@ -10630,16 +10641,16 @@ menu-displaySetup: &displaySetup
                     -   Screen 3
                     -   Screen 4
                 chart: false
-                tooltip: ""
+                tooltip: "Configure gauges on each screen"
                 doc: ""
             e_args:
                 ySlot: configGaugeSelectionEmbeddedShort
         -   type: ParamSetter
             args:
-                label: "Display Factory Setup"
+                label: "Reset Display"
                 items:
                     - [ 1, displayFactorySetup]
-                tooltip: ""
+                tooltip: "Resets display to factory settings."
                 doc: ""
 
 menu-engineDiagnostics: &engineDiagnostics
@@ -11442,25 +11453,6 @@ menu-networkSetup: &networkSetup
                 label: "XCP Slave Id"
                 tooltip: ""
                 doc: ""
-        -   h_type: SectionDivider
-            h_args:
-                text: "Bluetooth"
-                showForParams:
-                -   bleMode
-        -   type: EncodingEdit
-            args:
-                param: bleMode
-                label: "Bluetooth Mode"
-                tooltip: "For security, set to non-bondable after you have paired your device"
-                doc: ""
-        -   type: ParamSetter
-            args:
-                items:
-                    -   [ 1, bleDeleteBondings ]
-                label: Forget Bluetooth Devices
-                warning: This will delete all Bluetooth devices from the CS3's memory. If you are using Bluetooth to access the CS3, make sure to first set the Bluetooth LE Mode to Bondable so that you can regain access from your current device. You may also need to forget the CS3 from your device's Bluetooth settings menu.
-                tooltip: ""
-                doc: ""
 
 
 menu-pwmDiagnostics: &pwmDiagnostics
@@ -11480,6 +11472,9 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
+                ySlot: pwmDriverMode
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11491,6 +11486,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11502,6 +11499,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11513,6 +11512,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11524,6 +11525,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11535,6 +11538,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11546,6 +11551,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11557,6 +11564,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11568,6 +11577,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11579,6 +11590,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
         -   type: TableEdit
             args:
                 xSlot: pwmDriverId
@@ -11590,6 +11603,8 @@ menu-pwmDiagnostics: &pwmDiagnostics
                 tooltip: ""
                 doc: ""
                 chart: false
+            e_args:
+                xLabel: ID
 
 menu-shiftControlAdvanced: &shiftControlAdvancedSetup
     type: Menu
@@ -12404,18 +12419,6 @@ menu-softwareDiagnostics: &softwareDiagnostics
                 label: "Debug Level"
                 tooltip: ""
                 doc: ""
-        -   type: ScalarEdit
-            args:
-                param: securityCode
-                label: "Security Code"
-                tooltip: ""
-                doc: ""
-        -   type: ScalarEdit
-            args:
-                param: setupSecurityCode
-                label: "Set Security Code"
-                tooltip: ""
-                doc: ""
         -   h_type: SectionDivider
             h_args:
                 text: "Memory Use"
@@ -12590,10 +12593,14 @@ menu-switchMonitorDiagnostics: &switchMonitorDiagnostics
 menu-tccAdvanced: &tccAdvanced
     type: Menu
     args:
-        title: TCC Advanced Setup
-        label: "Advanced"
+        title: TCC Regulation
+        label: TCC Regulation
         isMajor: true
-        tooltip: "Experts only TCC tuning"
+        showForParams:
+        -   tccPrefillTime
+        -   tccMaxPressure
+        -   torqueConverterSpeedRatios
+        tooltip: "Regulation and timing control. Experts only."
         doc: ""
         children:
         -   type: TableEdit
@@ -12720,62 +12727,6 @@ menu-tccSetup: &tccSetup
                 label: "TCC Disabled in Switch Shift A"
                 tooltip: ""
                 doc: ""
-        -   type: TableEdit
-            args:
-                label: TCC Lock Tables A
-                xLabel: Throttle
-                yLabel: Speed
-                xParam:
-                    -   tccTablesALockX[0]
-                    -   tccTablesALockX[1]
-                    -   tccTablesALockX[2]
-                    -   tccTablesALockX[3]
-                    -   tccTablesALockX[4]
-                    -   tccTablesALockX[5]
-                yParam:
-                    -   tccTablesALockY[0]
-                    -   tccTablesALockY[1]
-                    -   tccTablesALockY[2]
-                    -   tccTablesALockY[3]
-                    -   tccTablesALockY[4]
-                    -   tccTablesALockY[5]
-                traceLabels:
-                    -   1st
-                    -   2nd
-                    -   3rd
-                    -   4th
-                    -   5th
-                    -   6th
-                tooltip: "Experts only"
-                doc: ""
-        -   type: TableEdit
-            args:
-                label: TCC Unlock Tables A
-                xLabel: Throttle
-                yLabel: Speed
-                xParam:
-                    -   tccTablesAUnlockX[0]
-                    -   tccTablesAUnlockX[1]
-                    -   tccTablesAUnlockX[2]
-                    -   tccTablesAUnlockX[3]
-                    -   tccTablesAUnlockX[4]
-                    -   tccTablesAUnlockX[5]
-                yParam:
-                    -   tccTablesAUnlockY[0]
-                    -   tccTablesAUnlockY[1]
-                    -   tccTablesAUnlockY[2]
-                    -   tccTablesAUnlockY[3]
-                    -   tccTablesAUnlockY[4]
-                    -   tccTablesAUnlockY[5]
-                traceLabels:
-                    -   1st
-                    -   2nd
-                    -   3rd
-                    -   4th
-                    -   5th
-                    -   6th
-                tooltip: "Experts only"
-                doc: ""
         -   h_type: SectionDivider
             h_args:
                 text: Calibration B
@@ -12821,65 +12772,140 @@ menu-tccSetup: &tccSetup
                 label: "TCC Disabled in Switch Shift B"
                 tooltip: ""
                 doc: ""
-        -   type: TableEdit
-            args:
-                label: TCC Lock Tables B
-                xLabel: Throttle
-                yLabel: Speed
-                xParam:
-                    -   tccTablesBLockX[0]
-                    -   tccTablesBLockX[1]
-                    -   tccTablesBLockX[2]
-                    -   tccTablesBLockX[3]
-                    -   tccTablesBLockX[4]
-                    -   tccTablesBLockX[5]
-                yParam:
-                    -   tccTablesBLockY[0]
-                    -   tccTablesBLockY[1]
-                    -   tccTablesBLockY[2]
-                    -   tccTablesBLockY[3]
-                    -   tccTablesBLockY[4]
-                    -   tccTablesBLockY[5]
-                traceLabels:
-                    -   1st
-                    -   2nd
-                    -   3rd
-                    -   4th
-                    -   5th
-                    -   6th
-                tooltip: "Experts only"
-                doc: ""
-        -   type: TableEdit
-            args:
-                label: TCC Unlock Tables B
-                xLabel: Throttle
-                yLabel: Speed
-                xParam:
-                    -   tccTablesBUnlockX[0]
-                    -   tccTablesBUnlockX[1]
-                    -   tccTablesBUnlockX[2]
-                    -   tccTablesBUnlockX[3]
-                    -   tccTablesBUnlockX[4]
-                    -   tccTablesBUnlockX[5]
-                yParam:
-                    -   tccTablesBUnlockY[0]
-                    -   tccTablesBUnlockY[1]
-                    -   tccTablesBUnlockY[2]
-                    -   tccTablesBUnlockY[3]
-                    -   tccTablesBUnlockY[4]
-                    -   tccTablesBUnlockY[5]
-                traceLabels:
-                    -   1st
-                    -   2nd
-                    -   3rd
-                    -   4th
-                    -   5th
-                    -   6th
-                tooltip: "Experts only"
-                doc: ""
         -   h_type: SectionDivider
             h_args:
-                text:""
+                text: ""
+                showForParams:
+                -   tccTablesALockX[0]
+        -   type: Menu
+            args:
+                title: TCC Tables
+                isMajor: true
+                showForParams:
+                -   tccTablesALockX[0]
+                tooltip: "Control TCC lock and unlock by gear.  Experts only."
+                doc: ""
+                children:
+                -   type: TableEdit
+                    args:
+                        label: TCC Lock Tables A
+                        xLabel: Throttle
+                        yLabel: Speed
+                        xParam:
+                            -   tccTablesALockX[0]
+                            -   tccTablesALockX[1]
+                            -   tccTablesALockX[2]
+                            -   tccTablesALockX[3]
+                            -   tccTablesALockX[4]
+                            -   tccTablesALockX[5]
+                        yParam:
+                            -   tccTablesALockY[0]
+                            -   tccTablesALockY[1]
+                            -   tccTablesALockY[2]
+                            -   tccTablesALockY[3]
+                            -   tccTablesALockY[4]
+                            -   tccTablesALockY[5]
+                        traceLabels:
+                            -   1st
+                            -   2nd
+                            -   3rd
+                            -   4th
+                            -   5th
+                            -   6th
+                        tooltip: ""
+                        doc: ""
+                -   type: TableEdit
+                    args:
+                        label: TCC Unlock Tables A
+                        xLabel: Throttle
+                        yLabel: Speed
+                        xParam:
+                            -   tccTablesAUnlockX[0]
+                            -   tccTablesAUnlockX[1]
+                            -   tccTablesAUnlockX[2]
+                            -   tccTablesAUnlockX[3]
+                            -   tccTablesAUnlockX[4]
+                            -   tccTablesAUnlockX[5]
+                        yParam:
+                            -   tccTablesAUnlockY[0]
+                            -   tccTablesAUnlockY[1]
+                            -   tccTablesAUnlockY[2]
+                            -   tccTablesAUnlockY[3]
+                            -   tccTablesAUnlockY[4]
+                            -   tccTablesAUnlockY[5]
+                        traceLabels:
+                            -   1st
+                            -   2nd
+                            -   3rd
+                            -   4th
+                            -   5th
+                            -   6th
+                        tooltip: ""
+                        doc: ""
+                -   type: TableEdit
+                    args:
+                        label: TCC Lock Tables B
+                        xLabel: Throttle
+                        yLabel: Speed
+                        xParam:
+                            -   tccTablesBLockX[0]
+                            -   tccTablesBLockX[1]
+                            -   tccTablesBLockX[2]
+                            -   tccTablesBLockX[3]
+                            -   tccTablesBLockX[4]
+                            -   tccTablesBLockX[5]
+                        yParam:
+                            -   tccTablesBLockY[0]
+                            -   tccTablesBLockY[1]
+                            -   tccTablesBLockY[2]
+                            -   tccTablesBLockY[3]
+                            -   tccTablesBLockY[4]
+                            -   tccTablesBLockY[5]
+                        traceLabels:
+                            -   1st
+                            -   2nd
+                            -   3rd
+                            -   4th
+                            -   5th
+                            -   6th
+                        tooltip: ""
+                        doc: ""
+                -   type: TableEdit
+                    args:
+                        label: TCC Unlock Tables B
+                        xLabel: Throttle
+                        yLabel: Speed
+                        xParam:
+                            -   tccTablesBUnlockX[0]
+                            -   tccTablesBUnlockX[1]
+                            -   tccTablesBUnlockX[2]
+                            -   tccTablesBUnlockX[3]
+                            -   tccTablesBUnlockX[4]
+                            -   tccTablesBUnlockX[5]
+                        yParam:
+                            -   tccTablesBUnlockY[0]
+                            -   tccTablesBUnlockY[1]
+                            -   tccTablesBUnlockY[2]
+                            -   tccTablesBUnlockY[3]
+                            -   tccTablesBUnlockY[4]
+                            -   tccTablesBUnlockY[5]
+                        traceLabels:
+                            -   1st
+                            -   2nd
+                            -   3rd
+                            -   4th
+                            -   5th
+                            -   6th
+                        tooltip: ""
+                        doc: ""
+
+        -   h_type: SectionDivider
+            h_args:
+                text: ""
+                showForParams:
+                -   tccPrefillTime
+                -   tccMaxPressure
+                -   torqueConverterSpeedRatios
         -  *tccAdvanced
 
 
@@ -13707,10 +13733,62 @@ menu-diagnostics: &diagnostics
             -   *controllerDiagnostics
             -   *softwareDiagnostics
 
+menu-security: &security
+    type: Menu
+    args:
+        title: "Security"
+        isMajor: true
+        tooltip: ""
+        doc: ""
+        children:
+        -   h_type: SectionDivider
+            h_args:
+                text: "Bluetooth"
+                showForParams:
+                -   bleMode
+        -   type: EncodingEdit
+            args:
+                param: bleMode
+                label: "Bluetooth Mode"
+                tooltip: "For security, set to non-bondable after you have paired your device"
+                doc: ""
+        -   type: ParamSetter
+            args:
+                items:
+                    -   [ 1, bleDeleteBondings ]
+                label: Forget Bluetooth Devices
+                warning: This will delete all Bluetooth devices from the CS3's memory. If you are using Bluetooth to access the CS3, make sure to first set the Bluetooth LE Mode to Bondable so that you can regain access from your current device. You may also need to forget the CS3 from your device's Bluetooth settings menu.
+                tooltip: ""
+                doc: ""
+        -   h_type: SectionDivider
+            h_args:
+                text: "Access Control"
+                showForParams:
+                    -   securityCode
+        -   type: EncodingEdit
+            args:
+                param: accessLevel
+                label: "Access Level"
+                autorefresh: true
+                tooltip: "Advanced has full access to all calibration items."
+                doc: ""
+        -   type: ScalarEdit
+            args:
+                param: securityCode
+                label: "Security Code"
+                tooltip: "Enter code here to change the access level."
+                doc: ""
+        -   type: ScalarEdit
+            args:
+                param: setupSecurityCode
+                label: "Set Security Code"
+                tooltip: "Warning: Once you set the security code, it must be entered to change the access level."
+                doc: ""
+
 menus:
     type: Menu
     args:
-        title: Home
+        title: "Home"
         tooltip: ""
         doc: ""
         isMajor: true
@@ -13724,7 +13802,7 @@ menus:
             -   *diagnostics
             -   *networkSetup
             -   *displaySetup
-
+            -   *security
 paramTranslations:
     clutchName0:
         param: powertrainType
