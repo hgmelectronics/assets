@@ -9437,6 +9437,21 @@ slots:
                 exponent: -1
             -   3.14159265359
             -   0.0166666666667
+    tossRPMAsSpeedSi:
+        linear:
+            raw: [ 0, 10000 ]
+            engr: [ 0, 100 ]
+            unit: m/s
+            precision: 1
+            scalers:
+            -   param: tireDiameter
+                slot: length
+                exponent: 1
+            -   param: finalDriveRatio
+                slot: ratio1
+                exponent: -1
+            -   3.14159265359
+            -   0.0166666666667
     transmissionOilLevelMeasurementStatus:
         encoding:
             -   [ 0, Valid ]
@@ -9957,7 +9972,7 @@ slotLocalizations: # use arrays so there is a defined order in the UI
             -   name: kph
                 to: [ vehicleSpeedMet, tossRPMAsSpeedMet ]
             -   name: m/s
-                to: [ vehicleSpeed, tossRPMAsSpeed ]
+                to: [ vehicleSpeed, tossRPMAsSpeedSi ]
     -   name: Temperature # multiple localizations may be slaved together
         base: [ temperature1, temperature1Host, temperatureGauge ]
         embeddedSaveParam: displaySlotSelectionTemperature
