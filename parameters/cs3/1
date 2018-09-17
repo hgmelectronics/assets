@@ -9644,6 +9644,7 @@ slots:
             -   [ 25, "Torque Converter Slip" ]
             -   [ 26, "Shift Reg Mean Output" ]
             -   [ 27, "Shift Reg RMS Output" ]
+            -   [ 0xFFFE, "Default" ]
             -   [ 0xFFFF, "Empty" ]
     configGaugeSelectionEmbeddedShort:
         encoding:
@@ -9675,6 +9676,7 @@ slots:
             -   [ 25, "Torque Conv Slip" ]
             -   [ 26, "Shift Reg Out Mean" ]
             -   [ 27, "Shift Reg Out RMS" ]
+            -   [ 0xFFFE, "Default" ]
             -   [ 0xFFFF, "Empty" ]
     configGaugeSelectionHosted:
         encoding:
