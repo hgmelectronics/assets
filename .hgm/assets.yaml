@@ -4016,6 +4016,10 @@ software:
           fixes
         releaseDate: '2018-08-31T00:21:10.837Z'
         upgradePrompt: false
+      b0a84a0b6b39:
+        changelog: deprecated
+        releaseDate: '2018-09-17T22:22:46.300Z'
+        upgradePrompt: true
       d8a42c009c4b:
         changelog: >-
           Added full support for Toyota AB60 and initial support for handheld
@@ -4044,6 +4048,10 @@ software:
           fixes
         releaseDate: '2018-08-31T00:21:23.904Z'
         upgradePrompt: false
+      b0a84a0b6b39:
+        changelog: deprecated
+        releaseDate: '2018-09-17T22:22:52.425Z'
+        upgradePrompt: true
       f680236a321b:
         changelog: Test version with modified solenoid control
         releaseDate: '2018-08-30T22:03:50.992Z'
