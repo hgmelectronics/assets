@@ -122,7 +122,7 @@ devices:
   CS3-00129:
     model: sport
     product: cs3
-    softwareVersion: 18c81b0cf344
+    softwareVersion: 1dde21a27c0f
   CS3-00130:
     model: sport
     product: cs3
@@ -2014,7 +2014,7 @@ devices:
   CS3-00602:
     model: sport
     product: cs3
-    softwareVersion: f680236a321b
+    softwareVersion: 1dde21a27c0f
   CS3-00603:
     model: sport
     product: cs3
@@ -4020,16 +4020,6 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
-      d8a42c009c4b:
-        changelog: >-
-          Added full support for Toyota AB60 and initial support for handheld
-          display and dashboard
-        releaseDate: '2018-08-26T23:46:13.818Z'
-        upgradePrompt: false
-      f680236a321b:
-        changelog: Test version with modified solenoid control
-        releaseDate: '2018-08-30T22:03:43.288Z'
-        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
       039916fde889:
@@ -4052,8 +4042,4 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
-      f680236a321b:
-        changelog: Test version with modified solenoid control
-        releaseDate: '2018-08-30T22:03:50.992Z'
-        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
