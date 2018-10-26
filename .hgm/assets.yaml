@@ -1742,7 +1742,7 @@ devices:
   CS3-00534:
     model: pro
     product: cs3
-    softwareVersion: 04180dad38a4
+    softwareVersion: 53fa6a74a8f6
   CS3-00535:
     model: sport
     product: cs3
@@ -4019,6 +4019,10 @@ software:
           Added support for Toyota A340 transmissions.  Some small bug fixes for
           the handheld display.
         releaseDate: '2018-09-25T19:42:34.830Z'
+        upgradePrompt: false
+      53fa6a74a8f6:
+        changelog: Fixed possible problem with Toyota A750 solenoid configuration
+        releaseDate: '2018-10-26T00:38:06.849Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
