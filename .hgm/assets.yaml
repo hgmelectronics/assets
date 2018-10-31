@@ -1742,7 +1742,7 @@ devices:
   CS3-00534:
     model: pro
     product: cs3
-    softwareVersion: 53fa6a74a8f6
+    softwareVersion: b93f1d66d1d3
   CS3-00535:
     model: sport
     product: cs3
@@ -4020,14 +4020,14 @@ software:
           the handheld display.
         releaseDate: '2018-09-25T19:42:34.830Z'
         upgradePrompt: false
-      53fa6a74a8f6:
-        changelog: Fixed possible problem with Toyota A750 solenoid configuration
-        releaseDate: '2018-10-26T00:38:06.849Z'
-        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
+      b93f1d66d1d3:
+        changelog: Fixed possible problem with Toyota A750 solenoid configuration
+        releaseDate: '2018-10-31T02:54:56.365Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
       04180dad38a4:
