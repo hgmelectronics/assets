@@ -612,7 +612,7 @@ devices:
     product: cs3
     softwareVersion: f27c93ef7978
   CS3-00252:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: f27c93ef7978
   CS3-00253:
