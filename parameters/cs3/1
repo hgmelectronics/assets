@@ -24,6 +24,16 @@ acls:
         write: [ true, true ]
         save: false
         mutating: true
+    -   &aclReadOnlySetup
+        read: [ true, true ]
+        write: [ false, false ]
+        save: false
+        saveWithCalib: true
+    -   &aclInternalSavable
+        read: [ true, true ]
+        write: [ true, true ]
+        save: true
+        saveWithCalib: false
 
 params:
     controllerSoftwareVersion:
@@ -764,7 +774,7 @@ params:
         minLength: 1
     transmissionRatios:
         id: "0x3801"
-        acl: *aclReadOnly
+        acl: *aclReadOnlySetup
         slot: ratio1
         length: 16
         minLength: 1
@@ -2325,10 +2335,10 @@ params:
         length: 4
     lastPowertrainType:
         id: "0xF000"
-        acl: *aclSetup
+        acl: *aclInternalSavable
     lastVariation:
         id: "0xF001"
-        acl: *aclSetup
+        acl: *aclInternalSavable
     securityCode:
         id: "0xF080"
         acl: *aclDiagnostic
@@ -2383,8 +2393,6 @@ params:
 
 readonlySetupParams:
     -   transmissionRatios
-    -   lastVariation
-    -   lastPowertrainType
 
 slots:
     calibrationMode:
