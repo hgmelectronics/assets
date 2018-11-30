@@ -2336,10 +2336,10 @@ params:
     setupSecurityCode:
         id: "0xF081"
         acl:
-          read: [ false, true ]
-          write: [ false, true ]
-          save: true
-          advice: resetAdvised
+            read: [ false, true ]
+            write: [ false, true ]
+            save: true
+        advice: resetAdvised
         slot: hex16bit
     accessLevel:
         id: "0xF082"
