@@ -10596,7 +10596,7 @@ menu-displaySetup: &displaySetup
                 doc: ""
         -   type: Menu
             args:
-                title: "Measurement units"
+                title: "Measurement Units"
                 tooltip: "Set metric or imperial units for the display"
                 doc: ""
                 children:
@@ -11939,7 +11939,7 @@ menu-shiftControlAdvanced: &shiftControlAdvancedSetup
                 doc: ""
         -   h_type: SectionDivider
             h_args:
-                text: "Regulator"
+                text: "Regulation"
                 showForParams:
                     -   transmissionSTDownshiftTorqueThreshold
                     -   transmissionTSTorqueTransferTime
@@ -13257,7 +13257,7 @@ menu-transmissionDiagnostics: &transmissionDiagnostics
                 doc: ""
         -   h_type: SectionDivider
             h_args:
-                text: Shift Regulator
+                text: Shift Regulation
                 showForParams:
                     -   transmissionShiftRegOutput
         -   type: ScalarEdit
