@@ -9700,6 +9700,22 @@ slots:
             -   [ 9, "Faults" ]
             -   [ 10, "Line Press Cmd" ]
             -   [ 11, "Line Press Sensor" ]
+            -   [ 12, "TCC Mode" ]
+            -   [ 13, "Shift Lever Position" ]
+            -   [ 14, "Trans Oil Level" ]
+            -   [ 15, "Trans Input Shaft Spd" ]
+            -   [ 16, "Trans Output Shaft Spd" ]
+            -   [ 17, "Trans Slip" ]
+            -   [ 18, "Trans Ratio" ]
+            -   [ 19, "Engine MAP" ]
+            -   [ 20, "Engine Torque" ]
+            -   [ 21, "Selected Range" ]
+            -   [ 22, "Shaft 1 Speed" ]
+            -   [ 23, "Shaft 2 Speed" ]
+            -   [ 24, "Active Faults" ]
+            -   [ 25, "Torque Conv Slip" ]
+            -   [ 26, "Shift Reg Mean Output" ]
+            -   [ 27, "Shift Reg RMS Output" ]
 
 configurableGaugesEmbedded:
     -   type: DigitalGauge # 0
@@ -9879,7 +9895,7 @@ configurableGaugesEmbedded:
 
 
 configurableGaugesHosted:
-    -   type: DigitalGauge
+    -   type: DigitalGauge # 0
         args:
             param: engineSpeed
             label: Engine Speed
@@ -9911,7 +9927,7 @@ configurableGaugesHosted:
             label: Trans Oil Temp
             tooltip: ""
             doc: ""
-    -   type: DigitalGauge
+    -   type: DigitalGauge # 5
         args:
             param: tccCurrentState
             label: TCC
@@ -9941,7 +9957,7 @@ configurableGaugesHosted:
             label: "Faults"
             tooltip: ""
             doc: ""
-    -   type: DigitalGauge
+    -   type: DigitalGauge # 10
         args:
             param: transmissionMainLinePressure
             label: "Line Press Cmd"
@@ -9951,6 +9967,104 @@ configurableGaugesHosted:
         args:
             param: transmissionPressureSensor
             label: "Line Press Sensor"
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: tccControlMode
+            label: TCC Mode
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: shiftSelectorGear
+            label: Shift Lever Position
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionOilLevel
+            label: Trans Oil Level
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge # 15
+        args:
+            param: transmissionInputShaftSpeed
+            label: TISS
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionOutputShaftSpeed
+            label: TOSS
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionSlip
+            label: Trans Slip
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionRatio
+            label: Trans Ratio
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: engineMAPPercentage
+            label: MAP
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge # 20
+        args:
+            param: engineActualPercentTorque
+            label: Engine Torque
+            tooltip: ""
+            doc: ""
+    -   type: TextGauge
+        args:
+            param: shiftSelectedRange
+            label: Selected Range
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionShaftSpeed[0]
+            label: Shaft 1 Speed
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionShaftSpeed[1]
+            label: Shaft 2 Speed
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: dtcActiveCount
+            label: "Active Faults"
+            tooltip: ""
+            doc: " "
+    -   type: DigitalGauge # 25
+        args:
+            param: transmissionTorqueConverterSlip
+            label: Torque Conv Slip
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionShiftRegMeanOutput
+            label: Shift Reg Mean
+            slot: pressureGauge
+            tooltip: ""
+            doc: ""
+    -   type: DigitalGauge
+        args:
+            param: transmissionShiftRegRMSOutput
+            label: Shift Reg RMS
+            slot: pressureGauge
             tooltip: ""
             doc: ""
 
