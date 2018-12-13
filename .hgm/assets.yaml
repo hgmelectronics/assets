@@ -1006,7 +1006,7 @@ devices:
   CS3-00350:
     model: sport
     product: cs3
-    softwareVersion: f27c93ef7978
+    softwareVersion: bedc6fda745f
   CS3-00351:
     model: sport
     product: cs3
@@ -4056,6 +4056,10 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
+      bedc6fda745f:
+        changelog: Added support for FAST EFI Sportsman
+        releaseDate: '2018-12-13T21:35:47.509Z'
+        upgradePrompt: false
       f27c93ef7978:
         changelog: >-
           Corrected intermittent false DTC's on pressure control and TCC
