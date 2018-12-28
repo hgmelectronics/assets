@@ -4010,16 +4010,6 @@ devices:
 software:
   cs3:
     pro:
-      04180dad38a4:
-        changelog: Improved line pressure control on GM and Ford transmissions
-        releaseDate: '2018-10-15T16:50:42.893Z'
-        upgradePrompt: false
-      4d4f58d8c83f:
-        changelog: >-
-          Added support for Toyota A340 transmissions.  Some small bug fixes for
-          the handheld display.
-        releaseDate: '2018-09-25T19:42:34.830Z'
-        upgradePrompt: false
       97e6352f8b5c:
         changelog: Corrected problem with S-mode indicator on shift console
         releaseDate: '2018-12-21T05:04:14.232Z'
@@ -4028,10 +4018,6 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
-      b93f1d66d1d3:
-        changelog: Fixed possible problem with Toyota A750 solenoid configuration
-        releaseDate: '2018-10-31T02:54:56.365Z'
-        upgradePrompt: false
       f27c93ef7978:
         changelog: >-
           Corrected intermittent false DTC's on pressure control and TCC
@@ -4040,16 +4026,6 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
-      04180dad38a4:
-        changelog: Improved line pressure control on GM and Ford transmissions
-        releaseDate: '2018-10-15T16:50:51.919Z'
-        upgradePrompt: false
-      4d4f58d8c83f:
-        changelog: >-
-          Added support for Toyota A340 transmissions.  Some small bug fixes for
-          the handheld display.
-        releaseDate: '2018-09-25T19:42:46.732Z'
-        upgradePrompt: false
       969de1c60ecd:
         changelog: >-
           Wider range of adjustment for final drive ratio, tire size, and

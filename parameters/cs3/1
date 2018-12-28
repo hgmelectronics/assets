@@ -1993,7 +1993,7 @@ params:
     engineManifoldAbsolutePressure:
         id: "0x7822"
         acl: *aclReadOnly
-        slot: pressure2
+        slot: pressure
     engineCoolantTemperature:
         id: "0x7830"
         acl: *aclReadOnly
@@ -9171,78 +9171,60 @@ slots:
             engr: [-1450.23234, 1450.23234] # 0.145037738 psi = 1 kPa
             unit: psi
             precision: 0
-    pressure2:
-        linear:
-            raw: [ 0, 1000000 ]
-            engr: [ 0, 100000 ]
-            unit: kPa
-            precision: 1
-    pressure2Uk:
-        linear:
-            raw: [ 0, 1000000 ]
-            engr: [ 0, 1000 ]
-            unit: bar
-            precision: 3
-    pressure2Us:
-        linear:
-            raw: [0, 1000000]
-            engr: [0, 14503.7738]
-            unit: psi
-            precision: 2
     pressurePerRpm:
         linear:
             raw: [ 0, 1000000000 ]
-            engr: [ 0, 1000000 ]
-            unit: kPa/rpm
-            precision: 3
+            engr: [ 0, 10000000 ]
+            unit: kPa/krpm
+            precision: 0
     pressurePerRpmUk:
         linear:
             raw: [ 0, 1000000000 ]
-            engr: [ 0, 10000 ]
-            unit: bar/rpm
-            precision: 5
+            engr: [ 0, 100000 ]
+            unit: bar/krpm
+            precision: 2
     pressurePerRpmUs:
         linear:
             raw: [0, 1000000000]
-            engr: [0, 145037.738]
-            unit: psi/rpm
-            precision: 4
+            engr: [0, 1450377.38]
+            unit: psi/krpm
+            precision: 1
     pressurePerRpmPerSec:
         linear:
             raw: [ 0, 1000000000 ]
-            engr: [ 0, 1000000 ]
-            unit: kPa/rpm/s
-            precision: 3
+            engr: [ 0, 10000000 ]
+            unit: kPa/krpm/s
+            precision: 2
     pressurePerRpmPerSecUk:
         linear:
             raw: [ 0, 1000000000 ]
-            engr: [ 0, 10000 ]
-            unit: bar/rpm/s
-            precision: 5
+            engr: [ 0, 100000 ]
+            unit: bar/krpm/s
+            precision: 4
     pressurePerRpmPerSecUs:
         linear:
             raw: [0, 1000000000]
-            engr: [0, 145037.738]
-            unit: psi/rpm/s
-            precision: 4
+            engr: [0, 1450377.38]
+            unit: psi/krpm/s
+            precision: 3
     pressurePerRpmSec:
         linear:
             raw: [ 0, 1000000000 ]
-            engr: [ 0, 100000000 ]
-            unit: kPa/rpm-s
-            precision: 1
+            engr: [ 0, 1000000000 ]
+            unit: kPa/krpm-s
+            precision: 0
     pressurePerRpmSecUk:
         linear:
             raw: [ 0, 1000000000 ]
-            engr: [ 0, 1000000 ]
-            unit: bar/rpm-s
-            precision: 3
+            engr: [ 0, 10000000 ]
+            unit: bar/krpm-s
+            precision: 2
     pressurePerRpmSecUs:
         linear:
             raw: [0, 1000000000]
-            engr: [0, 14503773.8]
-            unit: psi/rpm-s
-            precision: 2
+            engr: [0, 145037738]
+            unit: psi/krpm-s
+            precision: 1
     pwmDriverMode:
         encoding:
             -   [ 0, Off ]
@@ -9577,6 +9559,10 @@ slots:
             -   [ 25, "Haltech CAN V2" ]
 #            -   [ 26, "Ebus UQM" ]
             -   [ 27, "Holley Racepak" ]
+            -   [ 28, "FAST XFI" ]
+            -   [ 29, "FAST XFI Sportsman" ]
+            -   [ 30, "MoTeC M1" ]
+            -   [ 31, "Edelbrock Pro Flo 4" ]
     vehicleSpeed:
         linear:
             raw: [ 0, 1000000 ]
@@ -10070,15 +10056,15 @@ configurableGaugesHosted:
 
 slotLocalizations: # use arrays so there is a defined order in the UI
     -   name: Pressure
-        base: [ pressure, pressureGauge, pressure2, pressurePerRpm, pressurePerRpmSec, pressurePerRpmPerSec ]
+        base: [ pressure, pressureGauge, pressurePerRpm, pressurePerRpmSec, pressurePerRpmPerSec ]
         embeddedSaveParam: displaySlotSelectionPressure
         selections:
             -   name: psi
-                to: [ pressureUs, pressureGaugeUs, pressure2Us, pressurePerRpmUs, pressurePerRpmSecUs, pressurePerRpmPerSecUs ]
+                to: [ pressureUs, pressureGaugeUs, pressurePerRpmUs, pressurePerRpmSecUs, pressurePerRpmPerSecUs ]
             -   name: bar
-                to: [ pressureUk, pressureGaugeUk, pressure2Uk, pressurePerRpmUk, pressurePerRpmSecUk, pressurePerRpmPerSecUk ]
+                to: [ pressureUk, pressureGaugeUk, pressurePerRpmUk, pressurePerRpmSecUk, pressurePerRpmPerSecUk ]
             -   name: kPa
-                to: [ pressure, pressureGauge, pressure2, pressurePerRpm, pressurePerRpmSec, pressurePerRpmPerSec ]
+                to: [ pressure, pressureGauge, pressurePerRpm, pressurePerRpmSec, pressurePerRpmPerSec ]
     -   name: Length
         base: length
         embeddedSaveParam: displaySlotSelectionLength
