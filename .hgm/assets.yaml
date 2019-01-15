@@ -662,7 +662,7 @@ devices:
   CS3-00264:
     model: sport
     product: cs3
-    softwareVersion: f27c93ef7978
+    softwareVersion: 5f5760b39f2a
   CS3-00265:
     model: sport
     product: cs3
@@ -726,7 +726,7 @@ devices:
   CS3-00280:
     model: sport
     product: cs3
-    softwareVersion: f27c93ef7978
+    softwareVersion: 5f5760b39f2a
   CS3-00281:
     model: sport
     product: cs3
@@ -4017,10 +4017,6 @@ software:
           to power or ground.
         releaseDate: '2019-01-15T19:16:21.973Z'
         upgradePrompt: false
-      97e6352f8b5c:
-        changelog: Corrected problem with S-mode indicator on shift console
-        releaseDate: '2018-12-21T05:04:14.232Z'
-        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
@@ -4033,6 +4029,10 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
+      5f5760b39f2a:
+        changelog: Altered pressure tables for Ford 4R70W.
+        releaseDate: '2019-01-15T22:55:36.867Z'
+        upgradePrompt: false
       969de1c60ecd:
         changelog: >-
           Wider range of adjustment for final drive ratio, tire size, and
