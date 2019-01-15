@@ -1818,7 +1818,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: 97e6352f8b5c
+    softwareVersion: 54cfbeffb103
   CS3-00554:
     model: pro
     product: cs3
@@ -4010,6 +4010,13 @@ devices:
 software:
   cs3:
     pro:
+      54cfbeffb103:
+        changelog: >-
+          Added support for OD cancel as toggle switch on Ford, Nissan and
+          Toyota transmissions.  Added parameters to allow transfer case switch
+          to power or ground.
+        releaseDate: '2019-01-15T19:16:21.973Z'
+        upgradePrompt: false
       97e6352f8b5c:
         changelog: Corrected problem with S-mode indicator on shift console
         releaseDate: '2018-12-21T05:04:14.232Z'

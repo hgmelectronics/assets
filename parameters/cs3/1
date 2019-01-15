@@ -2014,6 +2014,14 @@ params:
         id: "0x8002"
         acl: *aclReadOnly
         slot: booleanOnOff1
+    transferCaseSwitchBias:
+        id: "0x8010"
+        acl: *aclSetup
+        slot: booleanSwitchSense
+    transferCaseSwitchSense:
+        id: "0x8011"
+        acl: *aclSetup
+        slot: booleanSwitchSense
     transferCaseInputSpeed:
         id: "0x8800"
         acl: *aclReadOnly
@@ -2034,8 +2042,11 @@ params:
     shiftSelectorODCancelAtStartup:
         id: "0x9001"
         acl: *aclCalibrate
-        advice: resetAdvised
-        slot: booleanOnOff1
+        slot: switchAction
+    shiftSelectorODCancelSwitchSense:
+        id: "0x9002"
+        acl: *aclSetup
+        slot: booleanSwitchSense
     shiftSelectorGear:
         id: "0x9800"
         acl: *aclReadOnly
@@ -2473,6 +2484,10 @@ slots:
         encoding:
             -   [ 0, Off ]
             -   [ 1, On ]
+    booleanSwitchSense:
+        encoding:
+            -   [ 0, To Ground ]
+            -   [ 1, To Power ]
     booleanYesNo1:
         encoding:
             -   [ 0, No ]
@@ -9281,7 +9296,11 @@ slots:
             unit: rpm
             precision: 0
 
-
+    switchAction:
+        encoding:
+            -   [ 0, "Momentary, Initially Off" ]
+            -   [ 1, "Momentary, Initially On" ]
+            -   [ 2, Toggle ]
     shiftSelectorCalibration:
         encoding:
             -   [ 0, "P" ]
@@ -13490,11 +13509,17 @@ menu-TransmissionOptions: &transmissionOptions
         tooltip: ""
         doc: ""
         children:
-        -   type: BooleanEdit
+        -   type: EncodingEdit
             args:
                 param: shiftSelectorODCancelAtStartup
-                label: "Overdrive Cancel at Startup"
-                tooltip: "Turn on if you want to enable overdrive manually."
+                label: "Overdrive Cancel Switch Action"
+                tooltip: "Select Momentary, Initially Off if you want to enable overdrive manually."
+                doc: ""
+        -   type: EncodingEdit
+            args:
+                param: shiftSelectorODCancelSwitchSense
+                label: "Overdrive Cancel Switch Sense"
+                tooltip: "State of the overdrive cancel switch when on."
                 doc: ""
         -   type: BooleanEdit
             args:
@@ -13540,6 +13565,20 @@ menu-TransmissionOptions: &transmissionOptions
                 slot: count3
                 label: "Input Shaft Speed Sensor Pulse Count"
                 tooltip: ""
+                doc: ""
+        -   type: EncodingEdit
+            args:
+                param: transferCaseSwitchSense
+                slot: booleanSwitchSense
+                label: "Transfer Case Switch Sense"
+                tooltip: "State of the transfer case switch in low range."
+                doc: ""
+        -   type: EncodingEdit
+            args:
+                param: transferCaseSwitchBias
+                slot: booleanSwitchSense
+                label: "Transfer Case Switch Bias"
+                tooltip: "Current source for the transfer case switch."
                 doc: ""
 
 menu-vehicleDiagnostics: &vehicleDiagnostics
