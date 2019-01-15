@@ -13513,7 +13513,7 @@ menu-TransmissionOptions: &transmissionOptions
             args:
                 param: shiftSelectorODCancelAtStartup
                 label: "Overdrive Cancel Switch Action"
-                tooltip: "Select Momentary, Initially Off if you want to enable overdrive manually."
+                tooltip: "Select Momentary, Initially On if you want to enable overdrive manually."
                 doc: ""
         -   type: EncodingEdit
             args:
