@@ -14,7 +14,7 @@ devices:
   CS3-00102:
     model: pro
     product: cs3
-    softwareVersion: 54cfbeffb103
+    softwareVersion: ff2d38e76163
   CS3-00103:
     model: sport
     product: cs3
@@ -22,11 +22,11 @@ devices:
   CS3-00104:
     model: pro
     product: cs3
-    softwareVersion: 54cfbeffb103
+    softwareVersion: ff2d38e76163
   CS3-00105:
     model: pro
     product: cs3
-    softwareVersion: 54cfbeffb103
+    softwareVersion: ff2d38e76163
   CS3-00106:
     model: sport
     product: cs3
@@ -1818,7 +1818,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: 54cfbeffb103
+    softwareVersion: ff2d38e76163
   CS3-00554:
     model: pro
     product: cs3
@@ -4026,6 +4026,13 @@ software:
           Corrected intermittent false DTC's on pressure control and TCC
           solenoids on some transmissions.
         releaseDate: '2018-11-02T21:56:25.834Z'
+        upgradePrompt: false
+      ff2d38e76163:
+        changelog: >-
+          Added support for OD cancel as toggle switch on Ford, Nissan and
+          Toyota transmissions.  Added parameters to allow transfer case switch
+          to power or ground.
+        releaseDate: '2019-01-17T03:12:58.484Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
