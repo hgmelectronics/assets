@@ -662,7 +662,7 @@ devices:
   CS3-00264:
     model: sport
     product: cs3
-    softwareVersion: 5f5760b39f2a
+    softwareVersion: 013f5af93aed
   CS3-00265:
     model: sport
     product: cs3
@@ -726,7 +726,7 @@ devices:
   CS3-00280:
     model: sport
     product: cs3
-    softwareVersion: 5f5760b39f2a
+    softwareVersion: 013f5af93aed
   CS3-00281:
     model: sport
     product: cs3
@@ -4036,6 +4036,10 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
+      013f5af93aed:
+        changelog: Altered pressure tables for Ford 4R70W
+        releaseDate: '2019-01-17T21:54:46.172Z'
+        upgradePrompt: false
       5f5760b39f2a:
         changelog: Altered pressure tables for Ford 4R70W.
         releaseDate: '2019-01-15T22:55:36.867Z'
