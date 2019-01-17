@@ -1374,7 +1374,7 @@ devices:
   CS3-00442:
     model: sport
     product: cs3
-    softwareVersion: f27c93ef7978
+    softwareVersion: 013f5af93aed
   CS3-00443:
     model: sport
     product: cs3
@@ -2014,7 +2014,7 @@ devices:
   CS3-00602:
     model: sport
     product: cs3
-    softwareVersion: f27c93ef7978
+    softwareVersion: 013f5af93aed
   CS3-00603:
     model: sport
     product: cs3
