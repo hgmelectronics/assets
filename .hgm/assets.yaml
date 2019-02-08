@@ -14,7 +14,7 @@ devices:
   CS3-00102:
     model: pro
     product: cs3
-    softwareVersion: ff2d38e76163
+    softwareVersion: 71112783d9aa
   CS3-00103:
     model: sport
     product: cs3
@@ -22,11 +22,11 @@ devices:
   CS3-00104:
     model: pro
     product: cs3
-    softwareVersion: ff2d38e76163
+    softwareVersion: 71112783d9aa
   CS3-00105:
     model: pro
     product: cs3
-    softwareVersion: ff2d38e76163
+    softwareVersion: 71112783d9aa
   CS3-00106:
     model: sport
     product: cs3
@@ -614,7 +614,7 @@ devices:
   CS3-00252:
     model: pro
     product: cs3
-    softwareVersion: 7ae822659aab
+    softwareVersion: 71112783d9aa
   CS3-00253:
     model: pro
     product: cs3
@@ -1262,7 +1262,7 @@ devices:
   CS3-00414:
     model: pro
     product: cs3
-    softwareVersion: 7ae822659aab
+    softwareVersion: 71112783d9aa
   CS3-00415:
     model: sport
     product: cs3
@@ -1818,7 +1818,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: ff2d38e76163
+    softwareVersion: 71112783d9aa
   CS3-00554:
     model: pro
     product: cs3
@@ -4010,11 +4010,13 @@ devices:
 software:
   cs3:
     pro:
-      7ae822659aab:
+      71112783d9aa:
         changelog: >-
           Corrected low coast clutch control and upshift / downshift pressure
-          tables on Nissan RE5R05A.
-        releaseDate: '2019-02-07T05:16:27.627Z'
+          tables on Nissan RE5R05A. Added support for OD cancel as toggle
+          switch on Ford, Nissan and Toyota transmissions.  Added parameters
+          to allow transfer case switch to power or ground.
+        releaseDate: '2019-02-08T05:37:32.908Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
@@ -4025,13 +4027,6 @@ software:
           Corrected intermittent false DTC's on pressure control and TCC
           solenoids on some transmissions.
         releaseDate: '2018-11-02T21:56:25.834Z'
-        upgradePrompt: false
-      ff2d38e76163:
-        changelog: >-
-          Added support for OD cancel as toggle switch on Ford, Nissan and
-          Toyota transmissions.  Added parameters to allow transfer case switch
-          to power or ground.
-        releaseDate: '2019-01-17T03:12:58.484Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
