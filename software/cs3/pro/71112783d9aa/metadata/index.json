@@ -1,1 +1,1 @@
-{"changelog":"Corrected low coast clutch control and upshift / downshift pressure tables on Nissan RE5R05A","model":"pro","product":"cs3","releaseDate":"2019-02-08T05:37:32.908Z","version":"71112783d9aa"}
+{"changelog":"Corrected low coast clutch control and upshift / downshift pressure tables on Nissan RE5R05A. Added support for OD cancel as toggle switch on Ford, Nissan and Toyota transmissions.  Added parameters to allow transfer case switch to power or ground.","model":"pro","product":"cs3","releaseDate":"2019-02-08T05:37:32.908Z","version":"71112783d9aa"}
