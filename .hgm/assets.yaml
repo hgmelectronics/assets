@@ -14,7 +14,7 @@ devices:
   CS3-00102:
     model: pro
     product: cs3
-    softwareVersion: 71112783d9aa
+    softwareVersion: ec8aa70e10d0
   CS3-00103:
     model: sport
     product: cs3
@@ -22,11 +22,11 @@ devices:
   CS3-00104:
     model: pro
     product: cs3
-    softwareVersion: 71112783d9aa
+    softwareVersion: ec8aa70e10d0
   CS3-00105:
     model: pro
     product: cs3
-    softwareVersion: 71112783d9aa
+    softwareVersion: ec8aa70e10d0
   CS3-00106:
     model: sport
     product: cs3
@@ -614,7 +614,7 @@ devices:
   CS3-00252:
     model: pro
     product: cs3
-    softwareVersion: 71112783d9aa
+    softwareVersion: ec8aa70e10d0
   CS3-00253:
     model: pro
     product: cs3
@@ -1262,7 +1262,7 @@ devices:
   CS3-00414:
     model: pro
     product: cs3
-    softwareVersion: 71112783d9aa
+    softwareVersion: ec8aa70e10d0
   CS3-00415:
     model: sport
     product: cs3
@@ -1818,7 +1818,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: 71112783d9aa
+    softwareVersion: ec8aa70e10d0
   CS3-00554:
     model: pro
     product: cs3
@@ -4010,18 +4010,17 @@ devices:
 software:
   cs3:
     pro:
-      71112783d9aa:
-        changelog: >-
-          Corrected low coast clutch control and upshift / downshift pressure
-          tables on Nissan RE5R05A. Added support for OD cancel as toggle switch
-          on Ford, Nissan and Toyota transmissions.  Added parameters to allow
-          transfer case switch to power or ground.
-        releaseDate: '2019-02-08T05:37:32.908Z'
-        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
+      ec8aa70e10d0:
+        changelog: >-
+          Corrected low coast clutch control on Nissan RE5R05A. Corrected
+          upshift / downshift pressure tables on Nissan RE5R05A, Toyota A750,
+          Toyota AB60.
+        releaseDate: '2019-02-09T01:54:30.863Z'
+        upgradePrompt: false
       f27c93ef7978:
         changelog: >-
           Corrected intermittent false DTC's on pressure control and TCC
