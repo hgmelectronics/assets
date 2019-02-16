@@ -4007,6 +4007,4006 @@ devices:
     model: sport
     product: cs3
     softwareVersion: d47af15fcc1c
+  CSM2-00100:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00101:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00102:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00103:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00104:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00105:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00106:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00107:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00108:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00109:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00110:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00111:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00112:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00113:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00114:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00115:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00116:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00117:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00118:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00119:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00120:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00121:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00122:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00123:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00124:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00125:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00126:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00127:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00128:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00129:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00130:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00131:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00132:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00133:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00134:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00135:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00136:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00137:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00138:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00139:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00140:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00141:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00142:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00143:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00144:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00145:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00146:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00147:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00148:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00149:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00150:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00151:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00152:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00153:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00154:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00155:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00156:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00157:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00158:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00159:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00160:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00161:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00162:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00163:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00164:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00165:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00166:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00167:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00168:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00169:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00170:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00171:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00172:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00173:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00174:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00175:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00176:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00177:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00178:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00179:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00180:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00181:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00182:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00183:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00184:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00185:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00186:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00187:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00188:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00189:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00190:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00191:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00192:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00193:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00194:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00195:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00196:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00197:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00198:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00199:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00200:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00201:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00202:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00203:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00204:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00205:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00206:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00207:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00208:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00209:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00210:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00211:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00212:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00213:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00214:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00215:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00216:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00217:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00218:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00219:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00220:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00221:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00222:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00223:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00224:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00225:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00226:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00227:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00228:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00229:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00230:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00231:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00232:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00233:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00234:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00235:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00236:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00237:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00238:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00239:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00240:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00241:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00242:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00243:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00244:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00245:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00246:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00247:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00248:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00249:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00250:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00251:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00252:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00253:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00254:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00255:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00256:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00257:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00258:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00259:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00260:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00261:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00262:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00263:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00264:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00265:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00266:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00267:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00268:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00269:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00270:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00271:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00272:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00273:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00274:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00275:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00276:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00277:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00278:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00279:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00280:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00281:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00282:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00283:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00284:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00285:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00286:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00287:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00288:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00289:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00290:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00291:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00292:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00293:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00294:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00295:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00296:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00297:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00298:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00299:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00300:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00301:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00302:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00303:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00304:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00305:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00306:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00307:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00308:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00309:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00310:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00311:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00312:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00313:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00314:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00315:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00316:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00317:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00318:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00319:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00320:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00321:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00322:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00323:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00324:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00325:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00326:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00327:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00328:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00329:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00330:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00331:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00332:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00333:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00334:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00335:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00336:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00337:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00338:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00339:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00340:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00341:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00342:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00343:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00344:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00345:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00346:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00347:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00348:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00349:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00350:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00351:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00352:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00353:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00354:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00355:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00356:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00357:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00358:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00359:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00360:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00361:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00362:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00363:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00364:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00365:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00366:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00367:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00368:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00369:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00370:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00371:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00372:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00373:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00374:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00375:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00376:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00377:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00378:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00379:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00380:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00381:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00382:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00383:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00384:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00385:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00386:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00387:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00388:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00389:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00390:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00391:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00392:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00393:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00394:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00395:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00396:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00397:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00398:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00399:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00400:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00401:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00402:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00403:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00404:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00405:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00406:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00407:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00408:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00409:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00410:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00411:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00412:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00413:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00414:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00415:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00416:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00417:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00418:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00419:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00420:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00421:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00422:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00423:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00424:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00425:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00426:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00427:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00428:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00429:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00430:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00431:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00432:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00433:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00434:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00435:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00436:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00437:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00438:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00439:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00440:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00441:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00442:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00443:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00444:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00445:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00446:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00447:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00448:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00449:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00450:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00451:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00452:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00453:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00454:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00455:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00456:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00457:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00458:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00459:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00460:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00461:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00462:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00463:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00464:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00465:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00466:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00467:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00468:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00469:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00470:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00471:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00472:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00473:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00474:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00475:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00476:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00477:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00478:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00479:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00480:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00481:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00482:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00483:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00484:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00485:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00486:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00487:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00488:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00489:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00490:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00491:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00492:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00493:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00494:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00495:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00496:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00497:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00498:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00499:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00500:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00501:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00502:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00503:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00504:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00505:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00506:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00507:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00508:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00509:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00510:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00511:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00512:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00513:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00514:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00515:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00516:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00517:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00518:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00519:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00520:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00521:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00522:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00523:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00524:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00525:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00526:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00527:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00528:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00529:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00530:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00531:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00532:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00533:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00534:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00535:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00536:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00537:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00538:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00539:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00540:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00541:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00542:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00543:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00544:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00545:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00546:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00547:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00548:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00549:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00550:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00551:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00552:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00553:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00554:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00555:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00556:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00557:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00558:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00559:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00560:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00561:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00562:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00563:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00564:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00565:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00566:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00567:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00568:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00569:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00570:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00571:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00572:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00573:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00574:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00575:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00576:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00577:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00578:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00579:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00580:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00581:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00582:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00583:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00584:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00585:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00586:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00587:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00588:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00589:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00590:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00591:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00592:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00593:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00594:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00595:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00596:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00597:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00598:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00599:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00600:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00601:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00602:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00603:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00604:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00605:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00606:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00607:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00608:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00609:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00610:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00611:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00612:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00613:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00614:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00615:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00616:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00617:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00618:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00619:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00620:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00621:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00622:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00623:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00624:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00625:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00626:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00627:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00628:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00629:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00630:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00631:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00632:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00633:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00634:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00635:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00636:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00637:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00638:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00639:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00640:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00641:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00642:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00643:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00644:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00645:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00646:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00647:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00648:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00649:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00650:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00651:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00652:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00653:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00654:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00655:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00656:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00657:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00658:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00659:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00660:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00661:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00662:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00663:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00664:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00665:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00666:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00667:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00668:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00669:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00670:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00671:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00672:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00673:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00674:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00675:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00676:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00677:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00678:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00679:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00680:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00681:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00682:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00683:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00684:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00685:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00686:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00687:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00688:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00689:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00690:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00691:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00692:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00693:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00694:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00695:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00696:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00697:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00698:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00699:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00700:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00701:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00702:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00703:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00704:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00705:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00706:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00707:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00708:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00709:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00710:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00711:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00712:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00713:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00714:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00715:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00716:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00717:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00718:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00719:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00720:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00721:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00722:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00723:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00724:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00725:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00726:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00727:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00728:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00729:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00730:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00731:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00732:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00733:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00734:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00735:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00736:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00737:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00738:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00739:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00740:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00741:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00742:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00743:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00744:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00745:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00746:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00747:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00748:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00749:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00750:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00751:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00752:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00753:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00754:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00755:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00756:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00757:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00758:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00759:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00760:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00761:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00762:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00763:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00764:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00765:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00766:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00767:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00768:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00769:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00770:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00771:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00772:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00773:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00774:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00775:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00776:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00777:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00778:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00779:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00780:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00781:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00782:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00783:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00784:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00785:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00786:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00787:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00788:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00789:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00790:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00791:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00792:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00793:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00794:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00795:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00796:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00797:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00798:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00799:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00800:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00801:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00802:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00803:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00804:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00805:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00806:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00807:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00808:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00809:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00810:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00811:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00812:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00813:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00814:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00815:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00816:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00817:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00818:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00819:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00820:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00821:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00822:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00823:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00824:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00825:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00826:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00827:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00828:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00829:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00830:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00831:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00832:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00833:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00834:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00835:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00836:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00837:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00838:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00839:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00840:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00841:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00842:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00843:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00844:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00845:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00846:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00847:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00848:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00849:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00850:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00851:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00852:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00853:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00854:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00855:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00856:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00857:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00858:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00859:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00860:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00861:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00862:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00863:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00864:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00865:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00866:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00867:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00868:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00869:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00870:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00871:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00872:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00873:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00874:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00875:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00876:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00877:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00878:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00879:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00880:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00881:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00882:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00883:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00884:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00885:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00886:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00887:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00888:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00889:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00890:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00891:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00892:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00893:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00894:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00895:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00896:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00897:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00898:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00899:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00900:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00901:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00902:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00903:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00904:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00905:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00906:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00907:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00908:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00909:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00910:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00911:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00912:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00913:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00914:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00915:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00916:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00917:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00918:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00919:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00920:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00921:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00922:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00923:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00924:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00925:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00926:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00927:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00928:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00929:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00930:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00931:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00932:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00933:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00934:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00935:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00936:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00937:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00938:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00939:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00940:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00941:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00942:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00943:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00944:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00945:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00946:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00947:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00948:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00949:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00950:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00951:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00952:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00953:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00954:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00955:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00956:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00957:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00958:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00959:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00960:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00961:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00962:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00963:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00964:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00965:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00966:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00967:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00968:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00969:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00970:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00971:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00972:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00973:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00974:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00975:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00976:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00977:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00978:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00979:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00980:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00981:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00982:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00983:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00984:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00985:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00986:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00987:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00988:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00989:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00990:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00991:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00992:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00993:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00994:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00995:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00996:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00997:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00998:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-00999:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01000:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01001:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01002:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01003:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01004:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01005:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01006:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01007:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01008:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01009:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01010:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01011:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01012:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01013:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01014:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01015:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01016:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01017:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01018:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01019:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01020:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01021:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01022:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01023:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01024:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01025:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01026:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01027:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01028:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01029:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01030:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01031:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01032:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01033:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01034:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01035:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01036:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01037:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01038:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01039:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01040:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01041:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01042:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01043:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01044:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01045:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01046:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01047:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01048:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01049:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01050:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01051:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01052:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01053:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01054:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01055:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01056:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01057:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01058:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01059:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01060:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01061:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01062:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01063:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01064:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01065:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01066:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01067:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01068:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01069:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01070:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01071:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01072:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01073:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01074:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01075:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01076:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01077:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01078:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01079:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01080:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01081:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01082:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01083:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01084:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01085:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01086:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01087:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01088:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01089:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01090:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01091:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01092:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01093:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01094:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01095:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01096:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01097:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01098:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
+  CSM2-01099:
+    model: base
+    product: csm2
+    softwareVersion: f43a1d628ab8
 software:
   cs3:
     pro:
@@ -4040,5 +8040,16 @@ software:
       d47af15fcc1c:
         changelog: Bug fixes and added support for engine management systems
         releaseDate: '2019-02-08T22:14:06.085Z'
+        upgradePrompt: false
+      flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
+  csm2:
+    base:
+      0e76325aaeb9:
+        changelog: Initial release for CSM2
+        releaseDate: '2019-02-08T01:10:42.187Z'
+        upgradePrompt: false
+      f43a1d628ab8:
+        changelog: Added inhibit for TPS calibration when vehicle is moving.
+        releaseDate: '2019-02-16T02:14:42.711Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
