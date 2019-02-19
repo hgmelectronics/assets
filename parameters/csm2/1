@@ -15,7 +15,7 @@ acls:
       - false
       - false
     save: false
-  - &ref_2
+  - &ref_3
     read:
       - true
       - true
@@ -31,7 +31,7 @@ acls:
       - true
       - true
     save: false
-  - &ref_3
+  - &ref_2
     read:
       - true
       - true
@@ -168,6 +168,10 @@ params:
     acl: *ref_0
     slot: current1
     length: 2
+  speedometerCalibration:
+    id: '0x2003'
+    acl: *ref_2
+    slot: speedoCalibration
   vehicleSpeed:
     id: '0x2800'
     acl: *ref_0
@@ -178,12 +182,12 @@ params:
     slot: booleanOnOff1
   powertrainType:
     id: '0x3000'
-    acl: *ref_2
+    acl: *ref_3
     advice: confirmThenReset
     slot: transmissionType1
   transmissionHasLinePressureSensor:
     id: '0x3002'
-    acl: *ref_3
+    acl: *ref_2
     advice: resetAdvised
     slot: booleanOnOff1
   transmissionPressureSensorVoltage:
@@ -196,11 +200,11 @@ params:
     slot: pressure
   odMinSpeed:
     id: '0x4020'
-    acl: *ref_3
+    acl: *ref_2
     slot: vehicleSpeed
   odMaxSpeed:
     id: '0x4021'
-    acl: *ref_3
+    acl: *ref_2
     slot: vehicleSpeed
   shiftCurrentGear:
     id: '0x4800'
@@ -212,23 +216,23 @@ params:
     slot: booleanOnOff1
   tccDisableSpeed:
     id: '0x6022'
-    acl: *ref_3
+    acl: *ref_2
     slot: vehicleSpeed
   tccEnableSpeed:
     id: '0x6023'
-    acl: *ref_3
+    acl: *ref_2
     slot: vehicleSpeed
   tccEnableGear:
     id: '0x6024'
-    acl: *ref_3
+    acl: *ref_2
     slot: gear1
   tccDisableThrottle:
     id: '0x6025'
-    acl: *ref_2
+    acl: *ref_3
     slot: percentage1
   tccEnableThrottle:
     id: '0x6026'
-    acl: *ref_2
+    acl: *ref_3
     slot: percentage1
   tccCurrentState:
     id: '0x6800'
@@ -240,55 +244,55 @@ params:
     slot: booleanOnOff1
   tccEnableDelay:
     id: '0x6803'
-    acl: *ref_3
+    acl: *ref_2
     slot: timeSeconds1
   voltageTPSGroundEnable:
     id: '0x7010'
-    acl: *ref_2
+    acl: *ref_3
     slot: booleanOnOff1
   voltageTPSIsReversed:
     id: '0x7011'
-    acl: *ref_2
+    acl: *ref_3
     slot: booleanNormalReversed
   voltageTPSCalibrationLow:
     id: '0x7012'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageTPSCalibrationHigh:
     id: '0x7013'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageTPSFilterOrder:
     id: '0x7014'
-    acl: *ref_2
+    acl: *ref_3
     slot: timeMilliseconds1
   voltageMAPSensorGroundEnable:
     id: '0x7020'
-    acl: *ref_2
+    acl: *ref_3
     slot: booleanOnOff1
   voltageMAPSensorLowCalibration:
     id: '0x7022'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageMAPSensorHighCalibration:
     id: '0x7023'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageMAPSensorMinVoltage:
     id: '0x7024'
-    acl: *ref_2
+    acl: *ref_3
     slot: voltage1
   voltageMAPSensorMaxVoltage:
     id: '0x7025'
-    acl: *ref_2
+    acl: *ref_3
     slot: voltage1
   voltageMAPSensorMinPressure:
     id: '0x7026'
-    acl: *ref_2
+    acl: *ref_3
     slot: pressure
   voltageMAPSensorMaxPressure:
     id: '0x7027'
-    acl: *ref_2
+    acl: *ref_3
     slot: pressure
   acceleratorPedalPosition1:
     id: '0x7808'
@@ -340,11 +344,11 @@ params:
     slot: booleanOnOff1
   shiftSelectorODCancelType:
     id: '0x9001'
-    acl: *ref_3
+    acl: *ref_2
     slot: switchAction
   vehicleSpeedSensorCalibration:
     id: '0xA000'
-    acl: *ref_3
+    acl: *ref_2
     slot: pulsesPerMile
   differentialInputSpeed:
     id: '0xA800'
@@ -360,37 +364,37 @@ params:
     slot: temperature1
   can0BaudRate:
     id: '0xC000'
-    acl: *ref_2
+    acl: *ref_3
     advice: resetAdvised
     slot: kiloBaud
   j1939TransmissionAddress:
     id: '0xC020'
-    acl: *ref_2
+    acl: *ref_3
     advice: resetAdvised
     slot: count3
   j1939EngineAddress:
     id: '0xC021'
-    acl: *ref_2
+    acl: *ref_3
     advice: resetAdvised
     slot: count3
   j1939ShiftSelectorAddress:
     id: '0xC022'
-    acl: *ref_2
+    acl: *ref_3
     advice: resetAdvised
     slot: count3
   xcpMasterId:
     id: '0xC030'
-    acl: *ref_2
+    acl: *ref_3
     advice: resetAdvised
     slot: hex32bit
   xcpSlaveId:
     id: '0xC031'
-    acl: *ref_2
+    acl: *ref_3
     advice: resetAdvised
     slot: hex32bit
   bleMode:
     id: '0xC080'
-    acl: *ref_3
+    acl: *ref_2
     slot: bleMode
   can0TransmitErrorCount:
     id: '0xC800'
@@ -524,11 +528,11 @@ params:
     slot: booleanOnOff1
   remoteMode:
     id: '0xF802'
-    acl: *ref_2
+    acl: *ref_3
     slot: booleanOnOff1
   debugLevel:
     id: '0xF803'
-    acl: *ref_2
+    acl: *ref_3
     slot: hex8bit
   xcpResetIntoBootloader:
     id: '0xF804'
@@ -15771,6 +15775,12 @@ menus:
                 param: transmissionHasLinePressureSensor
                 label: Has Line Pressure Sensor?
                 tooltip: Turn on if you have a line pressure sensor.
+                doc: ''
+            - type: ScalarEdit
+              args:
+                param: speedometerCalibration
+                label: Speedometer Output Calibration
+                tooltip: Adjusts pulse count on speedometer output
                 doc: ''
       - type: Menu
         args:
