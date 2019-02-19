@@ -16113,14 +16113,14 @@ menus:
                   - h_type: SectionDivider
                     h_args:
                       text: Bluetooth
-                  - type: ScalarEdit
+                  - type: EncodingEdit
                     args:
                       param: bleCommState
                       label: BLE Comm State
                       autorefresh: true
                       tooltip: ''
                       doc: ''
-                  - type: ScalarEdit
+                  - type: EncodingEdit
                     args:
                       param: bleLastFaultingCommState
                       label: BLE Last Faulting Comm State
@@ -16278,7 +16278,7 @@ menus:
                       autorefresh: true
                       tooltip: ''
                       doc: ''
-                  - type: ScalarEdit
+                  - type: EncodingEdit
                     args:
                       param: controllerResetSource
                       label: Reset Source
@@ -16399,11 +16399,12 @@ menus:
                     - bleDeleteBondings
                 label: Forget Bluetooth Devices
                 warning: >-
-                  This will delete all Bluetooth devices from the CS3's memory.
-                  If you are using Bluetooth to access the CS3, make sure to
-                  first set the Bluetooth LE Mode to Bondable so that you can
-                  regain access from your current device. You may also need to
-                  forget the CS3 from your device's Bluetooth settings menu.
+                  This will delete all Bluetooth devices from the COMPUSHIFT
+                  memory. If you are using Bluetooth to access the COMPUSHIFT,
+                  make sure to first set the Bluetooth LE Mode to Bondable so
+                  that you can regain access from your current device. You may
+                  also need to forget the COMPUSHIFT from your device's
+                  Bluetooth settings menu.
                 tooltip: ''
                 doc: ''
             - h_type: SectionDivider
