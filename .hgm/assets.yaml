@@ -1818,7 +1818,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: ec8aa70e10d0
+    softwareVersion: 6dde937a4043
   CS3-00554:
     model: pro
     product: cs3
@@ -8010,6 +8010,12 @@ devices:
 software:
   cs3:
     pro:
+      6dde937a4043:
+        changelog: >-
+          Updated speed sensor DTC thresholds, corrected apply / release
+          pressure logic
+        releaseDate: '2019-02-22T07:33:46.147Z'
+        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
