@@ -1818,7 +1818,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: a0d18d0fadc9
+    softwareVersion: c1a07fee98d9
   CS3-00554:
     model: pro
     product: cs3
@@ -8016,14 +8016,14 @@ software:
           pressure logic
         releaseDate: '2019-02-22T07:33:46.147Z'
         upgradePrompt: false
-      a0d18d0fadc9:
-        changelog: Bug fixes and feature updates
-        releaseDate: '2019-03-01T07:34:48.684Z'
-        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
+      c1a07fee98d9:
+        changelog: Bug fixes and feature updates
+        releaseDate: '2019-03-01T08:12:24.825Z'
+        upgradePrompt: false
       ec8aa70e10d0:
         changelog: >-
           Corrected low coast clutch control on Nissan RE5R05A. Corrected
