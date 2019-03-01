@@ -14,7 +14,7 @@ devices:
   CS3-00102:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00103:
     model: sport
     product: cs3
@@ -22,11 +22,11 @@ devices:
   CS3-00104:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00105:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00106:
     model: sport
     product: cs3
@@ -614,11 +614,11 @@ devices:
   CS3-00252:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00253:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00254:
     model: sport
     product: cs3
@@ -690,7 +690,7 @@ devices:
   CS3-00271:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00272:
     model: sport
     product: cs3
@@ -698,11 +698,11 @@ devices:
   CS3-00273:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00274:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00275:
     model: sport
     product: cs3
@@ -750,23 +750,23 @@ devices:
   CS3-00286:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00287:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00288:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00289:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00290:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00291:
     model: sport
     product: cs3
@@ -794,11 +794,11 @@ devices:
   CS3-00297:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00298:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00299:
     model: sport
     product: cs3
@@ -818,7 +818,7 @@ devices:
   CS3-00303:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00304:
     model: sport
     product: cs3
@@ -894,11 +894,11 @@ devices:
   CS3-00322:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00323:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00324:
     model: sport
     product: cs3
@@ -906,7 +906,7 @@ devices:
   CS3-00325:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00326:
     model: sport
     product: cs3
@@ -922,7 +922,7 @@ devices:
   CS3-00329:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00330:
     model: sport
     product: cs3
@@ -950,7 +950,7 @@ devices:
   CS3-00336:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00337:
     model: sport
     product: cs3
@@ -1174,7 +1174,7 @@ devices:
   CS3-00392:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00393:
     model: sport
     product: cs3
@@ -1194,7 +1194,7 @@ devices:
   CS3-00397:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00398:
     model: sport
     product: cs3
@@ -1262,7 +1262,7 @@ devices:
   CS3-00414:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00415:
     model: sport
     product: cs3
@@ -1454,7 +1454,7 @@ devices:
   CS3-00462:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00463:
     model: sport
     product: cs3
@@ -1562,7 +1562,7 @@ devices:
   CS3-00489:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00490:
     model: sport
     product: cs3
@@ -1570,7 +1570,7 @@ devices:
   CS3-00491:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00492:
     model: sport
     product: cs3
@@ -1590,7 +1590,7 @@ devices:
   CS3-00496:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00497:
     model: sport
     product: cs3
@@ -1598,7 +1598,7 @@ devices:
   CS3-00498:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00499:
     model: sport
     product: cs3
@@ -1610,11 +1610,11 @@ devices:
   CS3-00501:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00502:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00503:
     model: sport
     product: cs3
@@ -1634,7 +1634,7 @@ devices:
   CS3-00507:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00508:
     model: sport
     product: cs3
@@ -1682,7 +1682,7 @@ devices:
   CS3-00519:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00520:
     model: sport
     product: cs3
@@ -1730,7 +1730,7 @@ devices:
   CS3-00531:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00532:
     model: sport
     product: cs3
@@ -1742,7 +1742,7 @@ devices:
   CS3-00534:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00535:
     model: sport
     product: cs3
@@ -1762,7 +1762,7 @@ devices:
   CS3-00539:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00540:
     model: sport
     product: cs3
@@ -1790,7 +1790,7 @@ devices:
   CS3-00546:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00547:
     model: sport
     product: cs3
@@ -1798,11 +1798,11 @@ devices:
   CS3-00548:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00549:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00550:
     model: sport
     product: cs3
@@ -1818,11 +1818,11 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: c1a07fee98d9
+    softwareVersion: 047623ba7ce5
   CS3-00554:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00555:
     model: sport
     product: cs3
@@ -1834,7 +1834,7 @@ devices:
   CS3-00557:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00558:
     model: sport
     product: cs3
@@ -1882,11 +1882,11 @@ devices:
   CS3-00569:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00570:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00571:
     model: sport
     product: cs3
@@ -1910,7 +1910,7 @@ devices:
   CS3-00576:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00577:
     model: sport
     product: cs3
@@ -1950,11 +1950,11 @@ devices:
   CS3-00586:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00587:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00588:
     model: sport
     product: cs3
@@ -1966,11 +1966,11 @@ devices:
   CS3-00590:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00591:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00592:
     model: sport
     product: cs3
@@ -2006,11 +2006,11 @@ devices:
   CS3-00600:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00601:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00602:
     model: sport
     product: cs3
@@ -2410,7 +2410,7 @@ devices:
   CS3-00701:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00702:
     model: sport
     product: cs3
@@ -2418,11 +2418,11 @@ devices:
   CS3-00703:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00704:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00705:
     model: sport
     product: cs3
@@ -2430,7 +2430,7 @@ devices:
   CS3-00706:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00707:
     model: sport
     product: cs3
@@ -2438,7 +2438,7 @@ devices:
   CS3-00708:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00709:
     model: sport
     product: cs3
@@ -2446,11 +2446,11 @@ devices:
   CS3-00710:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00711:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00712:
     model: sport
     product: cs3
@@ -2462,11 +2462,11 @@ devices:
   CS3-00714:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00715:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00716:
     model: sport
     product: cs3
@@ -2534,11 +2534,11 @@ devices:
   CS3-00732:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00733:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00734:
     model: sport
     product: cs3
@@ -2558,11 +2558,11 @@ devices:
   CS3-00738:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00739:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00740:
     model: sport
     product: cs3
@@ -2590,7 +2590,7 @@ devices:
   CS3-00746:
     model: pro
     product: cs3
-    softwareVersion: 6dde937a4043
+    softwareVersion: 047623ba7ce5
   CS3-00747:
     model: sport
     product: cs3
@@ -8010,27 +8010,16 @@ devices:
 software:
   cs3:
     pro:
-      6dde937a4043:
+      047623ba7ce5:
         changelog: >-
-          Updated speed sensor DTC thresholds, corrected apply / release
-          pressure logic
-        releaseDate: '2019-02-22T07:33:46.147Z'
+          Noise reduction, updated speed sensor DTC thresholds, corrected apply
+          / release logic
+        releaseDate: '2019-03-02T07:15:07.269Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
-      c1a07fee98d9:
-        changelog: Bug fixes and feature updates
-        releaseDate: '2019-03-01T08:12:24.825Z'
-        upgradePrompt: false
-      ec8aa70e10d0:
-        changelog: >-
-          Corrected low coast clutch control on Nissan RE5R05A. Corrected
-          upshift / downshift pressure tables on Nissan RE5R05A, Toyota A750,
-          Toyota AB60.
-        releaseDate: '2019-02-09T01:54:30.863Z'
-        upgradePrompt: false
       f27c93ef7978:
         changelog: >-
           Corrected intermittent false DTC's on pressure control and TCC
