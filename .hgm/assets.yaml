@@ -3044,13 +3044,13 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00860:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00861:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00862:
     model: sport
     product: cs3
@@ -3076,21 +3076,21 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00868:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00869:
     model: sport
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00870:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00871:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00872:
     model: sport
     product: cs3
@@ -3132,9 +3132,9 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00882:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00883:
     model: sport
     product: cs3
@@ -3168,9 +3168,9 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00891:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00892:
     model: sport
     product: cs3
@@ -3180,17 +3180,17 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00894:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00895:
     model: sport
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00896:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00897:
     model: sport
     product: cs3
@@ -3368,9 +3368,9 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00941:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00942:
     model: sport
     product: cs3
@@ -3452,9 +3452,9 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00962:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00963:
     model: sport
     product: cs3
@@ -3488,9 +3488,9 @@ devices:
     product: cs3
     softwareVersion: ddcee8b1447c
   CS3-00971:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: 047623ba7ce5
   CS3-00972:
     model: sport
     product: cs3
