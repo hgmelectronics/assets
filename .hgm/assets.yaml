@@ -1058,7 +1058,7 @@ devices:
   CS3-00363:
     model: sport
     product: cs3
-    softwareVersion: ddcee8b1447c
+    softwareVersion: e51ea63140eb
   CS3-00364:
     model: sport
     product: cs3
@@ -8035,6 +8035,10 @@ software:
       ddcee8b1447c:
         changelog: Bug fixes and added support for engine management systems
         releaseDate: '2019-02-23T01:58:41.849Z'
+        upgradePrompt: false
+      e51ea63140eb:
+        changelog: Changed startup sequence to remove intermittent pressure solenoid DTC
+        releaseDate: '2019-03-15T18:32:26.947Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
