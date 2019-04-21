@@ -27,10 +27,6 @@ devices:
     model: pro
     product: cs3
     softwareVersion: 507ba0af44b2
-  CS3-00106:
-    model: sport
-    product: cs3
-    softwareVersion: 507ba0af44b2
   CS3-00107:
     model: sport
     product: cs3
@@ -183,10 +179,6 @@ devices:
     model: sport
     product: cs3
     softwareVersion: 507ba0af44b2
-  CS3-00145:
-    model: sport
-    product: cs3
-    softwareVersion: 507ba0af44b2
   CS3-00146:
     model: sport
     product: cs3
@@ -196,10 +188,6 @@ devices:
     product: cs3
     softwareVersion: 507ba0af44b2
   CS3-00148:
-    model: sport
-    product: cs3
-    softwareVersion: 507ba0af44b2
-  CS3-00149:
     model: sport
     product: cs3
     softwareVersion: 507ba0af44b2
@@ -972,10 +960,6 @@ devices:
     product: cs3
     softwareVersion: 507ba0af44b2
   CS3-00342:
-    model: sport
-    product: cs3
-    softwareVersion: 507ba0af44b2
-  CS3-00343:
     model: sport
     product: cs3
     softwareVersion: 507ba0af44b2
