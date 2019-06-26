@@ -5987,6 +5987,10 @@ devices:
     model: sport
     product: cs3
     softwareVersion: 507ba0af44b2
+  CSM2-00042:
+    model: base
+    product: csm2
+    softwareVersion: cd52486ed504
   CSM2-00100:
     model: base
     product: csm2
