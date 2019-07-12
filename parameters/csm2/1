@@ -847,6 +847,16 @@ slots:
         - 5
       unit: A
       precision: 3
+  current1Milliamps:
+    linear:
+      raw:
+        - -5000
+        - 5000
+      engr:
+        - -5000
+        - 5000
+      unit: mA
+      precision: 0
   driverSide:
     encoding:
       - - 0
@@ -15208,6 +15218,14 @@ slotLocalizations:
         to: massImp
       - name: kg
         to: mass
+  - name: Current
+    base: current1
+    embeddedSaveParam: displaySlotSelectionCurrent
+    selections:
+      - name: mA
+        to: current1Milliamps
+      - name: A
+        to: current1
 slotLocalizationSets:
   - name: World
     codes:
@@ -15220,6 +15238,7 @@ slotLocalizationSets:
       acceleration1: acceleration1
       torque: torque
       mass: mass
+      current1: current1Milliamps
   - name: US
     codes:
       - us
@@ -15236,6 +15255,7 @@ slotLocalizationSets:
       acceleration1: acceleration1Imp
       torque: torqueImp
       mass: massImp
+      current1: current1Milliamps
   - name: UK
     codes:
       - gb
@@ -15266,6 +15286,7 @@ slotLocalizationSets:
       acceleration1: acceleration1
       torque: torque
       mass: mass
+      current1: current1Milliamps
   - name: SI
     map:
       pressure: pressure
@@ -15275,6 +15296,7 @@ slotLocalizationSets:
       acceleration1: acceleration1
       torque: torque
       mass: mass
+      current1: current1Milliamps
 dtcs:
   tpsVoltageTooLow:
     code: P0122

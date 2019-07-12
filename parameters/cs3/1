@@ -266,6 +266,11 @@ params:
     acl: *ref_0
     slot: booleanYesNo1
     length: 12
+  controllerPWMDriverLastFault:
+    id: '0x088A'
+    acl: *ref_0
+    slot: pwmDriverFaultType
+    length: 12
   controllerPWMDriverDutyCycle:
     id: '0x0890'
     acl: *ref_1
@@ -357,6 +362,10 @@ params:
     slot: count
   displaySlotSelectionMass:
     id: '0x1106'
+    acl: *ref_3
+    slot: count
+  displaySlotSelectionCurrent:
+    id: '0x1107'
     acl: *ref_3
     slot: count
   displayFactorySetup:
@@ -2439,12 +2448,6 @@ params:
 readonlySetupParams:
   - transmissionRatios
 slots:
-  calibrationMode:
-    encoding:
-      - - 0
-        - A
-      - - 1
-        - B
   acceleration1:
     linear:
       raw:
@@ -2505,6 +2508,14 @@ slots:
         - 10.197162
       unit: <i>g</i>
       precision: 3
+  accessLevel:
+    encoding:
+      - - 0
+        - Basic
+      - - 1
+        - Advanced
+      - - 2
+        - Locked
   bleCommState:
     encoding:
       - - 0
@@ -2619,6 +2630,12 @@ slots:
         - 'No'
       - - 1
         - 'Yes'
+  calibrationMode:
+    encoding:
+      - - 0
+        - A
+      - - 1
+        - B
   clutchId:
     encoding:
       - - 0
@@ -2724,13 +2741,23 @@ slots:
   current1:
     linear:
       raw:
-        - -5000
-        - 5000
+        - -16000
+        - 16000
       engr:
-        - -5
-        - 5
+        - -16
+        - 16
       unit: A
       precision: 3
+  current1Milliamps:
+    linear:
+      raw:
+        - -16000
+        - 16000
+      engr:
+        - -16000
+        - 16000
+      unit: mA
+      precision: 0
   driverSide:
     encoding:
       - - 0
@@ -16164,40 +16191,6 @@ slots:
         - Control Module Ground D
       - - 61463
         - Control Module Timer/Clock Performance
-  shiftSelectorCalibrationIndex:
-    encoding:
-      - - 0
-        - P
-      - - 1
-        - R
-      - - 2
-        - 'N'
-      - - 3
-        - '1'
-      - - 4
-        - '2'
-      - - 5
-        - '3'
-      - - 6
-        - '4'
-      - - 7
-        - '5'
-      - - 8
-        - '6'
-      - - 9
-        - '7'
-      - - 10
-        - '8'
-      - - 11
-        - '9'
-      - - 12
-        - '10'
-      - - 13
-        - '11'
-      - - 14
-        - '12'
-      - - 15
-        - '13'
   kiloBaud:
     linear:
       raw:
@@ -16506,6 +16499,38 @@ slots:
         - 145037738
       unit: psi/krpm-s
       precision: 1
+  pwmDriverFaultType:
+    encoding:
+      - - 0
+        - None
+      - - 1
+        - Resistance Low
+      - - 2
+        - Resistance High
+      - - 3
+        - Current High
+      - - 4
+        - Regulation Alternating
+      - - 5
+        - Regulation Low
+      - - 6
+        - Regulation High
+  pwmDriverFaultTypeEmbedded:
+    encoding:
+      - - 0
+        - None
+      - - 1
+        - Res. Low
+      - - 2
+        - Res. High
+      - - 3
+        - Curr. High
+      - - 4
+        - Reg. AC
+      - - 5
+        - Reg. Low
+      - - 6
+        - Reg. High
   pwmDriverMode:
     encoding:
       - - 0
@@ -16580,14 +16605,6 @@ slots:
         - 100000
       unit: rpm
       precision: 0
-  accessLevel:
-    encoding:
-      - - 0
-        - Basic
-      - - 1
-        - Advanced
-      - - 2
-        - Locked
   slip1:
     linear:
       raw:
@@ -16614,6 +16631,40 @@ slots:
         - R
       - - 2
         - 'N'
+  shiftSelectorCalibrationIndex:
+    encoding:
+      - - 0
+        - P
+      - - 1
+        - R
+      - - 2
+        - 'N'
+      - - 3
+        - '1'
+      - - 4
+        - '2'
+      - - 5
+        - '3'
+      - - 6
+        - '4'
+      - - 7
+        - '5'
+      - - 8
+        - '6'
+      - - 9
+        - '7'
+      - - 10
+        - '8'
+      - - 11
+        - '9'
+      - - 12
+        - '10'
+      - - 13
+        - '11'
+      - - 14
+        - '12'
+      - - 15
+        - '13'
   speedoCalibration: *ref_8
   switchMonitorId:
     encoding:
@@ -17065,6 +17116,8 @@ slots:
         - MoTeC M1
       - - 31
         - Edelbrock Pro Flo 4
+      - - 32
+        - Ford Coyote 3
   vehicleSpeed:
     linear:
       raw:
@@ -17777,6 +17830,14 @@ slotLocalizations:
         to: massImp
       - name: kg
         to: mass
+  - name: Current
+    base: current1
+    embeddedSaveParam: displaySlotSelectionCurrent
+    selections:
+      - name: mA
+        to: current1Milliamps
+      - name: A
+        to: current1
 slotLocalizationSets:
   - name: World
     codes:
@@ -17789,6 +17850,7 @@ slotLocalizationSets:
       acceleration1: acceleration1
       torque: torque
       mass: mass
+      current1: current1Milliamps
   - name: US
     codes:
       - us
@@ -17805,6 +17867,7 @@ slotLocalizationSets:
       acceleration1: acceleration1Imp
       torque: torqueImp
       mass: massImp
+      current1: current1Milliamps
   - name: UK
     codes:
       - gb
@@ -17835,6 +17898,7 @@ slotLocalizationSets:
       acceleration1: acceleration1
       torque: torque
       mass: mass
+      current1: current1Milliamps
   - name: SI
     map:
       pressure: pressure
@@ -17844,6 +17908,7 @@ slotLocalizationSets:
       acceleration1: acceleration1
       torque: torque
       mass: mass
+      current1: current1Milliamps
 dtcs:
   tpsVoltageTooLow:
     code: P0122
@@ -17992,7 +18057,9 @@ dtcs:
     - code: P0846
     - code: P0871
     - code: P0876
-    - code: P0899
+    - code: P0988
+    - code: P0993
+    - code: P083B
     - code: P084B
   transOutputSpeedSensorAFault:
     code: P0500
@@ -20948,6 +21015,20 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
+                  - type: TableEdit
+                    args:
+                      xSlot: pwmDriverId
+                      yParam: controllerPWMDriverLastFault
+                      label: PWM Driver Last Fault
+                      xLabel: Driver ID
+                      yLabel: Last Fault
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                      chart: false
+                    e_args:
+                      xLabel: ID
+                      ySlot: pwmDriverFaultTypeEmbedded
                   - type: TableEdit
                     args:
                       xSlot: pwmDriverId
