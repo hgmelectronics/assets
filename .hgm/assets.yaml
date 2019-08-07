@@ -9991,6 +9991,5990 @@ devices:
     model: base
     product: csm2
     softwareVersion: 356abdc26ec7
+  RLC2-00100:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00101:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00102:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00103:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00104:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00105:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00107:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00108:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00109:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00110:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00111:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00112:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00113:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00114:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00115:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00116:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00117:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00118:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00119:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00120:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00121:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00122:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00123:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00124:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00125:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00126:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00127:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00128:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00129:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00130:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00131:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00132:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00133:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00134:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00135:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00136:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00137:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00138:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00139:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00140:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00141:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00142:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00143:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00144:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00146:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00147:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00148:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00150:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00151:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00152:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00153:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00154:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00155:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00156:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00157:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00158:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00159:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00160:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00161:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00162:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00163:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00164:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00165:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00166:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00167:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00168:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00169:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00170:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00171:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00172:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00173:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00174:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00175:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00176:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00177:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00178:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00179:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00180:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00181:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00182:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00183:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00184:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00185:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00186:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00187:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00188:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00189:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00190:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00191:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00192:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00193:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00194:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00195:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00196:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00197:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00198:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00199:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00200:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00201:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00202:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00203:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00204:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00205:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00206:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00207:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00208:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00209:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00210:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00211:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00212:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00213:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00214:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00215:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00216:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00217:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00218:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00219:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00220:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00221:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00222:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00223:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00224:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00225:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00226:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00227:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00228:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00229:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00230:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00231:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00232:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00233:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00234:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00235:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00236:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00237:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00238:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00239:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00240:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00241:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00242:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00243:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00244:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00245:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00246:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00247:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00248:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00249:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00250:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00251:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00252:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00253:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00254:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00255:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00256:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00257:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00258:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00259:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00260:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00261:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00262:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00263:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00264:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00265:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00266:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00267:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00268:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00269:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00270:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00271:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00272:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00273:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00274:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00275:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00276:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00277:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00278:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00279:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00280:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00281:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00282:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00283:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00284:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00285:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00286:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00287:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00288:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00289:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00290:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00291:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00292:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00293:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00294:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00295:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00296:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00297:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00298:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00299:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00300:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00301:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00302:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00303:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00304:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00305:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00306:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00307:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00308:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00309:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00310:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00311:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00312:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00313:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00314:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00315:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00316:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00317:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00318:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00319:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00320:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00321:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00322:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00323:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00324:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00325:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00326:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00327:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00328:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00329:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00330:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00331:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00332:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00333:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00334:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00335:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00336:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00337:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00338:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00339:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00340:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00341:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00342:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00344:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00345:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00346:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00347:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00348:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00349:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00350:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00351:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00352:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00353:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00354:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00355:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00356:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00357:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00358:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00359:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00360:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00361:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00362:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00363:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00364:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00365:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00366:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00367:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00368:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00369:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00370:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00371:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00372:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00373:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00374:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00375:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00376:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00377:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00378:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00379:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00380:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00381:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00382:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00383:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00384:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00385:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00386:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00387:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00388:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00389:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00390:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00391:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00392:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00393:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00394:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00395:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00396:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00397:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00398:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00399:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00400:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00401:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00402:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00403:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00404:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00405:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00406:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00407:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00408:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00409:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00410:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00411:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00412:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00413:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00414:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00415:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00416:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00417:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00418:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00419:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00420:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00421:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00422:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00423:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00424:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00425:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00426:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00427:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00428:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00429:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00430:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00431:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00432:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00433:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00434:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00435:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00436:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00437:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00438:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00439:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00440:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00441:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00442:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00443:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00444:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00445:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00446:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00447:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00448:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00449:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00450:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00451:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00452:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00453:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00454:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00455:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00456:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00457:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00458:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00459:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00460:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00461:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00462:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00463:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00464:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00465:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00466:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00467:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00468:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00469:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00470:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00471:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00472:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00473:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00474:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00475:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00476:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00477:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00478:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00479:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00480:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00481:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00482:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00483:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00484:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00485:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00486:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00487:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00488:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00489:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00490:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00491:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00492:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00493:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00494:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00495:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00496:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00497:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00498:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00499:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00500:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00501:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00502:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00503:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00504:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00505:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00506:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00507:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00508:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00509:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00510:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00511:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00512:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00513:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00514:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00515:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00516:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00517:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00518:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00519:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00520:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00521:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00522:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00523:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00524:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00525:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00526:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00527:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00528:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00529:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00530:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00531:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00532:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00533:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00534:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00535:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00536:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00537:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00538:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00539:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00540:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00541:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00542:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00543:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00544:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00545:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00546:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00547:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00548:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00549:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00550:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00551:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00552:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00553:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00554:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00555:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00556:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00557:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00558:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00559:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00560:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00561:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00562:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00563:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00564:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00565:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00566:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00567:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00568:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00569:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00570:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00571:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00572:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00573:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00574:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00575:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00576:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00577:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00578:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00579:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00580:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00581:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00582:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00583:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00584:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00585:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00586:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00587:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00588:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00589:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00590:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00591:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00592:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00593:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00594:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00595:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00596:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00597:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00598:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00599:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00600:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00601:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00602:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00603:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00604:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00605:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00606:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00607:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00608:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00609:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00610:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00611:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00612:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00613:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00614:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00615:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00616:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00617:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00618:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00619:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00620:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00621:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00622:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00623:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00624:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00625:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00626:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00627:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00628:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00629:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00630:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00631:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00632:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00633:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00634:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00635:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00636:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00637:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00638:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00639:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00640:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00641:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00642:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00643:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00644:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00645:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00646:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00647:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00648:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00649:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00650:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00651:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00652:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00653:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00654:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00655:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00656:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00657:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00658:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00659:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00660:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00661:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00662:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00663:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00664:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00665:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00666:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00667:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00668:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00669:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00670:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00671:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00672:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00673:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00674:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00675:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00676:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00677:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00678:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00679:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00680:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00681:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00682:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00683:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00684:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00685:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00686:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00687:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00688:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00689:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00690:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00691:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00692:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00693:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00694:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00695:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00696:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00697:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00698:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00699:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00700:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00701:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00702:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00703:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00704:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00705:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00706:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00707:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00708:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00709:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00710:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00711:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00712:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00713:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00714:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00715:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00716:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00717:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00718:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00719:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00720:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00721:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00722:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00723:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00724:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00725:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00726:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00727:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00728:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00729:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00730:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00731:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00732:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00733:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00734:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00735:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00736:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00737:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00738:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00739:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00740:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00741:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00742:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00743:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00744:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00745:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00746:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00747:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00748:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00749:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00750:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00751:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00752:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00753:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00754:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00755:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00756:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00757:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00758:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00759:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00760:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00761:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00762:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00763:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00764:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00765:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00766:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00767:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00768:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00769:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00770:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00771:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00772:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00773:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00774:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00775:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00776:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00777:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00778:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00779:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00780:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00781:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00782:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00783:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00784:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00785:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00786:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00787:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00788:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00789:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00790:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00791:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00792:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00793:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00794:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00795:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00796:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00797:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00798:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00799:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00800:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00801:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00802:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00803:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00804:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00805:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00806:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00807:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00808:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00809:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00810:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00811:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00812:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00813:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00814:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00815:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00816:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00817:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00818:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00819:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00820:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00821:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00822:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00823:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00824:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00825:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00826:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00827:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00828:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00829:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00830:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00831:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00832:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00833:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00834:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00835:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00836:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00837:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00838:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00839:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00840:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00841:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00842:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00843:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00844:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00845:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00846:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00847:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00848:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00849:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00850:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00851:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00852:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00853:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00854:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00855:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00856:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00857:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00858:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00859:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00860:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00861:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00862:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00863:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00864:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00865:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00866:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00867:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00868:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00869:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00870:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00871:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00872:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00873:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00874:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00875:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00876:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00877:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00878:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00879:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00880:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00881:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00882:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00883:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00884:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00885:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00886:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00887:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00888:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00889:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00890:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00891:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00892:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00893:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00894:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00895:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00896:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00897:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00898:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00899:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00900:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00901:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00902:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00903:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00904:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00905:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00906:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00907:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00908:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00909:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00910:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00911:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00912:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00913:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00914:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00915:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00916:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00917:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00918:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00919:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00920:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00921:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00922:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00923:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00924:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00925:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00926:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00927:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00928:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00929:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00930:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00931:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00932:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00933:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00934:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00935:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00936:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00937:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00938:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00939:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00940:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00941:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00942:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00943:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00944:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00945:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00946:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00947:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00948:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00949:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00950:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00951:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00952:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00953:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00954:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00955:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00956:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00957:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00958:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00959:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00960:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00961:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00962:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00963:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00964:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00965:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00966:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00967:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00968:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00969:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00970:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00971:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00972:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00973:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00974:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00975:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00976:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00977:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00978:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00979:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00980:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00981:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00982:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00983:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00984:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00985:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00986:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00987:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00988:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00989:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00990:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00991:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00992:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00993:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00994:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00995:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00996:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00997:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00998:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-00999:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01000:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01001:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01002:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01003:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01004:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01005:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01006:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01007:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01008:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01009:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01010:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01011:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01012:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01013:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01014:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01015:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01016:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01017:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01018:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01019:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01020:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01021:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01022:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01023:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01024:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01025:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01026:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01027:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01028:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01029:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01030:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01031:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01032:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01033:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01034:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01035:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01036:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01037:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01038:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01039:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01040:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01041:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01042:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01043:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01044:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01045:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01046:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01047:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01048:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01049:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01050:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01051:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01052:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01053:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01054:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01055:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01056:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01057:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01058:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01059:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01060:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01061:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01062:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01063:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01064:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01065:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01066:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01067:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01068:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01069:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01070:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01071:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01072:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01073:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01074:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01075:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01076:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01077:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01078:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01079:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01080:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01081:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01082:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01083:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01084:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01085:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01086:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01087:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01088:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01089:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01090:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01091:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01092:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01093:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01094:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01095:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01096:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01097:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01098:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01099:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01100:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01101:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01102:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01103:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01104:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01105:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01106:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01107:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01108:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01109:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01110:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01111:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01112:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01113:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01114:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01115:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01116:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01117:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01118:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01119:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01120:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01121:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01122:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01123:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01124:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01125:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01126:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01127:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01128:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01129:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01130:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01131:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01132:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01133:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01134:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01135:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01136:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01137:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01138:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01139:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01140:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01141:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01142:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01143:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01144:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01145:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01146:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01147:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01148:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01149:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01150:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01151:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01152:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01153:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01154:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01155:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01156:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01157:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01158:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01159:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01160:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01161:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01162:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01163:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01164:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01165:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01166:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01167:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01168:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01169:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01170:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01171:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01172:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01173:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01174:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01175:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01176:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01177:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01178:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01179:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01180:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01181:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01182:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01183:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01184:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01185:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01186:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01187:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01188:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01189:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01190:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01191:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01192:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01193:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01194:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01195:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01196:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01197:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01198:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01199:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01200:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01201:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01202:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01203:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01204:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01205:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01206:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01207:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01208:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01209:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01210:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01211:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01212:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01213:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01214:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01215:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01216:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01217:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01218:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01219:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01220:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01221:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01222:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01223:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01224:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01225:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01226:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01227:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01228:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01229:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01230:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01231:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01232:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01233:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01234:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01235:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01236:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01237:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01238:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01239:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01240:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01241:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01242:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01243:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01244:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01245:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01246:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01247:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01248:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01249:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01250:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01251:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01252:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01253:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01254:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01255:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01256:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01257:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01258:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01259:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01260:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01261:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01262:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01263:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01264:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01265:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01266:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01267:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01268:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01269:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01270:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01271:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01272:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01273:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01274:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01275:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01276:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01277:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01278:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01279:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01280:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01281:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01282:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01283:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01284:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01285:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01286:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01287:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01288:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01289:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01290:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01291:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01292:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01293:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01294:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01295:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01296:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01297:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01298:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01299:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01300:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01301:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01302:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01303:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01304:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01305:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01306:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01307:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01308:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01309:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01310:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01311:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01312:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01313:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01314:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01315:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01316:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01317:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01318:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01319:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01320:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01321:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01322:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01323:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01324:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01325:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01326:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01327:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01328:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01329:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01330:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01331:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01332:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01333:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01334:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01335:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01336:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01337:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01338:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01339:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01340:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01341:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01342:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01343:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01344:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01345:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01346:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01347:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01348:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01349:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01350:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01351:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01352:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01353:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01354:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01355:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01356:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01357:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01358:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01359:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01360:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01361:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01362:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01363:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01364:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01365:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01366:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01367:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01368:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01369:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01370:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01371:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01372:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01373:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01374:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01375:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01376:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01377:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01378:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01379:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01380:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01381:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01382:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01383:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01384:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01385:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01386:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01387:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01388:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01389:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01390:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01391:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01392:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01393:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01394:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01395:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01396:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01397:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01398:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01399:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01400:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01401:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01402:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01403:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01404:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01405:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01406:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01407:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01408:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01409:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01410:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01411:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01412:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01413:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01414:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01415:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01416:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01417:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01418:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01419:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01420:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01421:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01422:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01423:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01424:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01425:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01426:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01427:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01428:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01429:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01430:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01431:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01432:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01433:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01434:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01435:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01436:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01437:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01438:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01439:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01440:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01441:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01442:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01443:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01444:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01445:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01446:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01447:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01448:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01449:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01450:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01451:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01452:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01453:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01454:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01455:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01456:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01457:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01458:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01459:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01460:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01461:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01462:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01463:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01464:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01465:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01466:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01467:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01468:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01469:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01470:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01471:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01472:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01473:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01474:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01475:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01476:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01477:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01478:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01479:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01480:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01481:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01482:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01483:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01484:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01485:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01486:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01487:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01488:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01489:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01490:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01491:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01492:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01493:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01494:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01495:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01496:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01497:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01498:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01499:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01500:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01501:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01502:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01503:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01504:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01505:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01506:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01507:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01508:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01509:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01510:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01511:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01512:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01513:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01514:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01515:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01516:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01517:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01518:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01519:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01520:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01521:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01522:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01523:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01524:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01525:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01526:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01527:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01528:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01529:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01530:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01531:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01532:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01533:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01534:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01535:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01536:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01537:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01538:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01539:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01540:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01541:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01542:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01543:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01544:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01545:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01546:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01547:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01548:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01549:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01550:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01551:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01552:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01553:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01554:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01555:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01556:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01557:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01558:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01559:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01560:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01561:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01562:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01563:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01564:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01565:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01566:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01567:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01568:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01569:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01570:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01571:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01572:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01573:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01574:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01575:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01576:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01577:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01578:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01579:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01580:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01581:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01582:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01583:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01584:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01585:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01586:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01587:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01588:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01589:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01590:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01591:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01592:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01593:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01594:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01595:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01596:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01597:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01598:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
+  RLC2-01599:
+    model: base
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
 software:
   cs3:
     pro:
@@ -10022,5 +16006,12 @@ software:
       356abdc26ec7:
         changelog: Corrects rate issue with saving parameters
         releaseDate: '2019-07-12T00:18:27.293Z'
+        upgradePrompt: false
+      flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
+  rlc2:
+    base:
+      8e9363d50ae9:
+        changelog: initial version
+        releaseDate: '2019-08-07T23:21:40.724Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
