@@ -2770,7 +2770,7 @@ devices:
   CS3-00795:
     model: sport
     product: cs3
-    softwareVersion: 356abdc26ec7
+    softwareVersion: ff898c42
   CS3-00796:
     model: sport
     product: cs3
@@ -29598,6 +29598,10 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
+      ff898c42:
+        changelog: Modified CAN bus timeouts for Edelbrock Pro Flo 4+
+        releaseDate: '2019-10-02T00:14:11.716Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
     base:
