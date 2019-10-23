@@ -1802,7 +1802,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: e195c886
+    softwareVersion: c2700632
   CS3-00554:
     model: pro
     product: cs3
@@ -2770,7 +2770,7 @@ devices:
   CS3-00795:
     model: sport
     product: cs3
-    softwareVersion: ff898c42
+    softwareVersion: 356abdc26ec7
   CS3-00796:
     model: sport
     product: cs3
@@ -29586,9 +29586,9 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
-      e195c886:
-        changelog: 'Corrected problem with A750 N-D2, N-D3 shifts'
-        releaseDate: '2019-10-23T00:54:12.874Z'
+      c2700632:
+        changelog: Corrected problem with A770 N-D2 shift
+        releaseDate: '2019-10-23T15:25:29.395Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
@@ -29602,10 +29602,6 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
-      ff898c42:
-        changelog: Modified CAN bus timeouts for Edelbrock Pro Flo 4+
-        releaseDate: '2019-10-02T00:14:11.716Z'
-        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
     base:
