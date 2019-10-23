@@ -1802,7 +1802,7 @@ devices:
   CS3-00553:
     model: pro
     product: cs3
-    softwareVersion: 372dd7a1
+    softwareVersion: e195c886
   CS3-00554:
     model: pro
     product: cs3
@@ -29586,6 +29586,10 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
+      e195c886:
+        changelog: 'Corrected problem with A750 N-D2, N-D3 shifts'
+        releaseDate: '2019-10-23T00:54:12.874Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
       356abdc26ec7:
