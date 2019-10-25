@@ -3982,7 +3982,7 @@ devices:
   CS3-01098:
     model: pro
     product: cs3
-    softwareVersion: 372dd7a1
+    softwareVersion: c2700632
   CS3-01099:
     model: sport
     product: cs3
@@ -29587,7 +29587,7 @@ software:
         releaseDate: '2018-09-17T22:22:46.300Z'
         upgradePrompt: true
       c2700632:
-        changelog: Corrected problem with A770 N-D2 shift
+        changelog: Corrected problem with toyota A750 N-D2 shift
         releaseDate: '2019-10-23T15:25:29.395Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
