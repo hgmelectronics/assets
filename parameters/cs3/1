@@ -17076,48 +17076,52 @@ slots:
         - High Speed Diesel w/sensors
       - - 3
         - Low Speed Diesel w/sensors
+      - - 17
+        - AEM Series 2 CAN
+      - - 29
+        - FAST XFI CAN
+      - - 31
+        - Edelbrock Pro Flo 4 CAN
+      - - 25
+        - Haltech CAN V2
+      - - 27
+        - Holley Racepak CAN
       - - 4
         - J1939 Gasoline Engine
       - - 5
         - J1939 High Speed Diesel
       - - 6
         - J1939 Low Speed Diesel
+      - - 30
+        - MoTeC M1 CAN
+      - - 34
+        - Megasquirt CAN
       - - 7
-        - Ford Coyote 1
+        - Ford Coyote 1 CAN
+      - - 22
+        - Ford Coyote 2 CAN
+      - - 32
+        - Ford Coyote 3 CAN
       - - 8
-        - GMLAN Gasoline Engine
+        - GMLAN Gasoline Engine CAN
       - - 9
-        - GMLAN Diesel Engine
+        - GMLAN Diesel Engine CAN
       - - 10
         - Chrysler CANC Gasoline
       - - 11
         - Chrysler CANC Diesel Engine
+      - - 33
+        - Chrysler Hellcat CAN
       - - 12
-        - Land Rover Duratorq 2.2L
+        - Land Rover Duratorq 2.2L CAN
       - - 13
-        - Land Rover Duratorq 2.4L
-      - - 14
-        - Toyota 1URFE
-      - - 17
-        - AEM Series 2 CAN
+        - Land Rover Duratorq 2.4L CAN
       - - 20
-        - Nissan ZD30
-      - - 22
-        - Ford Coyote 2
+        - Nissan ZD30 CAN
+      - - 14
+        - Toyota 1URFE CAN
       - - 23
-        - Toyota VDJ LC 7X Series
-      - - 25
-        - Haltech CAN V2
-      - - 27
-        - Holley Racepak
-      - - 29
-        - FAST XFI
-      - - 30
-        - MoTeC M1
-      - - 31
-        - Edelbrock Pro Flo 4
-      - - 32
-        - Ford Coyote 3
+        - Toyota VDJ LC 7X Series CAN
   vehicleSpeed:
     linear:
       raw:
