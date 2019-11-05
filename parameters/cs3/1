@@ -72,7 +72,7 @@ params:
     acl: *ref_0
     slot: text
     length: 27
-    minLength: 12
+    minLength: 7
   controllerHeapUsed:
     id: '0x0808'
     acl: *ref_0
