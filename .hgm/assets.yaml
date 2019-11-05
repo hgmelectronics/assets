@@ -6774,7 +6774,7 @@ devices:
   CS3-01796:
     model: sport
     product: cs3
-    softwareVersion: cd3519ff
+    softwareVersion: fa10df13
   CS3-01797:
     model: sport
     product: cs3
@@ -29599,6 +29599,10 @@ software:
       cd3519ff:
         changelog: Added support for Hellcat and Megasquirt
         releaseDate: '2019-11-01T18:13:24.974Z'
+        upgradePrompt: false
+      fa10df13:
+        changelog: Added support for Hellcat and Megasquirt ECUs
+        releaseDate: '2019-11-05T19:25:04.228Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
