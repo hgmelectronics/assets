@@ -5694,7 +5694,7 @@ devices:
   CS3-01526:
     model: sport
     product: cs3
-    softwareVersion: cd3519ff
+    softwareVersion: fa10df13
   CS3-01527:
     model: sport
     product: cs3
@@ -6774,7 +6774,7 @@ devices:
   CS3-01796:
     model: sport
     product: cs3
-    softwareVersion: fa10df13
+    softwareVersion: cd3519ff
   CS3-01797:
     model: sport
     product: cs3
