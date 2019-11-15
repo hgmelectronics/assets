@@ -23591,6 +23591,46 @@ devices:
     model: base
     product: csm2
     softwareVersion: 356abdc26ec7
+  ETCU-00010:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00011:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00012:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00013:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00014:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00015:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00016:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00017:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00018:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
+  ETCU-00019:
+    model: base
+    product: etcu
+    softwareVersion: 0c31fbe0
   RLC2-00100:
     model: base
     product: rlc2
@@ -29596,16 +29636,19 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
-      fa10df13:
-        changelog: Added support for Hellcat and Megasquirt ECUs
-        releaseDate: '2019-11-05T19:25:04.228Z'
-        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
     base:
       356abdc26ec7:
         changelog: Corrects rate issue with saving parameters
         releaseDate: '2019-07-12T00:18:27.293Z'
+        upgradePrompt: false
+      flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
+  etcu:
+    base:
+      0c31fbe0:
+        changelog: Fixed ProFlo4 support
+        releaseDate: '2019-11-15T18:35:09.554Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
