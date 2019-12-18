@@ -5104,7 +5104,7 @@ devices:
     product: cs3
     softwareVersion: e259c9a
   CS3-01379:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: e259c9a
   CS3-01380:
@@ -5584,7 +5584,7 @@ devices:
     product: cs3
     softwareVersion: e259c9a
   CS3-01499:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: e259c9a
   CS3-01500:
@@ -5904,7 +5904,7 @@ devices:
     product: cs3
     softwareVersion: e259c9a
   CS3-01579:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: e259c9a
   CS3-01580:
@@ -6848,7 +6848,7 @@ devices:
     product: cs3
     softwareVersion: e259c9a
   CS3-01815:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: e259c9a
   CS3-01816:
