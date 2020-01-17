@@ -23594,43 +23594,43 @@ devices:
   ETCU-00010:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00011:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00012:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00013:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00014:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00015:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00016:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00017:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00018:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   ETCU-00019:
     model: base
     product: etcu1
-    softwareVersion: 65e35cc9
+    softwareVersion: fe599ca6
   RLC2-00100:
     model: base
     product: rlc2
@@ -29646,13 +29646,9 @@ software:
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   etcu1:
     base:
-      0c31fbe0:
-        changelog: Fixed ProFlo4 support
-        releaseDate: '2019-11-15T18:35:09.554Z'
-        upgradePrompt: false
-      65e35cc9:
+      fe599ca6:
         changelog: Added 4L80E support
-        releaseDate: '2020-01-15T19:15:54.082Z'
+        releaseDate: '2020-01-17T01:55:32.376Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
