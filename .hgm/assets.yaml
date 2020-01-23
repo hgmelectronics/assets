@@ -888,9 +888,9 @@ devices:
     product: cs3
     softwareVersion: e259c9a
   CS3-00324:
-    model: sport
+    model: mcconnel
     product: cs3
-    softwareVersion: 6f8f9997
+    softwareVersion: 30fc4f76
   CS3-00325:
     model: pro
     product: cs3
@@ -29617,6 +29617,12 @@ devices:
     softwareVersion: 8e9363d50ae9
 software:
   cs3:
+    mcconnel:
+      30fc4f76:
+        changelog: First release
+        releaseDate: '2020-01-23T23:40:22.536Z'
+        upgradePrompt: false
+      flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     pro:
       b0a84a0b6b39:
         changelog: deprecated
