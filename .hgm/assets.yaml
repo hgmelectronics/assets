@@ -890,7 +890,7 @@ devices:
   CS3-00324:
     model: mcconnel
     product: cs3
-    softwareVersion: 28598bc5
+    softwareVersion: c679ee3c
   CS3-00325:
     model: pro
     product: cs3
@@ -29618,9 +29618,9 @@ devices:
 software:
   cs3:
     mcconnel:
-      28598bc5:
-        changelog: Corrected J1939 TC1 interpretation
-        releaseDate: '2020-02-18T05:35:08.809Z'
+      c679ee3c:
+        changelog: Updated on J1939 TC1 and ETC7
+        releaseDate: '2020-02-19T08:38:54.070Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     pro:
