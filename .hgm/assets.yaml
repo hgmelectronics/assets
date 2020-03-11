@@ -5938,7 +5938,7 @@ devices:
   CS3-01587:
     model: pro
     product: cs3
-    softwareVersion: e259c9a
+    softwareVersion: a30c609a
   CS3-01588:
     model: sport
     product: cs3
@@ -29624,6 +29624,10 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     pro:
+      a30c609a:
+        changelog: Added support for Toyota 1URFE
+        releaseDate: '2020-03-12T21:36:44.305Z'
+        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'

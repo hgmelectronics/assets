@@ -1,5 +1,5 @@
 acls:
-  - &ref_2
+  - &ref_7
     read:
       - false
       - false
@@ -15,7 +15,7 @@ acls:
       - false
       - false
     save: false
-  - &ref_5
+  - &ref_4
     read:
       - true
       - true
@@ -31,7 +31,7 @@ acls:
       - true
       - true
     save: false
-  - &ref_3
+  - &ref_2
     read:
       - true
       - true
@@ -39,7 +39,7 @@ acls:
       - true
       - true
     save: true
-  - &ref_4
+  - &ref_3
     read:
       - true
       - true
@@ -48,7 +48,7 @@ acls:
       - true
     save: false
     mutating: true
-  - &ref_6
+  - &ref_5
     read:
       - true
       - true
@@ -57,7 +57,7 @@ acls:
       - false
     save: false
     saveWithCalib: true
-  - &ref_7
+  - &ref_6
     read:
       - true
       - true
@@ -266,10 +266,20 @@ params:
     acl: *ref_0
     slot: booleanYesNo1
     length: 12
-  controllerPWMDriverLastFault:
+  controllerPWMDriverLastFaultType:
     id: '0x088A'
     acl: *ref_0
     slot: pwmDriverFaultType
+    length: 12
+  controllerPWMDriverLastFaultCommand:
+    id: '0x088B'
+    acl: *ref_0
+    slot: null
+    length: 12
+  controllerPWMDriverLastFaultCurrent:
+    id: '0x088C'
+    acl: *ref_0
+    slot: current1
     length: 12
   controllerPWMDriverDutyCycle:
     id: '0x0890'
@@ -281,117 +291,92 @@ params:
     acl: *ref_1
     slot: pwmDriverMode
     length: 12
-  controllerPWMDriverSPN:
-    - id: '0x08B0'
-      acl: *ref_2
-    - id: '0x08B1'
-      acl: *ref_2
-    - id: '0x08B2'
-      acl: *ref_2
-    - id: '0x08B3'
-      acl: *ref_2
-    - id: '0x08B4'
-      acl: *ref_2
-    - id: '0x08B5'
-      acl: *ref_2
-    - id: '0x08B6'
-      acl: *ref_2
-    - id: '0x08B7'
-      acl: *ref_2
-    - id: '0x08B8'
-      acl: *ref_2
-    - id: '0x08B9'
-      acl: *ref_2
-    - id: '0x08BA'
-      acl: *ref_2
-    - id: '0x08BB'
-      acl: *ref_2
   displayBrightness:
     id: '0x1002'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   displayContrast:
     id: '0x1003'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   displayColor:
     id: '0x1004'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
     length: 3
   displayMixedMeterConfig:
     - id: '0x1010'
-      acl: *ref_3
+      acl: *ref_2
       slot: configGaugeSelectionEmbedded
       length: 8
     - id: '0x1011'
-      acl: *ref_3
+      acl: *ref_2
       slot: configGaugeSelectionEmbedded
       length: 8
     - id: '0x1012'
-      acl: *ref_3
+      acl: *ref_2
       slot: configGaugeSelectionEmbedded
       length: 8
     - id: '0x1013'
-      acl: *ref_3
+      acl: *ref_2
       slot: configGaugeSelectionEmbedded
       length: 8
   displaySlotSelectionPressure:
     id: '0x1100'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displaySlotSelectionLength:
     id: '0x1101'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displaySlotSelectionVehicleSpeed:
     id: '0x1102'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displaySlotSelectionTemperature:
     id: '0x1103'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displaySlotSelectionAcceleration:
     id: '0x1104'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displaySlotSelectionTorque:
     id: '0x1105'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displaySlotSelectionMass:
     id: '0x1106'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displaySlotSelectionCurrent:
     id: '0x1107'
-    acl: *ref_3
+    acl: *ref_2
     slot: count
   displayFactorySetup:
     id: '0x1800'
-    acl: *ref_4
+    acl: *ref_3
     slot: booleanYesNo1
   variation:
     id: '0x2000'
-    acl: *ref_5
+    acl: *ref_4
     advice: confirmThenReset
     slot: variationTypes
   vehicleMass:
     id: '0x2001'
-    acl: *ref_3
+    acl: *ref_2
     slot: mass
   tireDiameter:
     id: '0x2002'
-    acl: *ref_3
+    acl: *ref_2
     slot: length
   speedometerCalibration:
     id: '0x2003'
-    acl: *ref_3
+    acl: *ref_2
     slot: speedoCalibration
   vehicleSpeedSensorPulseCount:
     id: '0x2005'
-    acl: *ref_5
+    acl: *ref_4
     slot: count3
   vehicleSpeed:
     id: '0x2800'
@@ -427,383 +412,383 @@ params:
     slot: rpm1
   powertrainType:
     id: '0x3000'
-    acl: *ref_5
+    acl: *ref_4
     advice: confirmThenReset
     slot: transmissionType1
   transmissionHasLinePressureSensor:
     id: '0x3002'
-    acl: *ref_3
+    acl: *ref_2
     advice: resetAdvised
     slot: booleanOnOff1
   transmissionHasLinePressureControl:
     id: '0x3003'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: booleanYesNo1
   transmissionHasAccumulatorControl:
     id: '0x3004'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: booleanYesNo1
   transmissionHasPWMTCC:
     id: '0x3005'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: booleanYesNo1
   transmissionTurbineShaftSpeedSensorPulseCount:
     id: '0x3008'
-    acl: *ref_5
+    acl: *ref_4
     slot: count3
   transmissionInputShaftSpeedSensorPulseCount:
     id: '0x3009'
-    acl: *ref_5
+    acl: *ref_4
     slot: count3
   transmissionShaftSpeedSensorPulseCount:
     - id: '0x300A'
-      acl: *ref_5
+      acl: *ref_4
       slot: count3
     - id: '0x300B'
-      acl: *ref_5
+      acl: *ref_4
       slot: count3
     - id: '0x300C'
-      acl: *ref_5
+      acl: *ref_4
       slot: count3
     - id: '0x300D'
-      acl: *ref_5
+      acl: *ref_4
       slot: count3
     - id: '0x300E'
-      acl: *ref_5
+      acl: *ref_4
       slot: count3
     - id: '0x300F'
-      acl: *ref_5
+      acl: *ref_4
       slot: count3
   transmissionShiftPrefillTime:
     id: '0x3010'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
     length: 14
     minLength: 1
   transmissionShiftPrefillPressure:
     id: '0x3011'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
     length: 14
     minLength: 1
   transmissionShiftPrefillPercentage:
     id: '0x3012'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
     length: 14
     minLength: 1
   transmissionSTDownshiftTorqueThreshold:
     id: '0x3013'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   transmissionTSTorqueTransferTime:
     id: '0x3014'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
     length: 14
     minLength: 1
   transmissionSTTorqueTransferTime:
     id: '0x3015'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
     length: 14
     minLength: 1
   transmissionSTUpshiftTorqueThreshold:
     id: '0x3016'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   transmissionTSSpeedSyncTime:
     id: '0x3017'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   transmissionSTSpeedSyncTime:
     id: '0x3018'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   garageShiftTime:
     id: '0x3019'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   transmissionShiftProportionalConstant:
     id: '0x301A'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressurePerRpm
   transmissionShiftIntegralConstant:
     id: '0x301B'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressurePerRpmSec
   transmissionShiftDerivativeConstant:
     id: '0x301C'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressurePerRpmPerSec
   transmissionMainPressureByGear:
     - id: '0x30C0'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x30C1'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x30C2'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x30C3'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x30C4'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x30C5'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x30C6'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x30C7'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
   transmissionUpshiftApplyPressure:
     - id: '0x3100'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3101'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3102'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3103'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3104'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3105'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3106'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3107'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
   transmissionDownshiftApplyPressure:
     - id: '0x3140'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3141'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3142'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3143'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3144'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3145'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3146'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
   transmissionUpshiftReleasePressure:
     - id: '0x3180'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3181'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3182'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3183'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3184'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3185'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x3186'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
   transmissionDownshiftReleasePressure:
     - id: '0x31C0'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x31C1'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x31C2'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x31C3'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x31C4'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x31C5'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
     - id: '0x31C6'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 11
   transmissionClutchFillTime:
     - id: '0x3700'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3701'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3702'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3703'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3704'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3705'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3706'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3707'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
   transmissionClutchEmptyTime:
     - id: '0x3710'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3711'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3712'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3713'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3714'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3715'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3716'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
     - id: '0x3717'
-      acl: *ref_5
+      acl: *ref_4
       slot: timeMilliseconds1
       length: 16
       minLength: 1
   transmissionUpshiftAccumPercentage:
     - id: '0x3720'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x3721'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x3722'
-      acl: *ref_5
+      acl: *ref_4
       length: 11
     - id: '0x3723'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x3724'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x3725'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x3726'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x3727'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
   transmissionGears:
@@ -814,7 +799,7 @@ params:
     minLength: 1
   transmissionRatios:
     id: '0x3801'
-    acl: *ref_6
+    acl: *ref_5
     slot: ratio1
     length: 16
     minLength: 1
@@ -956,256 +941,256 @@ params:
     slot: pressure
   upshiftTorqueLimits:
     - id: '0x4000'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4001'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4002'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4003'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4004'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
   downshiftTorqueLimits:
     - id: '0x4010'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4011'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4012'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4013'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
     - id: '0x4014'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 11
   garageShiftTorqueLimit:
     id: '0x401F'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   shiftSpeedAdjustA:
     id: '0x4020'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   shiftDownshiftOffsetA:
     id: '0x4021'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   shiftManualModeA:
     id: '0x4022'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanManualMode
   shiftMaxEngineSpeedA:
     id: '0x4023'
-    acl: *ref_5
+    acl: *ref_4
     slot: rpm1
   shiftTablesADownLocked:
     id: '0x4024'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanYesNo1
   shiftTablesAUpX:
     - id: '0x4040'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4041'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4042'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4043'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4044'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   shiftTablesAUpY:
     - id: '0x4050'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4051'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4052'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4053'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4054'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   shiftTablesADownX:
     - id: '0x4060'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4061'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4062'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4063'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x4064'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   shiftTablesADownY:
     - id: '0x4070'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4071'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4072'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4073'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x4074'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   shiftSpeedAdjustB:
     id: '0x40A0'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   shiftDownshiftOffsetB:
     id: '0x40A1'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   shiftManualModeB:
     id: '0x40A2'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanManualMode
   shiftMaxEngineSpeedB:
     id: '0x40A3'
-    acl: *ref_5
+    acl: *ref_4
     slot: rpm1
   shiftTablesBDownLocked:
     id: '0x40A4'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanYesNo1
   shiftTablesBUpX:
     - id: '0x40C0'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40C1'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40C2'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40C3'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40C4'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   shiftTablesBUpY:
     - id: '0x40D0'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40D1'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40D2'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40D3'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40D4'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   shiftTablesBDownX:
     - id: '0x40E0'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40E1'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40E2'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40E3'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x40E4'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   shiftTablesBDownY:
     - id: '0x40F0'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40F1'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40F2'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40F3'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x40F4'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   shiftCurrentGear:
@@ -1257,281 +1242,281 @@ params:
     length: 5
   pressureAdjustA:
     id: '0x5000'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   pressureR2LBoostA:
     id: '0x5001'
-    acl: *ref_3
+    acl: *ref_2
     slot: pressure
   pressureTablesAX:
     - id: '0x5020'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5021'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5022'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5023'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5024'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5025'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   pressureTablesAY:
     - id: '0x5030'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5031'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5032'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5033'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5034'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5035'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
   pressureAdjustB:
     id: '0x5040'
-    acl: *ref_3
+    acl: *ref_2
     slot: percentage1
   pressureR2LBoostB:
     id: '0x5041'
-    acl: *ref_3
+    acl: *ref_2
     slot: pressure
   pressureTablesBX:
     - id: '0x5060'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5061'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5062'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5063'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5064'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x5065'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   pressureTablesBY:
     - id: '0x5070'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5071'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5072'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5073'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5074'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
     - id: '0x5075'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
   solenoidPressureCurve:
     - id: '0x50A0'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
     - id: '0x50A2'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
     - id: '0x50A4'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
     - id: '0x50A6'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
     - id: '0x50A8'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
     - id: '0x50AA'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
     - id: '0x50AC'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
     - id: '0x50AE'
-      acl: *ref_5
+      acl: *ref_4
       slot: pressure
       length: 16
       minLength: 2
   solenoidCurrentCurve:
     - id: '0x50A1'
-      acl: *ref_5
+      acl: *ref_4
       slot: current1
       length: 16
       minLength: 2
     - id: '0x50A3'
-      acl: *ref_5
+      acl: *ref_4
       slot: current1
       length: 16
       minLength: 2
     - id: '0x50A5'
-      acl: *ref_5
+      acl: *ref_4
       slot: current1
       length: 16
       minLength: 2
     - id: '0x50A7'
-      acl: *ref_5
+      acl: *ref_4
       slot: current1
       length: 16
       minLength: 2
     - id: '0x50A9'
-      acl: *ref_5
+      acl: *ref_4
       slot: current1
       length: 16
       minLength: 2
     - id: '0x50AB'
-      acl: *ref_5
+      acl: *ref_4
       slot: current1
       length: 16
       minLength: 2
     - id: '0x50AD'
-      acl: *ref_5
+      acl: *ref_4
       length: 16
       minLength: 2
       slot: current1
     - id: '0x50AF'
-      acl: *ref_5
+      acl: *ref_4
       slot: current1
       length: 16
       minLength: 2
   solenoidPercentageCurve:
     - id: '0x50B0'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
     - id: '0x50B2'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
     - id: '0x50B4'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
     - id: '0x50B6'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
     - id: '0x50B8'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
     - id: '0x50BA'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
     - id: '0x50BC'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
     - id: '0x50BE'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
       minLength: 2
   solenoidDutyCycleCurve:
     - id: '0x50B1'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
     - id: '0x50B3'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
     - id: '0x50B5'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
     - id: '0x50B7'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
     - id: '0x50B9'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
     - id: '0x50BB'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
     - id: '0x50BD'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
     - id: '0x50BF'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage2
       length: 16
       minLength: 2
@@ -1541,304 +1526,304 @@ params:
     slot: pressure
   tccDisableTOSSPercentA:
     id: '0x6021'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   tccEnableGearA:
     id: '0x6022'
-    acl: *ref_5
+    acl: *ref_4
     slot: gear1
   tccEnableTOSSA:
     id: '0x6023'
-    acl: *ref_5
+    acl: *ref_4
     slot: tossRPMAsSpeed
   tccManualModeA:
     id: '0x6024'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanManualMode
   tccMaxThrottleA:
     id: '0x6025'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   tccMinThrottleA:
     id: '0x6026'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   tccDisableInSwitchShiftA:
     id: '0x6027'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanYesNo1
   tccDisableTOSSPercentB:
     id: '0x6041'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   tccEnableGearB:
     id: '0x6042'
-    acl: *ref_5
+    acl: *ref_4
     slot: gear1
   tccEnableTOSSB:
     id: '0x6043'
-    acl: *ref_5
+    acl: *ref_4
     slot: tossRPMAsSpeed
   tccManualModeB:
     id: '0x6044'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanManualMode
   tccMaxThrottleB:
     id: '0x6045'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   tccMinThrottleB:
     id: '0x6046'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   tccDisableInSwitchShiftB:
     id: '0x6047'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanYesNo1
   tccPrefillTime:
     id: '0x6050'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   tccApplyTime:
     id: '0x6051'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   tccPrefillPressure:
     id: '0x6052'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
   tccMaxPressure:
     id: '0x6054'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
   tccPressureProportionalConstant:
     id: '0x6059'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressurePerRpm
   tccPressureIntegralConstant:
     id: '0x605A'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressurePerRpmSec
   tccPressureDerivativeConstant:
     id: '0x605B'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressurePerRpmPerSec
   tccStrokeTime:
     id: '0x605C'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   tccStrokePressure:
     id: '0x605D'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
   torqueConverterSpeedRatios:
     id: '0x6070'
-    acl: *ref_5
+    acl: *ref_4
     slot: ratio1
     length: 16
   torqueConverterTorqueRatios:
     id: '0x6071'
-    acl: *ref_5
+    acl: *ref_4
     slot: ratio1
     length: 16
   tccTablesALockX:
     - id: '0x6100'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6101'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6102'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6103'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6104'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6105'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   tccTablesALockY:
     - id: '0x6110'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6111'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6112'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6113'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6114'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6115'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   tccTablesAUnlockX:
     - id: '0x6120'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6121'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6122'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6123'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6124'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6125'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   tccTablesAUnlockY:
     - id: '0x6130'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6131'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6132'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6133'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6134'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6135'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   tccTablesBLockX:
     - id: '0x6140'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6141'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6142'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6143'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6144'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6145'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   tccTablesBLockY:
     - id: '0x6150'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6151'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6152'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6153'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6154'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6155'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   tccTablesBUnlockX:
     - id: '0x6160'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6161'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6162'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6163'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6164'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
     - id: '0x6165'
-      acl: *ref_5
+      acl: *ref_4
       slot: percentage1
       length: 16
   tccTablesBUnlockY:
     - id: '0x6170'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6171'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6172'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6173'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6174'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
     - id: '0x6175'
-      acl: *ref_5
+      acl: *ref_4
       slot: tossRPMAsSpeed
       length: 16
   tccCurrentState:
@@ -1864,98 +1849,98 @@ params:
     length: 5
   engineCylinders:
     id: '0x7000'
-    acl: *ref_5
+    acl: *ref_4
     slot: count2
   engineRunningDetectionSpeed:
     id: '0x7001'
-    acl: *ref_5
+    acl: *ref_4
     slot: rpm1
   engineMaximumTorque:
     id: '0x7002'
-    acl: *ref_5
+    acl: *ref_4
     slot: torque
   engineMaxTorqueMAP:
     id: '0x7003'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
   engineUseMAPForTorqueLimit:
     id: '0x7004'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanOnOff1
   engineMAPTorqueProportion:
     id: '0x7005'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
   voltageTPSGroundEnable:
     id: '0x7010'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanOnOff1
   voltageTPSIsReversed:
     id: '0x7011'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanNormalReversed
   voltageTPSCalibrationLow:
     id: '0x7012'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageTPSCalibrationHigh:
     id: '0x7013'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageTPSFilterOrder:
     id: '0x7014'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   voltageMAPSensorGroundEnable:
     id: '0x7020'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanOnOff1
   voltageMAPSensorLowCalibration:
     id: '0x7022'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageMAPSensorHighCalibration:
     id: '0x7023'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
   voltageMAPSensorMinVoltage:
     id: '0x7024'
-    acl: *ref_5
+    acl: *ref_4
     slot: voltage1
   voltageMAPSensorMaxVoltage:
     id: '0x7025'
-    acl: *ref_5
+    acl: *ref_4
     slot: voltage1
   voltageMAPSensorMinPressure:
     id: '0x7026'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
   voltageMAPSensorMaxPressure:
     id: '0x7027'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
   engineIdleShutdownTime:
     id: '0x7040'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeSeconds1
   engineMotoringMapSpeed:
     id: '0x7050'
-    acl: *ref_5
+    acl: *ref_4
     slot: rpm1
     length: 16
   engineMotoringMapTorque:
     id: '0x7051'
-    acl: *ref_5
+    acl: *ref_4
     slot: torque
     length: 16
   engineBrakingMapSpeed:
     id: '0x7052'
-    acl: *ref_5
+    acl: *ref_4
     slot: rpm1
     length: 16
   engineBrakingMapTorque:
     id: '0x7053'
-    acl: *ref_5
+    acl: *ref_4
     slot: torque
     length: 16
   engineSpeed:
@@ -2008,7 +1993,7 @@ params:
     slot: booleanYesNo1
   voltageTPSCalibrationStart:
     id: '0x7816'
-    acl: *ref_4
+    acl: *ref_3
     slot: booleanYesNo1
   voltageTPSCalibrationProgress:
     id: '0x7817'
@@ -2048,7 +2033,7 @@ params:
     slot: booleanOnOff1
   transferCaseRatio:
     id: '0x8001'
-    acl: *ref_5
+    acl: *ref_4
     slot: ratio1
   transferCaseGear:
     id: '0x8002'
@@ -2056,11 +2041,11 @@ params:
     slot: booleanOnOff1
   transferCaseSwitchBias:
     id: '0x8010'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanSwitchSense
   transferCaseSwitchSense:
     id: '0x8011'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanSwitchSense
   transferCaseInputSpeed:
     id: '0x8800'
@@ -2076,16 +2061,16 @@ params:
     slot: temperature1
   shiftSelectorGearVoltages:
     id: '0x9000'
-    acl: *ref_3
+    acl: *ref_2
     slot: voltage1
     length: 7
   shiftSelectorODCancelAtStartup:
     id: '0x9001'
-    acl: *ref_3
+    acl: *ref_2
     slot: switchAction
   shiftSelectorODCancelSwitchSense:
     id: '0x9002'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanSwitchSense
   shiftSelectorGear:
     id: '0x9800'
@@ -2097,7 +2082,7 @@ params:
     slot: voltage1
   finalDriveRatio:
     id: '0xA000'
-    acl: *ref_3
+    acl: *ref_2
     slot: ratio1
   differentialInputSpeed:
     id: '0xA800'
@@ -2116,161 +2101,161 @@ params:
     acl: *ref_0
   evTorqueFilterOrder:
     id: '0xB010'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   evSpeedFilterOrder:
     id: '0xB011'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   evMotorTorqueIdle:
     id: '0xB020'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage2
   evMotorTorqueShift:
     id: '0xB021'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage2
   evMotorSpeedMax:
     id: '0xB022'
-    acl: *ref_5
+    acl: *ref_4
     slot: rpm1
   evTorqueRampDownTime:
     id: '0xB023'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeSeconds1
     length: 16
     minLength: 1
   evTorqueRampUpTime:
     id: '0xB024'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeSeconds1
     length: 16
     minLength: 1
   evMotorTorqueMaxA:
     id: '0xB030'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
     length: 16
     minLength: 1
   evRegenTorqueMaxA:
     id: '0xB031'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
     length: 16
     minLength: 1
   evMaxRegenSpeedA:
     id: '0xB032'
-    acl: *ref_5
+    acl: *ref_4
     slot: tossRPMAsSpeed
   evMotorTorqueMaxB:
     id: '0xB040'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
     length: 16
     minLength: 1
   evRegenTorqueMaxB:
     id: '0xB041'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
     length: 16
     minLength: 1
   evMaxRegenSpeedB:
     id: '0xB042'
-    acl: *ref_5
+    acl: *ref_4
     slot: tossRPMAsSpeed
   ebusShiftSynchronizationTolerance:
     id: '0xB050'
-    acl: *ref_5
+    acl: *ref_4
     slot: rpm1
   ebusShiftSynchronizationDuration:
     id: '0xB051'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
   clutchReleaseTime:
     id: '0xB052'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
     length: 10
     minLength: 1
   clutchPrefillTime:
     id: '0xB053'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
     length: 10
     minLength: 1
   clutchPrefillPressure:
     id: '0xB054'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
     length: 10
     minLength: 1
   clutchPrefillPercentage:
     id: '0xB055'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
     length: 10
     minLength: 1
   clutchStrokeTime:
     id: '0xB056'
-    acl: *ref_5
+    acl: *ref_4
     slot: timeMilliseconds1
     length: 10
     minLength: 1
   clutchStrokePressure:
     id: '0xB057'
-    acl: *ref_5
+    acl: *ref_4
     slot: pressure
     length: 10
     minLength: 1
   clutchStrokePercentage:
     id: '0xB058'
-    acl: *ref_5
+    acl: *ref_4
     slot: percentage1
     length: 10
     minLength: 1
   evJ1939CTLSourceAddress:
     id: '0xB060'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: count3
   can0BaudRate:
     id: '0xC000'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: kiloBaud
   can1BaudRate:
     id: '0xC010'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: kiloBaud
   j1939TransmissionAddress:
     id: '0xC020'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: count3
   j1939EngineAddress:
     id: '0xC021'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: count3
   j1939ShiftSelectorAddress:
     id: '0xC022'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: count3
   xcpMasterId:
     id: '0xC030'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: hex32bit
   xcpSlaveId:
     id: '0xC031'
-    acl: *ref_5
+    acl: *ref_4
     advice: resetAdvised
     slot: hex32bit
   bleMode:
     id: '0xC080'
-    acl: *ref_3
+    acl: *ref_2
     slot: bleMode
   can0TransmitErrorCount:
     id: '0xC800'
@@ -2342,11 +2327,11 @@ params:
     slot: count
   bleDeleteBondings:
     id: '0xC880'
-    acl: *ref_4
+    acl: *ref_3
     slot: booleanYesNo1
   dtcClear:
     id: '0xE000'
-    acl: *ref_4
+    acl: *ref_3
     slot: booleanYesNo1
   dtcRecordedCount:
     id: '0xE801'
@@ -2375,6 +2360,10 @@ params:
     slot: booleanYesNo1
     length: 128
     minLength: 1
+  dtcRecordedQueue:
+    id: '0xE810'
+    acl: *ref_3
+    slot: j2012Code
   dtcActiveCount:
     id: '0xE8E0'
     acl: *ref_0
@@ -2386,10 +2375,10 @@ params:
     length: 4
   lastPowertrainType:
     id: '0xF000'
-    acl: *ref_7
+    acl: *ref_6
   lastVariation:
     id: '0xF001'
-    acl: *ref_7
+    acl: *ref_6
   securityCode:
     id: '0xF080'
     acl: *ref_1
@@ -2420,11 +2409,11 @@ params:
     slot: booleanOnOff1
   remoteMode:
     id: '0xF802'
-    acl: *ref_5
+    acl: *ref_4
     slot: booleanOnOff1
   debugLevel:
     id: '0xF803'
-    acl: *ref_5
+    acl: *ref_4
     slot: hex8bit
   xcpResetIntoBootloader:
     id: '0xF804'
@@ -2444,9 +2433,11 @@ params:
     acl: *ref_1
   EMPTY_SPACE:
     id: '0xFFFF'
-    acl: *ref_2
+    acl: *ref_7
 readonlySetupParams:
   - transmissionRatios
+  - lastVariation
+  - lastPowertrainType
 slots:
   acceleration1:
     linear:
@@ -16515,6 +16506,8 @@ slots:
         - Regulation Low
       - - 6
         - Regulation High
+      - - 7
+        - Invalid Mode
   pwmDriverFaultTypeEmbedded:
     encoding:
       - - 0
@@ -16531,6 +16524,8 @@ slots:
         - Reg. Low
       - - 6
         - Reg. High
+      - - 7
+        - Bad Mode
   pwmDriverMode:
     encoding:
       - - 0
@@ -17121,7 +17116,7 @@ slots:
       - - 20
         - Nissan ZD30 CAN
       - - 14
-        - Toyota 1URFE CAN
+        - Toyota 1UR-FE/2GR-FE CAN
       - - 23
         - Toyota VDJ LC 7X Series CAN
   vehicleSpeed:
@@ -21024,17 +21019,42 @@ menus:
                   - type: TableEdit
                     args:
                       xSlot: pwmDriverId
-                      yParam: controllerPWMDriverLastFault
+                      yParam: controllerPWMDriverLastFaultType
                       label: PWM Driver Last Fault
                       xLabel: Driver ID
-                      yLabel: Last Fault
+                      yLabel: Fault Type
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                       chart: false
                     e_args:
                       xLabel: ID
-                      ySlot: pwmDriverFaultTypeEmbedded
+                  - type: TableEdit
+                    args:
+                      xSlot: pwmDriverId
+                      yParam: controllerPWMDriverLastFaultCommand
+                      label: PWM Driver Last Fault Command
+                      xLabel: Driver ID
+                      yLabel: Command
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                      chart: false
+                    e_args:
+                      xLabel: ID
+                  - type: TableEdit
+                    args:
+                      xSlot: pwmDriverId
+                      yParam: controllerPWMDriverLastFaultCurrent
+                      label: PWM Driver Last Fault Current
+                      xLabel: Driver ID
+                      yLabel: Current
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                      chart: false
+                    e_args:
+                      xLabel: ID
                   - type: TableEdit
                     args:
                       xSlot: pwmDriverId
