@@ -17000,7 +17000,7 @@ slots:
   transmissionType1:
     encoding:
       - - 0
-        - Factory Defaults
+        - Diagnostic
       - - 100
         - GM 4L60E Non-PWM TCC
       - - 101
