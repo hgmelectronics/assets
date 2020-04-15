@@ -6884,7 +6884,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01824:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01825:
@@ -7420,7 +7420,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01958:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01959:
@@ -7456,7 +7456,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01967:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01968:
@@ -7464,11 +7464,11 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01969:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01970:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01971:
@@ -7476,7 +7476,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01972:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-01973:
@@ -7604,7 +7604,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02004:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02005:
@@ -7676,7 +7676,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02022:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02023:
@@ -7720,7 +7720,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02033:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02034:
@@ -7816,11 +7816,11 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02057:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02058:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02059:
@@ -7836,7 +7836,7 @@ devices:
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02062:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 3eb67d2d9
   CS3-02063:
