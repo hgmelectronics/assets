@@ -23594,43 +23594,43 @@ devices:
   ETCU-00010:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00011:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00012:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00013:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00014:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00015:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00016:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00017:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00018:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   ETCU-00019:
     model: base
     product: etcu1
-    softwareVersion: 34af99b58
+    softwareVersion: 0612047bd
   RLC2-00100:
     model: base
     product: rlc2
@@ -29652,6 +29652,10 @@ software:
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   etcu1:
     base:
+      0612047bd:
+        changelog: Bug fixes
+        releaseDate: '2020-05-05T21:01:37.070Z'
+        upgradePrompt: false
       34af99b58:
         changelog: Tuning on tachometer filter
         releaseDate: '2020-04-16T23:18:19.645Z'
