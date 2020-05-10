@@ -374,6 +374,10 @@ params:
     id: '0x2003'
     acl: *ref_2
     slot: speedoCalibration
+  vehicleSpeedSensorLocation:
+    id: '0x2004'
+    acl: *ref_4
+    slot: vssLocation
   vehicleSpeedSensorPulseCount:
     id: '0x2005'
     acl: *ref_4
@@ -16989,6 +16993,14 @@ slots:
         - 100
       unit: V
       precision: 1
+  vssLocation:
+    encoding:
+      - - 0
+        - Output Shaft
+      - - 1
+        - Transfer Case
+      - - 2
+        - Final Drive
   xyzIndex:
     encoding:
       - - 0
@@ -17000,7 +17012,7 @@ slots:
   transmissionType1:
     encoding:
       - - 0
-        - Diagnostic
+        - Diagnostics
       - - 100
         - GM 4L60E Non-PWM TCC
       - - 101
@@ -17169,6 +17181,8 @@ slots:
         - Toyota 1UR-FE/2GR-FE CAN
       - - 23
         - Toyota VDJ LC 7X Series CAN
+      - - 18
+        - VW CAN 1
   configGaugeSelectionEmbedded:
     encoding:
       - - 0
@@ -18640,7 +18654,15 @@ menus:
                       param: vehicleSpeedSensorPulseCount
                       label: Vehicle Speed Sensor Pulse Count
                       tooltip: >-
-                        Pulses per drive shaft turn on the VSS.  Depending on
+                        Pulses per shaft turn on the vehicle speed sensor. 
+                        Depending on transmission, may not be adjustable.
+                      doc: ''
+                  - type: EncodingEdit
+                    args:
+                      param: vehicleSpeedSensorLocation
+                      label: Vehicle Speed Sensor Location
+                      tooltip: >-
+                        Location of the vehicle speed sensor.  Depending on
                         transmission, may not be adjustable.
                       doc: ''
                   - type: ScalarEdit
