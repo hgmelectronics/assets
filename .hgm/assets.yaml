@@ -386,7 +386,7 @@ devices:
   CS3-00198:
     model: sport
     product: cs3
-    softwareVersion: 3eb67d2d9
+    softwareVersion: 99dbae3d2
   CS3-00199:
     model: sport
     product: cs3
@@ -29638,6 +29638,10 @@ software:
         changelog: Bug fixes and improvements
         releaseDate: '2020-04-10T23:46:45.849Z'
         upgradePrompt: false
+      99dbae3d2:
+        changelog: Added support for VW CAN
+        releaseDate: '2020-05-10T01:33:05.320Z'
+        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
@@ -29655,10 +29659,6 @@ software:
       0612047bd:
         changelog: Bug fixes
         releaseDate: '2020-05-05T21:01:37.070Z'
-        upgradePrompt: false
-      34af99b58:
-        changelog: Tuning on tachometer filter
-        releaseDate: '2020-04-16T23:18:19.645Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
