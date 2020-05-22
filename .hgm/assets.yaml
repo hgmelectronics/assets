@@ -386,7 +386,7 @@ devices:
   CS3-00198:
     model: sport
     product: cs3
-    softwareVersion: 99dbae3d2
+    softwareVersion: 871957db6
   CS3-00199:
     model: sport
     product: cs3
@@ -29638,9 +29638,9 @@ software:
         changelog: Bug fixes and improvements
         releaseDate: '2020-04-10T23:46:45.849Z'
         upgradePrompt: false
-      99dbae3d2:
+      871957db6:
         changelog: Added support for VW CAN
-        releaseDate: '2020-05-10T01:33:05.320Z'
+        releaseDate: '2020-05-22T02:17:03.181Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
