@@ -23594,43 +23594,43 @@ devices:
   ETCU-00010:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00011:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00012:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00013:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00014:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00015:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00016:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00017:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00018:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   ETCU-00019:
     model: base
     product: etcu1
-    softwareVersion: 0612047bd
+    softwareVersion: 923f9c833
   RLC2-00100:
     model: base
     product: rlc2
@@ -29659,6 +29659,10 @@ software:
       0612047bd:
         changelog: Bug fixes
         releaseDate: '2020-05-05T21:01:37.070Z'
+        upgradePrompt: false
+      923f9c833:
+        changelog: Additional tachometer processing
+        releaseDate: '2020-06-11T19:46:38.741Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
