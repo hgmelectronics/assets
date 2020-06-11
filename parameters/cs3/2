@@ -17181,8 +17181,6 @@ slots:
         - Toyota 1UR-FE/2GR-FE CAN
       - - 23
         - Toyota VDJ LC 7X Series CAN
-      - - 18
-        - VW CAN 1
   configGaugeSelectionEmbedded:
     encoding:
       - - 0
