@@ -29653,13 +29653,13 @@ software:
         changelog: Corrects rate issue with saving parameters
         releaseDate: '2019-07-12T00:18:27.293Z'
         upgradePrompt: false
+      9a09a1c54:
+        changelog: Bug fixes and performance improvements
+        releaseDate: '2020-06-11T20:12:55.669Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   etcu1:
     base:
-      0612047bd:
-        changelog: Bug fixes
-        releaseDate: '2020-05-05T21:01:37.070Z'
-        upgradePrompt: false
       923f9c833:
         changelog: Additional tachometer processing
         releaseDate: '2020-06-11T19:46:38.741Z'
