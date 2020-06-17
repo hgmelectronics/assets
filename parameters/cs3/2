@@ -17363,6 +17363,216 @@ slots:
         - Shift Reg Mean Output
       - - 27
         - Shift Reg RMS Output
+logging:
+  params:
+    - label: Engine/Vehicle
+      params:
+        - param: vehicleSpeed
+          header: VehSpd
+          label: Vehicle Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineSpeed
+          header: EngRPM
+          label: Engine Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineMAPPercentage
+          header: EngMap%
+          label: MAP
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineActualPercentTorque
+          header: EngActTq%
+          label: Engine Torque
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineThrottlePosition
+          header: EngThr%
+          label: Throttle Position
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: driversDemandPercentTorque
+          header: DrvDmdTq%
+          label: Driver Demand Torque
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Control
+      params:
+        - param: shiftControlMode
+          header: ShiftCtrlMode
+          label: Shift Mode
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: calibrationMode
+          header: CalMode
+          label: Calibration
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: tccControlMode
+          header: TCCMode
+          label: TCC Mode
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectedRange
+          header: ShiftSelRng
+          label: Selected Range
+          gaugeType: TextGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectedGear
+          header: ShiftSelGear
+          label: Selected Gear
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectorGear
+          header: ShiftLever
+          label: Shift Lever Position
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftCurrentGear
+          header: ShiftCurGear
+          label: Gear
+          gaugeType: DigitalGauge
+          gaugeSlot: gear1
+          tooltip: ''
+          doc: ''
+        - param: tccCurrentState
+          header: TCCState
+          label: TCC
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Diag/Health
+      params:
+        - param: transmissionTemperature
+          header: TransTemp
+          label: Trans Oil Temp
+          gaugeType: DigitalGauge
+          gaugeSlot: temperatureGauge
+          tooltip: ''
+          doc: ''
+        - param: controllerVoltage
+          header: BattVolt
+          label: Battery
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: dtcRecordedCount
+          header: DTCRecorded
+          label: Faults
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: dtcActiveCount
+          header: DTCActive
+          label: Active Faults
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionOilLevel
+          header: TransOil%
+          label: Trans Oil Level
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Shaft Speeds
+      params:
+        - param: transmissionInputShaftSpeed
+          header: TISS
+          label: TISS
+          name: Trans Input Shaft Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionOutputShaftSpeed
+          header: TOSS
+          label: TOSS
+          name: Trans Output Shaft Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionSlip
+          header: TransSlip
+          label: Trans Slip
+          name: Transmission Slip
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionRatio
+          header: TransRatio
+          label: Trans Ratio
+          name: Transmission Ratio
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: 'transmissionShaftSpeed[0]'
+          header: 'transmissionShaftSpeed[0]'
+          label: Shaft 1 Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: 'transmissionShaftSpeed[1]'
+          header: 'transmissionShaftSpeed[1]'
+          label: Shaft 2 Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionTorqueConverterSlip
+          header: transmissionTorqueConverterSlip
+          label: Torque Conv Slip
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Pressures
+      params:
+        - param: transmissionMainLinePressure
+          header: LinePressCmd
+          label: Line Press Cmd
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionPressureSensor
+          header: LinePressSens
+          label: Line Press Sensor
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionShiftRegMeanOutput
+          header: transmissionShiftRegMeanOutput
+          label: Shift Reg Mean
+          gaugeType: DigitalGauge
+          gaugeSlot: pressureGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionShiftRegRMSOutput
+          header: transmissionShiftRegRMSOutput
+          label: Shift Reg RMS
+          gaugeType: DigitalGauge
+          gaugeSlot: pressureGauge
+          tooltip: ''
+          doc: ''
+  sets:
+    - label: Shift Diagnostic
+      params:
+        - transmissionInputShaftSpeed
+        - transmissionOutputShaftSpeed
+        - engineActualPercentTorque
+        - driversDemandPercentTorque
+        - shiftSelectedGear
+        - transmissionMainLinePressure
+        - engineSpeed
 configurableGaugesEmbedded:
   - type: DigitalGauge
     args:
@@ -17535,179 +17745,6 @@ configurableGaugesEmbedded:
     args:
       param: transmissionShiftRegRMSOutput
       label: SRRO
-      slot: pressureGauge
-      tooltip: ''
-      doc: ''
-configurableGaugesHosted:
-  - type: DigitalGauge
-    args:
-      param: engineSpeed
-      label: Engine Speed
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: vehicleSpeed
-      label: Vehicle Speed
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: shiftControlMode
-      label: Shift Mode
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: shiftCurrentGear
-      slot: gear1
-      label: Gear
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionTemperature
-      slot: temperatureGauge
-      label: Trans Oil Temp
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: tccCurrentState
-      label: TCC
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: controllerVoltage
-      label: Battery
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: engineThrottlePosition
-      label: Throttle Position
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: calibrationMode
-      label: Calibration
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: dtcRecordedCount
-      label: Faults
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionMainLinePressure
-      label: Line Press Cmd
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionPressureSensor
-      label: Line Press Sensor
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: tccControlMode
-      label: TCC Mode
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: shiftSelectorGear
-      label: Shift Lever Position
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionOilLevel
-      label: Trans Oil Level
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionInputShaftSpeed
-      label: TISS
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionOutputShaftSpeed
-      label: TOSS
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionSlip
-      label: Trans Slip
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionRatio
-      label: Trans Ratio
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: engineMAPPercentage
-      label: MAP
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: engineActualPercentTorque
-      label: Engine Torque
-      tooltip: ''
-      doc: ''
-  - type: TextGauge
-    args:
-      param: shiftSelectedRange
-      label: Selected Range
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: 'transmissionShaftSpeed[0]'
-      label: Shaft 1 Speed
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: 'transmissionShaftSpeed[1]'
-      label: Shaft 2 Speed
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: dtcActiveCount
-      label: Active Faults
-      tooltip: ''
-      doc: ' '
-  - type: DigitalGauge
-    args:
-      param: transmissionTorqueConverterSlip
-      label: Torque Conv Slip
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionShiftRegMeanOutput
-      label: Shift Reg Mean
-      slot: pressureGauge
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionShiftRegRMSOutput
-      label: Shift Reg RMS
       slot: pressureGauge
       tooltip: ''
       doc: ''
@@ -18314,18 +18351,18 @@ menus:
                 doc: ''
                 index: 0
                 default:
-                  - 0
-                  - 1
-                  - 2
-                  - 3
-                  - 4
-                  - 5
-                  - 6
-                  - 7
-                  - 8
-                  - 9
-                  - 10
-                  - 11
+                  - engineSpeed
+                  - vehicleSpeed
+                  - shiftControlMode
+                  - shiftCurrentGear
+                  - transmissionTemperature
+                  - tccCurrentState
+                  - controllerVoltage
+                  - engineThrottlePosition
+                  - calibrationMode
+                  - dtcRecordedCount
+                  - transmissionMainLinePressure
+                  - transmissionPressureSensor
             - e_type: ConfigurableGaugeGroup
               args:
                 tooltip: ''
