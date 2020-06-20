@@ -17061,14 +17061,12 @@ slots:
         - Ford 5R110
       - - 213
         - Ford 6R80E
-      - - 300
-        - ZF 4HP24 w/D2 switch
-      - - 301
-        - ZF 4HP24 w/P38 switch
-      - - 302
-        - ZF 4HP24 w/HGM Lever Sensor
-      - - 303
-        - ZF 4HP24 w/BMW Lever Sensor
+      - - 550
+        - Aisin AW4
+      - - 1000
+        - Mercedes W5A330
+      - - 1001
+        - Mercedes W5A580
       - - 400
         - Nissan RE4R03A
       - - 401
@@ -17089,12 +17087,14 @@ slots:
         - Toyota A750 Gate Lever
       - - 508
         - Toyota AB60 with RE5 Shift Lever
-      - - 900
-        - HGM 4L80E 6 Speed
-      - - 1000
-        - Mercedes W5A330
-      - - 1001
-        - Mercedes W5A580
+      - - 300
+        - ZF 4HP24 w/D2 switch
+      - - 301
+        - ZF 4HP24 w/P38 switch
+      - - 302
+        - ZF 4HP24 w/HGM Lever Sensor
+      - - 303
+        - ZF 4HP24 w/BMW Lever Sensor
   upshiftDownshiftTableIndex:
     encoding:
       - - 0
@@ -17181,6 +17181,10 @@ slots:
         - Toyota 1UR-FE/2GR-FE CAN
       - - 23
         - Toyota VDJ LC 7X Series CAN
+      - - 36
+        - VW CAN 1 Gasoline
+      - - 37
+        - VW CAN 1 Diesel Engine
   configGaugeSelectionEmbedded:
     encoding:
       - - 0
