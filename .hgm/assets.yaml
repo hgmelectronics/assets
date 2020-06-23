@@ -386,7 +386,7 @@ devices:
   CS3-00198:
     model: sport
     product: cs3
-    softwareVersion: 37542467b
+    softwareVersion: 1f6dd7beb
   CS3-00199:
     model: sport
     product: cs3
@@ -29634,9 +29634,9 @@ software:
         upgradePrompt: true
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
-      37542467b:
+      1f6dd7beb:
         changelog: Added AW4 support
-        releaseDate: '2020-06-21T17:09:55.927Z'
+        releaseDate: '2020-06-23T21:09:10.320Z'
         upgradePrompt: false
       3eb67d2d9:
         changelog: Bug fixes and improvements
