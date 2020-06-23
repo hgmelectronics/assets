@@ -7658,7 +7658,7 @@ devices:
   CS3-02017:
     model: sport
     product: cs3
-    softwareVersion: 3eb67d2d9
+    softwareVersion: ffe25971f
   CS3-02018:
     model: sport
     product: cs3
@@ -29646,6 +29646,10 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
+      ffe25971f:
+        changelog: Corrected line pressure sensor construction
+        releaseDate: '2020-06-23T23:51:52.377Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
     base:
