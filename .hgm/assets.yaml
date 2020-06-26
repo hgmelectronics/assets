@@ -386,7 +386,7 @@ devices:
   CS3-00198:
     model: sport
     product: cs3
-    softwareVersion: 1f6dd7beb
+    softwareVersion: f856e0c5d
   CS3-00199:
     model: sport
     product: cs3
@@ -29638,14 +29638,14 @@ software:
         changelog: Corrected problem with pressure sensor
         releaseDate: '2020-06-25T22:13:09.328Z'
         upgradePrompt: false
-      1f6dd7beb:
-        changelog: Added AW4 support
-        releaseDate: '2020-06-23T21:09:10.320Z'
-        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
+      f856e0c5d:
+        changelog: Added AW4 support
+        releaseDate: '2020-06-26T04:04:25.441Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
     base:
