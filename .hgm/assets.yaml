@@ -3318,7 +3318,7 @@ devices:
   CS3-00932:
     model: sport
     product: cs3
-    softwareVersion: 1cd346e69
+    softwareVersion: f856e0c5d
   CS3-00933:
     model: sport
     product: cs3
