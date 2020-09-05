@@ -23578,43 +23578,43 @@ devices:
   ETCU-00010:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00011:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00012:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00013:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00014:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00015:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00016:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00017:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00018:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   ETCU-00019:
     model: base
     product: etcu1
-    softwareVersion: fac8c7422
+    softwareVersion: 59bb8c999
   RLC2-00100:
     model: base
     product: rlc2
@@ -29640,13 +29640,9 @@ software:
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   etcu1:
     base:
-      923f9c833:
-        changelog: Additional tachometer processing
-        releaseDate: '2020-06-11T19:46:38.741Z'
-        upgradePrompt: false
-      fac8c7422:
-        changelog: Bluetooth connectivity improvements
-        releaseDate: '2020-07-31T20:07:30.890Z'
+      59bb8c999:
+        changelog: Added solenoid DTCs and corrected tach filters
+        releaseDate: '2020-09-04T23:58:59.039Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
