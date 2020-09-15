@@ -23578,43 +23578,43 @@ devices:
   ETCU-00010:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00011:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00012:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00013:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00014:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00015:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00016:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00017:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00018:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   ETCU-00019:
     model: base
     product: etcu1
-    softwareVersion: 59bb8c999
+    softwareVersion: 09ea278bc
   RLC2-00100:
     model: base
     product: rlc2
@@ -29640,9 +29640,9 @@ software:
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   etcu1:
     base:
-      59bb8c999:
-        changelog: Added solenoid DTCs and corrected tach filters
-        releaseDate: '2020-09-04T23:58:59.039Z'
+      09ea278bc:
+        changelog: Corrected PF4 CAN faults at startup
+        releaseDate: '2020-09-15T19:17:03.374Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
