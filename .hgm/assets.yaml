@@ -23578,43 +23578,43 @@ devices:
   ETCU-00010:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00011:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00012:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00013:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00014:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00015:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00016:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00017:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00018:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   ETCU-00019:
     model: base
     product: etcu1
-    softwareVersion: 4ea2c7d87
+    softwareVersion: a4d59a265
   RLC2-00100:
     model: base
     product: rlc2
@@ -29647,6 +29647,10 @@ software:
       4ea2c7d87:
         changelog: Increased timeout for shift solenoid fault detection
         releaseDate: '2020-09-16T03:21:50.887Z'
+        upgradePrompt: false
+      a4d59a265:
+        changelog: Corrected missing parameters
+        releaseDate: '2020-09-23T03:57:51.939Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
