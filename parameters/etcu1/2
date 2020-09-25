@@ -249,42 +249,47 @@ params:
     id: '0x08B0'
     acl: *ref_1
     slot: frequency1
+    length: 2
   controllerPintleDutyCycle:
     id: '0x08B1'
     acl: *ref_1
     slot: percentage2
+    length: 2
   controllerPintleFaulted:
     id: '0x08B2'
     acl: *ref_0
     slot: booleanYesNo1
+    length: 2
   controllerPintleDriverFault:
     id: '0x08B3'
     acl: *ref_0
     slot: booleanYesNo1
+    length: 2
   controllerPintleOpenCircuit:
     id: '0x08B4'
     acl: *ref_0
     slot: booleanYesNo1
+    length: 2
   controllerOnOffSolenoidCommand:
     id: '0x08C0'
     acl: *ref_1
     slot: booleanOnOff1
-    length: 4
+    length: 3
   controllerOnOffSolenoidFaulted:
     id: '0x08C1'
     acl: *ref_0
     slot: booleanYesNo1
-    length: 4
+    length: 3
   controllerOnOffSolenoidDriverFault:
     id: '0x08C2'
     acl: *ref_0
     slot: booleanYesNo1
-    length: 4
+    length: 3
   controllerOnOffSolenoidOpenCircuit:
     id: '0x08C3'
     acl: *ref_0
     slot: booleanYesNo1
-    length: 4
+    length: 3
   variation:
     id: '0x2000'
     acl: *ref_2
@@ -302,6 +307,10 @@ params:
     id: '0x2003'
     acl: *ref_3
     slot: speedoCalibration
+  vehicleSpeedSensorLocation:
+    id: '0x2004'
+    acl: *ref_2
+    slot: vssLocation
   vehicleSpeedSensorPulseCount:
     id: '0x2005'
     acl: *ref_2
@@ -2008,6 +2017,10 @@ params:
     id: '0x9801'
     acl: *ref_0
     slot: voltage1
+  shiftSelectorODCancel:
+    id: '0x9802'
+    acl: *ref_0
+    slot: booleanOnOff1
   finalDriveRatio:
     id: '0xA000'
     acl: *ref_3
@@ -16901,6 +16914,14 @@ slots:
         - 100
       unit: V
       precision: 1
+  vssLocation:
+    encoding:
+      - - 0
+        - Output Shaft
+      - - 1
+        - Transfer Case
+      - - 2
+        - Final Drive
   xyzIndex:
     encoding:
       - - 0
@@ -16913,9 +16934,9 @@ slots:
     linear:
       raw:
         - 0
-        - 3
+        - 2
       engr:
-        - 3
+        - 4
         - 6
       unit: ''
       precision: 0
@@ -17037,56 +17058,202 @@ slots:
         - Faults
       - - 8
         - Active Faults
-configurableGaugesHosted:
-  - type: DigitalGauge
-    args:
-      param: vehicleSpeed
-      label: Vehicle Speed
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: engineThrottlePosition
-      label: Throttle Position
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: shiftCurrentGear
-      slot: gear1
-      label: Gear
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: tccCurrentState
-      label: TCC
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionPressureSensor
-      label: Line Press Sensor
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: controller12VoltBusVoltage
-      label: Battery
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: dtcRecordedCount
-      label: Faults
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: dtcActiveCount
-      label: Active Faults
-      tooltip: ''
-      doc: ' '
+logging:
+  params:
+    - label: Engine/Vehicle
+      params:
+        - param: vehicleSpeed
+          header: VehSpd
+          label: Vehicle Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineSpeed
+          header: EngRPM
+          label: Engine Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineMAPPercentage
+          header: EngMap%
+          label: MAP
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineActualPercentTorque
+          header: EngActTq%
+          label: Engine Torque
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineThrottlePosition
+          header: EngThr%
+          label: Throttle Position
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: driversDemandPercentTorque
+          header: DrvDmdTq%
+          label: Driver Demand Torque
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Control
+      params:
+        - param: shiftControlMode
+          header: ShiftCtrlMode
+          label: Shift Mode
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: calibrationMode
+          header: CalMode
+          label: Calibration
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: tccControlMode
+          header: TCCMode
+          label: TCC Mode
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectedRange
+          header: ShiftSelRng
+          label: Selected Range
+          gaugeType: TextGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectedGear
+          header: ShiftSelGear
+          label: Selected Gear
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectorGear
+          header: ShiftLever
+          label: Shift Lever Position
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectorODCancel
+          header: ODCancel
+          label: Overdrive Cancel
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftCurrentGear
+          header: ShiftCurGear
+          label: Gear
+          gaugeType: DigitalGauge
+          gaugeSlot: gear1
+          tooltip: ''
+          doc: ''
+        - param: tccCurrentState
+          header: TCCState
+          label: TCC
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Diag/Health
+      params:
+        - param: transmissionTemperature
+          header: TransTemp
+          label: Trans Oil Temp
+          gaugeType: DigitalGauge
+          gaugeSlot: temperatureGauge
+          tooltip: ''
+          doc: ''
+        - param: controllerVoltage
+          header: BattVolt
+          label: Battery
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: dtcRecordedCount
+          header: DTCRecorded
+          label: Faults
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: dtcActiveCount
+          header: DTCActive
+          label: Active Faults
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Shaft Speeds
+      params:
+        - param: transmissionInputShaftSpeed
+          header: TISS
+          label: TISS
+          name: Trans Input Shaft Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionOutputShaftSpeed
+          header: TOSS
+          label: TOSS
+          name: Trans Output Shaft Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionSlip
+          header: TransSlip
+          label: Trans Slip
+          name: Transmission Slip
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionRatio
+          header: TransRatio
+          label: Trans Ratio
+          name: Transmission Ratio
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: 'transmissionShaftSpeed[0]'
+          header: 'transmissionShaftSpeed[0]'
+          label: Shaft 1 Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: 'transmissionShaftSpeed[1]'
+          header: 'transmissionShaftSpeed[1]'
+          label: Shaft 2 Speed
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionTorqueConverterSlip
+          header: transmissionTorqueConverterSlip
+          label: Torque Conv Slip
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Pressures
+      params:
+        - param: transmissionMainLinePressure
+          header: LinePressCmd
+          label: Line Press Cmd
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionPressureSensor
+          header: LinePressSens
+          label: Line Press Sensor
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+  sets:
+    - label: Shift Diagnostic
+      params:
+        - transmissionInputShaftSpeed
+        - transmissionOutputShaftSpeed
+        - engineActualPercentTorque
+        - driversDemandPercentTorque
+        - shiftSelectedGear
+        - transmissionMainLinePressure
+        - engineSpeed
 slotLocalizations:
   - name: Pressure
     base:
@@ -17613,14 +17780,19 @@ menus:
                 doc: ''
                 index: 0
                 default:
-                  - 0
-                  - 1
-                  - 2
-                  - 3
-                  - 4
-                  - 5
-                  - 6
-                  - 7
+                  - engineSpeed
+                  - vehicleSpeed
+                  - shiftControlMode
+                  - shiftCurrentGear
+                  - transmissionTemperature
+                  - tccCurrentState
+                  - controllerVoltage
+                  - engineThrottlePosition
+                  - calibrationMode
+                  - dtcRecordedCount
+                  - transmissionMainLinePressure
+                  - transmissionPressureSensor
+                  - shiftSelectorODCancel
             - h_type: SectionDivider
             - h_type: Menu
               args:
@@ -17889,7 +18061,15 @@ menus:
                       param: vehicleSpeedSensorPulseCount
                       label: Vehicle Speed Sensor Pulse Count
                       tooltip: >-
-                        Pulses per drive shaft turn on the VSS.  Depending on
+                        Pulses per shaft turn on the vehicle speed sensor. 
+                        Depending on transmission, may not be adjustable.
+                      doc: ''
+                  - type: EncodingEdit
+                    args:
+                      param: vehicleSpeedSensorLocation
+                      label: Vehicle Speed Sensor Location
+                      tooltip: >-
+                        Location of the vehicle speed sensor.  Depending on
                         transmission, may not be adjustable.
                       doc: ''
                   - type: ScalarEdit
@@ -19932,35 +20112,73 @@ menus:
                       text: Solenoid 2
                   - type: ScalarEdit
                     args:
-                      param: controllerPintleFrequency
+                      param: 'controllerPintleFrequency[0]'
                       label: Frequency
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: ScalarEdit
                     args:
-                      param: controllerPintleDutyCycle
+                      param: 'controllerPintleDutyCycle[0]'
                       label: Duty Cycle
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: EncodingEdit
                     args:
-                      param: controllerPintleFaulted
+                      param: 'controllerPintleFaulted[0]'
                       label: Faulted
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: EncodingEdit
                     args:
-                      param: controllerPintleDriverFault
+                      param: 'controllerPintleDriverFault[0]'
                       label: Driver Fault
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: EncodingEdit
                     args:
-                      param: controllerPintleOpenCircuit
+                      param: 'controllerPintleOpenCircuit[0]'
+                      label: Open Circuit
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - h_type: SectionDivider
+                    h_args:
+                      text: Solenoid 3
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPintleFrequency[1]'
+                      label: Frequency
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPintleDutyCycle[1]'
+                      label: Duty Cycle
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: EncodingEdit
+                    args:
+                      param: 'controllerPintleFaulted[1]'
+                      label: Faulted
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: EncodingEdit
+                    args:
+                      param: 'controllerPintleDriverFault[1]'
+                      label: Driver Fault
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: EncodingEdit
+                    args:
+                      param: 'controllerPintleOpenCircuit[1]'
                       label: Open Circuit
                       autorefresh: true
                       tooltip: ''
