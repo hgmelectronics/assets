@@ -2084,6 +2084,10 @@ params:
     id: '0x9801'
     acl: *ref_0
     slot: voltage1
+  shiftSelectorODCancel:
+    id: '0x9802'
+    acl: *ref_0
+    slot: booleanOnOff1
   finalDriveRatio:
     id: '0xA000'
     acl: *ref_2
@@ -17062,7 +17066,9 @@ slots:
       - - 213
         - Ford 6R80E
       - - 550
-        - Aisin AW4
+        - Aisin AW4 Early
+      - - 551
+        - Aisin AW4 Late
       - - 1000
         - Mercedes W5A330
       - - 1001
@@ -17079,6 +17085,8 @@ slots:
         - Toyota A340
       - - 503
         - Toyota A341
+      - - 504
+        - Toyota A343
       - - 505
         - Toyota AB60
       - - 506
@@ -17087,6 +17095,8 @@ slots:
         - Toyota A750 Gate Lever
       - - 508
         - Toyota AB60 with RE5 Shift Lever
+      - - 509
+        - Toyota A340 30-40LS
       - - 300
         - ZF 4HP24 w/D2 switch
       - - 301
@@ -17442,6 +17452,12 @@ logging:
         - param: shiftSelectorGear
           header: ShiftLever
           label: Shift Lever Position
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectorODCancel
+          header: ODCancel
+          label: Overdrive Cancel
           gaugeType: DigitalGauge
           tooltip: ''
           doc: ''
