@@ -17083,6 +17083,8 @@ slots:
         - Toyota 442F w/PCS
       - - 502
         - Toyota A340
+      - - 509
+        - Toyota A340 30-40LS
       - - 503
         - Toyota A341
       - - 504
@@ -17095,8 +17097,6 @@ slots:
         - Toyota A750 Gate Lever
       - - 508
         - Toyota AB60 with RE5 Shift Lever
-      - - 509
-        - Toyota A340 30-40LS
       - - 300
         - ZF 4HP24 w/D2 switch
       - - 301
@@ -17148,11 +17148,13 @@ slots:
       - - 31
         - Edelbrock Pro Flo 4 CAN
       - - 35
-        - Emtron
+        - Emtron CAN
       - - 29
         - FAST XFI CAN
+      - - 24
+        - Haltech Platinum CAN
       - - 25
-        - Haltech CAN V2
+        - Haltech Elite CAN
       - - 27
         - Holley Racepak CAN
       - - 4
