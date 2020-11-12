@@ -9896,7 +9896,7 @@ devices:
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02581:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02582:
@@ -10020,7 +10020,7 @@ devices:
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02612:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02613:
@@ -10064,7 +10064,7 @@ devices:
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02623:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02624:
@@ -10244,11 +10244,11 @@ devices:
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02668:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02669:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: 1cd346e69
   CS3-02670:
