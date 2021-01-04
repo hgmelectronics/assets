@@ -10010,7 +10010,7 @@ devices:
   CS3-02609:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f856e0c5d
   CS3-02610:
     model: sport
     product: cs3
