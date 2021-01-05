@@ -919,6 +919,30 @@ params:
     id: '0x3834'
     acl: *ref_0
     slot: voltage1
+  transmissionShiftStatus:
+    id: '0x3880'
+    acl: *ref_0
+    slot: count
+  transmissionShiftTimer:
+    id: '0x3881'
+    acl: *ref_0
+    slot: timeSeconds1
+  transmissionShiftNextGear:
+    id: '0x3882'
+    acl: *ref_0
+    slot: gear1
+  transmissionShiftApplyClutchPressure:
+    id: '0x3884'
+    acl: *ref_0
+    slot: pressure
+  transmissionShiftReleaseClutchPressure:
+    id: '0x3885'
+    acl: *ref_0
+    slot: pressure
+  transmissionShiftAccumulatorPercentage:
+    id: '0x3886'
+    acl: *ref_0
+    slot: percentage1
   transmissionShiftRegOutput:
     id: '0x3890'
     acl: *ref_0
@@ -17379,6 +17403,10 @@ slots:
         - Shift Reg Mean Output
       - - 27
         - Shift Reg RMS Output
+      - - 28
+        - Calibration Mode
+      - - 29
+        - Overdrive Cancel
 logging:
   params:
     - label: Engine/Vehicle
@@ -17572,17 +17600,49 @@ logging:
           tooltip: ''
           doc: ''
         - param: transmissionShiftRegMeanOutput
-          header: transmissionShiftRegMeanOutput
+          header: ShiftRegMeanOutput
           label: Shift Reg Mean
           gaugeType: DigitalGauge
           gaugeSlot: pressureGauge
           tooltip: ''
           doc: ''
         - param: transmissionShiftRegRMSOutput
-          header: transmissionShiftRegRMSOutput
+          header: ShiftRegRMSOutput
           label: Shift Reg RMS
           gaugeType: DigitalGauge
           gaugeSlot: pressureGauge
+          tooltip: ''
+          doc: ''
+    - label: Shift Regulation
+      params:
+        - param: transmissionShiftStatus
+          header: ShiftStatus
+          label: Shift Status
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionShiftTimer
+          header: ShiftTimer
+          label: ShiftTimer
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionShiftApplyClutchPressure
+          header: Apply Clutch ressure
+          label: Apply Pressure
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionShiftReleaseClutchPressure
+          header: Release Clutch Pressure
+          label: Release Pressure
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: transmissionShiftAccumulatorPercentage
+          header: Accumulator Pressure
+          label: Accumulator Pressure
+          gaugeType: DigitalGauge
           tooltip: ''
           doc: ''
   sets:
@@ -17595,6 +17655,11 @@ logging:
         - shiftSelectedGear
         - transmissionMainLinePressure
         - engineSpeed
+        - transmissionShiftStatus
+        - transmissionShiftTimer
+        - transmissionShiftApplyClutchPressure
+        - transmissionShiftReleaseClutchPressure
+        - transmissionShiftAccumulatorPercentage
 configurableGaugesEmbedded:
   - type: DigitalGauge
     args:
@@ -17768,6 +17833,20 @@ configurableGaugesEmbedded:
       param: transmissionShiftRegRMSOutput
       label: SRRO
       slot: pressureGauge
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: calibrationMode
+      label: CAL
+      slot: calibrationMode
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: shiftSelectorODCancel
+      label: ODCL
+      slot: booleanOnOff1
       tooltip: ''
       doc: ''
 slotLocalizations:
@@ -18569,7 +18648,7 @@ menus:
             - type: ScalarEdit
               args:
                 param: speedometerCalibration
-                label: Speedometer Calibration
+                label: Speedometer Output Calibration
                 tooltip: >-
                   Pulses per drive shaft turn.  Leave 0 for transmission
                   default.
@@ -21014,7 +21093,7 @@ menus:
                 tooltip: ''
                 doc: ''
                 children:
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverMode
@@ -21027,7 +21106,7 @@ menus:
                     e_args:
                       xLabel: ID
                       ySlot: pwmDriverMode
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverDutyCycle
@@ -21040,7 +21119,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverEnable
@@ -21053,7 +21132,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverCurrent
@@ -21066,7 +21145,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverFaulted
@@ -21079,7 +21158,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverLastFaultType
@@ -21092,7 +21171,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverLastFaultCommand
@@ -21105,7 +21184,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverLastFaultCurrent
@@ -21118,7 +21197,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverCurrentCommand
@@ -21131,7 +21210,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverSolenoidResistance
@@ -21144,7 +21223,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverDitherFrequency
@@ -21157,7 +21236,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverDitherAmplitude
@@ -21170,7 +21249,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverPintleFrequency
@@ -21183,7 +21262,7 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
-                  - type: TableEdit
+                  - e_type: TableEdit
                     args:
                       xSlot: pwmDriverId
                       yParam: controllerPWMDriverPintleDutyCycle
@@ -21196,6 +21275,1266 @@ menus:
                       chart: false
                     e_args:
                       xLabel: ID
+                  - h_type: MultiTableEdit
+                    h_args:
+                      label: Driver Status
+                      tooltip: Overview of the PWM outputs
+                      doc: ''
+                      columns:
+                        - slot: pwmDriverId
+                          label: ID
+                          width: 2em
+                        - param: controllerPWMDriverCurrent
+                          label: Current
+                          autorefresh: true
+                          width: 3em
+                        - param: controllerPWMDriverFaulted
+                          label: Faulted?
+                          autorefresh: true
+                          width: 3em
+                        - param: controllerPWMDriverLastFaultType
+                          label: Last Fault Type
+                          autorefresh: true
+                          width: 4em
+                  - h_type: SectionDivider
+                    args:
+                      text: Advanced View
+                  - h_type: Menu
+                    args:
+                      title: Driver 1
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[0]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[0]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[0]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[0]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[0]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[0]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[0]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[0]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[0]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[0]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[0]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[0]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[0]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[0]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 2
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[1]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[1]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[1]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[1]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[1]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[1]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[1]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[1]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[1]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[1]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[1]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[1]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[1]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[1]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 3
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[2]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[2]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[2]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[2]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[2]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[2]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[2]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[2]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[2]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[2]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[2]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[2]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[2]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[2]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 4
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[3]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[3]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[3]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[3]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[3]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[3]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[3]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[3]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[3]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[3]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[3]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[3]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[3]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[3]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 5
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[4]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[4]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[4]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[4]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[4]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[4]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[4]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[4]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[4]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[4]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[4]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[4]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[4]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[4]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 6
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[5]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[5]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[5]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[5]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[5]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[5]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[5]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[5]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[5]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[5]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[5]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[5]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[5]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[5]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 7
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[6]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[6]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[6]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[6]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[6]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[6]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[6]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[6]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[6]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[6]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[6]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[6]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[6]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[6]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 8
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[7]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[7]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[7]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[7]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[7]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[7]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[7]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[7]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[7]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[7]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[7]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[7]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[7]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[7]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 9
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[8]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[8]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[8]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[8]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[8]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[8]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[8]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[8]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[8]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[8]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[8]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[8]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[8]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[8]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 10
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[9]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[9]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[9]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[9]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[9]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[9]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[9]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[9]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[9]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[9]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[9]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[9]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[9]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[9]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 11
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[10]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[10]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[10]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[10]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[10]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[10]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[10]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[10]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[10]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[10]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[10]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[10]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[10]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[10]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                  - type: Menu
+                    args:
+                      title: Driver 12
+                      tooltip: ''
+                      doc: ''
+                      children:
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverMode[11]'
+                            label: Mode
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDutyCycle[11]'
+                            label: Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: BooleanEdit
+                          args:
+                            param: 'controllerPWMDriverEnable[11]'
+                            label: Enable
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrent[11]'
+                            label: Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverFaulted[11]'
+                            label: Faulted
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: EncodingEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultType[11]'
+                            label: Last Fault
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCommand[11]'
+                            label: Last Fault Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverLastFaultCurrent[11]'
+                            label: Last Fault Current
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverCurrentCommand[11]'
+                            label: Current Command
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverSolenoidResistance[11]'
+                            label: Solenoid Resistance
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherFrequency[11]'
+                            label: Dither Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverDitherAmplitude[11]'
+                            label: Dither Amplitude
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleFrequency[11]'
+                            label: Pintle Frequency
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPintleDutyCycle[11]'
+                            label: Pintle Duty Cycle
+                            autorefresh: true
+                            tooltip: ''
+                            doc: ''
             - type: Menu
               args:
                 title: Network Diagnostics
