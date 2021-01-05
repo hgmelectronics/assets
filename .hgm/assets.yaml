@@ -386,7 +386,7 @@ devices:
   CS3-00198:
     model: sport
     product: cs3
-    softwareVersion: f856e0c5d
+    softwareVersion: c1aba3c
   CS3-00199:
     model: sport
     product: cs3
@@ -3302,7 +3302,7 @@ devices:
   CS3-00932:
     model: sport
     product: cs3
-    softwareVersion: f856e0c5d
+    softwareVersion: c1aba3c
   CS3-00933:
     model: sport
     product: cs3
@@ -10010,7 +10010,7 @@ devices:
   CS3-02609:
     model: sport
     product: cs3
-    softwareVersion: f856e0c5d
+    softwareVersion: c1aba3c
   CS3-02610:
     model: sport
     product: cs3
@@ -23578,83 +23578,83 @@ devices:
   ETCU-00010:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00011:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00012:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00013:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00014:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00015:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00016:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00017:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00018:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00019:
     model: proto
     product: etcu1
-    softwareVersion: 361673c75
+    softwareVersion: a95f3a2
   ETCU-00050:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00051:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00052:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00053:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00054:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00055:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00056:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00057:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00058:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   ETCU-00059:
     model: base
     product: etcu1
-    softwareVersion: 0380ec1
+    softwareVersion: 39f2f1e
   RLC2-00100:
     model: base
     product: rlc2
@@ -29666,6 +29666,10 @@ software:
         changelog: Reverted to earlier neutral relay control strategy
         releaseDate: '2020-12-10T01:06:21.268Z'
         upgradePrompt: false
+      c1aba3c:
+        changelog: Bug fixes and performance improvements
+        releaseDate: '2021-01-05T17:03:53.750Z'
+        upgradePrompt: false
       f856e0c5d:
         changelog: Added AW4 support
         releaseDate: '2020-06-26T04:04:25.441Z'
@@ -29684,11 +29688,19 @@ software:
         changelog: Pre-production prototype software
         releaseDate: '2020-11-21T00:43:55.267Z'
         upgradePrompt: false
+      39f2f1e:
+        changelog: Improved solenoid current regulation
+        releaseDate: '2021-01-04T02:43:42.347Z'
+        upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     proto:
       361673c75:
         changelog: Bug fixes
         releaseDate: '2020-09-25T22:40:43.722Z'
+        upgradePrompt: false
+      a95f3a2:
+        changelog: Improved solenoid current regulation
+        releaseDate: '2021-01-04T02:44:06.401Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   rlc2:
