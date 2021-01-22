@@ -179,97 +179,111 @@ params:
     id: '0x0881'
     acl: *ref_1
     slot: frequency1
-    length: 1
+    length: 2
   controllerPWMDriverDitherAmplitude:
     id: '0x0882'
     acl: *ref_1
     slot: current1
-    length: 1
+    length: 2
   controllerPWMDriverSolenoidResistance:
     id: '0x0883'
     acl: *ref_1
     slot: resistance1
-    length: 1
+    length: 2
   controllerPWMDriverPintleFrequency:
     id: '0x0884'
     acl: *ref_1
     slot: frequency1
-    length: 1
+    length: 2
   controllerPWMDriverPintleDutyCycle:
     id: '0x0885'
     acl: *ref_1
     slot: percentage2
-    length: 1
+    length: 2
   controllerPWMDriverEnable:
     id: '0x0886'
     acl: *ref_1
     slot: booleanOnOff1
-    length: 1
+    length: 2
   controllerPWMDriverCurrentCommand:
     id: '0x0887'
     acl: *ref_1
     slot: current1
-    length: 1
+    length: 2
   controllerPWMDriverCurrent:
     id: '0x0888'
     acl: *ref_0
     slot: current1
-    length: 1
+    length: 2
   controllerPWMDriverFaulted:
     id: '0x0889'
     acl: *ref_0
     slot: booleanYesNo1
-    length: 1
+    length: 2
   controllerPWMDriverLastFaultType:
     id: '0x088A'
     acl: *ref_0
     slot: pwmDriverFaultType
-    length: 1
+    length: 2
   controllerPWMDriverLastFaultCommand:
     id: '0x088B'
     acl: *ref_0
     slot: 'null'
-    length: 1
+    length: 2
   controllerPWMDriverLastFaultCurrent:
     id: '0x088C'
     acl: *ref_0
     slot: current1
-    length: 1
+    length: 2
   controllerPWMDriverDutyCycle:
     id: '0x0890'
     acl: *ref_1
     slot: percentage2
-    length: 1
+    length: 2
   controllerPWMDriverMode:
     id: '0x08A0'
     acl: *ref_1
     slot: pwmDriverMode
-    length: 1
+    length: 2
+  controllerPWMDriverPropCoeff:
+    id: '0x08A1'
+    acl: *ref_1
+    slot: pwmDriverPropCoeff
+    length: 2
+  controllerPWMDriverIntCoeff:
+    id: '0x08A2'
+    acl: *ref_1
+    slot: pwmDriverIntCoeff
+    length: 2
+  controllerPWMDriverBackEMFCoeff:
+    id: '0x08A3'
+    acl: *ref_1
+    slot: pwmDriverBackEMFCoeff
+    length: 2
+  controllerPWMDriverCarrierFreq:
+    id: '0x08A4'
+    acl: *ref_1
+    slot: frequency1
   controllerPintleFrequency:
     id: '0x08B0'
     acl: *ref_1
     slot: frequency1
-    length: 2
   controllerPintleDutyCycle:
     id: '0x08B1'
     acl: *ref_1
     slot: percentage2
-    length: 2
   controllerPintleFaulted:
     id: '0x08B2'
     acl: *ref_0
     slot: booleanYesNo1
-    length: 2
   controllerPintleDriverFault:
     id: '0x08B3'
     acl: *ref_0
     slot: booleanYesNo1
-    length: 2
   controllerPintleOpenCircuit:
     id: '0x08B4'
     acl: *ref_0
     slot: booleanYesNo1
-    length: 2
   controllerOnOffSolenoidCommand:
     id: '0x08C0'
     acl: *ref_1
@@ -852,6 +866,30 @@ params:
     id: '0x3834'
     acl: *ref_0
     slot: voltage1
+  transmissionShiftStatus:
+    id: '0x3880'
+    acl: *ref_0
+    slot: count
+  transmissionShiftTimer:
+    id: '0x3881'
+    acl: *ref_0
+    slot: timeSeconds1
+  transmissionShiftNextGear:
+    id: '0x3882'
+    acl: *ref_0
+    slot: gear1
+  transmissionShiftApplyClutchPressure:
+    id: '0x3884'
+    acl: *ref_0
+    slot: pressure
+  transmissionShiftReleaseClutchPressure:
+    id: '0x3885'
+    acl: *ref_0
+    slot: pressure
+  transmissionShiftAccumulatorPercentage:
+    id: '0x3886'
+    acl: *ref_0
+    slot: percentage1
   transmissionShiftRegOutput:
     id: '0x3890'
     acl: *ref_0
@@ -2460,6 +2498,8 @@ slots:
         - Connected
       - - 12
         - Disconnecting
+      - - 13
+        - BondStorageConfig
       - - 100
         - Init
       - - 101
@@ -16385,6 +16425,16 @@ slots:
         - 145037738
       unit: psi/krpm-s
       precision: 1
+  pwmDriverBackEMFCoeff:
+    linear:
+      raw:
+        - 0
+        - 256
+      engr:
+        - 0
+        - 100
+      unit: '%'
+      precision: 1
   pwmDriverFaultType:
     encoding:
       - - 0
@@ -16421,6 +16471,16 @@ slots:
         - Reg. High
       - - 7
         - Bad Mode
+  pwmDriverIntCoeff:
+    linear:
+      raw:
+        - 0
+        - 100000
+      engr:
+        - 0
+        - 100000
+      unit: mV/mA/s
+      precision: 0
   pwmDriverMode:
     encoding:
       - - 0
@@ -16435,6 +16495,16 @@ slots:
         - Saturated Sink
       - - 5
         - Saturated Source
+  pwmDriverPropCoeff:
+    linear:
+      raw:
+        - 0
+        - 1000
+      engr:
+        - 0
+        - 200
+      unit: mV/A/Hz
+      precision: 1
   pulsesPerMile:
     linear:
       raw:
@@ -16505,6 +16575,7 @@ slots:
         - 100000
       unit: rpm
       precision: 0
+      engrStep: 10
   slip1:
     linear:
       raw:
@@ -16767,6 +16838,7 @@ slots:
         - 223.693629
       unit: mph
       precision: 1
+      engrStep: 1
       scalers:
         - param: tireDiameter
           slot: length
@@ -16786,6 +16858,7 @@ slots:
         - 360
       unit: kph
       precision: 1
+      engrStep: 1
       scalers:
         - param: tireDiameter
           slot: length
@@ -16934,9 +17007,9 @@ slots:
     linear:
       raw:
         - 0
-        - 2
+        - 3
       engr:
-        - 4
+        - 3
         - 6
       unit: ''
       precision: 0
@@ -17927,7 +18000,7 @@ menus:
             - type: ScalarEdit
               args:
                 param: speedometerCalibration
-                label: Speedometer Calibration
+                label: Speedometer Output Calibration
                 tooltip: >-
                   Pulses per drive shaft turn.  Leave 0 for transmission
                   default.
@@ -20004,6 +20077,9 @@ menus:
                 tooltip: ''
                 doc: ''
                 children:
+                  - h_type: SectionDivider
+                    h_args:
+                      text: Solenoid 1
                   - type: EncodingEdit
                     args:
                       param: 'controllerPWMDriverMode[0]'
@@ -20101,6 +20177,156 @@ menus:
                       autorefresh: true
                       tooltip: ''
                       doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverPropCoeff[0]'
+                      label: Proportional Coeff
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverIntCoeff[0]'
+                      label: Integral Coeff
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverBackEMFCoeff[0]'
+                      label: Back EMF Coeff
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: controllerPWMDriverCarrierFreq
+                      label: Carrier Frequency
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - h_type: SectionDivider
+                    h_args:
+                      text: Solenoid 2
+                  - type: EncodingEdit
+                    args:
+                      param: 'controllerPWMDriverMode[1]'
+                      label: Mode
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverDutyCycle[1]'
+                      label: Duty Cycle
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: BooleanEdit
+                    args:
+                      param: 'controllerPWMDriverEnable[1]'
+                      label: Enable
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverCurrent[1]'
+                      label: Current
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: EncodingEdit
+                    args:
+                      param: 'controllerPWMDriverFaulted[1]'
+                      label: Faulted
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: EncodingEdit
+                    args:
+                      param: 'controllerPWMDriverLastFaultType[1]'
+                      label: Last Fault
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverLastFaultCommand[1]'
+                      label: Last Fault Command
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverLastFaultCurrent[1]'
+                      label: Last Fault Current
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverCurrentCommand[1]'
+                      label: Current Command
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverSolenoidResistance[1]'
+                      label: Solenoid Resistance
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverDitherFrequency[1]'
+                      label: Dither Frequency
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverDitherAmplitude[1]'
+                      label: Dither Amplitude
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverPintleFrequency[1]'
+                      label: Pintle Frequency
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverPintleDutyCycle[1]'
+                      label: Pintle Duty Cycle
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverPropCoeff[1]'
+                      label: Proportional Coeff
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverIntCoeff[1]'
+                      label: Integral Coeff
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: 'controllerPWMDriverBackEMFCoeff[1]'
+                      label: Back EMF Coeff
+                      tooltip: ''
+                      doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: controllerPWMDriverCarrierFreq
+                      label: Carrier Frequency
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
             - type: Menu
               args:
                 title: Low Side Driver Diagnostics
@@ -20109,76 +20335,38 @@ menus:
                 children:
                   - h_type: SectionDivider
                     h_args:
-                      text: Solenoid 2
-                  - type: ScalarEdit
-                    args:
-                      param: 'controllerPintleFrequency[0]'
-                      label: Frequency
-                      autorefresh: true
-                      tooltip: ''
-                      doc: ''
-                  - type: ScalarEdit
-                    args:
-                      param: 'controllerPintleDutyCycle[0]'
-                      label: Duty Cycle
-                      autorefresh: true
-                      tooltip: ''
-                      doc: ''
-                  - type: EncodingEdit
-                    args:
-                      param: 'controllerPintleFaulted[0]'
-                      label: Faulted
-                      autorefresh: true
-                      tooltip: ''
-                      doc: ''
-                  - type: EncodingEdit
-                    args:
-                      param: 'controllerPintleDriverFault[0]'
-                      label: Driver Fault
-                      autorefresh: true
-                      tooltip: ''
-                      doc: ''
-                  - type: EncodingEdit
-                    args:
-                      param: 'controllerPintleOpenCircuit[0]'
-                      label: Open Circuit
-                      autorefresh: true
-                      tooltip: ''
-                      doc: ''
-                  - h_type: SectionDivider
-                    h_args:
                       text: Solenoid 3
                   - type: ScalarEdit
                     args:
-                      param: 'controllerPintleFrequency[1]'
+                      param: controllerPintleFrequency
                       label: Frequency
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: ScalarEdit
                     args:
-                      param: 'controllerPintleDutyCycle[1]'
+                      param: controllerPintleDutyCycle
                       label: Duty Cycle
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: EncodingEdit
                     args:
-                      param: 'controllerPintleFaulted[1]'
+                      param: controllerPintleFaulted
                       label: Faulted
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: EncodingEdit
                     args:
-                      param: 'controllerPintleDriverFault[1]'
+                      param: controllerPintleDriverFault
                       label: Driver Fault
                       autorefresh: true
                       tooltip: ''
                       doc: ''
                   - type: EncodingEdit
                     args:
-                      param: 'controllerPintleOpenCircuit[1]'
+                      param: controllerPintleOpenCircuit
                       label: Open Circuit
                       autorefresh: true
                       tooltip: ''
