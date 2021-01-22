@@ -291,6 +291,25 @@ params:
     acl: *ref_1
     slot: pwmDriverMode
     length: 12
+  controllerPWMDriverPropCoeff:
+    id: '0x08A1'
+    acl: *ref_1
+    slot: pwmDriverPropCoeff
+    length: 12
+  controllerPWMDriverIntCoeff:
+    id: '0x08A2'
+    acl: *ref_1
+    slot: pwmDriverIntCoeff
+    length: 12
+  controllerPWMDriverBackEMFCoeff:
+    id: '0x08A3'
+    acl: *ref_1
+    slot: pwmDriverBackEMFCoeff
+    length: 12
+  controllerPWMDriverCarrierFreq:
+    id: '0x08A4'
+    acl: *ref_1
+    slot: frequency1
   displayBrightness:
     id: '0x1002'
     acl: *ref_2
@@ -2567,6 +2586,8 @@ slots:
         - Connected
       - - 12
         - Disconnecting
+      - - 13
+        - BondStorageConfig
       - - 100
         - Init
       - - 101
@@ -16492,6 +16513,16 @@ slots:
         - 145037738
       unit: psi/krpm-s
       precision: 1
+  pwmDriverBackEMFCoeff:
+    linear:
+      raw:
+        - 0
+        - 256
+      engr:
+        - 0
+        - 100
+      unit: '%'
+      precision: 1
   pwmDriverFaultType:
     encoding:
       - - 0
@@ -16528,6 +16559,16 @@ slots:
         - Reg. High
       - - 7
         - Bad Mode
+  pwmDriverIntCoeff:
+    linear:
+      raw:
+        - 0
+        - 100000
+      engr:
+        - 0
+        - 100000
+      unit: mV/mA/s
+      precision: 0
   pwmDriverMode:
     encoding:
       - - 0
@@ -16542,6 +16583,16 @@ slots:
         - Saturated Sink
       - - 5
         - Saturated Source
+  pwmDriverPropCoeff:
+    linear:
+      raw:
+        - 0
+        - 1000
+      engr:
+        - 0
+        - 200
+      unit: mV/A/Hz
+      precision: 1
   pulsesPerMile:
     linear:
       raw:
@@ -16612,6 +16663,7 @@ slots:
         - 100000
       unit: rpm
       precision: 0
+      engrStep: 10
   slip1:
     linear:
       raw:
@@ -16874,6 +16926,7 @@ slots:
         - 223.693629
       unit: mph
       precision: 1
+      engrStep: 1
       scalers:
         - param: tireDiameter
           slot: length
@@ -16893,6 +16946,7 @@ slots:
         - 360
       unit: kph
       precision: 1
+      engrStep: 1
       scalers:
         - param: tireDiameter
           slot: length
@@ -17215,8 +17269,6 @@ slots:
         - Nissan ZD30 CAN
       - - 14
         - Toyota 1UR-FE/2GR-FE CAN
-      - - 23
-        - Toyota VDJ LC 7X Series CAN
       - - 36
         - VW CAN 1 Gasoline
       - - 37
@@ -21402,6 +21454,24 @@ menus:
                             autorefresh: true
                             tooltip: ''
                             doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[0]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[0]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[0]'
+                            label: Back EMF Coeff
+                            tooltip: ''
+                            doc: ''
                   - type: Menu
                     args:
                       title: Driver 2
@@ -21503,6 +21573,24 @@ menus:
                             param: 'controllerPWMDriverPintleDutyCycle[1]'
                             label: Pintle Duty Cycle
                             autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[1]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[1]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[1]'
+                            label: Back EMF Coeff
                             tooltip: ''
                             doc: ''
                   - type: Menu
@@ -21608,6 +21696,24 @@ menus:
                             autorefresh: true
                             tooltip: ''
                             doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[2]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[2]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[2]'
+                            label: Back EMF Coeff
+                            tooltip: ''
+                            doc: ''
                   - type: Menu
                     args:
                       title: Driver 4
@@ -21709,6 +21815,24 @@ menus:
                             param: 'controllerPWMDriverPintleDutyCycle[3]'
                             label: Pintle Duty Cycle
                             autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[3]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[3]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[3]'
+                            label: Back EMF Coeff
                             tooltip: ''
                             doc: ''
                   - type: Menu
@@ -21814,6 +21938,24 @@ menus:
                             autorefresh: true
                             tooltip: ''
                             doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[4]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[4]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[4]'
+                            label: Back EMF Coeff
+                            tooltip: ''
+                            doc: ''
                   - type: Menu
                     args:
                       title: Driver 6
@@ -21915,6 +22057,24 @@ menus:
                             param: 'controllerPWMDriverPintleDutyCycle[5]'
                             label: Pintle Duty Cycle
                             autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[5]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[5]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[5]'
+                            label: Back EMF Coeff
                             tooltip: ''
                             doc: ''
                   - type: Menu
@@ -22020,6 +22180,24 @@ menus:
                             autorefresh: true
                             tooltip: ''
                             doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[6]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[6]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[6]'
+                            label: Back EMF Coeff
+                            tooltip: ''
+                            doc: ''
                   - type: Menu
                     args:
                       title: Driver 8
@@ -22121,6 +22299,24 @@ menus:
                             param: 'controllerPWMDriverPintleDutyCycle[7]'
                             label: Pintle Duty Cycle
                             autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[7]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[7]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[7]'
+                            label: Back EMF Coeff
                             tooltip: ''
                             doc: ''
                   - type: Menu
@@ -22226,6 +22422,24 @@ menus:
                             autorefresh: true
                             tooltip: ''
                             doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[8]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[8]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[8]'
+                            label: Back EMF Coeff
+                            tooltip: ''
+                            doc: ''
                   - type: Menu
                     args:
                       title: Driver 10
@@ -22327,6 +22541,24 @@ menus:
                             param: 'controllerPWMDriverPintleDutyCycle[9]'
                             label: Pintle Duty Cycle
                             autorefresh: true
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[9]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[9]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[9]'
+                            label: Back EMF Coeff
                             tooltip: ''
                             doc: ''
                   - type: Menu
@@ -22432,6 +22664,24 @@ menus:
                             autorefresh: true
                             tooltip: ''
                             doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[10]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[10]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[10]'
+                            label: Back EMF Coeff
+                            tooltip: ''
+                            doc: ''
                   - type: Menu
                     args:
                       title: Driver 12
@@ -22535,6 +22785,31 @@ menus:
                             autorefresh: true
                             tooltip: ''
                             doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverPropCoeff[11]'
+                            label: Proportional Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverIntCoeff[11]'
+                            label: Integral Coeff
+                            tooltip: ''
+                            doc: ''
+                        - type: ScalarEdit
+                          args:
+                            param: 'controllerPWMDriverBackEMFCoeff[11]'
+                            label: Back EMF Coeff
+                            tooltip: ''
+                            doc: ''
+                  - type: ScalarEdit
+                    args:
+                      param: controllerPWMDriverCarrierFreq
+                      label: Carrier Frequency
+                      autorefresh: true
+                      tooltip: ''
+                      doc: ''
             - type: Menu
               args:
                 title: Network Diagnostics
