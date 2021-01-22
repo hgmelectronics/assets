@@ -298,6 +298,10 @@ params:
     id: '0x9001'
     acl: *ref_2
     slot: switchAction
+  shiftSelectorODCancel:
+    id: '0x9802'
+    acl: *ref_0
+    slot: booleanOnOff1
   vehicleSpeedSensorCalibration:
     id: '0xA000'
     acl: *ref_2
@@ -566,6 +570,8 @@ slots:
         - Connected
       - - 12
         - Disconnecting
+      - - 13
+        - BondStorageConfig
       - - 100
         - Init
       - - 101
@@ -14491,6 +14497,16 @@ slots:
         - 145037738
       unit: psi/krpm-s
       precision: 1
+  pwmDriverBackEMFCoeff:
+    linear:
+      raw:
+        - 0
+        - 256
+      engr:
+        - 0
+        - 100
+      unit: '%'
+      precision: 1
   pwmDriverFaultType:
     encoding:
       - - 0
@@ -14527,6 +14543,16 @@ slots:
         - Reg. High
       - - 7
         - Bad Mode
+  pwmDriverIntCoeff:
+    linear:
+      raw:
+        - 0
+        - 100000
+      engr:
+        - 0
+        - 100000
+      unit: mV/mA/s
+      precision: 0
   pwmDriverMode:
     encoding:
       - - 0
@@ -14541,6 +14567,16 @@ slots:
         - Saturated Sink
       - - 5
         - Saturated Source
+  pwmDriverPropCoeff:
+    linear:
+      raw:
+        - 0
+        - 1000
+      engr:
+        - 0
+        - 200
+      unit: mV/A/Hz
+      precision: 1
   pulsesPerMile:
     linear:
       raw:
@@ -14611,6 +14647,7 @@ slots:
         - 100000
       unit: rpm
       precision: 0
+      engrStep: 10
   slip1:
     linear:
       raw:
@@ -14873,6 +14910,7 @@ slots:
         - 223.693629
       unit: mph
       precision: 1
+      engrStep: 1
       scalers:
         - param: tireDiameter
           slot: length
@@ -14892,6 +14930,7 @@ slots:
         - 360
       unit: kph
       precision: 1
+      engrStep: 1
       scalers:
         - param: tireDiameter
           slot: length
@@ -15020,6 +15059,14 @@ slots:
         - 100
       unit: V
       precision: 1
+  vssLocation:
+    encoding:
+      - - 0
+        - Output Shaft
+      - - 1
+        - Transfer Case
+      - - 2
+        - Final Drive
   xyzIndex:
     encoding:
       - - 0
@@ -15056,62 +15103,74 @@ slots:
         - Faults
       - - 8
         - Active Faults
-configurableGaugesHosted:
-  - type: DigitalGauge
-    args:
-      param: vehicleSpeed
-      label: Vehicle Speed
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: engineThrottlePosition
-      label: Throttle Position
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: shiftCurrentGear
-      slot: gear1
-      label: Gear
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: overdrive
-      label: Overdrive
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: tccCurrentState
-      label: TCC
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: transmissionPressureSensor
-      label: Line Press Sensor
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: controller12VoltBusVoltage
-      label: Battery
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: dtcRecordedCount
-      label: Faults
-      tooltip: ''
-      doc: ''
-  - type: DigitalGauge
-    args:
-      param: dtcActiveCount
-      label: Active Faults
-      tooltip: ''
-      doc: ' '
+logging:
+  params:
+    - label: Engine/Vehicle
+      params:
+        - param: vehicleSpeed
+          label: Vehicle Speed
+          header: VehSpd
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineThrottlePosition
+          label: Throttle Position
+          header: EngThr%
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Control
+      params:
+        - param: shiftCurrentGear
+          header: ShiftCurGear
+          label: Gear
+          gaugeType: DigitalGauge
+          gaugeSlot: gear1
+          tooltip: ''
+          doc: ''
+        - param: overdrive
+          label: Overdrive
+          header: Overdrive
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: shiftSelectorODCancel
+          header: ODCancel
+          label: Overdrive Cancel
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: tccCurrentState
+          label: TCC
+          header: TCCState
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+    - label: Diag/Health
+      params:
+        - param: transmissionPressureSensor
+          header: LinePressSens
+          label: Line Press Sensor
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: controller12VoltBusVoltage
+          header: BattVolt
+          label: Battery
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: dtcRecordedCount
+          header: DTCRecorded
+          label: Faults
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: dtcActiveCount
+          label: Active Faults
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ' '
 slotLocalizations:
   - name: Pressure
     base:
@@ -15574,14 +15633,16 @@ menus:
                 doc: ''
                 index: 0
                 default:
-                  - 0
-                  - 1
-                  - 2
-                  - 3
-                  - 4
-                  - 5
-                  - 6
-                  - 7
+                  - vehicleSpeed
+                  - engineThrottlePosition
+                  - shiftCurrentGear
+                  - overdrive
+                  - shiftSelectorODCancel
+                  - tccCurrentState
+                  - transmissionPressureSensor
+                  - controller12VoltBusVoltage
+                  - dtcRecordedCount
+                  - dtcActiveCount
             - h_type: SectionDivider
             - h_type: Menu
               args:
