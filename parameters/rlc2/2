@@ -15439,44 +15439,57 @@ menus:
     children:
       - type: Menu
         args:
-          title: Basic Setup
+          title: Speedometer Calibration
           isMajor: true
           tooltip: ''
           doc: ''
           children:
-            - type: ScalarEdit
-              args:
-                param: vehicleSpeed
-                label: Current Speed
-                autorefresh: true
-                tooltip: Speed based on the settings below
-                doc: ''
             - type: SectionDivider
               args:
                 text: Vehicle
             - type: ScalarEdit
               args:
-                param: tireDiameter
-                label: Tire Diameter
-                tooltip: >-
-                  Enter for correct vehicle speed reading on dashboard and
-                  calibration
-                doc: ''
-            - type: ScalarEdit
-              args:
-                param: finalDriveRatio
-                label: Final Drive Ratio
-                tooltip: Ratio in differential or transaxle
+                param: vehicleSpeed
+                label: Speed
+                autorefresh: true
+                tooltip: Speed based on settings in vehicle settings
                 doc: ''
             - type: SectionDivider
               args:
-                text: Transmission Speed Sensor
+                text: Output 1 - Purple/White Wire
             - type: ScalarEdit
               args:
-                param: speedInputToothCount
+                param: speedOutput1ToothCount
                 label: Pulse Count
-                tooltip: Pulses per drive shaft turn on the VSS
+                tooltip: Number of teeth or pulses per driveshaft turn
                 doc: ''
+            - type: ScalarEdit
+              args:
+                param: speedOutput1Correction
+                label: Calibration
+                tooltip: Use for fine adjustments to make speedometer read correctly
+                doc: ''
+            - type: SectionDivider
+              args:
+                text: Output 2 - Purple/Yellow Wire
+            - type: ScalarEdit
+              args:
+                param: speedOutput2ToothCount
+                label: Pulse Count
+                tooltip: Number of teeth or pulses per driveshaft turn
+                doc: ''
+            - type: ScalarEdit
+              args:
+                param: speedOutput2Correction
+                label: Calibration
+                tooltip: Use for fine adjustments to make speedometer read correctly
+                doc: ''
+            - type: SectionDivider
+              args:
+                text: >-
+                  Output 1 and Output 2 settings will change your vehicle
+                  dashboard speedometer reading
+                headerStyle: true
       - type: Menu
         args:
           title: Reverse Lockout
@@ -15512,52 +15525,75 @@ menus:
                   Delay between when the vehicle goes below the unlock speed and
                   when reverse gear is actually unlocked
                 doc: ''
+            - type: SectionDivider
+              args:
+                text: >-
+                  Lock and Unlock speed settings are according to the in-app
+                  speed readings calibrated in the vehicle settings menu
+                headerStyle: true
       - type: Menu
         args:
-          title: Speedometer
+          title: Vehicle Settings
           isMajor: true
           tooltip: ''
           doc: ''
           children:
+            - type: ScalarEdit
+              args:
+                param: vehicleSpeed
+                label: Current Speed
+                autorefresh: true
+                tooltip: Speed based on the settings below
+                doc: ''
             - type: SectionDivider
               args:
                 text: Vehicle
             - type: ScalarEdit
               args:
-                param: vehicleSpeed
-                label: Speed
-                autorefresh: true
-                tooltip: Speed based on settings in Vehicle Setup
+                param: tireDiameter
+                label: Tire Diameter
+                tooltip: >-
+                  Enter for correct vehicle speed reading on dashboard and
+                  calibration
+                doc: ''
+            - type: ScalarEdit
+              args:
+                param: finalDriveRatio
+                label: Final Drive Ratio
+                tooltip: Ratio in differential or transaxle
                 doc: ''
             - type: SectionDivider
               args:
-                text: Output 1
-            - type: ScalarEdit
-              args:
-                param: speedOutput1ToothCount
-                label: Pulse Count
-                tooltip: Number of teeth or pulses per driveshaft turn
-                doc: ''
-            - type: ScalarEdit
-              args:
-                param: speedOutput1Correction
-                label: Calibration
-                tooltip: Use for fine adjustments to make speedometer read correctly
-                doc: ''
+                text: Transmission Speed Sensor
             - type: SectionDivider
               args:
-                text: Output 2
+                text: >-
+                  Click on an item below to set the default speed sensor pulse
+                  count for your transmission.
+                headerStyle: true
+            - type: ParamSetter
+              args:
+                label: 'Magnum, Borg-Warner, & Magnum F'
+                tooltip: Click to set pulse count to 17.
+                items:
+                  - - 17
+                    - speedInputToothCount
+            - type: ParamSetter
+              args:
+                label: Super Magnum
+                tooltip: Click to set pulse count to 40.
+                items:
+                  - - 40
+                    - speedInputToothCount
+            - type: SectionDivider
+              args:
+                text: Or enter a custom speed sensor pulse count below
+                headerStyle: true
             - type: ScalarEdit
               args:
-                param: speedOutput2ToothCount
+                param: speedInputToothCount
                 label: Pulse Count
-                tooltip: Number of teeth or pulses per driveshaft turn
-                doc: ''
-            - type: ScalarEdit
-              args:
-                param: speedOutput2Correction
-                label: Calibration
-                tooltip: Use for fine adjustments to make speedometer read correctly
+                tooltip: Pulses per drive shaft turn on speed sensor
                 doc: ''
       - type: Menu
         args:
