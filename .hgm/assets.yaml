@@ -10010,7 +10010,7 @@ devices:
   CS3-02609:
     model: sport
     product: cs3
-    softwareVersion: c1aba3c
+    softwareVersion: '6544552'
   CS3-02610:
     model: sport
     product: cs3
@@ -29658,6 +29658,10 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
+      '6544552':
+        changelog: Corrected AW4 shift selector
+        releaseDate: '2021-02-04T17:32:27.395Z'
+        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
