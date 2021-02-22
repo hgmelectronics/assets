@@ -15573,7 +15573,14 @@ menus:
                 headerStyle: true
             - type: ParamSetter
               args:
-                label: 'Magnum, Borg-Warner, & Magnum F'
+                label: Magnum & Magnum XL
+                tooltip: Click to set pulse count to 12.
+                items:
+                  - - 12
+                    - speedInputToothCount
+            - type: ParamSetter
+              args:
+                label: Borg-Warner & Magnum F
                 tooltip: Click to set pulse count to 17.
                 items:
                   - - 17
