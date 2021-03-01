@@ -17223,6 +17223,8 @@ slots:
         - Low Speed Diesel w/sensors
       - - 17
         - AEM Series 2 CAN
+      - - 38
+        - ECUMaster Black CAN
       - - 31
         - Edelbrock Pro Flo 4 CAN
       - - 35
