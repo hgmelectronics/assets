@@ -19400,6 +19400,8 @@ menus:
           isMajor: true
           tooltip: ''
           doc: ''
+          showForParams:
+            - transmissionMainLinePressure
           children:
             - h_type: SectionDivider
               h_args:
