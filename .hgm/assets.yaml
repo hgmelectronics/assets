@@ -1882,7 +1882,7 @@ devices:
   CS3-00577:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 0e4952d
   CS3-00578:
     model: sport
     product: cs3
@@ -29658,6 +29658,10 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
+      0e4952d:
+        changelog: Increased TCC enable speed
+        releaseDate: '2021-03-30T23:01:11.596Z'
+        upgradePrompt: false
       '6544552':
         changelog: Corrected AW4 shift selector
         releaseDate: '2021-02-04T17:32:27.395Z'
@@ -29673,10 +29677,6 @@ software:
       c1aba3c:
         changelog: Bug fixes and performance improvements
         releaseDate: '2021-01-05T17:03:53.750Z'
-        upgradePrompt: false
-      f856e0c5d:
-        changelog: Added AW4 support
-        releaseDate: '2020-06-26T04:04:25.441Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
