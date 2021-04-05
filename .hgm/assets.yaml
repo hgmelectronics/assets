@@ -386,7 +386,7 @@ devices:
   CS3-00198:
     model: sport
     product: cs3
-    softwareVersion: c1aba3c
+    softwareVersion: c29078a
   CS3-00199:
     model: sport
     product: cs3
@@ -1042,7 +1042,7 @@ devices:
   CS3-00366:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-00367:
     model: sport
     product: cs3
@@ -1882,7 +1882,7 @@ devices:
   CS3-00577:
     model: sport
     product: cs3
-    softwareVersion: 0e4952d
+    softwareVersion: c29078a
   CS3-00578:
     model: sport
     product: cs3
@@ -3302,7 +3302,7 @@ devices:
   CS3-00932:
     model: sport
     product: cs3
-    softwareVersion: c1aba3c
+    softwareVersion: c29078a
   CS3-00933:
     model: sport
     product: cs3
@@ -8942,7 +8942,7 @@ devices:
   CS3-02342:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-02343:
     model: sport
     product: cs3
@@ -9026,7 +9026,7 @@ devices:
   CS3-02363:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-02364:
     model: sport
     product: cs3
@@ -9246,7 +9246,7 @@ devices:
   CS3-02418:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-02419:
     model: sport
     product: cs3
@@ -9546,7 +9546,7 @@ devices:
   CS3-02493:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-02494:
     model: sport
     product: cs3
@@ -9746,7 +9746,7 @@ devices:
   CS3-02543:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-02544:
     model: sport
     product: cs3
@@ -10010,7 +10010,7 @@ devices:
   CS3-02609:
     model: sport
     product: cs3
-    softwareVersion: '6544552'
+    softwareVersion: c29078a
   CS3-02610:
     model: sport
     product: cs3
@@ -10522,7 +10522,7 @@ devices:
   CS3-02737:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-02738:
     model: sport
     product: cs3
@@ -12678,7 +12678,7 @@ devices:
   CS3-03276:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-03277:
     model: sport
     product: cs3
@@ -12726,7 +12726,7 @@ devices:
   CS3-03288:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-03289:
     model: pro
     product: cs3
@@ -13170,7 +13170,7 @@ devices:
   CS3-03399:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-03400:
     model: sport
     product: cs3
@@ -29658,14 +29658,6 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
-      0e4952d:
-        changelog: Increased TCC enable speed
-        releaseDate: '2021-03-30T23:01:11.596Z'
-        upgradePrompt: false
-      '6544552':
-        changelog: Corrected AW4 shift selector
-        releaseDate: '2021-02-04T17:32:27.395Z'
-        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
@@ -29674,9 +29666,9 @@ software:
         changelog: Reverted to earlier neutral relay control strategy
         releaseDate: '2020-12-10T01:06:21.268Z'
         upgradePrompt: false
-      c1aba3c:
-        changelog: Bug fixes and performance improvements
-        releaseDate: '2021-01-05T17:03:53.750Z'
+      c29078a:
+        changelog: Bug fixes for AW4 and A340
+        releaseDate: '2021-04-05T14:52:07.048Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
