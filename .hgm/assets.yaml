@@ -23618,43 +23618,3643 @@ devices:
   ETCU-00050:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00051:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00052:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00053:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00054:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00055:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00056:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00057:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00058:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
   ETCU-00059:
     model: base
     product: etcu1
-    softwareVersion: 39f2f1e
+    softwareVersion: '6387325'
+  ETCU-00100:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00101:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00102:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00103:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00104:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00105:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00106:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00107:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00108:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00109:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00110:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00111:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00112:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00113:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00114:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00115:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00116:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00117:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00118:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00119:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00120:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00121:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00122:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00123:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00124:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00125:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00126:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00127:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00128:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00129:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00130:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00131:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00132:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00133:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00134:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00135:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00136:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00137:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00138:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00139:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00140:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00141:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00142:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00143:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00144:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00145:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00146:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00147:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00148:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00149:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00150:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00151:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00152:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00153:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00154:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00155:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00156:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00157:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00158:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00159:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00160:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00161:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00162:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00163:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00164:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00165:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00166:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00167:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00168:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00169:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00170:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00171:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00172:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00173:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00174:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00175:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00176:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00177:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00178:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00179:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00180:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00181:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00182:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00183:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00184:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00185:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00186:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00187:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00188:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00189:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00190:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00191:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00192:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00193:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00194:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00195:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00196:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00197:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00198:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00199:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00200:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00201:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00202:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00203:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00204:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00205:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00206:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00207:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00208:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00209:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00210:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00211:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00212:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00213:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00214:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00215:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00216:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00217:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00218:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00219:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00220:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00221:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00222:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00223:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00224:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00225:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00226:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00227:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00228:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00229:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00230:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00231:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00232:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00233:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00234:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00235:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00236:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00237:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00238:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00239:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00240:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00241:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00242:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00243:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00244:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00245:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00246:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00247:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00248:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00249:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00250:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00251:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00252:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00253:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00254:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00255:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00256:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00257:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00258:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00259:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00260:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00261:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00262:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00263:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00264:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00265:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00266:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00267:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00268:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00269:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00270:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00271:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00272:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00273:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00274:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00275:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00276:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00277:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00278:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00279:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00280:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00281:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00282:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00283:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00284:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00285:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00286:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00287:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00288:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00289:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00290:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00291:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00292:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00293:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00294:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00295:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00296:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00297:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00298:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00299:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00300:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00301:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00302:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00303:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00304:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00305:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00306:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00307:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00308:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00309:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00310:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00311:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00312:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00313:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00314:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00315:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00316:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00317:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00318:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00319:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00320:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00321:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00322:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00323:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00324:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00325:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00326:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00327:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00328:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00329:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00330:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00331:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00332:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00333:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00334:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00335:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00336:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00337:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00338:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00339:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00340:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00341:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00342:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00343:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00344:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00345:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00346:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00347:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00348:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00349:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00350:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00351:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00352:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00353:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00354:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00355:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00356:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00357:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00358:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00359:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00360:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00361:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00362:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00363:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00364:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00365:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00366:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00367:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00368:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00369:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00370:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00371:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00372:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00373:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00374:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00375:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00376:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00377:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00378:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00379:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00380:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00381:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00382:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00383:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00384:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00385:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00386:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00387:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00388:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00389:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00390:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00391:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00392:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00393:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00394:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00395:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00396:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00397:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00398:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00399:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00400:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00401:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00402:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00403:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00404:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00405:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00406:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00407:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00408:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00409:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00410:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00411:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00412:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00413:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00414:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00415:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00416:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00417:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00418:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00419:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00420:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00421:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00422:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00423:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00424:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00425:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00426:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00427:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00428:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00429:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00430:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00431:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00432:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00433:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00434:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00435:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00436:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00437:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00438:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00439:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00440:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00441:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00442:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00443:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00444:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00445:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00446:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00447:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00448:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00449:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00450:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00451:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00452:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00453:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00454:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00455:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00456:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00457:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00458:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00459:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00460:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00461:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00462:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00463:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00464:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00465:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00466:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00467:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00468:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00469:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00470:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00471:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00472:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00473:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00474:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00475:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00476:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00477:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00478:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00479:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00480:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00481:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00482:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00483:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00484:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00485:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00486:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00487:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00488:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00489:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00490:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00491:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00492:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00493:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00494:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00495:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00496:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00497:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00498:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00499:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00500:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00501:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00502:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00503:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00504:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00505:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00506:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00507:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00508:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00509:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00510:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00511:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00512:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00513:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00514:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00515:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00516:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00517:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00518:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00519:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00520:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00521:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00522:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00523:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00524:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00525:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00526:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00527:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00528:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00529:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00530:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00531:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00532:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00533:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00534:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00535:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00536:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00537:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00538:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00539:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00540:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00541:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00542:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00543:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00544:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00545:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00546:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00547:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00548:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00549:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00550:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00551:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00552:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00553:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00554:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00555:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00556:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00557:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00558:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00559:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00560:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00561:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00562:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00563:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00564:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00565:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00566:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00567:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00568:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00569:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00570:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00571:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00572:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00573:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00574:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00575:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00576:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00577:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00578:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00579:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00580:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00581:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00582:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00583:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00584:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00585:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00586:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00587:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00588:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00589:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00590:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00591:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00592:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00593:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00594:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00595:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00596:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00597:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00598:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00599:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00600:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00601:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00602:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00603:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00604:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00605:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00606:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00607:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00608:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00609:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00610:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00611:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00612:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00613:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00614:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00615:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00616:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00617:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00618:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00619:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00620:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00621:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00622:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00623:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00624:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00625:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00626:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00627:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00628:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00629:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00630:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00631:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00632:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00633:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00634:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00635:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00636:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00637:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00638:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00639:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00640:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00641:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00642:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00643:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00644:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00645:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00646:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00647:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00648:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00649:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00650:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00651:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00652:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00653:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00654:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00655:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00656:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00657:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00658:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00659:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00660:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00661:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00662:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00663:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00664:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00665:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00666:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00667:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00668:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00669:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00670:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00671:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00672:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00673:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00674:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00675:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00676:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00677:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00678:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00679:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00680:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00681:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00682:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00683:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00684:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00685:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00686:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00687:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00688:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00689:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00690:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00691:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00692:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00693:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00694:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00695:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00696:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00697:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00698:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00699:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00700:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00701:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00702:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00703:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00704:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00705:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00706:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00707:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00708:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00709:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00710:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00711:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00712:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00713:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00714:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00715:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00716:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00717:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00718:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00719:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00720:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00721:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00722:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00723:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00724:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00725:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00726:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00727:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00728:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00729:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00730:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00731:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00732:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00733:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00734:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00735:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00736:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00737:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00738:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00739:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00740:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00741:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00742:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00743:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00744:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00745:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00746:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00747:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00748:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00749:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00750:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00751:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00752:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00753:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00754:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00755:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00756:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00757:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00758:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00759:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00760:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00761:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00762:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00763:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00764:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00765:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00766:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00767:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00768:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00769:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00770:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00771:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00772:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00773:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00774:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00775:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00776:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00777:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00778:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00779:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00780:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00781:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00782:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00783:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00784:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00785:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00786:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00787:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00788:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00789:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00790:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00791:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00792:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00793:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00794:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00795:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00796:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00797:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00798:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00799:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00800:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00801:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00802:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00803:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00804:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00805:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00806:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00807:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00808:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00809:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00810:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00811:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00812:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00813:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00814:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00815:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00816:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00817:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00818:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00819:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00820:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00821:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00822:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00823:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00824:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00825:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00826:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00827:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00828:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00829:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00830:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00831:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00832:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00833:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00834:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00835:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00836:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00837:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00838:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00839:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00840:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00841:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00842:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00843:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00844:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00845:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00846:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00847:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00848:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00849:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00850:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00851:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00852:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00853:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00854:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00855:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00856:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00857:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00858:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00859:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00860:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00861:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00862:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00863:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00864:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00865:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00866:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00867:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00868:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00869:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00870:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00871:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00872:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00873:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00874:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00875:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00876:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00877:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00878:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00879:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00880:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00881:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00882:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00883:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00884:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00885:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00886:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00887:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00888:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00889:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00890:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00891:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00892:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00893:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00894:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00895:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00896:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00897:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00898:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00899:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00900:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00901:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00902:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00903:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00904:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00905:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00906:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00907:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00908:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00909:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00910:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00911:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00912:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00913:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00914:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00915:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00916:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00917:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00918:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00919:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00920:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00921:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00922:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00923:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00924:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00925:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00926:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00927:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00928:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00929:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00930:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00931:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00932:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00933:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00934:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00935:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00936:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00937:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00938:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00939:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00940:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00941:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00942:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00943:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00944:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00945:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00946:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00947:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00948:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00949:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00950:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00951:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00952:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00953:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00954:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00955:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00956:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00957:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00958:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00959:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00960:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00961:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00962:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00963:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00964:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00965:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00966:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00967:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00968:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00969:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00970:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00971:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00972:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00973:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00974:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00975:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00976:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00977:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00978:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00979:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00980:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00981:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00982:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00983:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00984:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00985:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00986:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00987:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00988:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00989:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00990:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00991:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00992:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00993:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00994:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00995:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00996:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00997:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00998:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
+  ETCU-00999:
+    model: base
+    product: etcu1
+    softwareVersion: '6387325'
   RLC2-00100:
     model: base
     product: rlc2
@@ -29684,20 +33284,12 @@ software:
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   etcu1:
     base:
-      0380ec1:
-        changelog: Pre-production prototype software
-        releaseDate: '2020-11-21T00:43:55.267Z'
-        upgradePrompt: false
-      39f2f1e:
-        changelog: Improved solenoid current regulation
-        releaseDate: '2021-01-04T02:43:42.347Z'
+      '6387325':
+        changelog: Reduced false DTCs on solenoid regulation
+        releaseDate: '2021-04-09T17:21:08.844Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     proto:
-      361673c75:
-        changelog: Bug fixes
-        releaseDate: '2020-09-25T22:40:43.722Z'
-        upgradePrompt: false
       a95f3a2:
         changelog: Improved solenoid current regulation
         releaseDate: '2021-01-04T02:44:06.401Z'
