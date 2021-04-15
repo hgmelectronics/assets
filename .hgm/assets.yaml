@@ -13198,7 +13198,7 @@ devices:
   CS3-03406:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 08e3a1a
   CS3-03407:
     model: sport
     product: cs3
