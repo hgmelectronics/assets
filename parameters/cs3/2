@@ -326,19 +326,19 @@ params:
   displayMixedMeterConfig:
     - id: '0x1010'
       acl: *ref_2
-      slot: configGaugeSelectionEmbedded
+      slot: configGaugeSelection
       length: 8
     - id: '0x1011'
       acl: *ref_2
-      slot: configGaugeSelectionEmbedded
+      slot: configGaugeSelection
       length: 8
     - id: '0x1012'
       acl: *ref_2
-      slot: configGaugeSelectionEmbedded
+      slot: configGaugeSelection
       length: 8
     - id: '0x1013'
       acl: *ref_2
-      slot: configGaugeSelectionEmbedded
+      slot: configGaugeSelection
       length: 8
   displaySlotSelectionPressure:
     id: '0x1100'
@@ -2070,6 +2070,10 @@ params:
     id: '0x7830'
     acl: *ref_0
     slot: temperature1
+  engineIntakeAirTemperature:
+    id: '0x7831'
+    acl: *ref_0
+    slot: temperature1
   engineIdleShutdownActive:
     id: '0x7840'
     acl: *ref_0
@@ -2078,6 +2082,26 @@ params:
     id: '0x7841'
     acl: *ref_0
     slot: booleanOnOff1
+  engineActualLambda:
+    id: '0x7850'
+    acl: *ref_0
+    slot: ratio1
+  engineTargetLambda:
+    id: '0x7851'
+    acl: *ref_0
+    slot: ratio1
+  engineActualAirFuelRatio:
+    id: '0x7860'
+    acl: *ref_0
+    slot: ratio1
+  engineTargetAirFuelRatio:
+    id: '0x7861'
+    acl: *ref_0
+    slot: ratio1
+  flexFuelEthanolPercentage:
+    id: '0x7870'
+    acl: *ref_0
+    slot: percentage1
   transferCaseRatio:
     id: '0x8001'
     acl: *ref_4
@@ -17275,7 +17299,7 @@ slots:
         - VW CAN 1 Gasoline
       - - 37
         - VW CAN 1 Diesel Engine
-  configGaugeSelectionEmbedded:
+  configGaugeSelection:
     encoding:
       - - 0
         - Engine Speed
@@ -17294,7 +17318,7 @@ slots:
       - - 7
         - Line Pressure Cmd
       - - 8
-        - 'Line Pressure, Sensor'
+        - Line Pressure Sensor
       - - 9
         - Shift Lever Position
       - - 10
@@ -17333,134 +17357,28 @@ slots:
         - Shift Reg Mean Output
       - - 27
         - Shift Reg RMS Output
-      - - 65534
-        - Default
-      - - 65535
-        - Empty
-  configGaugeSelectionEmbeddedShort:
-    encoding:
-      - - 0
-        - Engine Speed
-      - - 1
-        - Gear & Mode
-      - - 2
-        - Trans Oil Temp
-      - - 3
-        - Throttle Position
-      - - 4
-        - Vehicle Speed
-      - - 5
-        - TCC State
-      - - 6
-        - Battery Voltage
-      - - 7
-        - Line Press Cmd
-      - - 8
-        - 'Line Press, Sensor'
-      - - 9
-        - Shift Lever Posn
-      - - 10
-        - Trans Oil Level
-      - - 11
-        - Trans Input Speed
-      - - 12
-        - Trans Output Speed
-      - - 13
-        - Trans Slip
-      - - 14
-        - Trans Ratio
-      - - 15
-        - MAP Percentage
-      - - 16
-        - Engine % Torque
-      - - 17
-        - Shift Sel Range HS
-      - - 18
-        - Engine Speed FS
-      - - 19
-        - Trans Oil Temp FS
-      - - 20
-        - Vehicle Speed FS
-      - - 21
-        - Trans Shaft 1 Spd
-      - - 22
-        - Trans Shaft 2 Spd
-      - - 23
-        - DTC Active Count
-      - - 24
-        - DTC Recorded Count
-      - - 25
-        - Torque Conv Slip
-      - - 26
-        - Shift Reg Out Mean
-      - - 27
-        - Shift Reg Out RMS
-      - - 65534
-        - Default
-      - - 65535
-        - Empty
-  configGaugeSelectionHosted:
-    encoding:
-      - - 0
-        - Engine Speed
-      - - 1
-        - Vehicle Speed
-      - - 2
-        - Shift Mode
-      - - 3
-        - Gear
-      - - 4
-        - Trans Oil Temp
-      - - 5
-        - TCC State
-      - - 6
-        - Battery Voltage
-      - - 7
-        - Throttle Position
-      - - 8
-        - Calibration
-      - - 9
-        - Faults
-      - - 10
-        - Line Press Cmd
-      - - 11
-        - Line Press Sensor
-      - - 12
-        - TCC Mode
-      - - 13
-        - Shift Lever Position
-      - - 14
-        - Trans Oil Level
-      - - 15
-        - Trans Input Shaft Spd
-      - - 16
-        - Trans Output Shaft Spd
-      - - 17
-        - Trans Slip
-      - - 18
-        - Trans Ratio
-      - - 19
-        - Engine MAP
-      - - 20
-        - Engine Torque
-      - - 21
-        - Selected Range
-      - - 22
-        - Shaft 1 Speed
-      - - 23
-        - Shaft 2 Speed
-      - - 24
-        - Active Faults
-      - - 25
-        - Torque Conv Slip
-      - - 26
-        - Shift Reg Mean Output
-      - - 27
-        - Shift Reg RMS Output
       - - 28
         - Calibration Mode
       - - 29
         - Overdrive Cancel
+      - - 30
+        - MAP
+      - - 31
+        - IAT
+      - - 32
+        - Actual AFR
+      - - 33
+        - Target AFR
+      - - 34
+        - Actual Lambda
+      - - 35
+        - Target Lambda
+      - - 36
+        - Ethanol %
+      - - 65534
+        - Default
+      - - 65535
+        - Empty
 logging:
   params:
     - label: Engine/Vehicle
@@ -17498,6 +17416,48 @@ logging:
         - param: driversDemandPercentTorque
           header: DrvDmdTq%
           label: Driver Demand Torque
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineManifoldAbsolutePressure
+          header: MAP
+          label: Manifold absolute pressure
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineIntakeAirTemperature
+          header: IAT
+          label: Intake air temperature
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineActualLambda
+          header: λ
+          label: Actual Lambda
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineTargetLambda
+          header: Tλ
+          label: Target Lambda
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineActualAirFuelRatio
+          header: AFR
+          label: Actual air/fuel ratio
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: engineTargetAirFuelRatio
+          header: TAFR
+          label: Target air/fuel ratio
+          gaugeType: DigitalGauge
+          tooltip: ''
+          doc: ''
+        - param: flexFuelEthanolPercentage
+          header: Eth%
+          label: Ethanol %
           gaugeType: DigitalGauge
           tooltip: ''
           doc: ''
@@ -17736,7 +17696,7 @@ configurableGaugesEmbedded:
       doc: ''
   - type: DigitalGauge
     args:
-      param: acceleratorPedalPosition1
+      param: engineThrottlePosition
       label: TP
       tooltip: ''
       doc: ''
@@ -17819,7 +17779,7 @@ configurableGaugesEmbedded:
   - type: DigitalGauge
     args:
       param: engineActualPercentTorque
-      label: TRQ
+      label: TRQ%
       tooltip: ''
       doc: ''
   - type: HalfScreenTextGauge
@@ -17893,14 +17853,56 @@ configurableGaugesEmbedded:
     args:
       param: calibrationMode
       label: CAL
-      slot: calibrationMode
       tooltip: ''
       doc: ''
   - type: DigitalGauge
     args:
       param: shiftSelectorODCancel
       label: ODCL
-      slot: booleanOnOff1
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: engineManifoldAbsolutePressure
+      label: MAP
+      slot: pressureGauge
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: engineIntakeAirTemperature
+      label: IAT
+      slot: temperatureGauge
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: engineActualAirFuelRatio
+      label: AFR
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: engineTargetAirFuelRatio
+      label: TAFR
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: engineActualLambda
+      label: AFL
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: engineTargetLambda
+      label: TAFL
+      tooltip: ''
+      doc: ''
+  - type: DigitalGauge
+    args:
+      param: flexFuelEthanolPercentage
+      label: ETH%
       tooltip: ''
       doc: ''
 slotLocalizations:
@@ -18198,6 +18200,22 @@ dtcs:
   networkEngineThrottlePositionDataError:
     code: U0401
   networkEngineThrottlePositionTimeout:
+    code: U0100
+  networkEngineAFRDataError:
+    code: U0401
+  networkEngineAFRTimeout:
+    code: U0100
+  networkEngineLambdaDataError:
+    code: U0401
+  networkEngineLambdaTimeout:
+    code: U0100
+  networkEngineIATDataError:
+    code: U0401
+  networkEngineIATTimeout:
+    code: U0100
+  networkFlexFuelDataError:
+    code: U0401
+  networkFlexFuelTimeout:
     code: U0100
   networkFrontRightWheelSpeedDataError:
     code: U0415
@@ -23314,7 +23332,7 @@ menus:
                       label: Mass Units
                       tooltip: ''
                       doc: ''
-            - type: TableEdit
+            - h_type: TableEdit
               args:
                 label: Gauge Screens Setup
                 xSlot: oneDigitOffsetBy1
@@ -23334,7 +23352,7 @@ menus:
                 tooltip: Configure gauges on each screen
                 doc: ''
               e_args:
-                ySlot: configGaugeSelectionEmbeddedShort
+                ySlot: configGaugeSelection
             - type: ParamSetter
               args:
                 label: Reset Display
