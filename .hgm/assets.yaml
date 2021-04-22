@@ -1882,7 +1882,7 @@ devices:
   CS3-00577:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: b1933dfb3
   CS3-00578:
     model: sport
     product: cs3
@@ -12754,7 +12754,7 @@ devices:
   CS3-03295:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c29078a
   CS3-03296:
     model: pro
     product: cs3
