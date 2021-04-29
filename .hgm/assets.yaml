@@ -7870,7 +7870,7 @@ devices:
   CS3-02074:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: c65ffe0
   CS3-02075:
     model: sport
     product: cs3
@@ -33273,6 +33273,10 @@ software:
       c29078a:
         changelog: Bug fixes for AW4 and A340
         releaseDate: '2021-04-05T14:52:07.048Z'
+        upgradePrompt: false
+      c65ffe0:
+        changelog: Allow Toyota A442 to have adjustable speed sensor pulse count
+        releaseDate: '2021-04-29T22:04:15.694Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
