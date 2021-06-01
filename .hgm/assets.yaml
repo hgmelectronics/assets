@@ -386,7 +386,7 @@ devices:
   CS3-00198:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-00199:
     model: sport
     product: cs3
@@ -1042,7 +1042,7 @@ devices:
   CS3-00366:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-00367:
     model: sport
     product: cs3
@@ -3302,7 +3302,7 @@ devices:
   CS3-00932:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-00933:
     model: sport
     product: cs3
@@ -7870,7 +7870,7 @@ devices:
   CS3-02074:
     model: sport
     product: cs3
-    softwareVersion: c65ffe0
+    softwareVersion: 7c73825
   CS3-02075:
     model: sport
     product: cs3
@@ -8942,7 +8942,7 @@ devices:
   CS3-02342:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-02343:
     model: sport
     product: cs3
@@ -9026,7 +9026,7 @@ devices:
   CS3-02363:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-02364:
     model: sport
     product: cs3
@@ -9246,7 +9246,7 @@ devices:
   CS3-02418:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-02419:
     model: sport
     product: cs3
@@ -9546,7 +9546,7 @@ devices:
   CS3-02493:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-02494:
     model: sport
     product: cs3
@@ -9746,7 +9746,7 @@ devices:
   CS3-02543:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-02544:
     model: sport
     product: cs3
@@ -10010,7 +10010,7 @@ devices:
   CS3-02609:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-02610:
     model: sport
     product: cs3
@@ -10522,7 +10522,7 @@ devices:
   CS3-02737:
     model: sport
     product: cs3
-    softwareVersion: 08e3a1a
+    softwareVersion: 7c73825
   CS3-02738:
     model: sport
     product: cs3
@@ -12678,7 +12678,7 @@ devices:
   CS3-03276:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-03277:
     model: sport
     product: cs3
@@ -12726,7 +12726,7 @@ devices:
   CS3-03288:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-03289:
     model: pro
     product: cs3
@@ -12754,7 +12754,7 @@ devices:
   CS3-03295:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-03296:
     model: pro
     product: cs3
@@ -13170,7 +13170,7 @@ devices:
   CS3-03399:
     model: sport
     product: cs3
-    softwareVersion: c29078a
+    softwareVersion: 7c73825
   CS3-03400:
     model: sport
     product: cs3
@@ -13198,7 +13198,7 @@ devices:
   CS3-03406:
     model: sport
     product: cs3
-    softwareVersion: 08e3a1a
+    softwareVersion: 7c73825
   CS3-03407:
     model: sport
     product: cs3
@@ -13350,7 +13350,7 @@ devices:
   CS3-03444:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 7c73825
   CS3-03445:
     model: sport
     product: cs3
@@ -33258,9 +33258,9 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
     sport:
-      08e3a1a:
-        changelog: Corrected IAT on ECUMaster Black
-        releaseDate: '2021-04-07T02:55:06.845Z'
+      7c73825:
+        changelog: Maintenance release of bugfixes and improvements
+        releaseDate: '2021-06-01T19:19:22.179Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
@@ -33269,14 +33269,6 @@ software:
       b1933dfb3:
         changelog: Reverted to earlier neutral relay control strategy
         releaseDate: '2020-12-10T01:06:21.268Z'
-        upgradePrompt: false
-      c29078a:
-        changelog: Bug fixes for AW4 and A340
-        releaseDate: '2021-04-05T14:52:07.048Z'
-        upgradePrompt: false
-      c65ffe0:
-        changelog: Allow Toyota A442 to have adjustable speed sensor pulse count
-        releaseDate: '2021-04-29T22:04:15.694Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
