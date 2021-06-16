@@ -13540,7 +13540,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03492:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03493:
@@ -13548,7 +13548,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03494:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03495:
@@ -13844,7 +13844,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03568:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03569:
@@ -14040,7 +14040,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03617:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03618:
@@ -14180,7 +14180,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03652:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03653:
@@ -14260,7 +14260,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03672:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03673:
@@ -14280,7 +14280,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03677:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03678:
@@ -14364,7 +14364,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03698:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03699:
@@ -14380,7 +14380,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03702:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03703:
@@ -14412,7 +14412,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03710:
-    model: sport
+    model: pro
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03711:
