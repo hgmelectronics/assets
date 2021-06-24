@@ -13118,7 +13118,7 @@ devices:
   CS3-03386:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 8da1c15
   CS3-03387:
     model: sport
     product: cs3
@@ -33261,6 +33261,10 @@ software:
       7c73825:
         changelog: Maintenance release of bugfixes and improvements
         releaseDate: '2021-06-01T19:19:22.179Z'
+        upgradePrompt: false
+      8da1c15:
+        changelog: Changed timeout values on FAST XFI CAN bus
+        releaseDate: '2021-06-24T23:01:11.975Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
