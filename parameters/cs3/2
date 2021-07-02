@@ -4582,7 +4582,7 @@ slots:
       - - 807
         - >-
           Knock/Combustion Vibration Sensor  1 Circuit Low Bank 1 or Single
-          Sensor 
+          Sensor
       - - 808
         - >-
           Knock/Combustion Vibration Sensor  1 Circuit High Bank 1 or Single
@@ -9542,7 +9542,7 @@ slots:
       - - 3485
         - >-
           Battery Charger Coupler Temperature Sensor Circuit
-          Intermittent/Erratic 
+          Intermittent/Erratic
       - - 3486
         - Battery Charger Coupler Lock Position Sensor Circuit
       - - 3487
@@ -12110,7 +12110,7 @@ slots:
       - - 9376
         - >-
           Closed Loop Particulate Filter Regeneration Control At Limit -
-          Temperature Too Low 
+          Temperature Too Low
       - - 9377
         - >-
           Closed Loop Particulate Filter Regeneration Control At Limit -
@@ -15510,7 +15510,7 @@ slots:
       - - 49823
         - >-
           Lost Communication with Evaporative Emission System Leak Detection
-          Control Module 
+          Control Module
       - - 49824
         - >-
           Invalid Data Received From Hybrid/EV Battery Interface Control Module
@@ -15548,7 +15548,7 @@ slots:
       - - 49930
         - >-
           Software Incompatibility with Evaporative Emission System Leak
-          Detection Control Module 
+          Detection Control Module
       - - 49931
         - Software Incompatibility with Glow Plug Control Module 2
       - - 49932
@@ -16190,7 +16190,7 @@ slots:
       - - 50592
         - >-
           Invalid Data Received from Evaporative Emission System Leak Detection
-          Control Module 
+          Control Module
       - - 50593
         - NOx Sensor A Received Invalid Data From ECM/PCM
       - - 50594
@@ -17259,6 +17259,8 @@ slots:
         - Haltech Platinum CAN
       - - 25
         - Haltech Elite CAN
+      - - 39
+        - Holley Sniper/EFI CAN
       - - 27
         - Holley Racepak CAN
       - - 4
@@ -18862,7 +18864,7 @@ menus:
                       param: vehicleSpeedSensorPulseCount
                       label: Vehicle Speed Sensor Pulse Count
                       tooltip: >-
-                        Pulses per shaft turn on the vehicle speed sensor. 
+                        Pulses per shaft turn on the vehicle speed sensor.
                         Depending on transmission, may not be adjustable.
                       doc: ''
                   - type: EncodingEdit

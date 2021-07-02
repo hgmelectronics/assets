@@ -11362,7 +11362,7 @@ devices:
   CS3-02947:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: ba76864
   CS3-02948:
     model: sport
     product: cs3
@@ -33273,6 +33273,10 @@ software:
       b1933dfb3:
         changelog: Reverted to earlier neutral relay control strategy
         releaseDate: '2020-12-10T01:06:21.268Z'
+        upgradePrompt: false
+      ba76864:
+        changelog: Added support for Holley EFI
+        releaseDate: '2021-07-02T23:10:11.519Z'
         upgradePrompt: false
       flashAppBaseUrl: 'com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software'
   csm2:
