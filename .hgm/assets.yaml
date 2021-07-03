@@ -4274,7 +4274,7 @@ devices:
   CS3-01175:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: ba76864
   CS3-01176:
     model: sport
     product: cs3
@@ -11362,7 +11362,7 @@ devices:
   CS3-02947:
     model: sport
     product: cs3
-    softwareVersion: ba76864
+    softwareVersion: b1933dfb3
   CS3-02948:
     model: sport
     product: cs3
