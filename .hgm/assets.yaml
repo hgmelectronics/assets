@@ -14154,7 +14154,7 @@ devices:
   CS3-03645:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 7c73825
   CS3-03646:
     model: sport
     product: cs3
