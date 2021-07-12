@@ -13882,7 +13882,7 @@ devices:
   CS3-03577:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 7c73825
   CS3-03578:
     model: sport
     product: cs3
