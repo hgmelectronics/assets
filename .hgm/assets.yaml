@@ -15686,7 +15686,7 @@ devices:
   CS3-04028:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: ba76864
   CS3-04029:
     model: sport
     product: cs3
