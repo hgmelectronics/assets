@@ -13394,7 +13394,7 @@ devices:
   CS3-03455:
     model: sport
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: aefd13b
   CS3-03456:
     model: sport
     product: cs3
@@ -33265,6 +33265,10 @@ software:
       8da1c15:
         changelog: Changed timeout values on FAST XFI CAN bus
         releaseDate: '2021-06-24T23:01:11.975Z'
+        upgradePrompt: false
+      aefd13b:
+        changelog: Corrected startup DTC with Holley Sniper
+        releaseDate: '2021-09-13T02:10:06.047Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
