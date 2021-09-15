@@ -17273,6 +17273,8 @@ slots:
         - Megasquirt CAN
       - - 30
         - MoTeC M1 CAN
+      - - 41
+        - OBR Control Systems E8G
       - - 10
         - Chrysler CANC Gasoline
       - - 11
