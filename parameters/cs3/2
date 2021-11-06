@@ -558,13 +558,13 @@ logging:
       tooltip: ''
     - doc: ''
       gaugeType: DigitalGauge
-      header: "\xCE\xBB"
+      header: λ
       label: Actual Lambda
       param: engineActualLambda
       tooltip: ''
     - doc: ''
       gaugeType: DigitalGauge
-      header: "T\xCE\xBB"
+      header: Tλ
       label: Target Lambda
       param: engineTargetLambda
       tooltip: ''
@@ -1012,8 +1012,7 @@ menus:
                 doc: ''
                 label: Overdrive Cancel Switch Action
                 param: shiftSelectorODCancelAtStartup
-                tooltip: Select Momentary, Initially On if you want to enable overdrive
-                  manually.
+                tooltip: Select Momentary, Initially On if you want to enable overdrive manually.
               type: EncodingEdit
             - args:
                 doc: ''
@@ -1053,9 +1052,9 @@ menus:
                     doc: ''
                     label: Shift Lever Sensor Voltage
                     param: shiftSelectorSensorVoltage
-                    tooltip: This should change as you move the shift lever. Move
-                      the lever to each position and press the corresponding button
-                      to calibrate.
+                    tooltip: >-
+                      This should change as you move the shift lever. Move the lever to each position and press the
+                      corresponding button to calibrate.
                   type: ScalarEdit
                 - args:
                     doc: ''
@@ -1134,15 +1133,13 @@ menus:
                 doc: ''
                 label: Vehicle Speed Sensor Pulse Count
                 param: vehicleSpeedSensorPulseCount
-                tooltip: Pulses per shaft turn on the vehicle speed sensor.  Depending
-                  on transmission, may not be adjustable.
+                tooltip: Pulses per shaft turn on the vehicle speed sensor.  Depending on transmission, may not be adjustable.
               type: ScalarEdit
             - args:
                 doc: ''
                 label: Vehicle Speed Sensor Location
                 param: vehicleSpeedSensorLocation
-                tooltip: Location of the vehicle speed sensor.  Depending on transmission,
-                  may not be adjustable.
+                tooltip: Location of the vehicle speed sensor.  Depending on transmission, may not be adjustable.
               type: EncodingEdit
             - args:
                 doc: ''
@@ -1207,15 +1204,13 @@ menus:
             doc: ''
             label: Reverse TPS
             param: voltageTPSIsReversed
-            tooltip: Makes increasing sensor voltage correspond to smaller throttle
-              opening or pedal position.
+            tooltip: Makes increasing sensor voltage correspond to smaller throttle opening or pedal position.
           type: BooleanEdit
         - args:
             doc: ''
             label: TPS Ground
             param: voltageTPSGroundEnable
-            tooltip: Turn on for a standalone sensor, off when tapped onto existing
-              sensor.
+            tooltip: Turn on for a standalone sensor, off when tapped onto existing sensor.
           type: BooleanEdit
         - h_type: SectionDivider
         - args:
@@ -1436,8 +1431,7 @@ menus:
                 doc: ''
                 label: MAP Sensor Ground
                 param: voltageMAPSensorGroundEnable
-                tooltip: Turn on for a standalone sensor, off when tapped onto existing
-                  sensor.
+                tooltip: Turn on for a standalone sensor, off when tapped onto existing sensor.
               type: BooleanEdit
             - args:
                 doc: ''
@@ -1522,8 +1516,7 @@ menus:
             doc: ''
             label: Max. Engine Speed A
             param: shiftMaxEngineSpeedA
-            tooltip: Transmission will upshift at this engine speed.  Do not use as
-              a rev limiter.
+            tooltip: Transmission will upshift at this engine speed.  Do not use as a rev limiter.
           type: ScalarEdit
         - args:
             doc: ''
@@ -1550,8 +1543,7 @@ menus:
             doc: ''
             label: Max. Engine Speed B
             param: shiftMaxEngineSpeedB
-            tooltip: Transmission will upshift at this engine speed.  Do not use as
-              a rev limiter.
+            tooltip: Transmission will upshift at this engine speed.  Do not use as a rev limiter.
           type: ScalarEdit
         - args:
             doc: ''
@@ -5600,8 +5592,7 @@ menus:
             doc: ''
             label: Bluetooth Mode
             param: bleMode
-            tooltip: For security, set to non-bondable after you have paired your
-              device
+            tooltip: For security, set to non-bondable after you have paired your device
           type: EncodingEdit
         - args:
             doc: ''
@@ -5610,11 +5601,10 @@ menus:
               - bleDeleteBondings
             label: Forget Bluetooth Devices
             tooltip: ''
-            warning: This will delete all Bluetooth devices from the CS3's memory.
-              If you are using Bluetooth to access the CS3, make sure to first set
-              the Bluetooth LE Mode to Bondable so that you can regain access from
-              your current device. You may also need to forget the CS3 from your device's
-              Bluetooth settings menu.
+            warning: >-
+              This will delete all Bluetooth devices from the CS3's memory. If you are using Bluetooth to access the
+              CS3, make sure to first set the Bluetooth LE Mode to Bondable so that you can regain access from your
+              current device. You may also need to forget the CS3 from your device's Bluetooth settings menu.
           type: ParamSetter
         - h_args:
             showForParams:
@@ -5638,8 +5628,7 @@ menus:
             doc: ''
             label: Set Security Code
             param: setupSecurityCode
-            tooltip: 'Warning: Once you set the security code, it must be entered
-              to change the access level.'
+            tooltip: 'Warning: Once you set the security code, it must be entered to change the access level.'
           type: ScalarEdit
         doc: ''
         isMajor: true
@@ -12832,7 +12821,7 @@ slots:
     - - -1
       - R
     - - 0
-      - N
+      - 'N'
     - - 1
       - '1'
     - - 2
@@ -13077,8 +13066,7 @@ slots:
     - - 108
       - MAP - Turbocharger/Supercharger Inlet Pressure Correlation
     - - 109
-      - Barometric Pressure - Turbocharger/Supercharger Inlet Pressure Correlation
-        Bank 1
+      - Barometric Pressure - Turbocharger/Supercharger Inlet Pressure Correlation Bank 1
     - - 110
       - Turbocharger/Supercharger Boost Control A Supply Voltage Circuit Low
     - - 111
@@ -13258,8 +13246,7 @@ slots:
     - - 198
       - Fuel Rail Pressure Too Low - Engine Cranking Bank 1
     - - 199
-      - Intake Air Pressure Measurement System - Multiple Sensor Correlation Bank
-        1
+      - Intake Air Pressure Measurement System - Multiple Sensor Correlation Bank 1
     - - 200
       - Fuel Pressure Regulator Solenoid Supply Voltage Control Circuit/Open
     - - 201
@@ -13273,8 +13260,7 @@ slots:
     - - 205
       - Fuel Volume Regulator Solenoid Supply Voltage Control Circuit High
     - - 206
-      - Intake Air Temperature Measurement System - Multiple Sensor Correlation Bank
-        1
+      - Intake Air Temperature Measurement System - Multiple Sensor Correlation Bank 1
     - - 207
       - Barometric Pressure - Turbocharger/Supercharger Boost Sensor A Correlation
     - - 208
@@ -13322,11 +13308,9 @@ slots:
     - - 229
       - Intake Air Temperature/Fuel Temperature Correlation
     - - 230
-      - Intake Air Pressure Measurement System - Multiple Sensor Correlation Bank
-        2
+      - Intake Air Pressure Measurement System - Multiple Sensor Correlation Bank 2
     - - 231
-      - Intake Air Temperature Measurement System - Multiple Sensor Correlation Bank
-        2
+      - Intake Air Temperature Measurement System - Multiple Sensor Correlation Bank 2
     - - 232
       - Intake Air Temperature Sensor 3 Circuit Bank 1
     - - 233
@@ -13358,8 +13342,7 @@ slots:
     - - 246
       - Humidity Sensor Circuit Intermittent/Erratic
     - - 247
-      - Barometric Pressure - Turbocharger/Supercharger Inlet Pressure Correlation
-        Bank 2
+      - Barometric Pressure - Turbocharger/Supercharger Inlet Pressure Correlation Bank 2
     - - 248
       - Turbocharger Outlet Pressure Sensor A Circuit
     - - 249
@@ -13455,20 +13438,15 @@ slots:
     - - 297
       - Barometric Pressure Too Low
     - - 298
-      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Downstream of Throttle
-        Valve
+      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Downstream of Throttle Valve
     - - 299
-      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Range/Performance
-        Downstream of Throttle Valve
+      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Range/Performance Downstream of Throttle Valve
     - - 300
-      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Low Downstream of
-        Throttle Valve
+      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Low Downstream of Throttle Valve
     - - 301
-      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit High Downstream of
-        Throttle Valve
+      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit High Downstream of Throttle Valve
     - - 302
-      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Intermittent/Erratic
-        Downstream of Throttle Valve
+      - Turbocharger/Supercharger Inlet Pressure Sensor Circuit Intermittent/Erratic Downstream of Throttle Valve
     - - 303
       - Engine Coolant Temperature / Engine Oil Temperature Correlation
     - - 304
@@ -14440,15 +14418,13 @@ slots:
     - - 805
       - Knock/Combustion Vibration Sensor 1 Circuit Bank 1 or Single Sensor
     - - 806
-      - Knock/Combustion Vibration Sensor 1 Circuit Range/Performance Bank 1 or Single
-        Sensor
+      - Knock/Combustion Vibration Sensor 1 Circuit Range/Performance Bank 1 or Single Sensor
     - - 807
       - Knock/Combustion Vibration Sensor 1 Circuit Low Bank 1 or Single Sensor
     - - 808
       - Knock/Combustion Vibration Sensor 1 Circuit High Bank 1 or Single Sensor
     - - 809
-      - Knock/Combustion Vibration Sensor 1 Circuit Intermittent Bank 1 or Single
-        Sensor
+      - Knock/Combustion Vibration Sensor 1 Circuit Intermittent Bank 1 or Single Sensor
     - - 810
       - Knock/Combustion Vibration Sensor 3 Circuit Bank 1
     - - 811
@@ -17934,11 +17910,9 @@ slots:
     - - 2825
       - Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit/Open
     - - 2826
-      - Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit
-        Low
+      - Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit Low
     - - 2827
-      - Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit
-        High
+      - Electric/Auxiliary Transmission Fluid Pump A Motor Supply Voltage Circuit High
     - - 2828
       - Electric/Auxiliary Transmission Fluid Pump A Hydraulic Leakage
     - - 2829
@@ -18482,20 +18456,15 @@ slots:
     - - 3098
       - Drive Motor B Torque Delivered Performance
     - - 3099
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature
-        Too High
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Too High
     - - 3100
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature
-        Sensor Circuit
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit
     - - 3101
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature
-        Sensor Circuit Range/Performance
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit Range/Performance
     - - 3102
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature
-        Sensor Circuit Low
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit Low
     - - 3103
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature
-        Sensor Circuit High
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Internal Temperature Sensor Circuit High
     - - 3104
       - Electric/Auxiliary Transmission Fluid Pump Phase U-V-W Circuit/Open
     - - 3105
@@ -18521,14 +18490,11 @@ slots:
     - - 3115
       - Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal
     - - 3116
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal
-        Range/Performance
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal Range/Performance
     - - 3117
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal
-        Low
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal Low
     - - 3118
-      - Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal
-        High
+      - Electric/Auxiliary Transmission Fluid Pump Control Module Feedback Signal High
     - - 3119
       - Internal Control Module Drive Motor/Generator - Engine Speed Sensor Performance
     - - 3120
@@ -19176,27 +19142,21 @@ slots:
     - - 3441
       - Electric A/C Compressor Control Module Internal Temperature Sensor Performance
     - - 3442
-      - Electric A/C Compressor Control Module Internal Temperature Sensor Circuit
-        High
+      - Electric A/C Compressor Control Module Internal Temperature Sensor Circuit High
     - - 3443
-      - Electric A/C Compressor Control Module Internal Temperature Sensor Circuit
-        Low
+      - Electric A/C Compressor Control Module Internal Temperature Sensor Circuit Low
     - - 3444
-      - Electric A/C Compressor Control Module InternalTemperature Sensor Circuit
-        Intermittent/Erratic
+      - Electric A/C Compressor Control Module InternalTemperature Sensor Circuit Intermittent/Erratic
     - - 3445
       - Electric A/C Compressor Control Module Output Driver Temperature Sensor Circuit
     - - 3446
       - Electric A/C Compressor Control Module Output Driver Temperature Sensor Performance
     - - 3447
-      - Electric A/C Compressor Control Module Output Driver Temperature Sensor Circuit
-        High
+      - Electric A/C Compressor Control Module Output Driver Temperature Sensor Circuit High
     - - 3448
-      - Electric A/C Compressor Control Module Output Driver Temperature Sensor Circuit
-        Low
+      - Electric A/C Compressor Control Module Output Driver Temperature Sensor Circuit Low
     - - 3449
-      - Electric A/C Compressor Control Module Output Driver Temperature Sensor Circuit
-        Intermittent/Erratic
+      - Electric A/C Compressor Control Module Output Driver Temperature Sensor Circuit Intermittent/Erratic
     - - 3450
       - A/C Compressor Motor Phase U Current Low
     - - 3451
@@ -19526,20 +19486,15 @@ slots:
     - - 3613
       - Hybrid/EV Battery Pack Coolant Pump B Control Performance
     - - 3614
-      - Hybrid/EV Battery Pack Coolant Pump B Control Circuit Driver Current/Temperature
-        Too High
+      - Hybrid/EV Battery Pack Coolant Pump B Control Circuit Driver Current/Temperature Too High
     - - 3615
-      - Hybrid/EV Battery Pack Coolant Pump A Control Circuit Driver Current/Temperature
-        Too High
+      - Hybrid/EV Battery Pack Coolant Pump A Control Circuit Driver Current/Temperature Too High
     - - 3616
-      - Hybrid/EV Battery Pack Coolant Control Valve A Control Circuit Driver Current/Temperature
-        Too High
+      - Hybrid/EV Battery Pack Coolant Control Valve A Control Circuit Driver Current/Temperature Too High
     - - 3617
-      - Hybrid/EV Battery Pack Coolant Control Valve B Control Circuit Driver Current/Temperature
-        Too High
+      - Hybrid/EV Battery Pack Coolant Control Valve B Control Circuit Driver Current/Temperature Too High
     - - 3618
-      - Hybrid/EV Battery Pack Coolant Control Valve C Control Circuit Driver Current/Temperature
-        Too High
+      - Hybrid/EV Battery Pack Coolant Control Valve C Control Circuit Driver Current/Temperature Too High
     - - 3619
       - Drive Motor Inverter Temperature Sensor G Circuit
     - - 3620
@@ -19669,8 +19624,7 @@ slots:
     - - 8212
       - Intake Manifold Runner Position Sensor/Switch Circuit Bank 1
     - - 8213
-      - Intake Manifold Runner Position Sensor/Switch Circuit Range/Performance Bank
-        1
+      - Intake Manifold Runner Position Sensor/Switch Circuit Range/Performance Bank 1
     - - 8214
       - Intake Manifold Runner Position Sensor/Switch Circuit Low Bank 1
     - - 8215
@@ -19692,8 +19646,7 @@ slots:
     - - 8223
       - Reductant Pump A Stuck On
     - - 8224
-      - Intake Manifold Runner Position Sensor/Switch Circuit Range/Performance Bank
-        2
+      - Intake Manifold Runner Position Sensor/Switch Circuit Range/Performance Bank 2
     - - 8225
       - Intake Manifold Runner Position Sensor/Switch Circuit Low Bank 2
     - - 8226
@@ -19859,39 +19812,29 @@ slots:
     - - 8306
       - Throttle Actuator Control System - Ice Blockage Bank 1
     - - 8307
-      - Manifold Absolute Pressure/Mass Air Flow - Throttle Position Correlation at
-        Idle
+      - Manifold Absolute Pressure/Mass Air Flow - Throttle Position Correlation at Idle
     - - 8308
-      - Manifold Absolute Pressure/Mass Air Flow - Throttle Position Correlation at
-        Higher Load
+      - Manifold Absolute Pressure/Mass Air Flow - Throttle Position Correlation at Higher Load
     - - 8309
       - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Bank 1
     - - 8310
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Range/Performance
-        Bank 1
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Range/Performance Bank 1
     - - 8311
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Low Bank
-        1
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Low Bank 1
     - - 8312
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit High Bank
-        1
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit High Bank 1
     - - 8313
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Intermittent
-        Bank 1
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Intermittent Bank 1
     - - 8314
       - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Bank 2
     - - 8315
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Range/Performance
-        Bank 2
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Range/Performance Bank 2
     - - 8316
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Low Bank
-        2
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Low Bank 2
     - - 8317
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit High Bank
-        2
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit High Bank 2
     - - 8318
-      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Intermittent
-        Bank 2
+      - Intake Manifold Tuning (IMT) Valve Position Sensor/Switch Circuit Intermittent Bank 2
     - - 8319
       - Reductant Quality Performance
     - - 8320
@@ -21495,8 +21438,7 @@ slots:
     - - 9261
       - Exhaust Gas Temperature Sensor Circuit High Bank 1 Sensor 3
     - - 9262
-      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor
-        3
+      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor 3
     - - 9263
       - Particulate Filter Restriction - Ash Accumulation Bank 1
     - - 9264
@@ -21616,8 +21558,7 @@ slots:
     - - 9321
       - Exhaust Gas Temperature Sensor Circuit High Bank 2 Sensor 3
     - - 9322
-      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor
-        3
+      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor 3
     - - 9323
       - Vehicle Conditions Incorrect for Particulate Filter Regeneration
     - - 9324
@@ -21633,8 +21574,7 @@ slots:
     - - 9329
       - Exhaust Gas Temperature Sensor Circuit High Bank 1 Sensor 4
     - - 9330
-      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor
-        4
+      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor 4
     - - 9331
       - Exhaust Gas Temperature Sensor Circuit Bank 2 Sensor 4
     - - 9332
@@ -21644,8 +21584,7 @@ slots:
     - - 9334
       - Exhaust Gas Temperature Sensor Circuit High Bank 2 Sensor 4
     - - 9335
-      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor
-        4
+      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor 4
     - - 9336
       - Exhaust Gas Temperature Out of Range Bank 1 Sensor 1
     - - 9337
@@ -21671,8 +21610,7 @@ slots:
     - - 9347
       - Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 1 Sensor 5
     - - 9348
-      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor
-        5
+      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 1 Sensor 5
     - - 9349
       - Exhaust Gas Temperature Sensor Circuit/Open Bank 2 Sensor 5
     - - 9350
@@ -21682,8 +21620,7 @@ slots:
     - - 9352
       - Exhaust Gas Temperature Sensor Circuit Range/Performance Bank 2 Sensor 5
     - - 9353
-      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor
-        5
+      - Exhaust Gas Temperature Sensor Circuit Intermittent/Erratic Bank 2 Sensor 5
     - - 9354
       - Reductant Heater A Sense Circuit Low
     - - 9355
@@ -21729,11 +21666,9 @@ slots:
     - - 9375
       - Excessive Time To Enter Closed Loop Particulate Filter Regeneration Control
     - - 9376
-      - Closed Loop Particulate Filter Regeneration Control At Limit - Temperature
-        Too Low
+      - Closed Loop Particulate Filter Regeneration Control At Limit - Temperature Too Low
     - - 9377
-      - Closed Loop Particulate Filter Regeneration Control At Limit - Temperature
-        Too High
+      - Closed Loop Particulate Filter Regeneration Control At Limit - Temperature Too High
     - - 9378
       - Particulate Filter Regeneration Incomplete Bank 1
     - - 9379
@@ -21799,11 +21734,9 @@ slots:
     - - 9409
       - EVAP System Leak Detection Pump Vacuum Switching Valve Performance/Stuck Off
     - - 9410
-      - Exhaust Gas Temperature Measurement System - Multiple Sensor Correlation Bank
-        1
+      - Exhaust Gas Temperature Measurement System - Multiple Sensor Correlation Bank 1
     - - 9411
-      - Exhaust Gas Temperature Measurement System - Multiple Sensor Correlation Bank
-        2
+      - Exhaust Gas Temperature Measurement System - Multiple Sensor Correlation Bank 2
     - - 9412
       - EGR Cooler Bypass Position Sensor Exceeded Learning Limit Bank 1
     - - 9413
@@ -22531,8 +22464,7 @@ slots:
     - - 9838
       - A Rocker Arm Actuator Position Sensor Circuit Intermittent/Erratic Bank 2
     - - 9839
-      - A/C Refrigerant Distribution Valve Control Circuit Driver Current/Temperature
-        Too High
+      - A/C Refrigerant Distribution Valve Control Circuit Driver Current/Temperature Too High
     - - 9840
       - Actuator Supply Voltage B Circuit Low
     - - 9841
@@ -22960,8 +22892,7 @@ slots:
     - - 10070
       - Torque Converter Clutch Pressure Control Solenoid
     - - 10071
-      - Torque Converter Clutch Pressure Control Solenoid Control Circuit Performance/Stuck
-        Off
+      - Torque Converter Clutch Pressure Control Solenoid Control Circuit Performance/Stuck Off
     - - 10072
       - Torque Converter Clutch Pressure Control Solenoid Control Circuit Stuck On
     - - 10073
@@ -23001,11 +22932,9 @@ slots:
     - - 10090
       - Electric/Auxiliary Transmission Fluid Pump B Motor Supply Voltage Circuit/Open
     - - 10091
-      - Electric/Auxiliary Transmission Fluid Pump B Motor Supply Voltage Circuit
-        Low
+      - Electric/Auxiliary Transmission Fluid Pump B Motor Supply Voltage Circuit Low
     - - 10092
-      - Electric/Auxiliary Transmission Fluid Pump B Motor Supply Voltage Circuit
-        High
+      - Electric/Auxiliary Transmission Fluid Pump B Motor Supply Voltage Circuit High
     - - 10093
       - Electric/Auxiliary Transmission Fluid Pump B Motor Current
     - - 10094
@@ -25051,8 +24980,7 @@ slots:
     - - 49822
       - Lost Communication With NOx Sensor B
     - - 49823
-      - Lost Communication With Evaporative Emission System Leak Detection Control
-        Module
+      - Lost Communication With Evaporative Emission System Leak Detection Control Module
     - - 49824
       - Invalid Data Received From Hybrid/EV Battery Interface Control Module D
     - - 49826
@@ -25086,8 +25014,7 @@ slots:
     - - 49929
       - Software Incompatibility With Alternative Fuel Control Module
     - - 49930
-      - Software Incompatibility With Evaporative Emission System Leak Detection Control
-        Module
+      - Software Incompatibility With Evaporative Emission System Leak Detection Control Module
     - - 49931
       - Software Incompatibility With Glow Plug Control Module 2
     - - 49932
@@ -25257,8 +25184,7 @@ slots:
     - - 50226
       - Invalid Data Received From Multi-axis Acceleration Sensor Module
     - - 50227
-      - Invalid Data Received From Front Distance Range Sensor - Single Sensor or
-        Center
+      - Invalid Data Received From Front Distance Range Sensor - Single Sensor or Center
     - - 50228
       - Invalid Data Received From Active Roll Control Module
     - - 50229
@@ -25688,8 +25614,7 @@ slots:
     - - 50591
       - Invalid Data Received From NOx Sensor B
     - - 50592
-      - Invalid Data Received From Evaporative Emission System Leak Detection Control
-        Module
+      - Invalid Data Received From Evaporative Emission System Leak Detection Control Module
     - - 50593
       - NOx Sensor A Received Invalid Data From ECM/PCM
     - - 50594
@@ -26135,7 +26060,7 @@ slots:
       raw:
       - 0
       - 1000000
-      unit: :1
+      unit: ':1'
   resetSource:
     encoding:
     - - 0
@@ -26194,7 +26119,7 @@ slots:
     - - 1
       - R
     - - 2
-      - N
+      - 'N'
   shiftSelectorCalibrationIndex:
     encoding:
     - - 0
@@ -26202,7 +26127,7 @@ slots:
     - - 1
       - R
     - - 2
-      - N
+      - 'N'
     - - 3
       - '1'
     - - 4
@@ -26248,7 +26173,7 @@ slots:
       raw:
       - 0
       - 1000000
-      unit: :1
+      unit: ':1'
   switchAction:
     encoding:
     - - 0
@@ -26817,6 +26742,6 @@ slots:
     - - 0
       - X
     - - 1
-      - Y
+      - 'Y'
     - - 2
       - Z
