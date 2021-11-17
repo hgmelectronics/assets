@@ -8826,7 +8826,7 @@ devices:
   CS3-02313:
     model: sport
     product: cs3
-    softwareVersion: fcf91a9
+    softwareVersion: ddd8443
   CS3-02314:
     model: sport
     product: cs3
@@ -33262,6 +33262,10 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
+      ddd8443:
+        changelog: Added support for temperature sensors options on Toyota A340
+        releaseDate: '2021-11-17T21:24:41.584Z'
+        upgradePrompt: false
       ed30b6a:
         changelog: Added support for OBR E8G ECU
         releaseDate: '2021-09-15T20:11:33.036Z'
