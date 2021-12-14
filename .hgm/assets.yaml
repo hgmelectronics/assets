@@ -15952,9 +15952,9 @@ devices:
     product: cs3
     softwareVersion: fcf91a9
   CS3-04095:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: fcf91a9
+    softwareVersion: b1933dfb3
   CS3-04096:
     model: sport
     product: cs3
