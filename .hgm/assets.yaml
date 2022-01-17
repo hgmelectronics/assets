@@ -16420,9 +16420,9 @@ devices:
     product: cs3
     softwareVersion: 82c519a
   CS3-04212:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04213:
     model: sport
     product: cs3
