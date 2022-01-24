@@ -16428,9 +16428,9 @@ devices:
     product: cs3
     softwareVersion: 82c519a
   CS3-04214:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04215:
     model: sport
     product: cs3
@@ -16448,25 +16448,25 @@ devices:
     product: cs3
     softwareVersion: 82c519a
   CS3-04219:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04220:
     model: sport
     product: cs3
     softwareVersion: 82c519a
   CS3-04221:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04222:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04223:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04224:
     model: sport
     product: cs3
@@ -16508,9 +16508,9 @@ devices:
     product: cs3
     softwareVersion: 82c519a
   CS3-04234:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04235:
     model: sport
     product: cs3
@@ -16720,13 +16720,13 @@ devices:
     product: cs3
     softwareVersion: 82c519a
   CS3-04287:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04288:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04289:
     model: sport
     product: cs3
@@ -16736,9 +16736,9 @@ devices:
     product: cs3
     softwareVersion: 82c519a
   CS3-04291:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04292:
     model: sport
     product: cs3
@@ -16752,9 +16752,9 @@ devices:
     product: cs3
     softwareVersion: 82c519a
   CS3-04295:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-04296:
     model: sport
     product: cs3
