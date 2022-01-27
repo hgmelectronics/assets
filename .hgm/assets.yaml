@@ -1,8 +1,8 @@
 devices:
   CS3-00067:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: 82c519a
+    softwareVersion: b1933dfb3
   CS3-00100:
     model: sport
     product: cs3
