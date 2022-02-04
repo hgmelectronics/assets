@@ -18700,13 +18700,13 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-04782:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b1933dfb3
   CS3-04783:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b1933dfb3
   CS3-04784:
     model: sport
     product: cs3
@@ -18724,9 +18724,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-04788:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b1933dfb3
   CS3-04789:
     model: sport
     product: cs3
@@ -18776,9 +18776,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-04801:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b1933dfb3
   CS3-04802:
     model: sport
     product: cs3
@@ -18812,9 +18812,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-04810:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b1933dfb3
   CS3-04811:
     model: sport
     product: cs3
