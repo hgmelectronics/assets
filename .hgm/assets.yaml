@@ -884,7 +884,7 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-00324:
-    model: mcconnel
+    model: sport-mcconnel
     product: cs3
     softwareVersion: 5eeb8345
   CS3-00325:
@@ -7052,9 +7052,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-01870:
-    model: pro
+    model: pro-jankel
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f218fb7
   CS3-01871:
     model: sport
     product: cs3
@@ -13540,9 +13540,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-03492:
-    model: pro
+    model: pro-jankel
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f218fb7
   CS3-03493:
     model: sport
     product: cs3
@@ -14180,9 +14180,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-03652:
-    model: pro
+    model: pro-jankel
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f218fb7
   CS3-03653:
     model: sport
     product: cs3
@@ -14808,9 +14808,9 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-03809:
-    model: pro
+    model: pro-jankel
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f218fb7
   CS3-03810:
     model: sport
     product: cs3
@@ -41241,12 +41241,6 @@ devices:
     softwareVersion: 8e9363d50ae9
 software:
   cs3:
-    mcconnel:
-      5eeb8345:
-        changelog: Updated J1939 TC1 and ETC7
-        releaseDate: '2020-02-27T01:48:26.259Z'
-        upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
     pro:
       b0a84a0b6b39:
         changelog: deprecated
@@ -41255,6 +41249,12 @@ software:
       b1933dfb3:
         changelog: Reverted to earlier neutral relay control strategy
         releaseDate: '2020-12-10T01:06:09.568Z'
+        upgradePrompt: false
+      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
+    pro-jankel:
+      f218fb7:
+        changelog: First dedicated Jankel release
+        releaseDate: '2022-02-17T20:07:47.444Z'
         upgradePrompt: false
       flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
     sport:
@@ -41269,6 +41269,12 @@ software:
       dda9f75:
         changelog: Added support for Holley TerminatorX CAN
         releaseDate: '2022-02-01T21:51:43.199Z'
+        upgradePrompt: false
+      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
+    sport-mcconnel:
+      5eeb8345:
+        changelog: Updated J1939 TC1 and ETC7
+        releaseDate: '2020-02-27T01:48:26.259Z'
         upgradePrompt: false
       flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
   csm2:
