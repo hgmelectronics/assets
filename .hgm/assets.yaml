@@ -15812,9 +15812,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-04060:
-    model: pro
+    model: pro-jankel
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f218fb7
   CS3-04061:
     model: sport
     product: cs3
