@@ -7044,9 +7044,9 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-01868:
-    model: pro
+    model: pro-jankel
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f218fb7
   CS3-01869:
     model: sport
     product: cs3
@@ -9496,9 +9496,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-02481:
-    model: pro
+    model: pro-jankel
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: f218fb7
   CS3-02482:
     model: pro
     product: cs3
