@@ -17516,9 +17516,9 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-04486:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b1933dfb3
   CS3-04487:
     model: sport
     product: cs3
@@ -17568,9 +17568,9 @@ devices:
     product: cs3
     softwareVersion: b1933dfb3
   CS3-04499:
-    model: sport
+    model: pro
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b1933dfb3
   CS3-04500:
     model: pro
     product: cs3
