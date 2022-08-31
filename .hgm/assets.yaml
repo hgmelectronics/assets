@@ -20671,9 +20671,9 @@ devices:
     softwareVersion: b1933dfb3
   CS3-04241:
     model: pro
-    paramDefVersion: 4c712a2
+    paramDefVersion: 0daf47c
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 0daf47c
   CS3-04242:
     model: sport
     paramDefVersion: 6c13c32
@@ -51552,6 +51552,8 @@ devices:
 parameters:
   cs3:
     pro:
+      0daf47c:
+        releaseDate: '2022-08-31T22:34:14.477Z'
       4c712a2:
         releaseDate: '2022-08-18T22:39:22.257Z'
       6c13c32:
@@ -51583,6 +51585,10 @@ parameters:
 software:
   cs3:
     pro:
+      0daf47c:
+        changelog: Display improvements
+        releaseDate: '2022-08-31T22:32:42.779Z'
+        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
