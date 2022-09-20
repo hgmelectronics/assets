@@ -51554,6 +51554,8 @@ parameters:
     pro:
       0daf47c:
         releaseDate: '2022-08-31T22:34:14.477Z'
+      490b79d:
+        releaseDate: '2022-09-20T00:25:41.586Z'
       4c712a2:
         releaseDate: '2022-08-18T22:39:22.257Z'
       6c13c32:
@@ -51562,6 +51564,8 @@ parameters:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
     sport:
+      490b79d:
+        releaseDate: '2022-09-20T00:25:50.841Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
     sport-mcconnel:
@@ -51589,6 +51593,10 @@ software:
         changelog: Display improvements
         releaseDate: '2022-08-31T22:32:42.779Z'
         upgradePrompt: false
+      490b79d:
+        changelog: Maintenance release
+        releaseDate: '2022-09-20T00:25:18.994Z'
+        upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
@@ -51605,6 +51613,10 @@ software:
         upgradePrompt: false
       flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
     sport:
+      490b79d:
+        changelog: Maintenance release
+        releaseDate: '2022-09-20T00:25:31.143Z'
+        upgradePrompt: false
       82c519a:
         changelog: Corrected problems with security code setup
         releaseDate: '2022-01-10T06:18:58.828Z'
