@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 .settings
 .project
+.DS_Store
