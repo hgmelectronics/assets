@@ -44069,6 +44069,11 @@ devices:
     paramDefVersion: 6c13c32
     product: etcu1
     softwareVersion: 45d11ab
+  HGM CS3:
+    model: sport
+    paramDefVersion: 6c13c32
+    product: cs3
+    softwareVersion: dda9f75
   RLC2-00100:
     model: base
     paramDefVersion: 6c13c32
