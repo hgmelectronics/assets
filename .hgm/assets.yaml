@@ -51570,6 +51570,8 @@ parameters:
         releaseDate: '2022-08-18T22:39:22.257Z'
       6c13c32:
         releaseDate: '2022-08-18T19:05:25.474Z'
+      8cf6921:
+        releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
       d5beb99:
@@ -51582,6 +51584,8 @@ parameters:
         releaseDate: '2022-09-20T00:25:50.841Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
+      8cf6921:
+        releaseDate: '2023-01-27T02:21:14.331Z'
       9e8a663:
         releaseDate: '2022-11-10T18:22:57.881Z'
       d5beb99:
@@ -51615,6 +51619,10 @@ software:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
         upgradePrompt: false
+      8cf6921:
+        changelog: Changed temperature alerts and out of range gauges display
+        releaseDate: '2023-01-25T23:44:21.304Z'
+        upgradePrompt: false
       9e8a663:
         changelog: Improved Cummins R2.8 support
         releaseDate: '2022-11-10T18:21:03.102Z'
@@ -51642,6 +51650,10 @@ software:
       490b79d:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:31.143Z'
+        upgradePrompt: false
+      8cf6921:
+        changelog: Changed temperature alerts and out of range gauges display
+        releaseDate: '2023-01-25T23:44:32.272Z'
         upgradePrompt: false
       9e8a663:
         changelog: Improved Cummins R2.8 support
