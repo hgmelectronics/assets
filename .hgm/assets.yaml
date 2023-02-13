@@ -27040,10 +27040,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-05515:
-    model: sport
+    model: pro
     paramDefVersion: 6c13c32
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 8cf6921
   CS3-05516:
     model: sport
     paramDefVersion: 6c13c32
