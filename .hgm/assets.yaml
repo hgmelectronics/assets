@@ -21386,9 +21386,9 @@ devices:
     softwareVersion: b1933dfb3
   CS3-04384:
     model: pro
-    paramDefVersion: 490b79d
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: 490b79d
+    softwareVersion: c9e96bd
   CS3-04385:
     model: pro
     paramDefVersion: 4c712a2
