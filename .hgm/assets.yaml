@@ -63652,13 +63652,11 @@ software:
         changelog: Added configurable shift selector modes
         releaseDate: '2022-10-11T05:05:41.842Z'
         upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
     pro-jankel:
       f218fb7:
         changelog: First dedicated Jankel release
         releaseDate: '2022-02-17T20:07:47.444Z'
         upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
     sport:
       490b79d:
         changelog: Maintenance release
@@ -63688,20 +63686,17 @@ software:
         changelog: Added support for Holley TerminatorX CAN
         releaseDate: '2022-02-01T21:51:43.199Z'
         upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
     sport-mcconnel:
       5eeb8345:
         changelog: Updated J1939 TC1 and ETC7
         releaseDate: '2020-02-27T01:48:26.259Z'
         upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
   csm2:
     base:
       64e96d6:
         changelog: Improved bluetooth speed
         releaseDate: '2021-12-08T20:21:29.467Z'
         upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
   etcu1:
     base:
       45d11ab:
@@ -63712,17 +63707,14 @@ software:
         changelog: Reduced false DTCs on solenoid regulation
         releaseDate: '2021-04-09T17:21:08.844Z'
         upgradePrompt: true
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
     proto:
       a95f3a2:
         changelog: Improved solenoid current regulation
         releaseDate: '2021-01-04T02:44:06.401Z'
         upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
   rlc2:
     base:
       8e9363d50ae9:
         changelog: initial version
         releaseDate: '2019-08-07T23:21:40.724Z'
         upgradePrompt: false
-      flashAppBaseUrl: com.hgmelectronics.flash.cs.binary://assets.hgmelectronics.com/software
