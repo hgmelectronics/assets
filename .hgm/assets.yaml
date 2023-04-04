@@ -44079,6 +44079,11 @@ devices:
     paramDefVersion: 6c13c32
     product: csm2
     softwareVersion: 64e96d6
+  RLC:
+    model: base
+    paramDefVersion: 6c13c32
+    product: rlc2
+    softwareVersion: 8e9363d50ae9
   RLC2-00042:
     model: base
     paramDefVersion: 6c13c32
