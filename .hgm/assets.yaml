@@ -17890,10 +17890,10 @@ devices:
     product: cs3
     softwareVersion: f218fb7
   CS3-03685:
-    model: pro
-    paramDefVersion: c9e96bd
+    model: pro-jankel
+    paramDefVersion: 4c712a2
     product: cs3
-    softwareVersion: c9e96bd
+    softwareVersion: f218fb7
   CS3-03686:
     model: sport
     paramDefVersion: 6c13c32
