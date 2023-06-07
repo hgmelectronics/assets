@@ -63588,6 +63588,8 @@ parameters:
         releaseDate: '2023-02-27T05:06:01.544Z'
       d5beb99:
         releaseDate: '2022-10-11T05:07:08.268Z'
+      e60fb13:
+        releaseDate: '2023-06-07T00:49:40.240Z'
     pro-jankel:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
@@ -63656,6 +63658,10 @@ software:
       d5beb99:
         changelog: Added configurable shift selector modes
         releaseDate: '2022-10-11T05:05:41.842Z'
+        upgradePrompt: false
+      e60fb13:
+        changelog: Revised TCC operation during range select
+        releaseDate: '2023-06-07T00:49:19.506Z'
         upgradePrompt: false
     pro-jankel:
       f218fb7:
