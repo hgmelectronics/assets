@@ -11826,9 +11826,9 @@ devices:
     softwareVersion: b1933dfb3
   CS3-02472:
     model: pro
-    paramDefVersion: 8cf6921
+    paramDefVersion: e60fb13
     product: cs3
-    softwareVersion: 8cf6921
+    softwareVersion: e60fb13
   CS3-02473:
     model: sport
     paramDefVersion: 6c13c32
