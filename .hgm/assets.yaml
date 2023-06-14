@@ -28016,7 +28016,7 @@ devices:
     softwareVersion: dda9f75
   CS3-05710:
     model: pro
-    paramDefVersion: 6c13c32
+    paramDefVersion: c9e96bd
     product: cs3
     softwareVersion: c9e96bd
   CS3-05711:
