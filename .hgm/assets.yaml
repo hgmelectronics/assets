@@ -63580,6 +63580,8 @@ parameters:
         releaseDate: '2022-08-18T22:39:22.257Z'
       6c13c32:
         releaseDate: '2022-08-18T19:05:25.474Z'
+      89e9d23:
+        releaseDate: '2023-06-14T20:23:31.616Z'
       8cf6921:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
@@ -63634,6 +63636,10 @@ software:
       490b79d:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
+        upgradePrompt: false
+      89e9d23:
+        changelog: Revised TCC operation during range select
+        releaseDate: '2023-06-14T20:23:12.869Z'
         upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
