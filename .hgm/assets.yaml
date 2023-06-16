@@ -9146,9 +9146,9 @@ devices:
     softwareVersion: dda9f75
   CS3-01936:
     model: pro
-    paramDefVersion: e60fb13
+    paramDefVersion: 6b15a21
     product: cs3
-    softwareVersion: e60fb13
+    softwareVersion: 6b15a21
   CS3-01937:
     model: sport
     paramDefVersion: 6c13c32
