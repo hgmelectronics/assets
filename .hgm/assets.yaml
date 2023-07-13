@@ -27656,9 +27656,9 @@ devices:
     softwareVersion: dda9f75
   CS3-05638:
     model: pro
-    paramDefVersion: 6c13c32
+    paramDefVersion: 6b15a21
     product: cs3
-    softwareVersion: c9e96bd
+    softwareVersion: 6b15a21
   CS3-05639:
     model: sport
     paramDefVersion: 6c13c32
