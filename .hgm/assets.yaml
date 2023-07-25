@@ -68569,6 +68569,11 @@ devices:
     paramDefVersion: 6c13c32
     product: rlc2
     softwareVersion: 5a69b59
+  Reverse Lockout:
+    model: base
+    paramDefVersion: 6c13c32
+    product: rlc2
+    softwareVersion: 5a69b59
 parameters:
   cs3:
     pro:
