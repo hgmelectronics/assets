@@ -29470,10 +29470,10 @@ devices:
     product: cs3
     softwareVersion: 6b15a21
   CS3-06001:
-    model: sport
+    model: pro
     paramDefVersion: 6c13c32
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 6b15a21
   CS3-06002:
     model: pro
     paramDefVersion: 6c13c32
