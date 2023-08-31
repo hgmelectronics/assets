@@ -28765,10 +28765,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-05860:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-05861:
     model: sport
     paramDefVersion: 6c13c32
@@ -29310,10 +29310,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-05969:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-05970:
     model: pro
     paramDefVersion: 6b15a21
@@ -29340,10 +29340,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-05975:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-05976:
     model: sport
     paramDefVersion: c9e96bd
@@ -29380,20 +29380,20 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-05983:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-05984:
     model: pro
     paramDefVersion: 6b15a21
     product: cs3
     softwareVersion: 6b15a21
   CS3-05985:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-05986:
     model: sport
     paramDefVersion: 6c13c32
@@ -29895,10 +29895,10 @@ devices:
     product: cs3
     softwareVersion: 6b15a21
   CS3-06086:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06087:
     model: pro
     paramDefVersion: 6b15a21
@@ -30470,10 +30470,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06201:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06202:
     model: sport
     paramDefVersion: 6c13c32
@@ -30655,15 +30655,15 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06238:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06239:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06240:
     model: sport
     paramDefVersion: 6c13c32
@@ -30705,10 +30705,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06248:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06249:
     model: sport
     paramDefVersion: 6c13c32
@@ -30765,25 +30765,25 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06260:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06261:
     model: sport
     paramDefVersion: 6c13c32
     product: cs3
     softwareVersion: dda9f75
   CS3-06262:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06263:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06264:
     model: sport
     paramDefVersion: 6c13c32
@@ -30870,15 +30870,15 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06281:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06282:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06283:
     model: sport
     paramDefVersion: 6c13c32
@@ -31155,10 +31155,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06338:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06339:
     model: sport
     paramDefVersion: 6c13c32
@@ -31255,10 +31255,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06358:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06359:
     model: sport
     paramDefVersion: 6c13c32
@@ -31295,10 +31295,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06366:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06367:
     model: sport
     paramDefVersion: 6c13c32
@@ -31320,10 +31320,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06371:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06372:
     model: sport
     paramDefVersion: 6c13c32
@@ -31370,10 +31370,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-06381:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: d5beb99
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: d5beb99
   CS3-06382:
     model: sport
     paramDefVersion: 6c13c32
