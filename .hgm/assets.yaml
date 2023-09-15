@@ -68588,8 +68588,6 @@ parameters:
         releaseDate: '2022-09-20T00:25:41.586Z'
       4c712a2:
         releaseDate: '2022-08-18T22:39:22.257Z'
-      66a84be:
-        releaseDate: '2023-09-13T00:00:00.000Z'
       6b15a21:
         releaseDate: '2023-06-15T01:58:19.908Z'
       6c13c32:
@@ -68598,6 +68596,8 @@ parameters:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
+      b51f467:
+        releaseDate: '2023-09-15T02:03:59.810Z'
       c9e96bd:
         releaseDate: '2023-02-27T05:06:01.544Z'
       d5beb99:
@@ -68649,10 +68649,6 @@ software:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
         upgradePrompt: false
-      66a84be:
-        changelog: Improved N-D shifts on A750/AB60
-        releaseDate: '2023-09-13T00:00:00.000Z'
-        upgradePrompt: false
       6b15a21:
         changelog: Revised TCC operation during range select
         releaseDate: '2023-06-15T01:57:37.774Z'
@@ -68672,6 +68668,10 @@ software:
       b1933dfb3:
         changelog: Reverted to earlier neutral relay control strategy
         releaseDate: '2020-12-10T01:06:09.568Z'
+        upgradePrompt: false
+      b51f467:
+        changelog: Improved N-D shifts on A750/AB60
+        releaseDate: '2023-09-15T02:05:37.931Z'
         upgradePrompt: false
       c9e96bd:
         changelog: AB60 4-5 shift improvements
