@@ -68588,6 +68588,8 @@ parameters:
         releaseDate: '2022-09-20T00:25:41.586Z'
       4c712a2:
         releaseDate: '2022-08-18T22:39:22.257Z'
+      66a84be:
+        releaseDate: '2023-09-13T00:00:00.000Z'
       6b15a21:
         releaseDate: '2023-06-15T01:58:19.908Z'
       6c13c32:
@@ -68646,6 +68648,10 @@ software:
       490b79d:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
+        upgradePrompt: false
+      66a84be:
+        changelog: Improved N-D shifts on A750/AB60
+        releaseDate: '2023-09-13T00:00:00.000Z'
         upgradePrompt: false
       6b15a21:
         changelog: Revised TCC operation during range select
