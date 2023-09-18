@@ -68652,7 +68652,7 @@ software:
       6b15a21:
         changelog: Revised TCC operation during range select
         releaseDate: '2023-06-15T01:57:37.774Z'
-        upgradePrompt: false
+        upgradePrompt: true
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
         releaseDate: '2023-01-25T23:44:21.304Z'
