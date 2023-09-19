@@ -68640,6 +68640,11 @@ parameters:
         releaseDate: '2022-08-18T21:21:13.624Z'
 software:
   cs3:
+    diag:
+      ef4e4c7:
+        changelog: Diagnostic firmware
+        releaseDate: '2023-09-19T02:50:12.167Z'
+        upgradePrompt: false
     pro:
       0daf47c:
         changelog: Display improvements
