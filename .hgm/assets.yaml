@@ -39469,6 +39469,36 @@ devices:
     paramDefVersion: 6c13c32
     product: csm2
     softwareVersion: 64e96d6
+  CSM3-00100:
+    model: base
+    paramDefVersion: 0ed3f58
+    product: csm3
+    softwareVersion: 0ed3f58
+  CSM3-00101:
+    model: base
+    paramDefVersion: 0ed3f58
+    product: csm3
+    softwareVersion: 0ed3f58
+  CSM3-00102:
+    model: base
+    paramDefVersion: 0ed3f58
+    product: csm3
+    softwareVersion: 0ed3f58
+  CSM3-00103:
+    model: base
+    paramDefVersion: 0ed3f58
+    product: csm3
+    softwareVersion: 0ed3f58
+  CSM3-00104:
+    model: base
+    paramDefVersion: 0ed3f58
+    product: csm3
+    softwareVersion: 0ed3f58
+  CSM3-00105:
+    model: base
+    paramDefVersion: 0ed3f58
+    product: csm3
+    softwareVersion: 0ed3f58
   ETCU-00010:
     model: proto
     paramDefVersion: 6c13c32
@@ -68627,6 +68657,10 @@ parameters:
     base:
       6c13c32:
         releaseDate: '2022-08-18T21:20:36.199Z'
+  csm3:
+    base:
+      0ed3f58:
+        releaseDate: '2023-09-20T21:55:56.729Z'
   etcu1:
     base:
       6c13c32:
@@ -68734,6 +68768,12 @@ software:
       64e96d6:
         changelog: Improved bluetooth speed
         releaseDate: '2021-12-08T20:21:29.467Z'
+        upgradePrompt: false
+  csm3:
+    base:
+      0ed3f58:
+        changelog: First release
+        releaseDate: '2023-09-20T21:55:56.729Z'
         upgradePrompt: false
   etcu1:
     base:
