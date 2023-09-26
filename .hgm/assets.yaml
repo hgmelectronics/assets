@@ -28825,10 +28825,10 @@ devices:
     product: cs3
     softwareVersion: c9e96bd
   CS3-05872:
-    model: sport
+    model: pro
     paramDefVersion: 6c13c32
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: b51f467
   CS3-05873:
     model: sport
     paramDefVersion: 6c13c32
