@@ -8766,9 +8766,9 @@ devices:
     softwareVersion: b51f467
   CS3-01860:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: 4e7b9e0
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 4e7b9e0
   CS3-01861:
     model: sport
     paramDefVersion: 6c13c32
@@ -70110,6 +70110,8 @@ parameters:
     sport:
       490b79d:
         releaseDate: '2022-09-20T00:25:50.841Z'
+      4e7b9e0:
+        releaseDate: '2023-10-13T03:58:16.916Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
       8cf6921:
@@ -70203,6 +70205,10 @@ software:
       490b79d:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:31.143Z'
+        upgradePrompt: false
+      4e7b9e0:
+        changelog: FuelTech ECU support
+        releaseDate: '2023-10-13T03:57:29.477Z'
         upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
