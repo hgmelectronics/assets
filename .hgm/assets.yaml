@@ -8766,9 +8766,9 @@ devices:
     softwareVersion: b51f467
   CS3-01860:
     model: sport
-    paramDefVersion: 4e7b9e0
+    paramDefVersion: 9b51185
     product: cs3
-    softwareVersion: 4e7b9e0
+    softwareVersion: 9b51185
   CS3-01861:
     model: sport
     paramDefVersion: 6c13c32
@@ -70110,12 +70110,12 @@ parameters:
     sport:
       490b79d:
         releaseDate: '2022-09-20T00:25:50.841Z'
-      4e7b9e0:
-        releaseDate: '2023-10-13T03:58:16.916Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
       8cf6921:
         releaseDate: '2023-01-27T02:21:14.331Z'
+      9b51185:
+        releaseDate: '2023-10-17T10:57:49.301Z'
       9e8a663:
         releaseDate: '2022-11-10T18:22:57.881Z'
       c9e96bd:
@@ -70206,13 +70206,13 @@ software:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:31.143Z'
         upgradePrompt: false
-      4e7b9e0:
-        changelog: FuelTech ECU support
-        releaseDate: '2023-10-13T03:57:29.477Z'
-        upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
         releaseDate: '2023-01-25T23:44:32.272Z'
+        upgradePrompt: false
+      9b51185:
+        changelog: Added FuelTech support
+        releaseDate: '2023-10-17T10:56:55.090Z'
         upgradePrompt: false
       9e8a663:
         changelog: Improved Cummins R2.8 support
