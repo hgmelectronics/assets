@@ -70081,6 +70081,9 @@ devices:
     softwareVersion: 5a69b59
 parameters:
   cs3:
+    diag:
+      ef4e4c7:
+        releaseDate: '2023-09-19T02:50:12.167Z'
     pro:
       0daf47c:
         releaseDate: '2022-08-31T22:34:14.477Z'
