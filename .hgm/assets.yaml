@@ -70101,6 +70101,8 @@ parameters:
         releaseDate: '2022-11-10T18:23:07.827Z'
       b51f467:
         releaseDate: '2023-09-15T02:03:59.810Z'
+      c5c63d7:
+        releaseDate: '2024-01-16T01:20:04.670Z'
       c9e96bd:
         releaseDate: '2023-02-27T05:06:01.544Z'
       d5beb99:
@@ -70186,6 +70188,10 @@ software:
       b51f467:
         changelog: Improved N-D shifts on A750/AB60
         releaseDate: '2023-09-15T02:05:37.931Z'
+        upgradePrompt: false
+      c5c63d7:
+        changelog: Fix for RE5 Timers
+        releaseDate: '2024-01-16T01:08:30.105Z'
         upgradePrompt: false
       c9e96bd:
         changelog: AB60 4-5 shift improvements
