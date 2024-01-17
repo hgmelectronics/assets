@@ -39471,7 +39471,7 @@ devices:
     softwareVersion: 64e96d6
   CSM3-00100:
     model: base
-    paramDefVersion: a980d30
+    paramDefVersion: '5831918'
     product: csm3
     softwareVersion: a980d30
   CSM3-00101:
@@ -39701,9 +39701,9 @@ devices:
     softwareVersion: a980d30
   CSM3-00146:
     model: base
-    paramDefVersion: 8f3b23f
+    paramDefVersion: '5831918'
     product: csm3
-    softwareVersion: 8f3b23f
+    softwareVersion: '5831918'
   CSM3-00147:
     model: base
     paramDefVersion: a980d30
@@ -70136,8 +70136,8 @@ parameters:
         releaseDate: '2022-08-18T21:20:36.199Z'
   csm3:
     base:
-      8f3b23f:
-        releaseDate: '2024-01-16T23:13:55.901Z'
+      '5831918':
+        releaseDate: '2024-01-17T02:12:13.028Z'
       a980d30:
         releaseDate: '2023-10-05T20:52:58.807Z'
   etcu1:
@@ -70258,9 +70258,9 @@ software:
         upgradePrompt: false
   csm3:
     base:
-      8f3b23f:
+      '5831918':
         changelog: New engine types, temp sensor, bootloader bugfix
-        releaseDate: '2024-01-16T23:15:27.606Z'
+        releaseDate: '2024-01-17T02:11:28.681Z'
         upgradePrompt: false
       a980d30:
         changelog: First release
