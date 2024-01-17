@@ -39671,9 +39671,9 @@ devices:
     softwareVersion: a980d30
   CSM3-00140:
     model: base
-    paramDefVersion: a980d30
+    paramDefVersion: '5831918'
     product: csm3
-    softwareVersion: a980d30
+    softwareVersion: '5831918'
   CSM3-00141:
     model: base
     paramDefVersion: a980d30
