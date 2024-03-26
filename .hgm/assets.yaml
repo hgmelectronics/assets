@@ -1285,10 +1285,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-00363:
-    model: sport-mcconnel
-    paramDefVersion: 6c13c32
+    model: sport
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: 5eeb8345
+    softwareVersion: c9e96bd
   CS3-00364:
     model: sport
     paramDefVersion: 6c13c32
@@ -28435,10 +28435,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-05794:
-    model: sport-mcconnel
-    paramDefVersion: 6c13c32
+    model: sport
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: 5eeb8345
+    softwareVersion: c9e96bd
   CS3-05795:
     model: sport
     paramDefVersion: 6c13c32
