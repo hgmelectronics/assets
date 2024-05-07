@@ -80095,6 +80095,8 @@ parameters:
         releaseDate: '2023-06-15T01:58:19.908Z'
       6c13c32:
         releaseDate: '2022-08-18T19:05:25.474Z'
+      73f6bda:
+        releaseDate: '2024-05-07T03:42:05.274Z'
       8cf6921:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
@@ -80171,6 +80173,10 @@ software:
         changelog: Revised TCC operation during range select
         releaseDate: '2023-06-15T01:57:37.774Z'
         upgradePrompt: true
+      73f6bda:
+        changelog: Added Variable Failsafe Conditions
+        releaseDate: '2024-05-07T03:39:23.643Z'
+        upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
         releaseDate: '2023-01-25T23:44:21.304Z'
