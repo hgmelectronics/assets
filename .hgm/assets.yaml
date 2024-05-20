@@ -31666,9 +31666,9 @@ devices:
     softwareVersion: dda9f75
   CS3-06440:
     model: pro
-    paramDefVersion: b51f467
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: b51f467
+    softwareVersion: 73f6bda
   CS3-06441:
     model: pro
     paramDefVersion: b51f467
