@@ -80196,7 +80196,7 @@ software:
       b51f467:
         changelog: Improved N-D shifts on A750/AB60
         releaseDate: '2023-09-15T02:05:37.931Z'
-        upgradePrompt: false
+        upgradePrompt: true
       c5c63d7:
         changelog: Fix for RE5 Timers
         releaseDate: '2024-01-16T01:08:30.105Z'
