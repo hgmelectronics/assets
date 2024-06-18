@@ -25475,10 +25475,10 @@ devices:
     product: cs3
     softwareVersion: dda9f75
   CS3-05202:
-    model: diag
-    paramDefVersion: ef4e4c7
+    model: pro
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: ef4e4c7
+    softwareVersion: 73f6bda
   CS3-05203:
     model: sport
     paramDefVersion: 6c13c32
