@@ -33560,10 +33560,10 @@ devices:
     product: cs3
     softwareVersion: 73f6bda
   CS3-06819:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 73f6bda
   CS3-06820:
     model: sport
     paramDefVersion: 6c13c32
