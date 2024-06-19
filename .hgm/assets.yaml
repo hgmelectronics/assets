@@ -25866,9 +25866,9 @@ devices:
     softwareVersion: 73f6bda
   CS3-05280:
     model: pro
-    paramDefVersion: 4c712a2
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 73f6bda
   CS3-05281:
     model: pro
     paramDefVersion: 73f6bda
