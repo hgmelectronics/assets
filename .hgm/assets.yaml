@@ -18351,9 +18351,9 @@ devices:
     softwareVersion: dda9f75
   CS3-03777:
     model: pro
-    paramDefVersion: c5c63d7
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: c5c63d7
+    softwareVersion: 73f6bda
   CS3-03778:
     model: sport
     paramDefVersion: 6c13c32
