@@ -32381,9 +32381,9 @@ devices:
     softwareVersion: 73f6bda
   CS3-06583:
     model: pro
-    paramDefVersion: 73f6bda
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: 73f6bda
+    softwareVersion: c9e96bd
   CS3-06584:
     model: pro
     paramDefVersion: 73f6bda
