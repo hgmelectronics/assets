@@ -1161,9 +1161,9 @@ devices:
     softwareVersion: dda9f75
   CS3-00336:
     model: pro
-    paramDefVersion: 4c712a2
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 73f6bda
   CS3-00337:
     model: sport
     paramDefVersion: 6c13c32
@@ -8881,9 +8881,9 @@ devices:
     softwareVersion: dda9f75
   CS3-01883:
     model: pro
-    paramDefVersion: 4c712a2
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 73f6bda
   CS3-01884:
     model: pro
     paramDefVersion: 4c712a2
