@@ -21841,9 +21841,9 @@ devices:
     softwareVersion: 73f6bda
   CS3-04475:
     model: pro
-    paramDefVersion: 4c712a2
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 73f6bda
   CS3-04476:
     model: pro
     paramDefVersion: 8cf6921
