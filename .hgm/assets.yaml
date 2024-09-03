@@ -33156,9 +33156,9 @@ devices:
     softwareVersion: 73f6bda
   CS3-06738:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: c9e96bd
   CS3-06739:
     model: sport
     paramDefVersion: 6c13c32
