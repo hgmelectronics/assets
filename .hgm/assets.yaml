@@ -90091,32 +90091,22 @@ parameters:
         releaseDate: '2022-09-20T00:25:41.586Z'
       4c712a2:
         releaseDate: '2022-08-18T22:39:22.257Z'
-      6b15a21:
-        releaseDate: '2023-06-15T01:58:19.908Z'
-      6c13c32:
-        releaseDate: '2022-08-18T19:05:25.474Z'
       73f6bda:
         releaseDate: '2024-05-07T03:42:05.274Z'
       8cf6921:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
-      b51f467:
-        releaseDate: '2023-09-15T02:03:59.810Z'
       c5c63d7:
         releaseDate: '2024-01-16T01:20:04.670Z'
       c9e96bd:
         releaseDate: '2023-02-27T05:06:01.544Z'
       d5beb99:
         releaseDate: '2022-10-11T05:07:08.268Z'
-      e60fb13:
-        releaseDate: '2023-06-07T00:49:40.240Z'
     pro-jankel:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
     sport:
-      490b79d:
-        releaseDate: '2022-09-20T00:25:50.841Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
       8cf6921:
@@ -90140,8 +90130,6 @@ parameters:
     base:
       '5831918':
         releaseDate: '2024-01-17T02:12:13.028Z'
-      a980d30:
-        releaseDate: '2023-10-05T20:52:58.807Z'
   etcu1:
     base:
       6c13c32:
@@ -90209,20 +90197,12 @@ software:
         changelog: Added configurable shift selector modes
         releaseDate: '2022-10-11T05:05:41.842Z'
         upgradePrompt: false
-      e60fb13:
-        changelog: Revised TCC operation during range select
-        releaseDate: '2023-06-07T00:49:19.506Z'
-        upgradePrompt: false
     pro-jankel:
       f218fb7:
         changelog: First dedicated Jankel release
         releaseDate: '2022-02-17T20:07:47.444Z'
         upgradePrompt: false
     sport:
-      490b79d:
-        changelog: Maintenance release
-        releaseDate: '2022-09-20T00:25:31.143Z'
-        upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
         releaseDate: '2023-01-25T23:44:32.272Z'
@@ -90268,10 +90248,6 @@ software:
         changelog: New engine types, temp sensor, bootloader bugfix
         releaseDate: '2024-01-17T02:11:28.681Z'
         upgradePrompt: false
-      a980d30:
-        changelog: First release
-        releaseDate: '2023-10-05T20:51:57.736Z'
-        upgradePrompt: false
   etcu1:
     base:
       45d11ab:
@@ -90292,8 +90268,4 @@ software:
       5a69b59:
         changelog: Maintenance release
         releaseDate: '2022-04-28T03:03:00.000Z'
-        upgradePrompt: false
-      8e9363d50ae9:
-        changelog: initial version
-        releaseDate: '2019-08-07T23:21:40.724Z'
         upgradePrompt: false
