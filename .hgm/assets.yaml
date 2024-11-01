@@ -42558,7 +42558,10 @@ devices:
     paramDefVersion: 73f6bda
     product: cs3
     softwareVersion: 73f6bda
-    tags: []
+    tags:
+      - 2UZ-FE
+      - HaltechElite
+      - A750Gate
   CS3-07200:
     model: sport
     paramDefVersion: 6c13c32
