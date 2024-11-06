@@ -108201,7 +108201,7 @@ software:
       73f6bda:
         changelog: Added Variable Failsafe Conditions
         releaseDate: '2024-05-07T03:39:23.643Z'
-        upgradePrompt: false
+        upgradePrompt: true
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
         releaseDate: '2023-01-25T23:44:21.304Z'
