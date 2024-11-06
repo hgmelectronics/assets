@@ -108190,6 +108190,12 @@ software:
         changelog: Revised TCC operation during range select
         releaseDate: '2023-06-15T01:57:37.774Z'
         upgradePrompt: true
+      73d0f83:
+        changelog: >-
+          Added additional support for Failsafe conditions on supported
+          transmissions
+        releaseDate: '2024-11-06T04:08:31.179Z'
+        upgradePrompt: false
       73f6bda:
         changelog: Added Variable Failsafe Conditions
         releaseDate: '2024-05-07T03:39:23.643Z'
