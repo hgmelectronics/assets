@@ -24805,10 +24805,12 @@ devices:
     tags: []
   CS3-04241:
     model: pro
-    paramDefVersion: 0daf47c
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 0daf47c
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - AB60
+      - VDJ
   CS3-04242:
     model: sport
     paramDefVersion: 6c13c32
@@ -26173,10 +26175,12 @@ devices:
     tags: []
   CS3-04469:
     model: pro
-    paramDefVersion: 0daf47c
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 0daf47c
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - AB60
+      - VDJ
   CS3-04470:
     model: sport
     paramDefVersion: 6c13c32
@@ -108183,7 +108187,7 @@ software:
       0daf47c:
         changelog: Display improvements
         releaseDate: '2022-08-31T22:32:42.779Z'
-        upgradePrompt: false
+        upgradePrompt: true
       490b79d:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
