@@ -18911,10 +18911,12 @@ devices:
     tags: []
   CS3-03253:
     model: pro
-    paramDefVersion: c5c63d7
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: c5c63d7
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - RE5
+      - ZD30CRD
   CS3-03254:
     model: sport
     paramDefVersion: 6c13c32
@@ -36855,10 +36857,13 @@ devices:
     tags: []
   CS3-06233:
     model: pro
-    paramDefVersion: c5c63d7
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: c5c63d7
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - RE5
+      - HaltechElite
+      - TB48
   CS3-06234:
     model: sport
     paramDefVersion: 6c13c32
@@ -39099,9 +39104,9 @@ devices:
     tags: []
   CS3-06607:
     model: pro
-    paramDefVersion: c5c63d7
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: c5c63d7
+    softwareVersion: 73d0f83
     tags:
       - RE5
       - TD42
@@ -40333,9 +40338,9 @@ devices:
     tags: []
   CS3-06812:
     model: pro
-    paramDefVersion: c5c63d7
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: c5c63d7
+    softwareVersion: 73d0f83
     tags: []
   CS3-06813:
     model: pro
@@ -42123,10 +42128,12 @@ devices:
     tags: []
   CS3-07110:
     model: pro
-    paramDefVersion: c5c63d7
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: c5c63d7
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - RE5
+      - TD42
   CS3-07111:
     model: sport
     paramDefVersion: 6c13c32
@@ -108325,7 +108332,7 @@ software:
       c5c63d7:
         changelog: Fix for RE5 Timers
         releaseDate: '2024-01-16T01:08:30.105Z'
-        upgradePrompt: false
+        upgradePrompt: true
       c9e96bd:
         changelog: AB60 4-5 shift improvements
         releaseDate: '2023-02-27T05:05:03.116Z'
