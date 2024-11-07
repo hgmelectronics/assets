@@ -30995,10 +30995,12 @@ devices:
     tags: []
   CS3-05272:
     model: pro
-    paramDefVersion: 490b79d
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 490b79d
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - VDJ
+      - AB60
   CS3-05273:
     model: sport
     paramDefVersion: 6c13c32
@@ -108191,7 +108193,7 @@ software:
       490b79d:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
-        upgradePrompt: false
+        upgradePrompt: true
       6b15a21:
         changelog: Revised TCC operation during range select
         releaseDate: '2023-06-15T01:57:37.774Z'
