@@ -35167,10 +35167,12 @@ devices:
     tags: []
   CS3-05952:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: dda9f75
-    tags: []
+    softwareVersion: c9e96bd
+    tags:
+      - RE4
+      - TD42
   CS3-05953:
     model: sport
     paramDefVersion: 6c13c32
