@@ -31689,10 +31689,12 @@ devices:
     tags: []
   CS3-05372:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: dda9f75
-    tags: []
+    softwareVersion: c9e96bd
+    tags:
+      - 4L80E
+      - CHEV540
   CS3-05373:
     model: sport
     paramDefVersion: 6c13c32
