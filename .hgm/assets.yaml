@@ -10317,9 +10317,9 @@ devices:
     tags: []
   CS3-01824:
     model: pro
-    paramDefVersion: 73f6bda
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 73f6bda
+    softwareVersion: 73d0f83
     tags:
       - 1GR-FE
       - A750
