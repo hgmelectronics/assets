@@ -10317,10 +10317,13 @@ devices:
     tags: []
   CS3-01824:
     model: pro
-    paramDefVersion: 4c712a2
+    paramDefVersion: 73f6bda
     product: cs3
-    softwareVersion: b1933dfb3
-    tags: []
+    softwareVersion: 73f6bda
+    tags:
+      - 1GR-FE
+      - A750
+      - Switch
   CS3-01825:
     model: sport
     paramDefVersion: 6c13c32
