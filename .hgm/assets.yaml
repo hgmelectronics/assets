@@ -36567,7 +36567,9 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - VDJ
+      - AB60
   CS3-06182:
     model: sport
     paramDefVersion: 6c13c32
@@ -40251,7 +40253,9 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - VDJ
+      - AB60
   CS3-06794:
     model: sport
     paramDefVersion: 6c13c32
