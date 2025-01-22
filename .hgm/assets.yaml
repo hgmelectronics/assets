@@ -44894,22 +44894,22 @@ devices:
     softwareVersion: dda9f75
     tags: []
   CS3-07560:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 73d0f83
     tags: []
   CS3-07561:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 73d0f83
     tags: []
   CS3-07562:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 73d0f83
     tags: []
   CS3-07563:
     model: sport
@@ -44996,10 +44996,10 @@ devices:
     softwareVersion: dda9f75
     tags: []
   CS3-07577:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 73d0f83
     tags: []
   CS3-07578:
     model: sport
@@ -45068,10 +45068,10 @@ devices:
     softwareVersion: dda9f75
     tags: []
   CS3-07589:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 73d0f83
     tags: []
   CS3-07590:
     model: sport
