@@ -6346,10 +6346,12 @@ devices:
     tags: []
   CS3-01164:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: dda9f75
-    tags: []
+    softwareVersion: c9e96bd
+    tags:
+      - 4L80E
+      - CHEV65
   CS3-01165:
     model: sport
     paramDefVersion: 6c13c32
