@@ -44519,9 +44519,9 @@ devices:
     tags: []
   CS3-07495:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: f4ec9dd
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: f4ec9dd
     tags: []
   CS3-07496:
     model: sport
@@ -108334,6 +108334,8 @@ parameters:
         releaseDate: '2023-03-07T04:43:01.605Z'
       d5beb99:
         releaseDate: '2022-10-11T05:07:17.077Z'
+      f4ec9dd:
+        releaseDate: '2025-02-22T20:24:41.880Z'
     sport-mcconnel:
       6c13c32:
         releaseDate: '2022-08-18T19:07:59.818Z'
@@ -108459,6 +108461,10 @@ software:
       dda9f75:
         changelog: Added support for Holley TerminatorX CAN
         releaseDate: '2022-02-01T21:51:43.199Z'
+        upgradePrompt: false
+      f4ec9dd:
+        changelog: Improved GMLAN support
+        releaseDate: '2025-02-22T20:24:08.681Z'
         upgradePrompt: false
     sport-mcconnel:
       5eeb8345:
