@@ -45247,10 +45247,10 @@ devices:
     softwareVersion: dda9f75
     tags: []
   CS3-07616:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: 73d0f83
     tags: []
   CS3-07617:
     model: sport
