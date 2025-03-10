@@ -44684,9 +44684,9 @@ devices:
     tags: []
   CS3-07522:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: ac84c7d
     product: cs3
-    softwareVersion: 73d0f83
+    softwareVersion: ac84c7d
     tags: []
   CS3-07523:
     model: pro
@@ -108308,6 +108308,8 @@ parameters:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
+      ac84c7d:
+        releaseDate: '2025-03-10T04:45:13.000Z'
       c5c63d7:
         releaseDate: '2024-01-16T01:20:04.670Z'
       c9e96bd:
@@ -108403,6 +108405,10 @@ software:
       9e8a663:
         changelog: Improved Cummins R2.8 support
         releaseDate: '2022-11-10T18:21:03.102Z'
+        upgradePrompt: false
+      ac84c7d:
+        changelog: Added MaxxECU support
+        releaseDate: '2025-03-10T04:44:53.175Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
