@@ -44684,9 +44684,9 @@ devices:
     tags: []
   CS3-07522:
     model: pro
-    paramDefVersion: ac84c7d
+    paramDefVersion: 15b680e
     product: cs3
-    softwareVersion: ac84c7d
+    softwareVersion: 15b680e
     tags: []
   CS3-07523:
     model: pro
@@ -108299,6 +108299,8 @@ parameters:
     pro:
       0daf47c:
         releaseDate: '2022-08-31T22:34:14.477Z'
+      15b680e:
+        releaseDate: '2025-03-11T14:51:18.610Z'
       490b79d:
         releaseDate: '2022-09-20T00:25:41.586Z'
       4c712a2:
@@ -108311,8 +108313,6 @@ parameters:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
-      ac84c7d:
-        releaseDate: '2025-03-10T04:45:13.000Z'
       c5c63d7:
         releaseDate: '2024-01-16T01:20:04.670Z'
       c9e96bd:
@@ -108377,6 +108377,10 @@ software:
         changelog: Display improvements
         releaseDate: '2022-08-31T22:32:42.779Z'
         upgradePrompt: true
+      15b680e:
+        changelog: Added MaxxECU support
+        releaseDate: '2025-03-11T14:50:51.750Z'
+        upgradePrompt: false
       396205d:
         changelog: >-
           Add Flex-Lock support for AB60 - A new Calibration file MUST be loaded
@@ -108408,10 +108412,6 @@ software:
       9e8a663:
         changelog: Improved Cummins R2.8 support
         releaseDate: '2022-11-10T18:21:03.102Z'
-        upgradePrompt: false
-      ac84c7d:
-        changelog: Added MaxxECU support
-        releaseDate: '2025-03-10T04:44:53.175Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
