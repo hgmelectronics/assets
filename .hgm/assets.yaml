@@ -45029,7 +45029,9 @@ devices:
     paramDefVersion: c9e96bd
     product: cs3
     softwareVersion: c9e96bd
-    tags: []
+    tags:
+      - RE4
+      - GAS
   CS3-07579:
     model: sport
     paramDefVersion: 6c13c32
