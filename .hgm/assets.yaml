@@ -43450,9 +43450,9 @@ devices:
     tags: []
   CS3-07318:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: cd73918
     product: cs3
-    softwareVersion: dda9f75
+    softwareVersion: cd73918
     tags: []
   CS3-07319:
     model: sport
