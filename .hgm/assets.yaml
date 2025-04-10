@@ -45381,7 +45381,9 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - AB60
+      - VDJ
   CS3-07633:
     model: sport
     paramDefVersion: 6c13c32
@@ -45393,7 +45395,9 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - AB60
+      - VDJ
   CS3-07635:
     model: sport
     paramDefVersion: 6c13c32
@@ -45405,19 +45409,25 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - AB60
+      - VDJ
   CS3-07637:
     model: pro
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - AB60
+      - VDJ
   CS3-07638:
     model: pro
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - AB60
+      - VDJ
   CS3-07639:
     model: sport
     paramDefVersion: 6c13c32
@@ -45429,7 +45439,9 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - AB60
+      - VDJ
   CS3-07641:
     model: sport
     paramDefVersion: 6c13c32
