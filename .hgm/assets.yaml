@@ -45385,11 +45385,15 @@ devices:
       - AB60
       - VDJ
   CS3-07633:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - AB60
+      - VDJ
+      - DPF
+      - Pre-Collision
   CS3-07634:
     model: pro
     paramDefVersion: 73d0f83
@@ -45429,11 +45433,14 @@ devices:
       - AB60
       - VDJ
   CS3-07639:
-    model: sport
-    paramDefVersion: 6c13c32
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: dda9f75
-    tags: []
+    softwareVersion: 73d0f83
+    tags:
+      - AB60
+      - VDJ
+      - DPF
   CS3-07640:
     model: pro
     paramDefVersion: 73d0f83
