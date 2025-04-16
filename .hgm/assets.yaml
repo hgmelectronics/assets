@@ -12287,10 +12287,12 @@ devices:
     tags: []
   CS3-02151:
     model: sport
-    paramDefVersion: 6c13c32
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: dda9f75
-    tags: []
+    softwareVersion: c9e96bd
+    tags:
+      - A340
+      - HSD
   CS3-02152:
     model: sport
     paramDefVersion: 6c13c32
