@@ -40424,7 +40424,12 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - VDJ
+      - AB60
+      - DPF
+      - Facelift
+      - Pre-Collision
   CS3-06814:
     model: sport
     paramDefVersion: c9e96bd
