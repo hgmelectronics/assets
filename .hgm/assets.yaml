@@ -46095,7 +46095,10 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - VDJ
+      - AB60
+      - DPF
   CS3-07747:
     model: pro
     paramDefVersion: 73d0f83
