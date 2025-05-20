@@ -46349,12 +46349,13 @@ devices:
     tags: []
   CS3-07787:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: e6f0209
     product: cs3
-    softwareVersion: 73d0f83
+    softwareVersion: 396205d
     tags:
       - VDJ
       - AB60
+      - 6x6
   CS3-07788:
     model: pro
     paramDefVersion: 73d0f83
