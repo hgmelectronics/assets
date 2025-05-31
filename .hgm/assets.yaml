@@ -39421,9 +39421,9 @@ devices:
     tags: []
   CS3-06650:
     model: sport
-    paramDefVersion: b2b0bc5
+    paramDefVersion: 1616d98
     product: cs3
-    softwareVersion: b2b0bc5
+    softwareVersion: 1616d98
     tags: []
   CS3-06651:
     model: sport
@@ -45609,9 +45609,9 @@ devices:
     tags: []
   CS3-07664:
     model: sport
-    paramDefVersion: b2b0bc5
+    paramDefVersion: 1616d98
     product: cs3
-    softwareVersion: b2b0bc5
+    softwareVersion: 1616d98
     tags: []
   CS3-07665:
     model: sport
@@ -108401,6 +108401,8 @@ parameters:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
     sport:
+      1616d98:
+        releaseDate: '2025-05-31T21:56:20.413Z'
       '4375440':
         releaseDate: '2025-05-02T19:51:35.809Z'
       6c13c32:
@@ -108411,8 +108413,6 @@ parameters:
         releaseDate: '2024-09-12T00:11:58.155Z'
       9e8a663:
         releaseDate: '2022-11-10T18:22:57.881Z'
-      b2b0bc5:
-        releaseDate: '2025-05-30T23:28:30.804Z'
       c50bf69:
         releaseDate: '2023-10-23T22:28:05.284Z'
       c9e96bd:
@@ -108523,6 +108523,10 @@ software:
         releaseDate: '2022-02-17T20:07:47.444Z'
         upgradePrompt: false
     sport:
+      1616d98:
+        changelog: Adds adjustable speed sensor pulse count on Ford E4OD
+        releaseDate: '2025-05-31T21:55:53.544Z'
+        upgradePrompt: false
       '4375440':
         changelog: Bug fixes for FuelTech CAN, Megasquirt CAN, and ZF shift lever
         releaseDate: '2025-05-02T19:51:10.732Z'
@@ -108543,10 +108547,6 @@ software:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
         upgradePrompt: true
-      b2b0bc5:
-        changelog: Adds adjustable speed sensor pulse count on Ford E4OD
-        releaseDate: '2025-05-30T23:28:07.166Z'
-        upgradePrompt: false
       c9e96bd:
         changelog: Changed temperature alerts and out of range gauge display
         releaseDate: '2023-03-07T04:43:31.593Z'
