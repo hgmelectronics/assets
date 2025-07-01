@@ -30275,17 +30275,19 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-05134:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox-dev
   CS3-05135:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox-dev
   CS3-05136:
     model: sport
     paramDefVersion: '4375440'
@@ -36178,11 +36180,12 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-06112:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox-dev
   CS3-06113:
     model: sport
     paramDefVersion: '4375440'
@@ -37377,11 +37380,12 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-06311:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox-dev
   CS3-06312:
     model: sport
     paramDefVersion: '4375440'
@@ -47656,29 +47660,33 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-08003:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08004:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08005:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08006:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08007:
     model: sport
     paramDefVersion: '4375440'
@@ -47686,17 +47694,19 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-08008:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08009:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08010:
     model: sport
     paramDefVersion: '4375440'
@@ -47704,29 +47714,33 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-08011:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08012:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08013:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08014:
-    model: sport
-    paramDefVersion: '4375440'
+    model: jagbox
+    paramDefVersion: dd0f489
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: dd0f489
+    tags:
+      - jagbox
   CS3-08015:
     model: sport
     paramDefVersion: '4375440'
@@ -108380,6 +108394,9 @@ parameters:
     diag:
       ef4e4c7:
         releaseDate: '2023-09-19T02:50:12.167Z'
+    jagbox:
+      dd0f489:
+        releaseDate: '2025-07-01T08:14:21.917Z'
     pro:
       0daf47c:
         releaseDate: '2022-08-31T22:34:14.477Z'
@@ -108459,6 +108476,11 @@ software:
       ef4e4c7:
         changelog: Diagnostic firmware
         releaseDate: '2023-09-19T02:50:12.167Z'
+        upgradePrompt: false
+    jagbox:
+      dd0f489:
+        changelog: Initial release
+        releaseDate: '2025-07-01T08:12:29.082Z'
         upgradePrompt: false
     pro:
       0daf47c:
