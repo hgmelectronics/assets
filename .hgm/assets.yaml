@@ -47440,10 +47440,10 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-07964:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-07965:
     model: sport
@@ -47756,16 +47756,16 @@ devices:
     tags:
       - jagbox
   CS3-08015:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08016:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08017:
     model: sport
@@ -47774,10 +47774,10 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-08018:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08019:
     model: sport
@@ -47840,64 +47840,64 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-08029:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08030:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08031:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08032:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08033:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08034:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08035:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08036:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08037:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08038:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08039:
     model: sport
