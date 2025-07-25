@@ -47483,9 +47483,9 @@ devices:
     tags: []
   CS3-07971:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 50b7eb6
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 50b7eb6
     tags: []
   CS3-07972:
     model: sport
@@ -108444,6 +108444,8 @@ parameters:
         releaseDate: '2025-05-31T21:56:20.413Z'
       '4375440':
         releaseDate: '2025-05-02T19:51:35.809Z'
+      50b7eb6:
+        releaseDate: '2025-07-25T21:27:01.114Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
       8cf6921:
@@ -108574,6 +108576,10 @@ software:
       '4375440':
         changelog: Bug fixes for FuelTech CAN, Megasquirt CAN, and ZF shift lever
         releaseDate: '2025-05-02T19:51:10.732Z'
+        upgradePrompt: false
+      50b7eb6:
+        changelog: Added support for Aces EFI
+        releaseDate: '2025-07-25T21:26:37.756Z'
         upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
