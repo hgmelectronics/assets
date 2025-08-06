@@ -12584,9 +12584,9 @@ devices:
       - Non-DPF
   CS3-02199:
     model: pro
-    paramDefVersion: e6f0209
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 396205d
+    softwareVersion: 73d0f83
     tags:
       - AB60,VDJ,Turbo,Portals
   CS3-02200:
