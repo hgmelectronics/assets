@@ -2369,9 +2369,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - ShaunWhale
-      - A750
       - 1HDFTE
+      - A750
+      - ShaunWhale
   CS3-00502:
     model: pro
     paramDefVersion: 4c712a2
@@ -9247,8 +9247,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-01646:
     model: sport
     paramDefVersion: '4375440'
@@ -9868,8 +9868,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-01749:
     model: sport
     paramDefVersion: '4375440'
@@ -10569,9 +10569,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
+      - HSDiesel
       - RE5
       - TD42
-      - HSDiesel
   CS3-01865:
     model: pro
     paramDefVersion: 4c712a2
@@ -10662,9 +10662,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
+      - 6x6
       - AB60
       - VDJ
-      - 6x6
   CS3-01880:
     model: sport
     paramDefVersion: '4375440'
@@ -12237,8 +12237,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - A750
       - 1HD-FTE
+      - A750
       - SwitchShift
   CS3-02142:
     model: sport
@@ -12585,8 +12585,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-02199:
     model: pro
     paramDefVersion: 73d0f83
@@ -12594,9 +12594,9 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
-      - Turbo
       - Portals
+      - Turbo
+      - VDJ
   CS3-02200:
     model: sport
     paramDefVersion: '4375440'
@@ -16264,8 +16264,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-02810:
     model: sport
     paramDefVersion: '4375440'
@@ -18048,9 +18048,9 @@ devices:
     product: cs3
     softwareVersion: 8cf6921
     tags:
+      - 1HDFT
       - 4L80E
       - HSDiesel
-      - 1HDFT
   CS3-03107:
     model: sport
     paramDefVersion: c9e96bd
@@ -18237,8 +18237,8 @@ devices:
     product: cs3
     softwareVersion: d5beb99
     tags:
-      - RE4
       - Gasoline
+      - RE4
   CS3-03138:
     model: sport
     paramDefVersion: '4375440'
@@ -19323,8 +19323,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-03318:
     model: pro
     paramDefVersion: 4c712a2
@@ -21566,8 +21566,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-03691:
     model: sport
     paramDefVersion: '4375440'
@@ -22349,8 +22349,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-03821:
     model: sport
     paramDefVersion: '4375440'
@@ -22369,8 +22369,8 @@ devices:
     product: cs3
     softwareVersion: d5beb99
     tags:
-      - HaltechElite
       - 4L80E
+      - HaltechElite
       - LSA
   CS3-03824:
     model: pro
@@ -22384,8 +22384,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-03826:
     model: pro-jankel
     paramDefVersion: 4c712a2
@@ -23193,8 +23193,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-03960:
     model: sport
     paramDefVersion: '4375440'
@@ -24939,8 +24939,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-04250:
     model: sport
     paramDefVersion: '4375440'
@@ -25193,9 +25193,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
+      - HSDiesel
       - RE5
       - TD42
-      - HSDiesel
   CS3-04292:
     model: sport
     paramDefVersion: '4375440'
@@ -25755,8 +25755,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-04385:
     model: pro
     paramDefVersion: 4c712a2
@@ -25871,9 +25871,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - Non-DPF
+      - VDJ
   CS3-04404:
     model: sport
     paramDefVersion: '4375440'
@@ -25958,9 +25958,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-04418:
     model: sport
     paramDefVersion: '4375440'
@@ -25973,9 +25973,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-04420:
     model: sport
     paramDefVersion: '4375440'
@@ -26073,8 +26073,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-04436:
     model: sport
     paramDefVersion: '4375440'
@@ -26106,8 +26106,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-04441:
     model: pro
     paramDefVersion: 73d0f83
@@ -26181,8 +26181,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-04453:
     model: pro
     paramDefVersion: 4c712a2
@@ -26330,8 +26330,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-04477:
     model: sport
     paramDefVersion: '4375440'
@@ -26392,9 +26392,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-04487:
     model: sport
     paramDefVersion: '4375440'
@@ -28081,9 +28081,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-04768:
     model: pro
     paramDefVersion: 4c712a2
@@ -28181,8 +28181,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-04784:
     model: sport
     paramDefVersion: '4375440'
@@ -28381,9 +28381,9 @@ devices:
     product: cs3
     softwareVersion: d5beb99
     tags:
+      - HSDiesel
       - RE4
       - TD42
-      - HSDiesel
   CS3-04817:
     model: sport
     paramDefVersion: '4375440'
@@ -30760,8 +30760,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-05212:
     model: pro
     paramDefVersion: 73d0f83
@@ -30907,8 +30907,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-05236:
     model: pro
     paramDefVersion: 4c712a2
@@ -30928,8 +30928,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-05239:
     model: pro
     paramDefVersion: 4c712a2
@@ -31134,8 +31134,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-05273:
     model: sport
     paramDefVersion: '4375440'
@@ -31179,8 +31179,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - Turbo
+      - VDJ
   CS3-05280:
     model: pro
     paramDefVersion: 73d0f83
@@ -31188,8 +31188,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-05281:
     model: pro
     paramDefVersion: 73d0f83
@@ -31209,8 +31209,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-05284:
     model: sport
     paramDefVersion: '4375440'
@@ -32594,10 +32594,10 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
+      - 1HZ
       - A750
       - GateShift
       - HSDiesel
-      - 1HZ
   CS3-05514:
     model: sport
     paramDefVersion: c9e96bd
@@ -33134,8 +33134,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-05603:
     model: sport
     paramDefVersion: '4375440'
@@ -33730,8 +33730,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-05702:
     model: sport
     paramDefVersion: '4375440'
@@ -35668,10 +35668,10 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - A750
-      - SwitchShift
       - 1HDFT
+      - A750
       - HSDiesel
+      - SwitchShift
   CS3-06024:
     model: sport
     paramDefVersion: '4375440'
@@ -36621,8 +36621,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-06182:
     model: sport
     paramDefVersion: '4375440'
@@ -36935,8 +36935,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - RE5
       - HaltechElite
+      - RE5
       - TB48
   CS3-06234:
     model: sport
@@ -37950,8 +37950,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - Turbo
+      - VDJ
   CS3-06402:
     model: pro
     paramDefVersion: 73d0f83
@@ -38024,9 +38024,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - VDJ
       - AB60
       - Turbo
+      - VDJ
   CS3-06414:
     model: pro
     paramDefVersion: 73d0f83
@@ -39092,8 +39092,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-06591:
     model: sport
     paramDefVersion: '4375440'
@@ -39960,10 +39960,10 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
+      - 900Nm
       - AB60
       - DPF
       - VDJ
-      - 900Nm
   CS3-06735:
     model: pro
     paramDefVersion: 73d0f83
@@ -40006,9 +40006,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
+      - 1HDFTE
       - A750
       - SwitchShift
-      - 1HDFTE
   CS3-06742:
     model: pro
     paramDefVersion: 73d0f83
@@ -40105,9 +40105,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-06758:
     model: pro
     paramDefVersion: 73d0f83
@@ -40120,8 +40120,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-06760:
     model: pro
     paramDefVersion: 73d0f83
@@ -40243,8 +40243,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-06780:
     model: sport
     paramDefVersion: '4375440'
@@ -40314,8 +40314,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-06791:
     model: sport
     paramDefVersion: '4375440'
@@ -40334,8 +40334,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-06794:
     model: sport
     paramDefVersion: '4375440'
@@ -40355,8 +40355,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-06797:
     model: sport
     paramDefVersion: c9e96bd
@@ -40382,8 +40382,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-06801:
     model: pro
     paramDefVersion: 73d0f83
@@ -40397,8 +40397,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-06803:
     model: pro
     paramDefVersion: 73d0f83
@@ -40423,8 +40423,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-06807:
     model: pro
     paramDefVersion: 73d0f83
@@ -40467,11 +40467,11 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
       - Facelift
       - Pre-Collision
+      - VDJ
   CS3-06814:
     model: sport
     paramDefVersion: c9e96bd
@@ -42285,8 +42285,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-07115:
     model: sport
     paramDefVersion: '4375440'
@@ -42336,8 +42336,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07123:
     model: sport
     paramDefVersion: '4375440'
@@ -42538,10 +42538,10 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60
-      - VDJ
-      - Turbo
       - 6x6
+      - AB60
+      - Turbo
+      - VDJ
   CS3-07156:
     model: sport
     paramDefVersion: '4375440'
@@ -42609,8 +42609,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07167:
     model: sport
     paramDefVersion: '4375440'
@@ -42810,8 +42810,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - 2UZ-FE
-      - HaltechElite
       - A750Gate
+      - HaltechElite
   CS3-07200:
     model: sport
     paramDefVersion: '4375440'
@@ -43772,8 +43772,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-07360:
     model: sport
     paramDefVersion: '4375440'
@@ -43804,9 +43804,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
+      - 1HZ
       - A750
       - Gate
-      - 1HZ
       - Turbo
   CS3-07365:
     model: sport
@@ -43922,8 +43922,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-07384:
     model: sport
     paramDefVersion: '4375440'
@@ -43984,8 +43984,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-07394:
     model: pro
     paramDefVersion: 73d0f83
@@ -43999,8 +43999,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07396:
     model: pro
     paramDefVersion: 73d0f83
@@ -44704,8 +44704,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07513:
     model: pro
     paramDefVersion: 73d0f83
@@ -44713,8 +44713,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07514:
     model: sport
     paramDefVersion: '4375440'
@@ -44751,9 +44751,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - VDJ
       - AB60
       - Non-DPF
+      - VDJ
   CS3-07520:
     model: sport
     paramDefVersion: '4375440'
@@ -45103,16 +45103,16 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-07578:
     model: sport
     paramDefVersion: c9e96bd
     product: cs3
     softwareVersion: c9e96bd
     tags:
-      - RE4
       - GAS
+      - RE4
   CS3-07579:
     model: sport
     paramDefVersion: '4375440'
@@ -45341,10 +45341,10 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
+      - 1HDFTE
       - A750
       - GateShift
       - HSDiesel
-      - 1HDFTE
   CS3-07617:
     model: sport
     paramDefVersion: '4375440'
@@ -45450,9 +45450,9 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
       - Pre-Collision
+      - VDJ
   CS3-07634:
     model: pro
     paramDefVersion: 73d0f83
@@ -45468,9 +45468,9 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
       - Pre-Collision
+      - VDJ
   CS3-07636:
     model: pro
     paramDefVersion: 73d0f83
@@ -45502,8 +45502,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07640:
     model: pro
     paramDefVersion: 73d0f83
@@ -46053,8 +46053,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07731:
     model: pro
     paramDefVersion: 73d0f83
@@ -46151,9 +46151,9 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-07747:
     model: pro
     paramDefVersion: 73d0f83
@@ -46179,8 +46179,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - Turbo
+      - VDJ
   CS3-07751:
     model: pro
     paramDefVersion: 73d0f83
@@ -46194,8 +46194,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07753:
     model: sport
     paramDefVersion: '4375440'
@@ -46347,8 +46347,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - Turbo
+      - VDJ
   CS3-07778:
     model: pro
     paramDefVersion: 73d0f83
@@ -46368,8 +46368,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - FlashTune
+      - VDJ
   CS3-07781:
     model: pro
     paramDefVersion: 73d0f83
@@ -46389,8 +46389,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - FlashTune
+      - VDJ
   CS3-07784:
     model: pro
     paramDefVersion: 73d0f83
@@ -46398,8 +46398,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-07785:
     model: pro
     paramDefVersion: 73d0f83
@@ -46418,9 +46418,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - VDJ
-      - AB60
       - 6x6
+      - AB60
+      - VDJ
   CS3-07788:
     model: pro
     paramDefVersion: 73d0f83
@@ -46488,8 +46488,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - Turbo
+      - VDJ
   CS3-07799:
     model: pro
     paramDefVersion: 73d0f83
