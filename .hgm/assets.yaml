@@ -10662,7 +10662,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,6x6
+      - AB60
+      - VDJ
+      - 6x6
   CS3-01880:
     model: sport
     paramDefVersion: '4375440'
@@ -12591,7 +12593,10 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - AB60,VDJ,Turbo,Portals
+      - AB60
+      - VDJ
+      - Turbo
+      - Portals
   CS3-02200:
     model: sport
     paramDefVersion: '4375440'
@@ -31173,7 +31178,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,Turbo
+      - AB60
+      - VDJ
+      - Turbo
   CS3-05280:
     model: pro
     paramDefVersion: 73d0f83
@@ -37942,7 +37949,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,Turbo
+      - AB60
+      - VDJ
+      - Turbo
   CS3-06402:
     model: pro
     paramDefVersion: 73d0f83
@@ -38017,7 +38026,7 @@ devices:
     tags:
       - VDJ
       - AB60
-      - AB60,VDJ,Turbo
+      - Turbo
   CS3-06414:
     model: pro
     paramDefVersion: 73d0f83
@@ -39952,9 +39961,9 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - DPF
-      - AB60,VDJ,900Nm
+      - VDJ
+      - 900Nm
   CS3-06735:
     model: pro
     paramDefVersion: 73d0f83
@@ -42529,7 +42538,10 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,Turbo,6x6
+      - AB60
+      - VDJ
+      - Turbo
+      - 6x6
   CS3-07156:
     model: sport
     paramDefVersion: '4375440'
@@ -46166,7 +46178,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,Turbo
+      - AB60
+      - VDJ
+      - Turbo
   CS3-07751:
     model: pro
     paramDefVersion: 73d0f83
@@ -46332,7 +46346,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,Turbo
+      - AB60
+      - VDJ
+      - Turbo
   CS3-07778:
     model: pro
     paramDefVersion: 73d0f83
@@ -46351,7 +46367,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,FlashTune
+      - AB60
+      - VDJ
+      - FlashTune
   CS3-07781:
     model: pro
     paramDefVersion: 73d0f83
@@ -46370,7 +46388,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,FlashTune
+      - AB60
+      - VDJ
+      - FlashTune
   CS3-07784:
     model: pro
     paramDefVersion: 73d0f83
@@ -46467,7 +46487,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - AB60,VDJ,Turbo
+      - AB60
+      - VDJ
+      - Turbo
   CS3-07799:
     model: pro
     paramDefVersion: 73d0f83
