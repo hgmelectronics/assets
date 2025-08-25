@@ -47887,8 +47887,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-08030:
     model: pro
     paramDefVersion: 73d0f83
@@ -61969,7 +61969,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00156:
     model: base
@@ -62095,7 +62095,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00177:
     model: base
@@ -62203,7 +62203,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00195:
     model: base
@@ -62761,7 +62761,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00288:
     model: base
@@ -63043,7 +63043,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00335:
     model: base
@@ -63775,7 +63775,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00457:
     model: base
@@ -63805,7 +63805,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00462:
     model: base
@@ -63823,7 +63823,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00465:
     model: base
@@ -64075,13 +64075,13 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00507:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: bc8178b
     tags: []
   ETCU-00508:
     model: base
