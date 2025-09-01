@@ -39252,7 +39252,10 @@ devices:
     paramDefVersion: c9e96bd
     product: cs3
     softwareVersion: c9e96bd
-    tags: []
+    tags:
+      - RE4
+      - 1HD-FTE
+      - HSDiesel
   CS3-06617:
     model: sport
     paramDefVersion: '4375440'
