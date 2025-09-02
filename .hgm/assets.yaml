@@ -2680,10 +2680,13 @@ devices:
     tags: []
   CS3-00553:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: 0c50ef2
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: 0c50ef2
+    tags:
+      - AE80
+      - 1HD-FT
+      - Jonos
   CS3-00554:
     model: pro
     paramDefVersion: 73d0f83
@@ -33100,10 +33103,14 @@ devices:
     tags: []
   CS3-05597:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: d4c71f2
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: d4c71f2
+    tags:
+      - AE80
+      - VDJ
+      - DPF
+      - DJD
   CS3-05598:
     model: sport
     paramDefVersion: c9e96bd
@@ -35177,10 +35184,15 @@ devices:
     tags: []
   CS3-05942:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: e723b1c
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: e723b1c
+    tags:
+      - AE80
+      - VDJ
+      - DPF
+      - Pre-Collision
+      - Cyrils
   CS3-05943:
     model: sport
     paramDefVersion: '4375440'
@@ -39930,10 +39942,14 @@ devices:
     tags: []
   CS3-06729:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: 0c50ef2
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: 0c50ef2
+    tags:
+      - AE80
+      - VDJ
+      - DPF
+      - Noel
   CS3-06730:
     model: sport
     paramDefVersion: '4375440'
@@ -46519,10 +46535,14 @@ devices:
     tags: []
   CS3-07802:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: 0c50ef2
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: 0c50ef2
+    tags:
+      - AE80
+      - VDJ
+      - Non-DPF
+      - Rods
   CS3-07803:
     model: sport
     paramDefVersion: '4375440'
@@ -48608,10 +48628,14 @@ devices:
     tags: []
   CS3-08148:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: 0c50ef2
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: 0c50ef2
+    tags:
+      - AE80
+      - VDJ
+      - DPF
+      - Parsons
   CS3-08149:
     model: pro
     paramDefVersion: 73d0f83
