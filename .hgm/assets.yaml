@@ -2680,13 +2680,10 @@ devices:
     tags: []
   CS3-00553:
     model: pro
-    paramDefVersion: 0c50ef2
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 0c50ef2
-    tags:
-      - AE80
-      - 1HD-FT
-      - Jonos
+    softwareVersion: 73d0f83
+    tags: []
   CS3-00554:
     model: pro
     paramDefVersion: 73d0f83
@@ -33104,14 +33101,10 @@ devices:
     tags: []
   CS3-05597:
     model: pro
-    paramDefVersion: d4c71f2
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: d4c71f2
-    tags:
-      - AE80
-      - VDJ
-      - DPF
-      - DJD
+    softwareVersion: 73d0f83
+    tags: []
   CS3-05598:
     model: sport
     paramDefVersion: c9e96bd
@@ -35185,15 +35178,10 @@ devices:
     tags: []
   CS3-05942:
     model: pro
-    paramDefVersion: e723b1c
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: e723b1c
-    tags:
-      - AE80
-      - VDJ
-      - DPF
-      - Pre-Collision
-      - Cyrils
+    softwareVersion: 73d0f83
+    tags: []
   CS3-05943:
     model: sport
     paramDefVersion: '4375440'
@@ -39943,14 +39931,10 @@ devices:
     tags: []
   CS3-06729:
     model: pro
-    paramDefVersion: 0c50ef2
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 0c50ef2
-    tags:
-      - AE80
-      - VDJ
-      - DPF
-      - Noel
+    softwareVersion: 73d0f83
+    tags: []
   CS3-06730:
     model: sport
     paramDefVersion: '4375440'
@@ -46536,14 +46520,10 @@ devices:
     tags: []
   CS3-07802:
     model: pro
-    paramDefVersion: 0c50ef2
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 0c50ef2
-    tags:
-      - AE80
-      - VDJ
-      - Non-DPF
-      - Rods
+    softwareVersion: 73d0f83
+    tags: []
   CS3-07803:
     model: sport
     paramDefVersion: '4375440'
@@ -48629,14 +48609,10 @@ devices:
     tags: []
   CS3-08148:
     model: pro
-    paramDefVersion: 0c50ef2
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: 0c50ef2
-    tags:
-      - AE80
-      - VDJ
-      - DPF
-      - Parsons
+    softwareVersion: 73d0f83
+    tags: []
   CS3-08149:
     model: pro
     paramDefVersion: 73d0f83
@@ -108490,8 +108466,6 @@ parameters:
       dd0f489:
         releaseDate: '2025-07-01T08:14:21.917Z'
     pro:
-      0c50ef2:
-        releaseDate: '2025-08-28T00:00:00.000Z'
       0daf47c:
         releaseDate: '2022-08-31T22:34:14.477Z'
       15b680e:
@@ -108512,14 +108486,10 @@ parameters:
         releaseDate: '2024-01-16T01:20:04.670Z'
       c9e96bd:
         releaseDate: '2023-02-27T05:06:01.544Z'
-      d4c71f2:
-        releaseDate: '2025-08-20T00:00:00.000Z'
       d5beb99:
         releaseDate: '2022-10-11T05:07:08.268Z'
       e6f0209:
         releaseDate: '2025-02-20T22:51:14.800Z'
-      e723b1c:
-        releaseDate: '2025-07-26T00:00:00.000Z'
     pro-jankel:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
@@ -108583,10 +108553,6 @@ software:
         releaseDate: '2025-07-01T08:12:29.082Z'
         upgradePrompt: false
     pro:
-      0c50ef2:
-        changelog: Rollup of AE80 Platform
-        releaseDate: '2025-08-28T00:00:00.000Z'
-        upgradePrompt: false
       0daf47c:
         changelog: Display improvements
         releaseDate: '2022-08-31T22:32:42.779Z'
@@ -108647,18 +108613,10 @@ software:
         changelog: AB60 4-5 shift improvements
         releaseDate: '2023-02-27T05:05:03.116Z'
         upgradePrompt: false
-      d4c71f2:
-        changelog: Rollup of AE80 Platform
-        releaseDate: '2025-08-20T00:00:00.000Z'
-        upgradePrompt: false
       d5beb99:
         changelog: Added configurable shift selector modes
         releaseDate: '2022-10-11T05:05:41.842Z'
         upgradePrompt: true
-      e723b1c:
-        changelog: Add Anti-Stall to AE80 Platform
-        releaseDate: '2025-07-26T00:00:00.000Z'
-        upgradePrompt: false
     pro-jankel:
       f218fb7:
         changelog: First dedicated Jankel release
