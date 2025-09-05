@@ -47923,10 +47923,11 @@ devices:
       - VDJ
   CS3-08030:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: e6f0209
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: 396205d
+    tags:
+      - AB60,VDJ,Turbo
   CS3-08031:
     model: pro
     paramDefVersion: 73d0f83
