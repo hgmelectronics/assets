@@ -47979,8 +47979,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - AB60
       - 1HDFTE
+      - AB60
   CS3-08039:
     model: sport
     paramDefVersion: '4375440'
@@ -60725,9 +60725,9 @@ devices:
     tags: []
   CSM3-00260:
     model: base
-    paramDefVersion: e23b620
+    paramDefVersion: a001b8f
     product: csm3
-    softwareVersion: e23b620
+    softwareVersion: a001b8f
     tags: []
   CSM3-00261:
     model: base
@@ -108571,6 +108571,8 @@ parameters:
     base:
       '5831918':
         releaseDate: '2024-01-17T02:12:13.028Z'
+      a001b8f:
+        releaseDate: '2025-09-16T17:11:15.063Z'
       e23b620:
         releaseDate: '2024-09-12T22:07:15.228Z'
   etcu1:
@@ -108739,6 +108741,10 @@ software:
       '5831918':
         changelog: New engine types, temp sensor, bootloader bugfix
         releaseDate: '2024-01-17T02:11:28.681Z'
+        upgradePrompt: false
+      a001b8f:
+        changelog: Added new engine types
+        releaseDate: '2025-09-16T17:10:06.745Z'
         upgradePrompt: false
       e23b620:
         changelog: Added manual TCC support for Chrysler 518
