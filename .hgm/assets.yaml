@@ -48616,9 +48616,9 @@ devices:
     tags: []
   CS3-08144:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: 0c50ef2
     product: cs3
-    softwareVersion: 73d0f83
+    softwareVersion: 0c50ef2
     tags: []
   CS3-08145:
     model: pro
