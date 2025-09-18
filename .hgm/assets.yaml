@@ -60725,9 +60725,9 @@ devices:
     tags: []
   CSM3-00260:
     model: base
-    paramDefVersion: a001b8f
+    paramDefVersion: 2e4c88b
     product: csm3
-    softwareVersion: a001b8f
+    softwareVersion: 2e4c88b
     tags: []
   CSM3-00261:
     model: base
@@ -108569,10 +108569,10 @@ parameters:
         releaseDate: '2022-08-18T21:20:36.199Z'
   csm3:
     base:
+      2e4c88b:
+        releaseDate: '2025-09-18T20:02:03.601Z'
       '5831918':
         releaseDate: '2024-01-17T02:12:13.028Z'
-      a001b8f:
-        releaseDate: '2025-09-16T17:11:15.063Z'
       e23b620:
         releaseDate: '2024-09-12T22:07:15.228Z'
   etcu1:
@@ -108738,13 +108738,13 @@ software:
         upgradePrompt: false
   csm3:
     base:
+      2e4c88b:
+        changelog: Added new engine types
+        releaseDate: '2025-09-18T20:01:28.648Z'
+        upgradePrompt: false
       '5831918':
         changelog: New engine types, temp sensor, bootloader bugfix
         releaseDate: '2024-01-17T02:11:28.681Z'
-        upgradePrompt: false
-      a001b8f:
-        changelog: Added new engine types
-        releaseDate: '2025-09-16T17:10:06.745Z'
         upgradePrompt: false
       e23b620:
         changelog: Added manual TCC support for Chrysler 518
