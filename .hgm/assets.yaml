@@ -60725,9 +60725,9 @@ devices:
     tags: []
   CSM3-00260:
     model: base
-    paramDefVersion: 2e4c88b
+    paramDefVersion: 3be82ad
     product: csm3
-    softwareVersion: 2e4c88b
+    softwareVersion: 3be82ad
     tags: []
   CSM3-00261:
     model: base
@@ -108569,8 +108569,8 @@ parameters:
         releaseDate: '2022-08-18T21:20:36.199Z'
   csm3:
     base:
-      2e4c88b:
-        releaseDate: '2025-09-18T20:02:03.601Z'
+      3be82ad:
+        releaseDate: '2025-09-18T20:46:11.844Z'
       '5831918':
         releaseDate: '2024-01-17T02:12:13.028Z'
       e23b620:
@@ -108738,9 +108738,9 @@ software:
         upgradePrompt: false
   csm3:
     base:
-      2e4c88b:
+      3be82ad:
         changelog: Added new engine types
-        releaseDate: '2025-09-18T20:01:28.648Z'
+        releaseDate: '2025-09-18T20:45:52.482Z'
         upgradePrompt: false
       '5831918':
         changelog: New engine types, temp sensor, bootloader bugfix
