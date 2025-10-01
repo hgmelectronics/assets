@@ -48641,10 +48641,15 @@ devices:
     tags: []
   CS3-08146:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: e6f0209
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: 396205d
+    tags:
+      - VDJ
+      - AB60
+      - DPF
+      - 6x6
+      - Pre-Collision
   CS3-08147:
     model: sport
     paramDefVersion: '4375440'
