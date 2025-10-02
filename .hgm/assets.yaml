@@ -40493,8 +40493,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-06813:
     model: pro
     paramDefVersion: 73d0f83
@@ -48645,11 +48645,11 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - VDJ
+      - 6x6
       - AB60
       - DPF
-      - 6x6
       - Pre-Collision
+      - VDJ
   CS3-08147:
     model: sport
     paramDefVersion: '4375440'
@@ -48780,8 +48780,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - A750
       - 1KD-FTV
+      - A750
       - GateShift
       - HSDiesel
   CS3-08168:
@@ -48790,9 +48790,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-08169:
     model: pro
     paramDefVersion: 73d0f83
@@ -108598,6 +108598,8 @@ parameters:
         releaseDate: '2025-09-18T20:46:11.844Z'
       e23b620:
         releaseDate: '2024-09-12T22:07:15.228Z'
+      e9d9707:
+        releaseDate: '2025-10-02T20:32:14.694Z'
   etcu1:
     base:
       6c13c32:
@@ -108768,6 +108770,10 @@ software:
       e23b620:
         changelog: Added manual TCC support for Chrysler 518
         releaseDate: '2024-09-12T22:06:53.168Z'
+        upgradePrompt: false
+      e9d9707:
+        changelog: Added CAN bus logging
+        releaseDate: '2025-10-02T20:32:40.525Z'
         upgradePrompt: false
   etcu1:
     base:
