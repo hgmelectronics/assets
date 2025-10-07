@@ -43961,9 +43961,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
+      - 6x6
       - AB60
       - VDJ
-      - 6x6
   CS3-07384:
     model: sport
     paramDefVersion: '4375440'
@@ -47532,10 +47532,10 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
+      - 6x6
       - AB60
       - DPF
       - VDJ
-      - 6x6
   CS3-07965:
     model: sport
     paramDefVersion: '4375440'
@@ -47976,27 +47976,27 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-08036:
     model: pro
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-08037:
     model: pro
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - Non-DPF
+      - VDJ
   CS3-08038:
     model: pro
     paramDefVersion: 73d0f83
@@ -48606,8 +48606,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-08139:
     model: sport
     paramDefVersion: '4375440'
@@ -48636,8 +48636,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - Non-DPF
+      - VDJ
   CS3-08143:
     model: pro
     paramDefVersion: 73d0f83
@@ -61037,9 +61037,9 @@ devices:
     tags: []
   CSM3-00305:
     model: base
-    paramDefVersion: e23b620
+    paramDefVersion: e9d9707
     product: csm3
-    softwareVersion: e23b620
+    softwareVersion: e9d9707
     tags: []
   CSM3-00306:
     model: base
