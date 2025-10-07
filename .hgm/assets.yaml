@@ -48604,7 +48604,10 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - AB60
+      - VDJ
+      - Non-DPF
   CS3-08139:
     model: sport
     paramDefVersion: '4375440'
