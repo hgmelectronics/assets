@@ -64197,7 +64197,7 @@ devices:
     model: base
     paramDefVersion: 6c13c32
     product: etcu1
-    softwareVersion: 45d11ab
+    softwareVersion: 3db4b8d
     tags: []
   ETCU-00511:
     model: base
