@@ -45590,10 +45590,10 @@ devices:
     softwareVersion: c9e96bd
     tags: []
   CS3-07646:
-    model: diag
-    paramDefVersion: ef4e4c7
+    model: sport
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: ef4e4c7
+    softwareVersion: c9e96bd
     tags: []
   CS3-07647:
     model: sport
