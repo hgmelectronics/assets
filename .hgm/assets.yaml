@@ -2339,9 +2339,9 @@ devices:
     tags: []
   CS3-00496:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: e6f0209
     product: cs3
-    softwareVersion: 73d0f83
+    softwareVersion: 396205d
     tags: []
   CS3-00497:
     model: sport
