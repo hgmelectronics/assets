@@ -108584,6 +108584,8 @@ parameters:
         releaseDate: '2025-02-20T22:51:14.800Z'
       e723b1c:
         releaseDate: '2025-07-26T00:00:00.000Z'
+      ee14cde:
+        releaseDate: '2025-11-12T03:52:36.179Z'
     pro-jankel:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
@@ -108641,6 +108643,10 @@ parameters:
 software:
   cs3:
     diag:
+      456a2ae:
+        changelog: Bootloader Update
+        releaseDate: '2025-11-12T03:51:03.402Z'
+        upgradePrompt: false
       ef4e4c7:
         changelog: Diagnostic firmware
         releaseDate: '2023-09-19T02:50:12.167Z'
@@ -108726,6 +108732,10 @@ software:
       e723b1c:
         changelog: Add Anti-Stall to AE80 Platform
         releaseDate: '2025-07-26T00:00:00.000Z'
+        upgradePrompt: false
+      ee14cde:
+        changelog: Added support for all RE5 ratio variants
+        releaseDate: '2025-11-12T03:52:14.240Z'
         upgradePrompt: false
     pro-jankel:
       f218fb7:
