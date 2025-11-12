@@ -47959,10 +47959,12 @@ devices:
     tags: []
   CS3-08032:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: ee14cde
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: ee14cde
+    tags:
+      - RE5
+      - Ratios
   CS3-08033:
     model: pro
     paramDefVersion: 73d0f83
