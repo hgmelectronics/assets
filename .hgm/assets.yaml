@@ -49296,10 +49296,13 @@ devices:
     tags: []
   CS3-08247:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: c9e96bd
+    tags:
+      - A442
+      - 4Sol
+      - 1HD-FT
   CS3-08248:
     model: sport
     paramDefVersion: '4375440'
