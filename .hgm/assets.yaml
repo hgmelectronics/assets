@@ -22440,9 +22440,9 @@ devices:
     tags: []
   CS3-03833:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: 5d30ba3
     product: cs3
-    softwareVersion: 73d0f83
+    softwareVersion: 5d30ba3
     tags: []
   CS3-03834:
     model: sport
