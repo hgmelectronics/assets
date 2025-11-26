@@ -108575,6 +108575,8 @@ parameters:
         releaseDate: '2022-09-20T00:25:41.586Z'
       4c712a2:
         releaseDate: '2022-08-18T22:39:22.257Z'
+      5d30ba3:
+        releaseDate: '2025-11-26T01:00:12.389Z'
       73d0f83:
         releaseDate: '2024-11-06T05:43:35.154Z'
       73f6bda:
@@ -108690,6 +108692,10 @@ software:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
         upgradePrompt: true
+      5d30ba3:
+        changelog: Add Range Select To Flex Lock A750
+        releaseDate: '2025-11-26T00:59:54.702Z'
+        upgradePrompt: false
       6b15a21:
         changelog: Revised TCC operation during range select
         releaseDate: '2023-06-15T01:57:37.774Z'
