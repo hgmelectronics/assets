@@ -49654,10 +49654,10 @@ devices:
     softwareVersion: 73d0f83
     tags: []
   CS3-08306:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: 73d0f83
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 73d0f83
     tags: []
   CS3-08307:
     model: pro
