@@ -30399,9 +30399,9 @@ devices:
     tags: []
   CS3-05149:
     model: pro
-    paramDefVersion: 4c712a2
+    paramDefVersion: e6f0209
     product: cs3
-    softwareVersion: b1933dfb3
+    softwareVersion: 396205d
     tags: []
   CS3-05150:
     model: pro
