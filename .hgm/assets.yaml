@@ -2684,9 +2684,9 @@ devices:
     tags: []
   CS3-00553:
     model: pro
-    paramDefVersion: 0c50ef2
+    paramDefVersion: e7d1dd8
     product: cs3
-    softwareVersion: 0c50ef2
+    softwareVersion: e7d1dd8
     tags:
       - 1HD-FT
       - AE80
