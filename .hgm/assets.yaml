@@ -108594,6 +108594,8 @@ parameters:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
+      b961d62:
+        releaseDate: '2025-10-01T00:00:00.000Z'
       c5c63d7:
         releaseDate: '2024-01-16T01:20:04.670Z'
       c9e96bd:
@@ -108606,6 +108608,8 @@ parameters:
         releaseDate: '2025-02-20T22:51:14.800Z'
       e723b1c:
         releaseDate: '2025-07-26T00:00:00.000Z'
+      e7d1dd8:
+        releaseDate: '2025-11-19T00:00:00.000Z'
       ee14cde:
         releaseDate: '2025-11-12T03:52:36.179Z'
     pro-jankel:
@@ -108739,6 +108743,10 @@ software:
         changelog: Improved N-D shifts on A750/AB60
         releaseDate: '2023-09-15T02:05:37.931Z'
         upgradePrompt: true
+      b961d62:
+        changelog: Rollup of AE80 Platform
+        releaseDate: '2025-10-01T00:00:00.000Z'
+        upgradePrompt: false
       c5c63d7:
         changelog: Fix for RE5 Timers
         releaseDate: '2024-01-16T01:08:30.105Z'
@@ -108758,6 +108766,10 @@ software:
       e723b1c:
         changelog: Add Anti-Stall to AE80 Platform
         releaseDate: '2025-07-26T00:00:00.000Z'
+        upgradePrompt: false
+      e7d1dd8:
+        changelog: Add support for Double Skip Shift
+        releaseDate: '2025-11-19T00:00:00.000Z'
         upgradePrompt: false
       ee14cde:
         changelog: Added support for all RE5 ratio variants
