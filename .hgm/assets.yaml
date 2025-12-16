@@ -47809,8 +47809,8 @@ devices:
     softwareVersion: b961d62
     tags:
       - AE80
-      - VDJ
       - DPF
+      - VDJ
   CS3-08008:
     model: jagbox
     paramDefVersion: dd0f489
@@ -48027,8 +48027,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AE80
-      - VDJ
       - DPF
+      - VDJ
   CS3-08040:
     model: sport
     paramDefVersion: '4375440'
@@ -48108,9 +48108,9 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
       - Pre-Collision
+      - VDJ
   CS3-08053:
     model: sport
     paramDefVersion: '4375440'
@@ -48679,8 +48679,8 @@ devices:
     softwareVersion: b961d62
     tags:
       - AE80
-      - VDJ
       - DPF
+      - VDJ
   CS3-08146:
     model: pro
     paramDefVersion: e6f0209
@@ -48758,10 +48758,12 @@ devices:
     tags: []
   CS3-08157:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: dabd337
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: dabd337
+    tags:
+      - AB60
+      - MoTeC
   CS3-08158:
     model: sport
     paramDefVersion: '4375440'
@@ -50069,8 +50071,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-08373:
     model: pro
     paramDefVersion: e6f0209
@@ -108613,6 +108615,8 @@ parameters:
         releaseDate: '2025-08-20T00:00:00.000Z'
       d5beb99:
         releaseDate: '2022-10-11T05:07:08.268Z'
+      dabd337:
+        releaseDate: '2025-12-16T21:48:48.503Z'
       e6f0209:
         releaseDate: '2025-02-20T22:51:14.800Z'
       e723b1c:
@@ -108772,6 +108776,10 @@ software:
         changelog: Added configurable shift selector modes
         releaseDate: '2022-10-11T05:05:41.842Z'
         upgradePrompt: true
+      dabd337:
+        changelog: Corrected MoTeC CAN bus protocol
+        releaseDate: '2025-12-16T21:47:42.313Z'
+        upgradePrompt: false
       e723b1c:
         changelog: Add Anti-Stall to AE80 Platform
         releaseDate: '2025-07-26T00:00:00.000Z'
