@@ -32672,9 +32672,9 @@ devices:
     tags: []
   CS3-05523:
     model: sport
-    paramDefVersion: 50b7eb6
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: c9e96bd
     tags: []
   CS3-05524:
     model: sport
