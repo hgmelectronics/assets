@@ -1545,9 +1545,9 @@ devices:
     tags: []
   CS3-00363:
     model: pro
-    paramDefVersion: 0c50ef2
+    paramDefVersion: dabd337
     product: cs3
-    softwareVersion: 0c50ef2
+    softwareVersion: dabd337
     tags:
       - Bench
       - Jonos
