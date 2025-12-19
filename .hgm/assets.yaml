@@ -50288,9 +50288,9 @@ devices:
     tags: []
   CS3-08407:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: cd73918
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: cd73918
     tags: []
   CS3-08408:
     model: sport
