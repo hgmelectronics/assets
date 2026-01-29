@@ -32671,10 +32671,10 @@ devices:
     softwareVersion: '4375440'
     tags: []
   CS3-05523:
-    model: sport
+    model: pro
     paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: c9e96bd
+    softwareVersion: b51f467
     tags: []
   CS3-05524:
     model: sport
