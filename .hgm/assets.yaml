@@ -51215,9 +51215,9 @@ devices:
     tags: []
   CS3-08560:
     model: pro
-    paramDefVersion: e7d1dd8
+    paramDefVersion: b961d62
     product: cs3
-    softwareVersion: e7d1dd8
+    softwareVersion: b961d62
     tags:
       - AE80
       - VDJ
