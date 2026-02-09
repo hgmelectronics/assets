@@ -5526,8 +5526,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - TD42
       - RE5
+      - TD42
   CS3-01026:
     model: sport
     paramDefVersion: '4375440'
@@ -50561,10 +50561,10 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
       - DPF
       - Pre-Collision
+      - VDJ
   CS3-08451:
     model: pro
     paramDefVersion: 73d0f83
@@ -51226,8 +51226,8 @@ devices:
     softwareVersion: b961d62
     tags:
       - AE80
-      - VDJ
       - DPF
+      - VDJ
   CS3-08561:
     model: pro
     paramDefVersion: 73d0f83
@@ -51770,9 +51770,9 @@ devices:
     tags: []
   CS3-08651:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 534db99
     tags: []
   CS3-08652:
     model: sport
