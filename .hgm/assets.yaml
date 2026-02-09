@@ -51626,10 +51626,11 @@ devices:
     tags: []
   CS3-08627:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: b961d62
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: b961d62
+    tags:
+      - AE80,VDJ
   CS3-08628:
     model: pro
     paramDefVersion: 73d0f83
