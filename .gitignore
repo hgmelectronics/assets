@@ -5,3 +5,5 @@ _site
 .settings
 .project
 .DS_Store
+.vscode
+.bat
