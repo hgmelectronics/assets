@@ -51556,7 +51556,8 @@ devices:
     paramDefVersion: 73d0f83
     product: cs3
     softwareVersion: 73d0f83
-    tags: []
+    tags:
+      - VDJ,AB60,Non-DPF
   CS3-08614:
     model: pro
     paramDefVersion: 73d0f83
