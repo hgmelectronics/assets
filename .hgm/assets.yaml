@@ -45611,10 +45611,13 @@ devices:
     tags: []
   CS3-07647:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: c9e96bd
     product: cs3
-    softwareVersion: '4375440'
-    tags: []
+    softwareVersion: c9e96bd
+    tags:
+      - 4L80E
+      - HaltechElite
+      - LS2
   CS3-07648:
     model: sport
     paramDefVersion: c9e96bd
