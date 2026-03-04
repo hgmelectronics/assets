@@ -10670,9 +10670,9 @@ devices:
     tags: []
   CS3-01879:
     model: pro
-    paramDefVersion: c9e96bd
+    paramDefVersion: e6f0209
     product: cs3
-    softwareVersion: b51f467
+    softwareVersion: 396205d
     tags:
       - 6x6
       - AB60
