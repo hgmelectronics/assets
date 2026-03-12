@@ -44237,9 +44237,9 @@ devices:
     tags: []
   CS3-07425:
     model: sport
-    paramDefVersion: d48d508
+    paramDefVersion: 66a93fb
     product: cs3
-    softwareVersion: d48d508
+    softwareVersion: 66a93fb
     tags: []
   CS3-07426:
     model: sport
@@ -112285,6 +112285,8 @@ parameters:
         releaseDate: '2025-07-25T21:27:01.114Z'
       534db99:
         releaseDate: '2026-01-07T18:00:08.531Z'
+      66a93fb:
+        releaseDate: '2026-03-12T17:33:06.705Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
       8cf6921:
@@ -112299,8 +112301,6 @@ parameters:
         releaseDate: '2023-03-07T04:43:01.605Z'
       cd73918:
         releaseDate: '2025-02-23T18:13:37.885Z'
-      d48d508:
-        releaseDate: '2026-03-12T15:23:22.135Z'
       d5beb99:
         releaseDate: '2022-10-11T05:07:17.077Z'
     sport-mcconnel:
@@ -112466,6 +112466,10 @@ software:
         changelog: Corrected % torque scaling
         releaseDate: '2026-01-07T17:59:47.773Z'
         upgradePrompt: false
+      66a93fb:
+        changelog: SCS Delta support
+        releaseDate: '2026-03-12T17:33:44.618Z'
+        upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
         releaseDate: '2023-01-25T23:44:32.272Z'
@@ -112489,10 +112493,6 @@ software:
       cd73918:
         changelog: Updated support for GMLAN
         releaseDate: '2025-02-23T18:12:59.942Z'
-        upgradePrompt: false
-      d48d508:
-        changelog: SCS Delta support
-        releaseDate: '2026-03-12T15:22:51.444Z'
         upgradePrompt: false
       d5beb99:
         changelog: Added configurable shift selector modes
