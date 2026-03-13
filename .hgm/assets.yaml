@@ -16115,8 +16115,8 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-02783:
     model: sport
     paramDefVersion: '4375440'
@@ -44239,9 +44239,9 @@ devices:
     tags: []
   CS3-07425:
     model: sport
-    paramDefVersion: 66a93fb
+    paramDefVersion: 793305b
     product: cs3
-    softwareVersion: 66a93fb
+    softwareVersion: 793305b
     tags: []
   CS3-07426:
     model: sport
@@ -112287,10 +112287,10 @@ parameters:
         releaseDate: '2025-07-25T21:27:01.114Z'
       534db99:
         releaseDate: '2026-01-07T18:00:08.531Z'
-      66a93fb:
-        releaseDate: '2026-03-12T17:33:06.705Z'
       6c13c32:
         releaseDate: '2022-08-18T19:06:28.881Z'
+      793305b:
+        releaseDate: '2026-03-13T06:04:05.275Z'
       8cf6921:
         releaseDate: '2023-01-27T02:21:14.331Z'
       97a7a60:
@@ -112468,9 +112468,9 @@ software:
         changelog: Corrected % torque scaling
         releaseDate: '2026-01-07T17:59:47.773Z'
         upgradePrompt: false
-      66a93fb:
-        changelog: SCS Delta support
-        releaseDate: '2026-03-12T17:33:44.618Z'
+      793305b:
+        changelog: Added support for SCS Delta
+        releaseDate: '2026-03-13T06:03:47.220Z'
         upgradePrompt: false
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
