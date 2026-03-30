@@ -40564,8 +40564,8 @@ devices:
     softwareVersion: 396205d
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-06820:
     model: sport
     paramDefVersion: '4375440'
@@ -47732,9 +47732,9 @@ devices:
     tags: []
   CS3-07992:
     model: sport
-    paramDefVersion: 534db99
+    paramDefVersion: 793305b
     product: cs3
-    softwareVersion: 534db99
+    softwareVersion: 793305b
     tags: []
   CS3-07993:
     model: sport
