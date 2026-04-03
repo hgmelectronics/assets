@@ -51629,10 +51629,10 @@ devices:
     softwareVersion: 73d0f83
     tags: []
   CS3-08621:
-    model: sport
-    paramDefVersion: '4375440'
+    model: pro
+    paramDefVersion: acadc62
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: acadc62
     tags: []
   CS3-08622:
     model: sport
@@ -112282,6 +112282,8 @@ parameters:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
+      acadc62:
+        releaseDate: '2026-04-03T20:37:45.581Z'
       b961d62:
         releaseDate: '2025-10-01T00:00:00.000Z'
       c5c63d7:
@@ -112424,6 +112426,10 @@ software:
       9e8a663:
         changelog: Improved Cummins R2.8 support
         releaseDate: '2022-11-10T18:21:03.102Z'
+        upgradePrompt: false
+      acadc62:
+        changelog: Next gen A750 support
+        releaseDate: '2026-04-03T20:43:09.908Z'
         upgradePrompt: false
       b0a84a0b6b39:
         changelog: deprecated
