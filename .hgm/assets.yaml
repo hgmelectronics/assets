@@ -112308,6 +112308,8 @@ parameters:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
     sport:
+      0a2f541:
+        releaseDate: '2026-04-10T22:49:25.193Z'
       1616d98:
         releaseDate: '2025-05-31T21:56:20.413Z'
       '4375440':
@@ -112485,6 +112487,10 @@ software:
         releaseDate: '2022-02-17T20:07:47.444Z'
         upgradePrompt: false
     sport:
+      0a2f541:
+        changelog: Rollup of new engines and bug fixes
+        releaseDate: '2026-04-10T22:48:59.212Z'
+        upgradePrompt: false
       1616d98:
         changelog: Adds adjustable speed sensor pulse count on Ford E4OD
         releaseDate: '2025-05-31T21:55:53.544Z'
