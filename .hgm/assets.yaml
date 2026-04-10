@@ -39500,9 +39500,9 @@ devices:
     tags: []
   CS3-06650:
     model: sport
-    paramDefVersion: 1616d98
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 1616d98
+    softwareVersion: 534db99
     tags: []
   CS3-06651:
     model: sport
@@ -45727,9 +45727,9 @@ devices:
     tags: []
   CS3-07664:
     model: sport
-    paramDefVersion: 1616d98
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 1616d98
+    softwareVersion: 534db99
     tags: []
   CS3-07665:
     model: sport
@@ -45823,9 +45823,9 @@ devices:
     tags: []
   CS3-07680:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: ff569d3
+    softwareVersion: 534db99
     tags: []
   CS3-07681:
     model: sport
@@ -47607,9 +47607,9 @@ devices:
     tags: []
   CS3-07971:
     model: sport
-    paramDefVersion: 50b7eb6
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 50b7eb6
+    softwareVersion: 534db99
     tags: []
   CS3-07972:
     model: sport
@@ -50073,9 +50073,9 @@ devices:
     tags: []
   CS3-08367:
     model: sport
-    paramDefVersion: 50b7eb6
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 50b7eb6
+    softwareVersion: 534db99
     tags: []
   CS3-08368:
     model: sport
@@ -50872,9 +50872,9 @@ devices:
     tags: []
   CS3-08497:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: ff569d3
+    softwareVersion: 534db99
     tags: []
   CS3-08498:
     model: sport
@@ -51429,9 +51429,9 @@ devices:
     tags: []
   CS3-08588:
     model: sport
-    paramDefVersion: 1616d98
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 1616d98
+    softwareVersion: 534db99
     tags: []
   CS3-08589:
     model: sport
@@ -51465,9 +51465,9 @@ devices:
     tags: []
   CS3-08594:
     model: sport
-    paramDefVersion: 1616d98
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 1616d98
+    softwareVersion: 534db99
     tags: []
   CS3-08595:
     model: sport
@@ -51477,9 +51477,9 @@ devices:
     tags: []
   CS3-08596:
     model: sport
-    paramDefVersion: 1616d98
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 1616d98
+    softwareVersion: 534db99
     tags: []
   CS3-08597:
     model: sport
@@ -51507,9 +51507,9 @@ devices:
     tags: []
   CS3-08601:
     model: sport
-    paramDefVersion: 50b7eb6
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: 50b7eb6
+    softwareVersion: 534db99
     tags: []
   CS3-08602:
     model: sport
@@ -52393,9 +52393,9 @@ devices:
     tags: []
   CS3-08747:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 534db99
     tags: []
   CS3-08748:
     model: sport
@@ -52945,9 +52945,9 @@ devices:
     tags: []
   CS3-08839:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 534db99
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 534db99
     tags: []
   CS3-08840:
     model: sport
