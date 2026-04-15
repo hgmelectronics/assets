@@ -51630,9 +51630,9 @@ devices:
     tags: []
   CS3-08621:
     model: pro
-    paramDefVersion: acadc62
+    paramDefVersion: f469a13
     product: cs3
-    softwareVersion: acadc62
+    softwareVersion: f469a13
     tags: []
   CS3-08622:
     model: sport
@@ -112304,6 +112304,8 @@ parameters:
         releaseDate: '2025-11-19T00:00:00.000Z'
       ee14cde:
         releaseDate: '2025-11-12T03:52:36.179Z'
+      f469a13:
+        releaseDate: '2026-04-15T00:13:07.550Z'
     pro-jankel:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
@@ -112480,6 +112482,10 @@ software:
       ee14cde:
         changelog: Added support for all RE5 ratio variants
         releaseDate: '2025-11-12T03:52:14.240Z'
+        upgradePrompt: false
+      f469a13:
+        changelog: new torque based A750 control
+        releaseDate: '2026-04-15T00:12:45.986Z'
         upgradePrompt: false
     pro-jankel:
       f218fb7:
