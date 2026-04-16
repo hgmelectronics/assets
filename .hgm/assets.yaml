@@ -53059,9 +53059,9 @@ devices:
     tags: []
   CS3-08858:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 70b05a8
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 70b05a8
     tags: []
   CS3-08859:
     model: sport
