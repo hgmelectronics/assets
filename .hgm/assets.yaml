@@ -112309,6 +112309,8 @@ parameters:
         releaseDate: '2025-11-12T03:52:36.179Z'
       f469a13:
         releaseDate: '2026-04-15T00:13:07.550Z'
+      f938d71:
+        releaseDate: '2026-04-14T00:00:00.000Z'
     pro-jankel:
       4c712a2:
         releaseDate: '2022-08-18T22:39:34.118Z'
@@ -112483,6 +112485,10 @@ software:
       f469a13:
         changelog: new torque based A750 control
         releaseDate: '2026-04-15T00:12:45.986Z'
+        upgradePrompt: false
+      f938d71:
+        changelog: Add support for TC Feed Forward and Clutch Adapts
+        releaseDate: '2026-04-14T00:00:00.000Z'
         upgradePrompt: false
     pro-jankel:
       f218fb7:
