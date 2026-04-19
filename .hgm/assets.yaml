@@ -2684,13 +2684,14 @@ devices:
     tags: []
   CS3-00553:
     model: pro
-    paramDefVersion: e7d1dd8
+    paramDefVersion: f938d71
     product: cs3
-    softwareVersion: e7d1dd8
+    softwareVersion: f938d71
     tags:
       - 1HD-FT
       - AE80
       - Jonos
+      - Development
   CS3-00554:
     model: pro
     paramDefVersion: 73d0f83
@@ -46585,14 +46586,15 @@ devices:
     tags: []
   CS3-07802:
     model: pro
-    paramDefVersion: 0c50ef2
+    paramDefVersion: f938d71
     product: cs3
-    softwareVersion: 0c50ef2
+    softwareVersion: f938d71
     tags:
       - AE80
       - Non-DPF
       - Rods
       - VDJ
+      - Development
   CS3-07803:
     model: sport
     paramDefVersion: '4375440'
