@@ -33135,6 +33135,7 @@ devices:
       - DJD
       - DPF
       - VDJ
+      - CustomerDevelopment
   CS3-05598:
     model: sport
     paramDefVersion: c9e96bd
@@ -35222,6 +35223,7 @@ devices:
       - DPF
       - Pre-Collision
       - VDJ
+      - CustomerDevelopment
   CS3-05943:
     model: sport
     paramDefVersion: '4375440'
@@ -39983,6 +39985,7 @@ devices:
       - DPF
       - Noel
       - VDJ
+      - CustomerDevelopment
   CS3-06730:
     model: sport
     paramDefVersion: '4375440'
@@ -47836,6 +47839,7 @@ devices:
       - AE80
       - DPF
       - VDJ
+      - CustomerDevelopment
   CS3-08008:
     model: jagbox
     paramDefVersion: dd0f489
@@ -48057,6 +48061,7 @@ devices:
       - AE80
       - DPF
       - VDJ
+      - CustomerDevelopment
   CS3-08040:
     model: sport
     paramDefVersion: '4375440'
@@ -48718,6 +48723,7 @@ devices:
       - AE80
       - DPF
       - VDJ
+      - CustomerDevelopment
   CS3-08146:
     model: pro
     paramDefVersion: e6f0209
@@ -48745,6 +48751,7 @@ devices:
       - DPF
       - Parsons
       - VDJ
+      - CustomerDevelopment
   CS3-08149:
     model: pro
     paramDefVersion: 73d0f83
@@ -51259,6 +51266,7 @@ devices:
       - AE80
       - DPF
       - VDJ
+      - CustomerDevelopment
   CS3-08561:
     model: pro
     paramDefVersion: e6f0209
@@ -51714,10 +51722,15 @@ devices:
       - DPF
   CS3-08633:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: f938d71
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: f938d71
+    tags:
+      - 6x6
+      - VDJ
+      - DPF
+      - AE80
+      - CustomerDevelopment
   CS3-08634:
     model: pro
     paramDefVersion: 73d0f83
