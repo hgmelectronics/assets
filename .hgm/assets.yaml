@@ -2690,8 +2690,8 @@ devices:
     tags:
       - 1HD-FT
       - AE80
-      - Jonos
       - Development
+      - Jonos
   CS3-00554:
     model: pro
     paramDefVersion: 73d0f83
@@ -33132,10 +33132,10 @@ devices:
     softwareVersion: d4c71f2
     tags:
       - AE80
+      - CustomerDevelopment
       - DJD
       - DPF
       - VDJ
-      - CustomerDevelopment
   CS3-05598:
     model: sport
     paramDefVersion: c9e96bd
@@ -35219,11 +35219,11 @@ devices:
     softwareVersion: e723b1c
     tags:
       - AE80
+      - CustomerDevelopment
       - Cyrils
       - DPF
       - Pre-Collision
       - VDJ
-      - CustomerDevelopment
   CS3-05943:
     model: sport
     paramDefVersion: '4375440'
@@ -39984,10 +39984,10 @@ devices:
     softwareVersion: 0c50ef2
     tags:
       - AE80
+      - CustomerDevelopment
       - DPF
       - Noel
       - VDJ
-      - CustomerDevelopment
   CS3-06730:
     model: sport
     paramDefVersion: '4375440'
@@ -46596,10 +46596,10 @@ devices:
     softwareVersion: f938d71
     tags:
       - AE80
+      - Development
       - Non-DPF
       - Rods
       - VDJ
-      - Development
   CS3-07803:
     model: sport
     paramDefVersion: '4375440'
@@ -47839,9 +47839,9 @@ devices:
     softwareVersion: b961d62
     tags:
       - AE80
+      - CustomerDevelopment
       - DPF
       - VDJ
-      - CustomerDevelopment
   CS3-08008:
     model: jagbox
     paramDefVersion: dd0f489
@@ -48061,9 +48061,9 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AE80
+      - CustomerDevelopment
       - DPF
       - VDJ
-      - CustomerDevelopment
   CS3-08040:
     model: sport
     paramDefVersion: '4375440'
@@ -48723,9 +48723,9 @@ devices:
     softwareVersion: b961d62
     tags:
       - AE80
+      - CustomerDevelopment
       - DPF
       - VDJ
-      - CustomerDevelopment
   CS3-08146:
     model: pro
     paramDefVersion: e6f0209
@@ -48750,10 +48750,10 @@ devices:
     softwareVersion: 0c50ef2
     tags:
       - AE80
+      - CustomerDevelopment
       - DPF
       - Parsons
       - VDJ
-      - CustomerDevelopment
   CS3-08149:
     model: pro
     paramDefVersion: 73d0f83
@@ -51266,9 +51266,9 @@ devices:
     softwareVersion: b961d62
     tags:
       - AE80
+      - CustomerDevelopment
       - DPF
       - VDJ
-      - CustomerDevelopment
   CS3-08561:
     model: pro
     paramDefVersion: e6f0209
@@ -51720,8 +51720,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - AB60
-      - VDJ
       - DPF
+      - VDJ
   CS3-08633:
     model: pro
     paramDefVersion: f938d71
@@ -51729,10 +51729,10 @@ devices:
     softwareVersion: f938d71
     tags:
       - 6x6
-      - VDJ
-      - DPF
       - AE80
       - CustomerDevelopment
+      - DPF
+      - VDJ
   CS3-08634:
     model: pro
     paramDefVersion: 73d0f83
@@ -53343,9 +53343,9 @@ devices:
     tags: []
   CS3-08902:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 70b05a8
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 70b05a8
     tags: []
   CS3-08903:
     model: sport
