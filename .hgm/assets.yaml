@@ -30318,16 +30318,16 @@ devices:
     tags: []
   CS3-05134:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox-dev
   CS3-05135:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox-dev
   CS3-05136:
@@ -36249,9 +36249,9 @@ devices:
     tags: []
   CS3-06112:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox-dev
   CS3-06113:
@@ -37449,9 +37449,9 @@ devices:
     tags: []
   CS3-06311:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox-dev
   CS3-06312:
@@ -47806,30 +47806,30 @@ devices:
     tags: []
   CS3-08003:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08004:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08005:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08006:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08007:
@@ -47844,16 +47844,16 @@ devices:
       - VDJ
   CS3-08008:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08009:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08010:
@@ -47864,30 +47864,30 @@ devices:
     tags: []
   CS3-08011:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08012:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08013:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08014:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08015:
@@ -48160,9 +48160,9 @@ devices:
     tags: []
   CS3-08055:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08056:
@@ -48173,37 +48173,37 @@ devices:
     tags: []
   CS3-08057:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08058:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08059:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08060:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08061:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08062:
@@ -48214,23 +48214,23 @@ devices:
     tags: []
   CS3-08063:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08064:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08065:
     model: jagbox
-    paramDefVersion: dd0f489
+    paramDefVersion: 51be856
     product: cs3
-    softwareVersion: dd0f489
+    softwareVersion: 51be856
     tags:
       - jagbox
   CS3-08066:
@@ -112279,6 +112279,8 @@ parameters:
       ef4e4c7:
         releaseDate: '2023-09-19T02:50:12.167Z'
     jagbox:
+      51be856:
+        releaseDate: '2026-04-22T04:13:23.514Z'
       dd0f489:
         releaseDate: '2025-07-01T08:14:21.917Z'
     pro:
@@ -112394,6 +112396,10 @@ software:
         releaseDate: '2023-09-19T02:50:12.167Z'
         upgradePrompt: false
     jagbox:
+      51be856:
+        changelog: Added A and B modes
+        releaseDate: '2026-04-22T04:13:05.798Z'
+        upgradePrompt: false
       dd0f489:
         changelog: Initial release
         releaseDate: '2025-07-01T08:12:29.082Z'
