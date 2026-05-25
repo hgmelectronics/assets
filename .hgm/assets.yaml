@@ -17873,9 +17873,9 @@ devices:
     tags: []
   CS3-03074:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 70b05a8
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 70b05a8
     tags: []
   CS3-03075:
     model: pro
@@ -25793,9 +25793,9 @@ devices:
     product: cs3
     softwareVersion: 396205d
     tags:
-      - VDJ
       - AB60
       - DPF
+      - VDJ
   CS3-04387:
     model: sport
     paramDefVersion: '4375440'
@@ -51971,9 +51971,9 @@ devices:
     product: cs3
     softwareVersion: c9e96bd
     tags:
-      - A442
       - 1HZ
       - 4Sol
+      - A442
       - HSDiesel
   CS3-08672:
     model: sport
