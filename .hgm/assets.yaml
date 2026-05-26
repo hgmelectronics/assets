@@ -112326,6 +112326,8 @@ parameters:
         releaseDate: '2023-01-27T02:21:24.286Z'
       9e8a663:
         releaseDate: '2022-11-10T18:23:07.827Z'
+      a21d553:
+        releaseDate: '2026-05-13T00:00:00.000Z'
       acadc62:
         releaseDate: '2026-04-03T20:37:45.581Z'
       b961d62:
@@ -112474,6 +112476,10 @@ software:
       9e8a663:
         changelog: Improved Cummins R2.8 support
         releaseDate: '2022-11-10T18:21:03.102Z'
+        upgradePrompt: false
+      a21d553:
+        changelog: Add support for TILO Filter
+        releaseDate: '2026-05-13T00:00:00.000Z'
         upgradePrompt: false
       acadc62:
         changelog: Next gen A750 support
