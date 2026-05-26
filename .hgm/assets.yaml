@@ -51247,10 +51247,13 @@ devices:
     tags: []
   CS3-08556:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: a21d553
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: a21d553
+    tags:
+      - VDJ
+      - AE80
+      - DPF
   CS3-08557:
     model: pro
     paramDefVersion: 73d0f83
