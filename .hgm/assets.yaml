@@ -7673,8 +7673,8 @@ devices:
     product: cs3
     softwareVersion: 73d0f83
     tags:
-      - VDJ
       - AB60
+      - VDJ
   CS3-01383:
     model: pro
     paramDefVersion: 73d0f83
@@ -23016,8 +23016,8 @@ devices:
     softwareVersion: 73d0f83
     tags:
       - A750
-      - HSDiesel
       - GateShift
+      - HSDiesel
   CS3-03926:
     model: sport
     paramDefVersion: '4375440'
@@ -49540,9 +49540,9 @@ devices:
     tags: []
   CS3-08275:
     model: sport
-    paramDefVersion: '4375440'
+    paramDefVersion: 793305b
     product: cs3
-    softwareVersion: '4375440'
+    softwareVersion: 793305b
     tags: []
   CS3-08276:
     model: sport
@@ -51253,9 +51253,9 @@ devices:
     product: cs3
     softwareVersion: a21d553
     tags:
-      - VDJ
       - AE80
       - DPF
+      - VDJ
   CS3-08557:
     model: pro
     paramDefVersion: 73d0f83
@@ -51949,8 +51949,8 @@ devices:
     product: cs3
     softwareVersion: c9e96bd
     tags:
-      - A340
       - '34304'
+      - A340
       - J1939
   CS3-08667:
     model: sport
