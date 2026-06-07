@@ -37950,10 +37950,11 @@ devices:
       - VDJ
   CS3-06392:
     model: pro
-    paramDefVersion: 73d0f83
+    paramDefVersion: f938d71
     product: cs3
-    softwareVersion: 73d0f83
-    tags: []
+    softwareVersion: f938d71
+    tags:
+      - 6R80
   CS3-06393:
     model: sport
     paramDefVersion: '4375440'
