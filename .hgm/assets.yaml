@@ -118428,25 +118428,20 @@ software:
       456a2ae:
         changelog: Bootloader Update
         releaseDate: '2025-11-12T03:51:03.402Z'
-        upgradePrompt: true
       ef4e4c7:
         changelog: Diagnostic firmware
         releaseDate: '2023-09-19T02:50:12.167Z'
-        upgradePrompt: true
     jagbox:
       51be856:
         changelog: Added A and B modes
         releaseDate: '2026-04-22T04:13:05.798Z'
-        upgradePrompt: true
       dd0f489:
         changelog: Initial release
         releaseDate: '2025-07-01T08:12:29.082Z'
-        upgradePrompt: true
     pro:
       0c50ef2:
         changelog: Rollup of AE80 Platform
         releaseDate: '2025-08-28T00:00:00.000Z'
-        upgradePrompt: true
       0daf47c:
         changelog: Display improvements
         releaseDate: '2022-08-31T22:32:42.779Z'
@@ -118454,13 +118449,11 @@ software:
       15b680e:
         changelog: Added MaxxECU support
         releaseDate: '2025-03-11T14:50:51.750Z'
-        upgradePrompt: true
       396205d:
         changelog: >-
           Add Flex-Lock support for AB60 - A new Calibration file MUST be loaded
           after update
         releaseDate: '2025-02-20T22:50:08.382Z'
-        upgradePrompt: true
       490b79d:
         changelog: Maintenance release
         releaseDate: '2022-09-20T00:25:18.994Z'
@@ -118468,7 +118461,6 @@ software:
       5d30ba3:
         changelog: Add Range Select To Flex Lock A750
         releaseDate: '2025-11-26T00:59:54.702Z'
-        upgradePrompt: true
       6b15a21:
         changelog: Revised TCC operation during range select
         releaseDate: '2023-06-15T01:57:37.774Z'
@@ -118478,7 +118470,6 @@ software:
           Added additional support for Failsafe conditions on supported
           transmissions
         releaseDate: '2024-11-06T04:08:31.179Z'
-        upgradePrompt: true
       73f6bda:
         changelog: Added Variable Failsafe Conditions
         releaseDate: '2024-05-07T03:39:23.643Z'
@@ -118490,15 +118481,12 @@ software:
       9e8a663:
         changelog: Improved Cummins R2.8 support
         releaseDate: '2022-11-10T18:21:03.102Z'
-        upgradePrompt: true
       a21d553:
         changelog: Add support for TILO Filter
         releaseDate: '2026-05-13T00:00:00.000Z'
-        upgradePrompt: true
       acadc62:
         changelog: Next gen A750 support
         releaseDate: '2026-04-03T20:43:09.908Z'
-        upgradePrompt: true
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:46.300Z'
@@ -118506,7 +118494,6 @@ software:
       b1933dfb3:
         changelog: Reverted to earlier neutral relay control strategy
         releaseDate: '2020-12-10T01:06:09.568Z'
-        upgradePrompt: true
       b51f467:
         changelog: Improved N-D shifts on A750/AB60
         releaseDate: '2023-09-15T02:05:37.931Z'
@@ -118514,7 +118501,6 @@ software:
       b961d62:
         changelog: Rollup of AE80 Platform
         releaseDate: '2025-10-01T00:00:00.000Z'
-        upgradePrompt: true
       c5c63d7:
         changelog: Fix for RE5 Timers
         releaseDate: '2024-01-16T01:08:30.105Z'
@@ -118522,11 +118508,9 @@ software:
       c9e96bd:
         changelog: AB60 4-5 shift improvements
         releaseDate: '2023-02-27T05:05:03.116Z'
-        upgradePrompt: true
       d4c71f2:
         changelog: Rollup of AE80 Platform
         releaseDate: '2025-08-20T00:00:00.000Z'
-        upgradePrompt: true
       d5beb99:
         changelog: Added configurable shift selector modes
         releaseDate: '2022-10-11T05:05:41.842Z'
@@ -118534,57 +118518,44 @@ software:
       dabd337:
         changelog: Corrected MoTeC CAN bus protocol
         releaseDate: '2025-12-16T21:47:42.313Z'
-        upgradePrompt: true
       e723b1c:
         changelog: Add Anti-Stall to AE80 Platform
         releaseDate: '2025-07-26T00:00:00.000Z'
-        upgradePrompt: true
       e7d1dd8:
         changelog: Add support for Double Skip Shift
         releaseDate: '2025-11-19T00:00:00.000Z'
-        upgradePrompt: true
       ee14cde:
         changelog: Added support for all RE5 ratio variants
         releaseDate: '2025-11-12T03:52:14.240Z'
-        upgradePrompt: true
       f469a13:
         changelog: new torque based A750 control
         releaseDate: '2026-04-15T00:12:45.986Z'
-        upgradePrompt: true
       f938d71:
         changelog: Add support for TC Feed Forward and Clutch Adapts
         releaseDate: '2026-04-14T00:00:00.000Z'
-        upgradePrompt: true
     pro-jankel:
       f218fb7:
         changelog: First dedicated Jankel release
         releaseDate: '2022-02-17T20:07:47.444Z'
-        upgradePrompt: true
     sport:
       '4375440':
         changelog: Bug fixes for FuelTech CAN, Megasquirt CAN, and ZF shift lever
         releaseDate: '2025-05-02T19:51:10.732Z'
-        upgradePrompt: true
       70b05a8:
         changelog: New engines and bug fixes
         releaseDate: '2026-04-15T22:10:39.115Z'
-        upgradePrompt: true
       793305b:
         changelog: Added support for SCS Delta
         releaseDate: '2026-03-13T06:03:47.220Z'
-        upgradePrompt: true
       8cf6921:
         changelog: Changed temperature alerts and out of range gauges display
         releaseDate: '2023-01-25T23:44:32.272Z'
-        upgradePrompt: true
       97a7a60:
         changelog: Maintenance update
         releaseDate: '2024-09-12T00:10:35.415Z'
-        upgradePrompt: true
       9e8a663:
         changelog: Improved Cummins R2.8 support
         releaseDate: '2022-11-10T18:21:28.057Z'
-        upgradePrompt: true
       b0a84a0b6b39:
         changelog: deprecated
         releaseDate: '2018-09-17T22:22:52.425Z'
@@ -118592,54 +118563,43 @@ software:
       c9e96bd:
         changelog: Changed temperature alerts and out of range gauge display
         releaseDate: '2023-03-07T04:43:31.593Z'
-        upgradePrompt: true
       cd73918:
         changelog: Updated support for GMLAN
         releaseDate: '2025-02-23T18:12:59.942Z'
-        upgradePrompt: true
       d5beb99:
         changelog: Added configurable shift selector modes
         releaseDate: '2022-10-11T05:05:30.799Z'
-        upgradePrompt: true
     sport-mcconnel:
       5eeb8345:
         changelog: Updated J1939 TC1 and ETC7
         releaseDate: '2020-02-27T01:48:26.259Z'
-        upgradePrompt: true
   csm2:
     base:
       64e96d6:
         changelog: Improved bluetooth speed
         releaseDate: '2021-12-08T20:21:29.467Z'
-        upgradePrompt: true
   csm3:
     base:
       3be82ad:
         changelog: Added new engine types
         releaseDate: '2025-09-18T20:45:52.482Z'
-        upgradePrompt: true
       cb8038d:
         changelog: Added temperature sensor to 700R4
         releaseDate: '2025-11-03T22:02:51.838Z'
-        upgradePrompt: true
       e23b620:
         changelog: Added manual TCC support for Chrysler 518
         releaseDate: '2024-09-12T22:06:53.168Z'
-        upgradePrompt: true
       e9d9707:
         changelog: Added CAN bus logging
         releaseDate: '2025-10-02T20:32:40.525Z'
-        upgradePrompt: true
   etcu1:
     base:
       3db4b8d:
         changelog: Improved gauge update speed
         releaseDate: '2025-09-09T19:03:48.351Z'
-        upgradePrompt: true
       45d11ab:
         changelog: Fixed slow Bluetooth performance with newer OSs
         releaseDate: '2021-09-17T23:30:39.591Z'
-        upgradePrompt: true
       '6387325':
         changelog: Reduced false DTCs on solenoid regulation
         releaseDate: '2021-04-09T17:21:08.844Z'
@@ -118648,10 +118608,8 @@ software:
       a95f3a2:
         changelog: Improved solenoid current regulation
         releaseDate: '2021-01-04T02:44:06.401Z'
-        upgradePrompt: true
   rlc2:
     base:
       5a69b59:
         changelog: Maintenance release
         releaseDate: '2022-04-28T03:03:00.000Z'
-        upgradePrompt: true
