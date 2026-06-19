@@ -51252,9 +51252,9 @@
     'tags': []
   'CS3-08556':
     'model': 'pro'
-    'paramDefVersion': 'a21d553'
+    'paramDefVersion': '404a81b'
     'product': 'cs3'
-    'softwareVersion': 'a21d553'
+    'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
       - 'DPF'
