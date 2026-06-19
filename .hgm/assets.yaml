@@ -118452,6 +118452,9 @@
       '396205d':
         'changelog': 'Add Flex-Lock support for AB60 - A new Calibration file MUST be loaded after update'
         'releaseDate': '2025-02-20T22:50:08.382Z'
+      '404a81b':
+        'changelog': 'Roll up of AE80 Software plus added support for Clutch Adapts, Multi-mode Switch and Throttle Filter'
+        'releaseDate': '2026-06-19T00:00:00.000Z'
       '490b79d':
         'changelog': 'Maintenance release'
         'releaseDate': '2022-09-20T00:25:18.994Z'
