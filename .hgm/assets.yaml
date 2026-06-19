@@ -51810,10 +51810,14 @@
     'tags': []
   'CS3-08643':
     'model': 'pro'
-    'paramDefVersion': '73d0f83'
+    'paramDefVersion': '404a81b'
     'product': 'cs3'
-    'softwareVersion': '73d0f83'
-    'tags': []
+    'softwareVersion': '404a81b'
+    'tags':
+      - 'AE80'
+      - 'VDJ'
+      - 'Non-DPF'
+      - 'Steves'
   'CS3-08644':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
