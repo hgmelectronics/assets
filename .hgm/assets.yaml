@@ -36416,9 +36416,9 @@
     'tags': []
   'CS3-06138':
     'model': 'pro'
-    'paramDefVersion': '73d0f83'
+    'paramDefVersion': '43f0e0c'
     'product': 'cs3'
-    'softwareVersion': '73d0f83'
+    'softwareVersion': '43f0e0c'
     'tags': []
   'CS3-06139':
     'model': 'sport'
@@ -118335,6 +118335,8 @@
         'releaseDate': '2025-03-11T14:51:18.610Z'
       '404a81b':
         'releaseDate': '2026-06-19T00:00:00.000Z'
+      '43f0e0c':
+        'releaseDate': '2026-07-07T21:31:40.780Z'
       '490b79d':
         'releaseDate': '2022-09-20T00:25:41.586Z'
       '4c712a2':
@@ -118464,6 +118466,9 @@
       '404a81b':
         'changelog': 'Roll up of AE80 Software plus added support for Clutch Adapts, Multi-mode Switch and Throttle Filter'
         'releaseDate': '2026-06-19T00:00:00.000Z'
+      '43f0e0c':
+        'changelog': 'ZF 8HP Development'
+        'releaseDate': '2026-07-07T21:31:40.780Z'
       '490b79d':
         'changelog': 'Maintenance release'
         'releaseDate': '2022-09-20T00:25:18.994Z'
