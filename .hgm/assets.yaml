@@ -76920,10 +76920,10 @@
     'softwareVersion': '45d11ab'
     'tags': []
   HGM CS3:
-    'model': 'sport'
-    'paramDefVersion': '4375440'
+    'model': 'pro'
+    'paramDefVersion': '73d0f83'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': '73d0f83'
     'tags': []
   HGM CSM:
     'model': 'base'
