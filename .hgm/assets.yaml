@@ -15907,10 +15907,10 @@
     'softwareVersion': '4375440'
     'tags': []
   'CS3-02747':
-    'model': 'sport'
-    'paramDefVersion': '4375440'
+    'model': 'pro'
+    'paramDefVersion': '73d0f83'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': '73d0f83'
     'tags': []
   'CS3-02748':
     'model': 'sport'
