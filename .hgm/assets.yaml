@@ -52444,7 +52444,10 @@
     'paramDefVersion': '73d0f83'
     'product': 'cs3'
     'softwareVersion': '73d0f83'
-    'tags': []
+    'tags':
+      - 'VDJ'
+      - 'Non-DPF'
+      - 'AB60'
   'CS3-08746':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
