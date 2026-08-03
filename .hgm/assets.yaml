@@ -31413,7 +31413,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'AB60,VDJ,Turbo'
+      - 'AB60'
+      - 'VDJ'
+      - 'Turbo'
   'CS3-05311':
     'model': 'sport'
     'paramDefVersion': '4375440'
@@ -38971,7 +38973,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ,AB60,Non-DPF'
+      - 'VDJ'
+      - 'AB60'
+      - 'Non-DPF'
   'CS3-06560':
     'model': 'sport'
     'paramDefVersion': '4375440'
@@ -40174,7 +40178,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ,AB60,DPF'
+      - 'VDJ'
+      - 'AB60'
+      - 'DPF'
   'CS3-06757':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -48009,7 +48015,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'AB60,VDJ,Turbo'
+      - 'AB60'
+      - 'VDJ'
+      - 'Turbo'
   'CS3-08031':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
@@ -51305,14 +51313,18 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ,AB60,DPF'
+      - 'VDJ'
+      - 'AB60'
+      - 'DPF'
   'CS3-08562':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ,AB60,DPF'
+      - 'VDJ'
+      - 'AB60'
+      - 'DPF'
   'CS3-08563':
     'model': 'sport'
     'paramDefVersion': '70b05a8'
@@ -51625,7 +51637,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ,AB60,Non-DPF'
+      - 'VDJ'
+      - 'AB60'
+      - 'Non-DPF'
   'CS3-08614':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -51644,7 +51658,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ,AB60,Non-DPF'
+      - 'VDJ'
+      - 'AB60'
+      - 'Non-DPF'
   'CS3-08617':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
@@ -51663,7 +51679,9 @@
     'product': 'cs3'
     'softwareVersion': '73d0f83'
     'tags':
-      - 'VDJ,AB60,DPF'
+      - 'VDJ'
+      - 'AB60'
+      - 'DPF'
   'CS3-08620':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
@@ -51715,7 +51733,8 @@
     'product': 'cs3'
     'softwareVersion': 'b961d62'
     'tags':
-      - 'AE80,VDJ'
+      - 'AE80'
+      - 'VDJ'
   'CS3-08628':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
