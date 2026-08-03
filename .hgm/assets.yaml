@@ -6581,9 +6581,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
-      - 'Non-DPF'
       - 'AB60'
+      - 'Non-DPF'
+      - 'VDJ'
   'CS3-01201':
     'model': 'sport'
     'paramDefVersion': '4375440'
@@ -31414,8 +31414,8 @@
     'softwareVersion': '396205d'
     'tags':
       - 'AB60'
-      - 'VDJ'
       - 'Turbo'
+      - 'VDJ'
   'CS3-05311':
     'model': 'sport'
     'paramDefVersion': '4375440'
@@ -38973,9 +38973,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
       - 'AB60'
       - 'Non-DPF'
+      - 'VDJ'
   'CS3-06560':
     'model': 'sport'
     'paramDefVersion': '4375440'
@@ -40178,9 +40178,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
       - 'AB60'
       - 'DPF'
+      - 'VDJ'
   'CS3-06757':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -46606,9 +46606,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
-      - 'DPF'
       - 'AB60'
+      - 'DPF'
+      - 'VDJ'
   'CS3-07801':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -48016,8 +48016,8 @@
     'softwareVersion': '396205d'
     'tags':
       - 'AB60'
-      - 'VDJ'
       - 'Turbo'
+      - 'VDJ'
   'CS3-08031':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
@@ -51246,8 +51246,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-08553':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -51313,18 +51313,18 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
       - 'AB60'
       - 'DPF'
+      - 'VDJ'
   'CS3-08562':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
       - 'AB60'
       - 'DPF'
+      - 'VDJ'
   'CS3-08563':
     'model': 'sport'
     'paramDefVersion': '70b05a8'
@@ -51637,9 +51637,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
       - 'AB60'
       - 'Non-DPF'
+      - 'VDJ'
   'CS3-08614':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -51658,9 +51658,9 @@
     'product': 'cs3'
     'softwareVersion': '396205d'
     'tags':
-      - 'VDJ'
       - 'AB60'
       - 'Non-DPF'
+      - 'VDJ'
   'CS3-08617':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
@@ -51679,9 +51679,9 @@
     'product': 'cs3'
     'softwareVersion': '73d0f83'
     'tags':
-      - 'VDJ'
       - 'AB60'
       - 'DPF'
+      - 'VDJ'
   'CS3-08620':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
@@ -51846,9 +51846,9 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'Non-DPF'
       - 'Steves'
+      - 'VDJ'
   'CS3-08644':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -52470,9 +52470,9 @@
     'product': 'cs3'
     'softwareVersion': '73d0f83'
     'tags':
-      - 'VDJ'
-      - 'Non-DPF'
       - 'AB60'
+      - 'Non-DPF'
+      - 'VDJ'
   'CS3-08746':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -54100,8 +54100,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10017':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -54343,8 +54343,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'Non-DPF'
+      - 'VDJ'
   'CS3-10057':
     'model': 'sport'
     'paramDefVersion': '70b05a8'
@@ -54436,8 +54436,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10072':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
