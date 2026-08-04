@@ -10644,9 +10644,9 @@
     'tags': []
   'CS3-01873':
     'model': 'sport'
-    'paramDefVersion': '4375440'
+    'paramDefVersion': '6e8bf62'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': '6e8bf62'
     'tags': []
   'CS3-01874':
     'model': 'sport'
@@ -118427,6 +118427,8 @@
         'releaseDate': '2025-05-02T19:51:35.809Z'
       '6c13c32':
         'releaseDate': '2022-08-18T19:06:28.881Z'
+      '6e8bf62':
+        'releaseDate': '2026-08-04T18:06:31.554Z'
       '70b05a8':
         'releaseDate': '2026-04-15T22:10:59.609Z'
       '793305b':
@@ -118594,6 +118596,9 @@
       '4375440':
         'changelog': 'Bug fixes for FuelTech CAN, Megasquirt CAN, and ZF shift lever'
         'releaseDate': '2025-05-02T19:51:10.732Z'
+      '6e8bf62':
+        'changelog': 'New engines and bug fixes'
+        'releaseDate': '2026-08-04T18:06:31.554Z'
       '70b05a8':
         'changelog': 'New engines and bug fixes'
         'releaseDate': '2026-04-15T22:10:39.115Z'
