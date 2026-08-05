@@ -10644,9 +10644,9 @@
     'tags': []
   'CS3-01873':
     'model': 'sport'
-    'paramDefVersion': '926e647'
+    'paramDefVersion': '88390f0'
     'product': 'cs3'
-    'softwareVersion': '926e647'
+    'softwareVersion': '88390f0'
     'tags': []
   'CS3-01874':
     'model': 'sport'
@@ -118431,10 +118431,10 @@
         'releaseDate': '2026-04-15T22:10:59.609Z'
       '793305b':
         'releaseDate': '2026-03-13T06:04:05.275Z'
+      '88390f0':
+        'releaseDate': '2026-08-05T18:49:00.404Z'
       '8cf6921':
         'releaseDate': '2023-01-27T02:21:14.331Z'
-      '926e647':
-        'releaseDate': '2026-08-05T08:40:42.980Z'
       '97a7a60':
         'releaseDate': '2024-09-12T00:11:58.155Z'
       '9e8a663':
@@ -118602,12 +118602,12 @@
       '793305b':
         'changelog': 'Added support for SCS Delta'
         'releaseDate': '2026-03-13T06:03:47.220Z'
+      '88390f0':
+        'changelog': 'New engines and bug fixes'
+        'releaseDate': '2026-08-05T18:49:00.404Z'
       '8cf6921':
         'changelog': 'Changed temperature alerts and out of range gauges display'
         'releaseDate': '2023-01-25T23:44:32.272Z'
-      '926e647':
-        'changelog': 'New engine types and bug fixes'
-        'releaseDate': '2026-08-05T08:40:42.980Z'
       '97a7a60':
         'changelog': 'Maintenance update'
         'releaseDate': '2024-09-12T00:10:35.415Z'
