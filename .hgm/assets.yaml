@@ -39514,9 +39514,9 @@
     'tags': []
   'CS3-06509':
     'model': 'sport'
-    'paramDefVersion': '4375440'
+    'paramDefVersion': 'd471a8a'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': 'd471a8a'
     'tags':
       - 'Ashcroft'
   'CS3-06510':
@@ -52857,8 +52857,8 @@
     'softwareVersion': '73d0f83'
     'tags':
       - 'AB60'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-08613':
     'model': 'pro'
     'paramDefVersion': 'e6f0209'
@@ -53038,8 +53038,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'NON-DPF'
+      - 'VDJ'
   'CS3-08638':
     'model': 'pro'
     'paramDefVersion': '404a81b'
@@ -53047,8 +53047,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-08639':
     'model': 'sport'
     'paramDefVersion': '4375440'
@@ -53737,8 +53737,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'NON-DPF'
+      - 'VDJ'
   'CS3-08743':
     'model': 'pro'
     'paramDefVersion': '404a81b'
@@ -53746,8 +53746,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'NON-DPF'
+      - 'VDJ'
   'CS3-08744':
     'model': 'sport'
     'paramDefVersion': '4375440'
@@ -55348,8 +55348,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10010':
     'model': 'sport'
     'paramDefVersion': '88390f0'
@@ -55653,8 +55653,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10056':
     'model': 'pro'
     'paramDefVersion': '404a81b'
@@ -55749,8 +55749,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10071':
     'model': 'pro'
     'paramDefVersion': '404a81b'
@@ -56511,8 +56511,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10191':
     'model': 'sport'
     'paramDefVersion': '88390f0'
@@ -56532,8 +56532,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10194':
     'model': 'sport'
     'paramDefVersion': '88390f0'
@@ -56661,8 +56661,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'NON-DPF'
+      - 'VDJ'
   'CS3-10215':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -56784,8 +56784,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10235':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -119815,6 +119815,8 @@
         'releaseDate': '2023-03-07T04:43:01.605Z'
       'cd73918':
         'releaseDate': '2025-02-23T18:13:37.885Z'
+      'd471a8a':
+        'releaseDate': '2026-09-01T16:43:06.327Z'
       'd5beb99':
         'releaseDate': '2022-10-11T05:07:17.077Z'
     'sport-mcconnel':
@@ -119994,6 +119996,9 @@
       'cd73918':
         'changelog': 'Updated support for GMLAN'
         'releaseDate': '2025-02-23T18:12:59.942Z'
+      'd471a8a':
+        'changelog': 'Improved Cummins R2.8 support'
+        'releaseDate': '2026-09-01T16:43:06.327Z'
       'd5beb99':
         'changelog': 'Added configurable shift selector modes'
         'releaseDate': '2022-10-11T05:05:30.799Z'
