@@ -53071,10 +53071,12 @@
       - 'Ashcroft'
   'CS3-08642':
     'model': 'pro'
-    'paramDefVersion': 'e6f0209'
+    'paramDefVersion': '73d0f83'
     'product': 'cs3'
-    'softwareVersion': '396205d'
-    'tags': []
+    'softwareVersion': '73d0f83'
+    'tags':
+      - 'AB60'
+      - 'VDJ'
   'CS3-08643':
     'model': 'pro'
     'paramDefVersion': '404a81b'
