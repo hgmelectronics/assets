@@ -21430,9 +21430,9 @@
     'tags': []
   'CS3-03590':
     'model': 'sport'
-    'paramDefVersion': '4375440'
+    'paramDefVersion': '88390f0'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': '88390f0'
     'tags': []
   'CS3-03591':
     'model': 'sport'
@@ -56495,8 +56495,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10188':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
@@ -56680,10 +56680,10 @@
     'product': 'cs3'
     'softwareVersion': '404a81b'
     'tags':
-      - 'AE80'
-      - 'VDJ'
-      - 'DPF'
       - '6x6'
+      - 'AE80'
+      - 'DPF'
+      - 'VDJ'
   'CS3-10217':
     'model': 'sport'
     'paramDefVersion': '88390f0'
@@ -56826,8 +56826,8 @@
     'softwareVersion': '404a81b'
     'tags':
       - 'AE80'
-      - 'VDJ'
       - 'DPF'
+      - 'VDJ'
   'CS3-10240':
     'model': 'sport'
     'paramDefVersion': 'c9e96bd'
