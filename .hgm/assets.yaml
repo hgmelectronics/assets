@@ -38652,10 +38652,10 @@
     'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-06370':
-    'model': 'sport'
-    'paramDefVersion': '4375440'
+    'model': 'pro'
+    'paramDefVersion': '53298d4'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': '53298d4'
     'tags': []
   'CS3-06371':
     'model': 'pro'
@@ -119767,6 +119767,8 @@
         'releaseDate': '2022-09-20T00:25:41.586Z'
       '4c712a2':
         'releaseDate': '2022-08-18T22:39:22.257Z'
+      '53298d4':
+        'releaseDate': '2026-10-22T18:41:47.130Z'
       '5d30ba3':
         'releaseDate': '2025-11-26T01:00:12.389Z'
       '73d0f83':
@@ -119903,6 +119905,9 @@
         'changelog': 'Maintenance release'
         'releaseDate': '2022-09-20T00:25:18.994Z'
         'upgradePrompt': true
+      '53298d4':
+        'changelog': 'Pro torque based software for E92/4L80E'
+        'releaseDate': '2026-10-22T18:41:47.130Z'
       '5d30ba3':
         'changelog': 'Add Range Select To Flex Lock A750'
         'releaseDate': '2025-11-26T00:59:54.702Z'
