@@ -54888,10 +54888,10 @@
     'softwareVersion': '4375440'
     'tags': []
   'CS3-08933':
-    'model': 'sport'
-    'paramDefVersion': '4375440'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-08934':
     'model': 'sport'
@@ -55801,10 +55801,10 @@
     'tags':
       - 'Ashcroft'
   'CS3-10078':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10079':
     'model': 'sport'
@@ -55813,10 +55813,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10080':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10081':
     'model': 'sport'
@@ -55838,10 +55838,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10084':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10085':
     'model': 'sport'
@@ -56014,10 +56014,10 @@
     'tags':
       - 'Ashcroft'
   'CS3-10111':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10112':
     'model': 'sport'
@@ -56027,10 +56027,10 @@
     'tags':
       - 'Ashcroft'
   'CS3-10113':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10114':
     'model': 'sport'
@@ -56087,10 +56087,10 @@
     'tags':
       - 'Ashcroft'
   'CS3-10122':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10123':
     'model': 'sport'
@@ -56125,10 +56125,10 @@
     'tags':
       - 'Ashcroft'
   'CS3-10128':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10129':
     'model': 'sport'
@@ -56173,10 +56173,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10136':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10137':
     'model': 'sport'
@@ -56198,10 +56198,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10140':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10141':
     'model': 'sport'
@@ -58063,10 +58063,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10445':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10446':
     'model': 'sport'
@@ -58075,10 +58075,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10447':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10448':
     'model': 'sport'
@@ -58105,10 +58105,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10452':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10453':
     'model': 'sport'
@@ -58123,16 +58123,16 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10455':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10456':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10457':
     'model': 'sport'
@@ -58171,10 +58171,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10463':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10464':
     'model': 'sport'
@@ -58237,10 +58237,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10474':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10475':
     'model': 'sport'
@@ -58255,10 +58255,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10477':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10478':
     'model': 'sport'
@@ -58273,10 +58273,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10480':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': 'c9e96bd'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': 'c9e96bd'
     'tags': []
   'CS3-10481':
     'model': 'sport'
