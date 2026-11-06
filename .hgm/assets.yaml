@@ -119816,6 +119816,8 @@
     'sport':
       '4375440':
         'releaseDate': '2025-05-02T19:51:35.809Z'
+      '6349a66':
+        'releaseDate': '2026-11-06T20:06:31.982Z'
       '6c13c32':
         'releaseDate': '2022-08-18T19:06:28.881Z'
       '70b05a8':
@@ -119992,6 +119994,9 @@
       '4375440':
         'changelog': 'Bug fixes for FuelTech CAN, Megasquirt CAN, and ZF shift lever'
         'releaseDate': '2025-05-02T19:51:10.732Z'
+      '6349a66':
+        'changelog': 'Bug fixes, improved bluetooth dashboard speed'
+        'releaseDate': '2026-11-06T20:06:31.982Z'
       '70b05a8':
         'changelog': 'New engines and bug fixes'
         'releaseDate': '2026-04-15T22:10:39.115Z'
