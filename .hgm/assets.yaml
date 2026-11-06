@@ -35171,9 +35171,9 @@
       - 'Ashcroft'
   'CS3-05812':
     'model': 'sport'
-    'paramDefVersion': '4375440'
+    'paramDefVersion': '6349a66'
     'product': 'cs3'
-    'softwareVersion': '4375440'
+    'softwareVersion': '6349a66'
     'tags': []
   'CS3-05813':
     'model': 'sport'
