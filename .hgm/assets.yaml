@@ -57979,10 +57979,10 @@
     'softwareVersion': '88390f0'
     'tags': []
   'CS3-10430':
-    'model': 'sport'
-    'paramDefVersion': '88390f0'
+    'model': 'pro'
+    'paramDefVersion': '6d8c631'
     'product': 'cs3'
-    'softwareVersion': '88390f0'
+    'softwareVersion': '6d8c631'
     'tags': []
   'CS3-10431':
     'model': 'pro'
@@ -119779,6 +119779,8 @@
         'releaseDate': '2026-10-22T18:41:47.130Z'
       '5d30ba3':
         'releaseDate': '2025-11-26T01:00:12.389Z'
+      '6d8c631':
+        'releaseDate': '2026-11-12T23:45:46.141Z'
       '73d0f83':
         'releaseDate': '2024-11-06T05:43:35.154Z'
       '73f6bda':
@@ -119928,6 +119930,9 @@
         'changelog': 'Revised TCC operation during range select'
         'releaseDate': '2023-06-15T01:57:37.774Z'
         'upgradePrompt': true
+      '6d8c631':
+        'changelog': 'Test 6R80 software'
+        'releaseDate': '2026-11-12T23:45:46.141Z'
       '73d0f83':
         'changelog': 'Added additional support for Failsafe conditions on supported transmissions'
         'releaseDate': '2024-11-06T04:08:31.179Z'
