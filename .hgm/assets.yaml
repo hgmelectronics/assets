@@ -119762,6 +119762,8 @@
         'releaseDate': '2022-08-31T22:34:14.477Z'
       '15b680e':
         'releaseDate': '2025-03-11T14:51:18.610Z'
+      '3395e7a':
+        'releaseDate': '2026-11-12T05:01:16.395Z'
       '404a81b':
         'releaseDate': '2026-06-19T00:00:00.000Z'
       '43f0e0c':
@@ -119897,6 +119899,9 @@
       '15b680e':
         'changelog': 'Added MaxxECU support'
         'releaseDate': '2025-03-11T14:50:51.750Z'
+      '3395e7a':
+        'changelog': 'AE80 bug fixes'
+        'releaseDate': '2026-11-12T05:00:48.594Z'
       '396205d':
         'changelog': 'Add Flex-Lock support for AB60 - A new Calibration file MUST be loaded after update'
         'releaseDate': '2025-02-20T22:50:08.382Z'
