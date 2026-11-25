@@ -56457,10 +56457,13 @@
     'tags': []
   'CS3-10181':
     'model': 'pro'
-    'paramDefVersion': '73d0f83'
+    'paramDefVersion': 'a6e5367'
     'product': 'cs3'
-    'softwareVersion': '73d0f83'
-    'tags': []
+    'softwareVersion': 'a6e5367'
+    'tags':
+      - 'AE80'
+      - 'VDJ'
+      - 'NON-DPF'
   'CS3-10182':
     'model': 'pro'
     'paramDefVersion': '73d0f83'
