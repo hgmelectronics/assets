@@ -119791,6 +119791,8 @@
         'releaseDate': '2022-11-10T18:23:07.827Z'
       'a21d553':
         'releaseDate': '2026-05-13T00:00:00.000Z'
+      'a6e5367':
+        'releaseDate': '2026-11-25T04:01:57.308Z'
       'acadc62':
         'releaseDate': '2026-04-03T20:37:45.581Z'
       'b961d62':
@@ -119950,6 +119952,9 @@
       'a21d553':
         'changelog': 'Add support for TILO Filter'
         'releaseDate': '2026-05-13T00:00:00.000Z'
+      'a6e5367':
+        'changelog': 'Changes to AE80 clutch calibration'
+        'releaseDate': '2026-11-25T04:01:51.491Z'
       'acadc62':
         'changelog': 'Next gen A750 support'
         'releaseDate': '2026-04-03T20:43:09.908Z'
