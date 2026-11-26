@@ -119786,6 +119786,8 @@
         'releaseDate': '2022-08-18T22:39:22.257Z'
       '53298d4':
         'releaseDate': '2026-10-22T18:41:47.130Z'
+      '53e0529':
+        'releaseDate': '2026-11-26T23:39:53.035Z'
       '5d30ba3':
         'releaseDate': '2025-11-26T01:00:12.389Z'
       '6d8c631':
@@ -119934,6 +119936,9 @@
       '53298d4':
         'changelog': 'Pro torque based software for E92/4L80E'
         'releaseDate': '2026-10-22T18:41:47.130Z'
+      '53e0529':
+        'changelog': 'Improvements for RE5 System'
+        'releaseDate': '2026-11-26T23:39:25.210Z'
       '5d30ba3':
         'changelog': 'Add Range Select To Flex Lock A750'
         'releaseDate': '2025-11-26T00:59:54.702Z'
