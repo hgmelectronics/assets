@@ -5683,9 +5683,9 @@
     'tags': []
   'CS3-01025':
     'model': 'pro'
-    'paramDefVersion': '73d0f83'
+    'paramDefVersion': '53e0529'
     'product': 'cs3'
-    'softwareVersion': '73d0f83'
+    'softwareVersion': '53e0529'
     'tags':
       - 'RE5'
       - 'TD42'
@@ -40125,9 +40125,9 @@
     'tags': []
   'CS3-06607':
     'model': 'pro'
-    'paramDefVersion': '73d0f83'
+    'paramDefVersion': '53e0529'
     'product': 'cs3'
-    'softwareVersion': '73d0f83'
+    'softwareVersion': '53e0529'
     'tags':
       - 'RE5'
       - 'TD42'
@@ -45795,9 +45795,9 @@
     'tags': []
   'CS3-07502':
     'model': 'pro'
-    'paramDefVersion': '73d0f83'
+    'paramDefVersion': '53e0529'
     'product': 'cs3'
-    'softwareVersion': '73d0f83'
+    'softwareVersion': '53e0529'
     'tags': []
   'CS3-07503':
     'model': 'sport'
